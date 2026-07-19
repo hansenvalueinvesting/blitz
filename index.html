@@ -120,6 +120,7 @@
        padding:calc(env(safe-area-inset-top) + 12px) 20px 12px;
        background:linear-gradient(180deg,var(--bg) 72%,transparent)}
   .bar-top{display:flex;align-items:center;justify-content:space-between}
+  .bar-actions{display:flex;gap:8px}
   .brand{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;letter-spacing:.02em}
   .brand span{color:var(--accent)}
   .streak{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--dim);
@@ -137,6 +138,13 @@
          max-height:88dvh;overflow-y:auto}
   .sheet.open{transform:none}
   .grip{width:38px;height:4px;background:var(--line);border-radius:2px;margin:8px auto 18px}
+  .install-os{margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid var(--line)}
+  .install-os:last-of-type{border-bottom:none;margin-bottom:8px}
+  .install-os .gh{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;
+                  margin-bottom:9px;display:flex;align-items:center;gap:7px}
+  .install-steps{margin:0;padding-left:20px;font-size:14px;line-height:1.55;color:var(--ink)}
+  .install-steps li{margin-bottom:6px}
+  .install-steps b{color:var(--accent);font-weight:600}
   .sheet h2{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;
             color:var(--dim);margin:24px 0 12px}
   .sheet h2:first-of-type{margin-top:0}
@@ -233,7 +241,10 @@
 <div class="bar">
   <div class="bar-top">
     <div class="brand">blitz<span>.</span></div>
-    <button class="gear" id="gear" aria-label="Settings">⚙</button>
+    <div class="bar-actions">
+      <button class="gear" id="install" aria-label="Install instructions" title="Install Blitz">📲</button>
+      <button class="gear" id="gear" aria-label="Settings">⚙</button>
+    </div>
   </div>
   <div class="streak mono" id="streak">0 attempted · 0% accuracy</div>
 </div>
@@ -397,6 +408,53 @@
     <button class="wipe" id="wipe">Delete all app data</button>
     <div class="pct">clears your progress, accuracy, and saved settings on this device</div>
   </div>
+</div>
+
+<div class="sheet" id="installSheet">
+  <div class="grip"></div>
+
+  <h2>Install Blitz</h2>
+  <div class="pct" style="margin-bottom:18px">
+    Blitz is a web app — add it to your home screen or dock and it opens
+    full-screen, like a native app. It keeps working offline for questions
+    you've already seen. Pick your browser below.
+  </div>
+
+  <div class="install-os">
+    <div class="gh">📱 iPhone / iPad — Safari</div>
+    <ol class="install-steps">
+      <li>Tap the <b>Share</b> button (the square with an up arrow).</li>
+      <li>Scroll down and tap <b>Add to Home Screen</b>.</li>
+      <li>Tap <b>Add</b> in the top corner. Blitz lands on your home screen.</li>
+    </ol>
+  </div>
+
+  <div class="install-os">
+    <div class="gh">🤖 Android — Chrome</div>
+    <ol class="install-steps">
+      <li>Tap the <b>⋮</b> menu in the top-right corner.</li>
+      <li>Tap <b>Add to Home screen</b> (or <b>Install app</b> if it's offered).</li>
+      <li>Confirm with <b>Add</b> / <b>Install</b>.</li>
+    </ol>
+  </div>
+
+  <div class="install-os">
+    <div class="gh">💻 Desktop — Chrome / Edge</div>
+    <ol class="install-steps">
+      <li>Look for the <b>install icon</b> (a monitor with a down arrow) at the right end of the address bar.</li>
+      <li>Click it and choose <b>Install</b>. No icon? Open the <b>⋮</b> menu → <b>Cast, save, and share</b> / <b>Apps</b> → <b>Install this site as an app</b>.</li>
+    </ol>
+  </div>
+
+  <div class="install-os">
+    <div class="gh">🧭 Other browsers</div>
+    <ol class="install-steps">
+      <li>Any browser can just <b>bookmark this page</b> — it runs the same in a normal tab.</li>
+      <li>Most also have an <b>Add to Home Screen</b> / <b>Install</b> option in their share or main menu.</li>
+    </ol>
+  </div>
+
+  <button class="done" id="installDone">Got it</button>
 </div>
 
 <script>
@@ -762,8 +820,11 @@ function renderChips(sec,container,cls){
 
 function wireSheet(){
   const open=()=>{$('scrim').classList.add('open');$('sheet').classList.add('open');};
-  const close=()=>{$('scrim').classList.remove('open');$('sheet').classList.remove('open');};
+  const openInstall=()=>{$('scrim').classList.add('open');$('installSheet').classList.add('open');};
+  const close=()=>{$('scrim').classList.remove('open');$('sheet').classList.remove('open');$('installSheet').classList.remove('open');};
   $('gear').onclick=open;
+  $('install').onclick=openInstall;
+  $('installDone').onclick=close;
   $('scrim').onclick=close;
   $('secSlider').oninput=e=>{settings.secMath=+e.target.value;paintSliders();};
   $('modSlider').oninput=e=>{settings.mod1=+e.target.value;paintSliders();};
