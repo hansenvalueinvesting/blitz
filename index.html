@@ -96,6 +96,7 @@
     .confetti{display:none}
   }
   .loading{color:var(--faint);font-family:'JetBrains Mono',monospace;font-size:13px}
+  .card>.loading{margin:auto;text-align:center}   /* a not-yet-loaded card just centers "loading…" */
   .hint{margin-top:22px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;
         letter-spacing:.1em;color:var(--faint);text-transform:uppercase}
   /* student-produced-response (fill-in) questions */
@@ -549,26 +550,28 @@ function refill(reset){
 
 function appendCard(){
   const entry=pickEntry(); if(!entry) return;
-  const secClass=entry.section==='math'?'sec-math':'sec-rw';
-  const secName=entry.section==='math'?'Math':'R&W';
   const card=document.createElement('div');
   card.className='card';
   card.dataset.section=entry.section;
-  card.innerHTML=`
-    <div class="tags">
-      <span class="tag ${secClass}">${secName}</span>
-      <span class="tag">Module ${entry.module}</span>
-      <span class="tag">${esc(entry.topic)}</span>
-    </div>
-    <div class="body"><div class="loading">loading question…</div></div>`;
+  // Until the question file arrives, the card simply says "loading…".
+  card.innerHTML='<div class="loading">loading…</div>';
   feed.appendChild(card);
   loadQuestion(entry).then(q=>{
-    if(!q){ card.querySelector('.body').innerHTML='<div class="loading">couldn\'t load this question — skipping</div>'; return; }
+    if(!q){ card.innerHTML='<div class="loading">couldn\'t load this question — skipping</div>'; return; }
     renderQuestion(card,q);
   });
 }
 
 function renderQuestion(card,q){
+  const secClass=q.section==='math'?'sec-math':'sec-rw';
+  const secName=q.section==='math'?'Math':'R&W';
+  card.innerHTML=`
+    <div class="tags">
+      <span class="tag ${secClass}">${secName}</span>
+      <span class="tag">Module ${q.module}</span>
+      <span class="tag">${esc(q.topic)}</span>
+    </div>
+    <div class="body"></div>`;
   const body=card.querySelector('.body');
   const passageHTML = q.passage ? `<div class="passage">${esc(q.passage)}</div>` : '';
   // math figures live at questions/math/images/<image>; only math has them
