@@ -125,8 +125,32 @@
   .bar-actions{display:flex;gap:8px}
   .brand{font-family:var(--sans);font-weight:700;font-size:15px;letter-spacing:.02em}
   .brand span{color:var(--accent)}
-  .streak{font-family:var(--sans);font-size:11px;color:var(--dim);
-          text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .xp{position:relative}
+  .xp-top{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:5px}
+  .xp-level{font-family:var(--sans);font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.02em}
+  .xp-count{font-family:var(--sans);font-size:11px;color:var(--dim)}
+  .xp-track{height:7px;border-radius:4px;background:var(--line);overflow:hidden}
+  .xp-fill{height:100%;width:0;border-radius:4px;
+           background:linear-gradient(90deg,var(--math),var(--accent));
+           transition:width .5s cubic-bezier(.22,1,.36,1)}
+  .xp-pop{position:absolute;right:0;top:calc(100% + 2px);font-family:var(--sans);
+          font-size:12px;font-weight:700;color:var(--ok);opacity:0;pointer-events:none;z-index:1}
+  .xp-pop.show{animation:xppop 1.1s ease forwards}
+  @keyframes xppop{0%{opacity:0;transform:translateY(-4px)}
+                   18%{opacity:1;transform:translateY(0)}
+                   100%{opacity:0;transform:translateY(11px)}}
+  @media (prefers-reduced-motion:reduce){ .xp-fill{transition:none} .xp-pop.show{animation-duration:.6s} }
+  /* stats popup rows */
+  .stat-list{display:flex;flex-direction:column;margin-bottom:4px}
+  .stat-row{display:flex;justify-content:space-between;align-items:baseline;
+            padding:15px 4px;border-bottom:1px solid var(--line)}
+  .stat-row:last-child{border-bottom:none}
+  .stat-row .k{font-family:var(--sans);font-size:14px;color:var(--dim)}
+  .stat-row .v{font-family:var(--sans);font-size:22px;font-weight:700;color:var(--ink);
+               font-variant-numeric:tabular-nums}
+  .stat-hero{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
+  .stat-hero .lv{font-family:var(--sans);font-size:26px;font-weight:700;color:var(--accent)}
+  .stat-hero .xp{font-family:var(--sans);font-size:13px;color:var(--dim)}
   .gear{background:none;border:1px solid var(--line);color:var(--dim);width:36px;height:36px;border-radius:8px;
         font-size:16px;cursor:pointer;display:grid;place-items:center}
   .gear:active{background:var(--panel)}
@@ -245,10 +269,18 @@
     <div class="brand">blitz<span>.</span></div>
     <div class="bar-actions">
       <button class="gear" id="install" aria-label="Install instructions" title="Install Blitz">📲</button>
+      <button class="gear" id="stats" aria-label="Stats" title="Your stats">📊</button>
       <button class="gear" id="gear" aria-label="Settings">⚙</button>
     </div>
   </div>
-  <div class="streak mono" id="streak">0 attempted · 0% accuracy</div>
+  <div class="xp" id="xp">
+    <div class="xp-top">
+      <span class="xp-level" id="xpLevel">Level 1</span>
+      <span class="xp-count" id="xpCount">0 / 100 XP</span>
+    </div>
+    <div class="xp-track"><div class="xp-fill" id="xpFill"></div></div>
+    <div class="xp-pop" id="xpPop"></div>
+  </div>
 </div>
 
 <div id="feed"></div>
@@ -453,10 +485,29 @@
   <button class="done" id="installDone">Got it</button>
 </div>
 
+<div class="sheet" id="statsSheet">
+  <div class="grip"></div>
+
+  <h2>Your stats</h2>
+  <div class="stat-hero">
+    <span class="lv" id="statLevel">Level 1</span>
+    <span class="xp" id="statXP">0 XP total</span>
+  </div>
+  <div class="stat-list">
+    <div class="stat-row"><span class="k">Questions seen</span><span class="v" id="statSeen">0</span></div>
+    <div class="stat-row"><span class="k">Questions attempted</span><span class="v" id="statAttempted">0</span></div>
+    <div class="stat-row"><span class="k">Accuracy rate</span><span class="v" id="statAccuracy">—</span></div>
+    <div class="stat-row"><span class="k">Total correct</span><span class="v" id="statCorrect">0</span></div>
+    <div class="stat-row"><span class="k">Total mistakes</span><span class="v" id="statMistakes">0</span></div>
+  </div>
+
+  <button class="done" id="statsDone">Close</button>
+</div>
+
 <script>
 const SETTINGS_KEY='blitz.settings.v1';
 const PROGRESS_KEY='blitz.progress.v1';
-let DIR=[], settings=null, attempted=0, correct=0;
+let DIR=[], settings=null, seen=0, attempted=0, correct=0;
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
 
@@ -480,8 +531,8 @@ async function init(){
     return;
   }
   settings=loadSettings();
-  const prog=loadProgress(); attempted=prog.attempted; correct=prog.correct;
-  paintStreak();
+  const prog=loadProgress(); seen=prog.seen; attempted=prog.attempted; correct=prog.correct;
+  paintXP();
   buildSettingsUI();
   wireSheet();
   feed.addEventListener('scroll', onFeedScroll, {passive:true});
@@ -523,16 +574,54 @@ function saveSettings(){localStorage.setItem(SETTINGS_KEY,JSON.stringify(setting
 function loadProgress(){
   try{const p=JSON.parse(localStorage.getItem(PROGRESS_KEY));
       if(p&&typeof p.correct==='number'){
-        // accept older saves that had a {seen} field (seen == attempts then)
-        return {attempted:(typeof p.attempted==='number'?p.attempted:(p.seen||0)), correct:p.correct||0};
+        const correct=p.correct||0;
+        if(typeof p.attempted==='number'){
+          // current-era save: `seen` (if present) counts questions viewed
+          const attempted=p.attempted;
+          return {seen:(typeof p.seen==='number'?p.seen:attempted), attempted, correct};
+        }
+        // legacy save had a {seen} field that meant attempts
+        const attempted=p.seen||0;
+        return {seen:attempted, attempted, correct};
       }}catch(e){}
-  return {attempted:0, correct:0};
+  return {seen:0, attempted:0, correct:0};
 }
-function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({attempted,correct}));}
-function paintStreak(){
-  const acc = attempted ? Math.round(correct/attempted*100) : 0;
-  $('streak').textContent=`${attempted} attempted · ${acc}% accuracy`;
+function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({seen,attempted,correct}));}
+
+// XP is derived from the raw counters so it can never drift out of sync:
+// 1 xp per question seen, 5 per correct, 2 per attempted-but-wrong.
+function xpTotal(){ return seen + 5*correct + 2*(attempted-correct); }
+function levelInfo(){
+  const xp=xpTotal();
+  return {xp, level:Math.floor(xp/100)+1, into:xp%100};
 }
+function paintXP(){
+  const {level,into}=levelInfo();
+  $('xpLevel').textContent=`Level ${level}`;
+  $('xpCount').textContent=`${into} / 100 XP`;
+  $('xpFill').style.width=into+'%';
+}
+// Float a little "+N XP" under the progress bar whenever points land.
+function popXP(amount){
+  const pop=$('xpPop');
+  pop.textContent=`+${amount} XP`;
+  pop.classList.remove('show'); void pop.offsetWidth;   // restart the animation
+  pop.classList.add('show');
+}
+// Award XP for viewing a question the first time it scrolls into view.
+function markSeen(){ seen++; saveProgress(); paintXP(); popXP(1); }
+
+// Count a question as "seen" once it's actually on screen (not merely preloaded).
+// Observing after render means the first, already-visible card fires immediately.
+const seenObserver=new IntersectionObserver(entries=>{
+  entries.forEach(en=>{
+    if(en.isIntersecting && en.intersectionRatio>=0.6){
+      const card=en.target;
+      if(!card.dataset.seen){ card.dataset.seen='1'; markSeen(); }
+      seenObserver.unobserve(card);
+    }
+  });
+},{root:feed, threshold:0.6});
 
 // --- dopamine: fire a reward hit when an answer lands correct ---
 function accentFor(sec){
@@ -686,6 +775,8 @@ function renderQuestion(card,q){
     hint.textContent='tap to select · tap again to submit · swipe to cross out';
     wrap.appendChild(hint);
   }
+  // now that the card holds a real question, count it as seen once it's on screen
+  seenObserver.observe(card);
 }
 
 // First tap on a choice selects it; a second tap on the already-selected choice submits.
@@ -759,7 +850,7 @@ function answer(card,btn,chosen,correctAns){
   const right=chosen===correctAns;
   if(!right) btn.classList.add('wrong');
   attempted++; if(right) correct++;
-  saveProgress(); paintStreak();
+  saveProgress(); paintXP(); popXP(right?5:2);
   if(right) celebrate(card.querySelector('.choice.correct'), card.dataset.section);
   card.querySelector('.explain').classList.add('show');
 }
@@ -791,7 +882,7 @@ function answerSPR(card,inp,btn,correctAns){
   sol.textContent = right ? '✓ Correct' : `✗ Correct answer: ${correctAns}`;
   sol.classList.add('show', right?'ok':'bad');
   attempted++; if(right) correct++;
-  saveProgress(); paintStreak();
+  saveProgress(); paintXP(); popXP(right?5:2);
   if(right) celebrate(inp, card.dataset.section);
   card.querySelector('.explain').classList.add('show');
 }
@@ -832,10 +923,13 @@ function renderChips(sec,container,cls){
 function wireSheet(){
   const open=()=>{$('scrim').classList.add('open');$('sheet').classList.add('open');};
   const openInstall=()=>{$('scrim').classList.add('open');$('installSheet').classList.add('open');};
-  const close=()=>{$('scrim').classList.remove('open');$('sheet').classList.remove('open');$('installSheet').classList.remove('open');};
+  const openStats=()=>{paintStats();$('scrim').classList.add('open');$('statsSheet').classList.add('open');};
+  const close=()=>{$('scrim').classList.remove('open');$('sheet').classList.remove('open');$('installSheet').classList.remove('open');$('statsSheet').classList.remove('open');};
   $('gear').onclick=open;
   $('install').onclick=openInstall;
+  $('stats').onclick=openStats;
   $('installDone').onclick=close;
+  $('statsDone').onclick=close;
   $('scrim').onclick=close;
   $('secSlider').oninput=e=>{settings.secMath=+e.target.value;paintSliders();};
   $('modSlider').oninput=e=>{settings.mod1=+e.target.value;paintSliders();};
@@ -843,13 +937,25 @@ function wireSheet(){
   $('wipe').onclick=()=>{ if(wipeData()) close(); };
 }
 
+function paintStats(){
+  const acc = attempted ? Math.round(correct/attempted*100) : 0;
+  const {level,xp}=levelInfo();
+  $('statLevel').textContent=`Level ${level}`;
+  $('statXP').textContent=`${xp} XP total`;
+  $('statSeen').textContent=seen;
+  $('statAttempted').textContent=attempted;
+  $('statAccuracy').textContent=attempted?acc+'%':'—';
+  $('statCorrect').textContent=correct;
+  $('statMistakes').textContent=attempted-correct;
+}
+
 function wipeData(){
   if(!confirm('Delete all Blitz data on this device? This clears your progress, accuracy, and saved settings. This cannot be undone.')) return false;
   localStorage.removeItem(PROGRESS_KEY);
   localStorage.removeItem(SETTINGS_KEY);
   settings=structuredClone(DEFAULT);
-  attempted=0; correct=0;
-  paintStreak();
+  seen=0; attempted=0; correct=0;
+  paintXP();
   buildSettingsUI();   // reset sliders + topic chips to defaults
   refill(true);        // reshuffle the feed under the fresh settings
   return true;
