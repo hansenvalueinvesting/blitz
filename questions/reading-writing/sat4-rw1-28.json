@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-28",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat4",
+  "stem": "Geoscientists have long considered Hawaii’s Mauna Loa volcano to be Earth’s largest shield volcano by volume, measuring approximately 74,000 cubic kilometers. _______ according to a 2020 study by local geoscientist Michael Garcia, Hawaii’s Pūhāhonu shield volcano is significantly larger, boasting a volume of about 148,000 cubic kilometers.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Secondly,",
+    "Consequently,",
+    "Moreover,",
+    "However,"
+  ],
+  "answer": "However,",
+  "explanation": "“However” signals the contrast: the new study refutes the assumption that Mauna Loa is largest by showing Pūhāhonu is bigger. “Secondly,” “Consequently,” and “Moreover” don’t convey that contradiction."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat4-rw1-05",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat4",
+  "passage": "The following text is adapted from Susan Glaspell’s 1912 short story “‘Out There.’” An elderly shop owner is looking at a picture that he recently acquired and hopes to sell.",
+  "stem": "It did seem that the picture failed to fit in with the rest of the shop. A persuasive young fellow who claimed he was closing out his stock let the old man have it for what he called a song. It was only a little out-of-the-way store which subsisted chiefly on the framing of pictures. The old man looked around at his views of the city, his pictures of cats and dogs, his flaming bits of landscape. “Don’t belong in here,” he fumed. And yet the old man was secretly proud of his acquisition. There was a hidden dignity in his scowling as he shuffled about pondering the least ridiculous place for the picture.\n\nWhich choice best states the main purpose of the text?",
+  "choices": [
+    "To reveal the shop owner’s conflicted feelings about the new picture",
+    "To convey the shop owner’s resentment of the person he got the new picture from",
+    "To describe the items that the shop owner most highly prizes",
+    "To explain differences between the new picture and other pictures in the shop"
+  ],
+  "answer": "To reveal the shop owner’s conflicted feelings about the new picture",
+  "explanation": "The text first shows the owner fuming that the picture doesn’t belong, then reveals he is “secretly proud” of it — so the purpose is to reveal his conflicted feelings. Nothing shows resentment of the seller, ranks his prized items, or explains how the pictures differ."
+}

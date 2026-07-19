@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-20",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "Like other amphibians, the wood frog (Rana sylvatica) is unable to generate its own heat, so during periods of subfreezing temperatures, it _______ by producing large amounts of glucose, a sugar that helps prevent damaging ice from forming inside its cells.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "had survived",
+    "survived",
+    "would survive",
+    "survives"
+  ],
+  "answer": "survives",
+  "explanation": "The present-tense “survives” correctly indicates that the wood frog regularly survives subfreezing temperatures. The past perfect, past, and conditional forms don’t convey this general, ongoing fact."
+}

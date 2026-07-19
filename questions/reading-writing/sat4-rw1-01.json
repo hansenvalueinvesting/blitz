@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-01",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "The spacecraft OSIRIS-REx briefly made contact with the asteroid 101955 Bennu in 2020. NASA scientist Daniella DellaGiustina reports that despite facing the unexpected obstacle of a surface mostly covered in boulders, OSIRIS-REx successfully _______ a sample of the surface, gathering pieces of it to bring back to Earth.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "attached",
+    "collected",
+    "followed",
+    "replaced"
+  ],
+  "answer": "collected",
+  "explanation": "In this context, “collected” means acquired and took away. The text indicates that although the boulders caused problems, OSIRIS-REx was able to gather a sample to return to Earth. “Attached,” “followed,” and “replaced” don’t fit: the spacecraft gathered pieces to bring back, it didn’t affix, track, or return anything."
+}

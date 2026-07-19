@@ -1,0 +1,17 @@
+{
+  "id": "sat4-rw1-10",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Central ideas and details",
+  "source": "sat4",
+  "passage": "The following text is adapted from Frances Hodgson Burnett’s 1911 novel The Secret Garden. Mary, a young girl, recently found an overgrown hidden garden.",
+  "stem": "Mary was an odd, determined little person, and now she had something interesting to be determined about, she was very much absorbed, indeed. She worked and dug and pulled up weeds steadily, only becoming more pleased with her work every hour instead of tiring of it. It seemed to her like a fascinating sort of play.\n\nWhich choice best states the main idea of the text?",
+  "choices": [
+    "Mary hides in the garden to avoid doing her chores.",
+    "Mary is getting bored with pulling up so many weeds in the garden.",
+    "Mary is clearing out the garden to create a space to play.",
+    "Mary feels very satisfied when she’s taking care of the garden."
+  ],
+  "answer": "Mary feels very satisfied when she’s taking care of the garden.",
+  "explanation": "Mary is “very much absorbed,” grows “more pleased… every hour,” and finds the work “a fascinating sort of play” — so the main idea is that she feels satisfied caring for the garden. Chores aren’t mentioned, she isn’t bored, and she treats the activity itself as play, not preparation for play."
+}

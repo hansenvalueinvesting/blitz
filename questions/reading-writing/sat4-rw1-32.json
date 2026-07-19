@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-32",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat4",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Soo Sunny Park is a Korean American artist who uses light as her primary medium of expression.\n• She created her work Unwoven Light in 2013.\n• Unwoven Light featured a chain-link fence fitted with iridescent plexiglass tiles.\n• When light passed through the fence, colorful prisms formed.\n\nThe student wants to describe Unwoven Light to an audience unfamiliar with Soo Sunny Park. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Park’s 2013 installation Unwoven Light, which included a chain-link fence and iridescent tiles made from plexiglass, featured light as its primary medium of expression.",
+    "Korean American light artist Soo Sunny Park created Unwoven Light in 2013.",
+    "The chain-link fence in Soo Sunny Park’s Unwoven Light was fitted with tiles made from iridescent plexiglass.",
+    "In Unwoven Light, a 2013 work by Korean American artist Soo Sunny Park, light formed colorful prisms as it passed through a fence Park had fitted with iridescent tiles."
+  ],
+  "answer": "In Unwoven Light, a 2013 work by Korean American artist Soo Sunny Park, light formed colorful prisms as it passed through a fence Park had fitted with iridescent tiles.",
+  "explanation": "Choice D both identifies Park (Korean American artist) and describes the work (colorful prisms formed as light passed through a fence with iridescent tiles), suiting an unfamiliar audience. The others omit who Park is or lack descriptive detail about the work."
+}

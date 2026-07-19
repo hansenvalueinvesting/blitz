@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-25",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "The Arctic-Alpine Botanic Garden in Norway and the Jardim Botânico of Rio de Janeiro in Brazil are two of many botanical gardens around the world dedicated to growing diverse plant _______ fostering scientific research; and educating the public about plant conservation.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "species, both native and nonnative,",
+    "species, both native and nonnative;",
+    "species; both native and nonnative,",
+    "species both native and nonnative,"
+  ],
+  "answer": "species, both native and nonnative;",
+  "explanation": "This is a complex series whose items contain internal commas, so semicolons separate the items. The semicolon after “nonnative” separates the first item from the second (“fostering scientific research”), and the comma after “species” sets off the supplementary phrase “both native and nonnative.”"
+}

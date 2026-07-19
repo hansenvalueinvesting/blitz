@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-14",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat4",
+  "stem": "Biologist Valentina Gómez-Bahamón and her team have investigated two subspecies of the fork-tailed flycatcher bird that live in the same region in Colombia, but one subspecies migrates south for part of the year, and the other doesn’t. The researchers found that, due to slight differences in feather shape, the feathers of migratory forked-tailed flycatcher males make a sound during flight that is higher pitched than that made by the feathers of nonmigratory males. The researchers hypothesize that fork-tailed flycatcher females are attracted to the specific sound made by the males of their own subspecies, and that over time the females’ preference will drive further genetic and anatomical divergence between the subspecies.\n\nWhich finding, if true, would most directly support Gómez-Bahamón and her team’s hypothesis?",
+  "choices": [
+    "The feathers located on the wings of the migratory fork-tailed flycatchers have a narrower shape than those of the nonmigratory birds, which allows them to fly long distances.",
+    "Over several generations, the sound made by the feathers of migratory male fork-tailed flycatchers grows progressively higher pitched relative to that made by the feathers of nonmigratory males.",
+    "Fork-tailed flycatchers communicate different messages to each other depending on whether their feathers create high-pitched or low-pitched sounds.",
+    "The breeding habits of the migratory and nonmigratory fork-tailed flycatchers remained generally the same over several generations."
+  ],
+  "answer": "Over several generations, the sound made by the feathers of migratory male fork-tailed flycatchers grows progressively higher pitched relative to that made by the feathers of nonmigratory males.",
+  "explanation": "The hypothesis is that female preference for their own subspecies’ tail-feather sound will drive further divergence. If migrating males’ tail feathers produce progressively higher pitches over generations, that shows divergence increasing as predicted. The other findings concern wing feathers, message content, or unchanged breeding habits — none bearing on female preference-driven divergence."
+}

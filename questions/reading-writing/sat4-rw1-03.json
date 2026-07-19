@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-03",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "Handedness, a preferential use of either the right or left hand, typically is easy to observe in humans. Because this trait is present but less _______ in many other animals, animal-behavior researchers often employ tasks specially designed to reveal individual animals’ preferences for a certain hand or paw.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "recognizable",
+    "intriguing",
+    "significant",
+    "useful"
+  ],
+  "answer": "recognizable",
+  "explanation": "“Recognizable” means apparent or identifiable. Handedness is easy to observe in humans but researchers need special tasks to detect it in other animals — i.e., it’s less recognizable there. Nothing suggests it’s less intriguing, significant, or useful in animals."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-23",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "Seneca sculptor Marie Watt’s blanket art comes in a range of shapes and sizes. In 2004, Watt sewed strips of blankets together to craft a 10-by-13-inch _______ in 2014, she arranged folded blankets into two large stacks and then cast them in bronze, creating two curving 18-foot-tall blue-bronze pillars.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "sampler later,",
+    "sampler;",
+    "sampler,",
+    "sampler, later,"
+  ],
+  "answer": "sampler;",
+  "explanation": "A semicolon correctly joins the two independent clauses (“In 2004… sampler” and “in 2014… pillars”). The comma options create comma splices, since “later” is an adverb and can’t join main clauses without a conjunction."
+}

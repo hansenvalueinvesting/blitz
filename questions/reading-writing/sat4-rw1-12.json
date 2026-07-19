@@ -1,0 +1,17 @@
+{
+  "id": "sat4-rw1-12",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Central ideas and details",
+  "source": "sat4",
+  "passage": "The following text is adapted from Jack London’s 1903 novel The Call of the Wild. Buck is a sled dog living with John Thornton in Yukon, Canada.",
+  "stem": "Thornton alone held [Buck]. The rest of mankind was as nothing. Chance travellers might praise or pet him; but he was cold under it all, and from a too demonstrative man he would get up and walk away. When Thornton’s partners, Hans and Pete, arrived on the long-expected raft, Buck refused to notice them till he learned they were close to Thornton; after that he tolerated them in a passive sort of way, accepting favors from them as though he favored them by accepting.\n\nWhich choice best states the main idea of the text?",
+  "choices": [
+    "Buck has become less social since he began living with Thornton.",
+    "Buck mistrusts humans and does his best to avoid them.",
+    "Buck has been especially well liked by most of Thornton’s friends.",
+    "Buck holds Thornton in higher regard than any other person."
+  ],
+  "answer": "Buck holds Thornton in higher regard than any other person.",
+  "explanation": "Buck views most people “as nothing” and only reluctantly accepts others once he learns they’re close to Thornton — so Thornton has special status in Buck’s mind. The text doesn’t address Buck’s earlier temperament, claim he mistrusts all humans (he accepts Thornton), or say the partners are Thornton’s friends."
+}

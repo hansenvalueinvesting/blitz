@@ -1,0 +1,17 @@
+{
+  "id": "sat4-rw1-15",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat4",
+  "passage": "[Refer to the table: “Ablation Rates for Three Elements in Cosmic Dust, by Dust Source.” iron: SPC 20%, AST 28%, HTC 90%, OCC 98%; potassium: 44/74/97/100; sodium: 45/75/99/100.]",
+  "stem": "Earth’s atmosphere is bombarded by cosmic dust originating from several sources: short-period comets (SPCs), particles from the asteroid belt (ASTs), Halley-type comets (HTCs), and Oort cloud comets (OCCs). Some of the dust’s material vaporizes in the atmosphere in a process called ablation, and the faster the particles move, the higher the rate of ablation. Astrophysicist Juan Diego Carrillo-Sánchez led a team that calculated average ablation rates for elements in the dust (such as iron and potassium) and showed that material in slower-moving SPC or AST dust has a lower rate than the same material in faster-moving HTC or OCC dust. For example, whereas the average ablation rate for iron from AST dust is 28%, the average rate for _______\n\nWhich choice most effectively uses data from the table to complete the example?",
+  "choices": [
+    "iron from SPC dust is 20%.",
+    "sodium from OCC dust is 100%.",
+    "iron from HTC dust is 90%.",
+    "sodium from AST dust is 75%."
+  ],
+  "answer": "iron from HTC dust is 90%.",
+  "explanation": "The example must contrast the same element (iron) across slower vs. faster dust. Iron from faster-moving HTC dust is 90%, versus 28% for slower AST dust — illustrating the stated pattern. SPC is also slow (no contrast); the sodium options switch elements, breaking the comparison."
+}

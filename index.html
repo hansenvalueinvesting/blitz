@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Blitz — SAT feed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0e14; --panel:#111823; --panel2:#0d141d; --line:#1e2a38;
+    --ink:#e6edf3; --dim:#7d8da3; --faint:#4a5b70;
+    --math:#4fd1c5; --rw:#f6a04d; --ok:#3fb950; --bad:#f75c68;
+    --accent:#4fd1c5;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{height:100%;overflow:hidden}
+  body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',system-ui,sans-serif}
+  .mono{font-family:'JetBrains Mono',monospace}
+
+  #feed{height:100dvh;overflow-y:scroll;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+  #feed::-webkit-scrollbar{display:none}
+  .card{height:100dvh;scroll-snap-align:start;display:flex;flex-direction:column;
+        padding:calc(env(safe-area-inset-top) + 60px) 22px calc(env(safe-area-inset-bottom) + 24px);
+        justify-content:center;overflow-y:auto}
+  .card::-webkit-scrollbar{display:none}
+  .passage{font-size:15px;line-height:1.5;color:var(--dim);background:var(--panel2);
+           border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px;
+           white-space:pre-wrap}
+  .figure{max-width:100%;border-radius:10px;background:#fff;padding:8px;margin-bottom:16px;
+          border:1px solid var(--line)}
+  .tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+  .tag{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.04em;
+       text-transform:uppercase;padding:5px 9px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
+  .tag.sec-math{color:var(--math);border-color:color-mix(in srgb,var(--math) 40%,transparent)}
+  .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
+  .stem{font-size:22px;line-height:1.42;font-weight:500;margin-bottom:26px}
+  .choices{display:flex;flex-direction:column;gap:10px}
+  .choice{display:flex;align-items:flex-start;gap:12px;padding:15px 16px;background:var(--panel);
+          border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s;
+          font-size:16px;line-height:1.35;text-align:left}
+  .choice:active{background:var(--panel2)}
+  .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:14px;margin-top:1px}
+  .choice.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
+  .choice.correct .key{color:var(--ok)}
+  .choice.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
+  .choice.wrong .key{color:var(--bad)}
+  .choice.locked{cursor:default}
+  .explain{margin-top:20px;padding:15px 16px;background:var(--panel2);border-left:3px solid var(--accent);
+           border-radius:0 8px 8px 0;font-size:15px;line-height:1.5;color:var(--dim);display:none}
+  .explain.show{display:block;animation:rise .25s ease}
+  .explain b{color:var(--ink);font-weight:700}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .loading{color:var(--faint);font-family:'JetBrains Mono',monospace;font-size:13px}
+  .hint{margin-top:22px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;
+        letter-spacing:.1em;color:var(--faint);text-transform:uppercase}
+
+  .bar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;align-items:center;justify-content:space-between;
+       padding:calc(env(safe-area-inset-top) + 14px) 20px 14px;
+       background:linear-gradient(180deg,var(--bg) 55%,transparent)}
+  .brand{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;letter-spacing:.02em}
+  .brand span{color:var(--accent)}
+  .streak{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--dim)}
+  .gear{background:none;border:1px solid var(--line);color:var(--dim);width:36px;height:36px;border-radius:8px;
+        font-size:16px;cursor:pointer;display:grid;place-items:center}
+  .gear:active{background:var(--panel)}
+
+  .scrim{position:fixed;inset:0;z-index:30;background:rgba(0,0,0,.6);opacity:0;pointer-events:none;transition:opacity .25s}
+  .scrim.open{opacity:1;pointer-events:auto}
+  .sheet{position:fixed;left:0;right:0;bottom:0;z-index:31;background:var(--panel);
+         border-top:1px solid var(--line);border-radius:18px 18px 0 0;
+         padding:8px 22px calc(env(safe-area-inset-bottom) + 28px);
+         transform:translateY(100%);transition:transform .3s cubic-bezier(.22,1,.36,1);
+         max-height:88dvh;overflow-y:auto}
+  .sheet.open{transform:none}
+  .grip{width:38px;height:4px;background:var(--line);border-radius:2px;margin:8px auto 18px}
+  .sheet h2{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;
+            color:var(--dim);margin:24px 0 12px}
+  .sheet h2:first-of-type{margin-top:0}
+  .slabel{display:flex;justify-content:space-between;font-size:14px;margin-bottom:9px}
+  .slabel .l{color:var(--math);font-weight:500}.slabel .r{color:var(--rw);font-weight:500}
+  .slabel.mod .l,.slabel.mod .r{color:var(--ink)}
+  input[type=range]{-webkit-appearance:none;width:100%;height:6px;border-radius:3px;background:var(--line);outline:none}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;
+       background:var(--accent);cursor:pointer;border:3px solid var(--bg);box-shadow:0 0 0 1px var(--accent)}
+  .pct{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--faint);text-align:center;margin-top:8px}
+  .topicgroup{margin-bottom:16px}
+  .topicgroup .gh{font-size:13px;font-weight:500;margin-bottom:9px;display:flex;align-items:center;gap:7px}
+  .topicgroup .gh.math{color:var(--math)}.topicgroup .gh.rw{color:var(--rw)}
+  .chips{display:flex;flex-wrap:wrap;gap:8px}
+  .chip{font-size:13px;padding:8px 12px;border-radius:20px;border:1px solid var(--line);color:var(--dim);
+        cursor:pointer;user-select:none;transition:all .15s}
+  .chip.on{color:var(--bg);font-weight:500}
+  .chip.on.math{background:var(--math);border-color:var(--math)}
+  .chip.on.rw{background:var(--rw);border-color:var(--rw)}
+  .done{width:100%;margin-top:26px;padding:15px;background:var(--accent);color:var(--bg);border:none;
+        border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;
+        letter-spacing:.05em;cursor:pointer}
+  .done:active{opacity:.85}
+  .empty{height:100dvh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
+  .empty .big{font-family:'JetBrains Mono',monospace;font-size:15px;color:var(--ink);margin-bottom:10px}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <div class="brand">blitz<span>.</span></div>
+  <div class="streak mono" id="streak">0 seen · 0% acc</div>
+  <button class="gear" id="gear" aria-label="Settings">⚙</button>
+</div>
+
+<div id="feed"></div>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet">
+  <div class="grip"></div>
+
+  <h2>Section mix</h2>
+  <div class="slabel"><span class="l" id="secML">Math 50%</span><span class="r" id="secRL">R&amp;W 50%</span></div>
+  <input type="range" id="secSlider" min="0" max="100" value="50">
+  <div class="pct">slide toward the section you want more of</div>
+
+  <h2>Module mix</h2>
+  <div class="slabel mod"><span class="l" id="modML">Mod 1 · 50%</span><span class="r" id="modRL">Mod 2 · 50%</span></div>
+  <input type="range" id="modSlider" min="0" max="100" value="50">
+  <div class="pct">module 2 tends to be the harder, adaptive set</div>
+
+  <h2>Topics in the pool</h2>
+  <div class="topicgroup">
+    <div class="gh math">● Math</div>
+    <div class="chips" id="topicsMath"></div>
+  </div>
+  <div class="topicgroup">
+    <div class="gh rw">● Reading &amp; Writing</div>
+    <div class="chips" id="topicsRW"></div>
+  </div>
+
+  <button class="done" id="done">Apply &amp; shuffle</button>
+</div>
+
+<script>
+const SETTINGS_KEY='blitz.settings.v1';
+let DIR=[], settings=null, seen=0, correct=0;
+const cache=new Map();          // id -> question content
+const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
+
+const DEFAULT={secMath:50, mod1:50, topicsOff:{}}; // topicsOff[topic]=true means excluded
+
+const $=id=>document.getElementById(id);
+const feed=$('feed');
+
+init();
+async function init(){
+  try{
+    const r=await fetch('directory.json',{cache:'no-store'});
+    if(!r.ok) throw 0;
+    DIR=await r.json();
+  }catch(e){
+    feed.innerHTML='<div class="empty"><div class="big">Couldn\'t load directory.json</div>Make sure it sits at the repo root, next to index.html. Run build_directory.py to generate it.</div>';
+    return;
+  }
+  if(!Array.isArray(DIR)||!DIR.length){
+    feed.innerHTML='<div class="empty"><div class="big">The question bank is empty</div>Add questions under questions/ (e.g. scrape a PDF with Claude Code) and run build_directory.py.</div>';
+    return;
+  }
+  settings=loadSettings();
+  buildSettingsUI();
+  wireSheet();
+  refill(true);
+}
+
+function loadSettings(){
+  try{const s=JSON.parse(localStorage.getItem(SETTINGS_KEY));if(s&&typeof s.secMath==='number')return s;}catch(e){}
+  return structuredClone(DEFAULT);
+}
+function saveSettings(){localStorage.setItem(SETTINGS_KEY,JSON.stringify(settings));}
+
+function topicsFor(sec){return [...new Set(DIR.filter(q=>q.section===sec).map(q=>q.topic))].sort();}
+function activeTopics(sec){return topicsFor(sec).filter(t=>!settings.topicsOff[t]);}
+
+function pickEntry(){
+  const secs=[];
+  if(activeTopics('math').length)  secs.push({sec:'math', w:settings.secMath});
+  if(activeTopics('reading-writing').length) secs.push({sec:'reading-writing', w:100-settings.secMath});
+  if(!secs.length) return null;
+  const totW=secs.reduce((a,s)=>a+s.w,0) || 1;
+  let r=Math.random()*totW, sec=secs[0].sec;
+  for(const s of secs){ if(r<s.w){sec=s.sec;break;} r-=s.w; }
+  const inPool=q=>q.section===sec && !settings.topicsOff[q.topic];
+  const has1=DIR.some(q=>inPool(q)&&q.module===1);
+  const has2=DIR.some(q=>inPool(q)&&q.module===2);
+  let module;
+  if(has1&&has2) module = Math.random()*100 < settings.mod1 ? 1 : 2;
+  else module = has1?1:2;
+  const cands=DIR.filter(q=>inPool(q)&&q.module===module);
+  return cands[Math.floor(Math.random()*cands.length)];
+}
+
+function pathFor(entry){return `questions/${entry.section}/${entry.id}.json`;}
+async function loadQuestion(entry){
+  if(cache.has(entry.id)) return cache.get(entry.id);
+  if(inflight.has(entry.id)) return inflight.get(entry.id);
+  const p=fetch(pathFor(entry),{cache:'force-cache'})
+    .then(r=>{if(!r.ok)throw 0;return r.json();})
+    .then(data=>{cache.set(entry.id,data);inflight.delete(entry.id);return data;})
+    .catch(()=>{inflight.delete(entry.id);return null;});
+  inflight.set(entry.id,p);
+  return p;
+}
+
+function refill(reset){
+  if(reset){ feed.innerHTML=''; }
+  const any = activeTopics('math').length || activeTopics('reading-writing').length;
+  if(!any){
+    feed.innerHTML='<div class="empty"><div class="big">No topics selected</div>Open settings and add at least one topic to the pool.</div>';
+    return;
+  }
+  for(let i=0;i<5;i++) appendCard();
+  if(reset) feed.scrollTop=0;
+}
+
+function appendCard(){
+  const entry=pickEntry(); if(!entry) return;
+  const secClass=entry.section==='math'?'sec-math':'sec-rw';
+  const secName=entry.section==='math'?'Math':'R&W';
+  const card=document.createElement('div');
+  card.className='card';
+  card.innerHTML=`
+    <div class="tags">
+      <span class="tag ${secClass}">${secName}</span>
+      <span class="tag">Module ${entry.module}</span>
+      <span class="tag">${esc(entry.topic)}</span>
+    </div>
+    <div class="body"><div class="loading">loading question…</div></div>`;
+  feed.appendChild(card);
+  loadQuestion(entry).then(q=>{
+    if(!q){ card.querySelector('.body').innerHTML='<div class="loading">couldn\'t load this question — skipping</div>'; return; }
+    renderQuestion(card,q);
+  });
+}
+
+function renderQuestion(card,q){
+  const body=card.querySelector('.body');
+  const passageHTML = q.passage ? `<div class="passage">${esc(q.passage)}</div>` : '';
+  // math figures live at questions/math/images/<image>; only math has them
+  const imgHTML = q.image ? `<img class="figure" alt="figure for this question" src="questions/${q.section}/images/${esc(q.image)}" onerror="this.style.display='none'">` : '';
+  body.innerHTML=`
+    ${passageHTML}
+    ${imgHTML}
+    <div class="stem">${esc(q.stem)}</div>
+    <div class="choices"></div>
+    <div class="explain"><b>Why:</b> ${esc(q.explanation||'')}</div>
+    <div class="hint">swipe up for next</div>`;
+  const wrap=body.querySelector('.choices');
+  const keys=['A','B','C','D','E','F'];
+  q.choices.forEach((c,i)=>{
+    const b=document.createElement('button');
+    b.className='choice';
+    b.innerHTML=`<span class="key">${keys[i]||'•'}</span><span>${esc(c)}</span>`;
+    b.onclick=()=>answer(card,b,c,q.answer);
+    wrap.appendChild(b);
+  });
+}
+
+function answer(card,btn,chosen,correctAns){
+  if(card.dataset.done) return;
+  card.dataset.done='1';
+  card.querySelectorAll('.choice').forEach(b=>{
+    b.classList.add('locked');
+    if(b.querySelector('span:last-child').textContent===correctAns) b.classList.add('correct');
+  });
+  const right=chosen===correctAns;
+  if(!right) btn.classList.add('wrong');
+  seen++; if(right) correct++;
+  $('streak').textContent=`${seen} seen · ${Math.round(correct/seen*100)}% acc`;
+  card.querySelector('.explain').classList.add('show');
+  const idx=[...feed.children].indexOf(card);
+  if(feed.children.length-idx<4){ appendCard(); appendCard(); }
+}
+
+function buildSettingsUI(){
+  $('secSlider').value=settings.secMath;
+  $('modSlider').value=settings.mod1;
+  paintSliders();
+  renderChips('math', $('topicsMath'), 'math');
+  renderChips('reading-writing', $('topicsRW'), 'rw');
+}
+function paintSliders(){
+  const sm=settings.secMath;
+  $('secML').textContent=`Math ${sm}%`;
+  $('secRL').textContent=`R&W ${100-sm}%`;
+  const m1=settings.mod1;
+  $('modML').textContent=`Mod 1 · ${m1}%`;
+  $('modRL').textContent=`Mod 2 · ${100-m1}%`;
+}
+function renderChips(sec,container,cls){
+  container.innerHTML='';
+  const topics=topicsFor(sec);
+  if(!topics.length){container.innerHTML='<span class="loading">no questions in this section yet</span>';return;}
+  topics.forEach(t=>{
+    const on=!settings.topicsOff[t];
+    const chip=document.createElement('div');
+    chip.className='chip '+cls+(on?' on':'');
+    chip.textContent=t;
+    chip.onclick=()=>{
+      if(settings.topicsOff[t]) delete settings.topicsOff[t];
+      else settings.topicsOff[t]=true;
+      chip.classList.toggle('on');
+    };
+    container.appendChild(chip);
+  });
+}
+
+function wireSheet(){
+  const open=()=>{$('scrim').classList.add('open');$('sheet').classList.add('open');};
+  const close=()=>{$('scrim').classList.remove('open');$('sheet').classList.remove('open');};
+  $('gear').onclick=open;
+  $('scrim').onclick=close;
+  $('secSlider').oninput=e=>{settings.secMath=+e.target.value;paintSliders();};
+  $('modSlider').oninput=e=>{settings.mod1=+e.target.value;paintSliders();};
+  $('done').onclick=()=>{ saveSettings(); close(); refill(true); };
+}
+
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+</script>
+</body>
+</html>

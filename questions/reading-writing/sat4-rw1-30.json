@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-30",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat4",
+  "stem": "In 2019, researcher Patricia Jurado Gonzalez and food historian Nawal Nasrallah prepared a stew from a 4,000-year-old recipe found on a Mesopotamian clay tablet. When they tasted the dish, known as pašrūtum (“unwinding”), they found that it had a mild taste and inspired a sense of calm. _______ the researchers, knowing that dishes were sometimes named after their intended effects, theorized that the dish’s name, “unwinding,” referred to its function: to help ancient diners relax.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Therefore,",
+    "Alternately,",
+    "Nevertheless,",
+    "Likewise,"
+  ],
+  "answer": "Therefore,",
+  "explanation": "“Therefore” signals that the researchers’ theory is a consequence of their observation that the dish had a calming effect. “Alternately,” “Nevertheless,” and “Likewise” wrongly imply an alternative, a contrast, or a mere similarity."
+}

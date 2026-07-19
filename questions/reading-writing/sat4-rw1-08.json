@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-08",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat4",
+  "stem": "The mimosa tree evolved in East Asia, where the beetle Bruchidius terrenus preys on its seeds. In 1785, mimosa trees were introduced to North America, far from any B. terrenus. But evolutionary links between predators and their prey can persist across centuries and continents. Around 2001, B. terrenus was introduced in southeastern North America near where botanist Shu-Mei Chang and colleagues had been monitoring mimosa trees. Within a year, 93 percent of the trees had been attacked by the beetles.\n\nWhich choice best describes the function of the third sentence in the overall structure of the text?",
+  "choices": [
+    "It states the hypothesis that Chang and colleagues had set out to investigate using mimosa trees and B. terrenus.",
+    "It presents a generalization that is exemplified by the discussion of the mimosa trees and B. terrenus.",
+    "It offers an alternative explanation for the findings of Chang and colleagues.",
+    "It provides context that clarifies why the species mentioned spread to new locations."
+  ],
+  "answer": "It presents a generalization that is exemplified by the discussion of the mimosa trees and B. terrenus.",
+  "explanation": "The third sentence makes a generalization — that predator-prey links can persist across centuries and continents — which the mimosa/B. terrenus example then illustrates. It isn’t a hypothesis Chang set out to test, an alternative explanation, or an account of why species spread."
+}

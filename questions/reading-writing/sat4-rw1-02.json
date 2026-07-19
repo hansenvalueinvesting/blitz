@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-02",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "Research conducted by planetary scientist Katarina Miljkovic suggests that the Moon’s surface may not accurately _______ early impact events. When the Moon was still forming, its surface was softer, and asteroid or meteoroid impacts would have left less of an impression; thus, evidence of early impacts may no longer be present.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "reflect",
+    "receive",
+    "evaluate",
+    "mimic"
+  ],
+  "answer": "reflect",
+  "explanation": "“Reflect” means show or make apparent. Because early impacts left less of an impression, the surface may not accurately show signs of them. “Receive,” “evaluate,” and “mimic” don’t fit — a surface can’t evaluate or deliberately imitate impacts, and the impacts already occurred."
+}

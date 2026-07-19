@@ -1,0 +1,17 @@
+{
+  "id": "sat4-rw1-06",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat4",
+  "passage": "The following text is from the 1923 poem “Black Finger” by Angelina Weld Grimké, a Black American writer. A cypress is a type of evergreen tree.",
+  "stem": "I have just seen a most beautiful thing, / Slim and still, / Against a gold, gold sky, / A straight black cypress, / Sensitive, / Exquisite, / A black finger / Pointing upwards. / Why, beautiful still finger, are you black? / And why are you pointing upwards?\n\nWhich choice best describes the overall structure of the text?",
+  "choices": [
+    "The speaker assesses a natural phenomenon, then questions the accuracy of her assessment.",
+    "The speaker describes a distinctive sight in nature, then ponders what meaning to attribute to that sight.",
+    "The speaker presents an outdoor scene, then considers a human behavior occurring within that scene.",
+    "The speaker examines her surroundings, then speculates about their influence on her emotional state."
+  ],
+  "answer": "The speaker describes a distinctive sight in nature, then ponders what meaning to attribute to that sight.",
+  "explanation": "The speaker first describes a distinctive natural sight (a black cypress against a gold sky, like a pointing finger), then wonders about its meaning (why is it black, why pointing up). She doesn’t doubt her own assessment, involve people, or examine her emotional state."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-18",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat4",
+  "stem": "Several artworks found among the ruins of the ancient Roman city of Pompeii depict a female figure fishing with a cupid nearby. Some scholars have asserted that the figure is the goddess Venus, since she is known to have been linked with cupids in Roman culture, but University of Leicester archaeologist Carla Brain suggests that cupids may have also been associated with fishing generally. The fact that a cupid is shown near the female figure, therefore, _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "is not conclusive evidence that the figure is Venus.",
+    "suggests that Venus was often depicted fishing.",
+    "eliminates the possibility that the figure is Venus.",
+    "would be difficult to account for if the figure is not Venus."
+  ],
+  "answer": "is not conclusive evidence that the figure is Venus.",
+  "explanation": "If cupids were also associated with fishing, then a cupid’s presence near a fishing female figure isn’t conclusive evidence she’s Venus. It doesn’t show Venus was often depicted fishing, eliminate the Venus possibility, or become hard to account for otherwise."
+}

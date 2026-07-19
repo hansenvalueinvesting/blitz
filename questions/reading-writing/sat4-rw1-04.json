@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-04",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "It is by no means _______ to recognize the influence of Dutch painter Hieronymus Bosch on Ali Banisadr’s paintings; indeed, Banisadr himself cites Bosch as an inspiration. However, some scholars have suggested that the ancient Mesopotamian poem Epic of Gilgamesh may have had a far greater impact on Banisadr’s work.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "substantial",
+    "satisfying",
+    "unimportant",
+    "appropriate"
+  ],
+  "answer": "unimportant",
+  "explanation": "“Unimportant” means trivial. “It is by no means” signals the blank is contradicted by what follows — Banisadr himself cites Bosch — so recognizing Bosch’s influence is by no means unimportant. The other options don’t capture that Bosch’s influence is significant."
+}

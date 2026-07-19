@@ -1,0 +1,17 @@
+{
+  "id": "sat4-rw1-07",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat4",
+  "passage": "The following text is from Walt Whitman’s 1860 poem “Calamus 24.”",
+  "stem": "I HEAR it is charged against me that I seek to destroy institutions; / But really I am neither for nor against institutions / (What indeed have I in common with them?— / Or what with the destruction of them?), / Only I will establish in the Mannahatta [Manhattan] and in every city of These States, inland and seaboard, / And in the fields and woods, and above every keel [ship] little or large, that dents the water, / Without edifices, or rules, or trustees, or any argument, / The institution of the dear love of comrades.\n\nWhich choice best describes the overall structure of the text?",
+  "choices": [
+    "The speaker questions an increasingly prevalent attitude, then summarizes his worldview.",
+    "The speaker regrets his isolation from others, then predicts a profound change in society.",
+    "The speaker concedes his personal shortcomings, then boasts of his many achievements.",
+    "The speaker addresses a criticism leveled against him, then announces a grand ambition of his."
+  ],
+  "answer": "The speaker addresses a criticism leveled against him, then announces a grand ambition of his.",
+  "explanation": "The speaker first addresses a criticism (that he seeks to destroy institutions), stating he is neither for nor against them, then announces his grand ambition: to establish “the dear love of comrades” everywhere. He doesn’t call the attitude prevalent, express regret, or concede shortcomings."
+}

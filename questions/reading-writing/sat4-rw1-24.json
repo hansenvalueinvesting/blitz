@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-24",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "African American Percy Julian was a scientist and entrepreneur whose work helped people around the world to see. Named in 1999 as one of the greatest achievements by a US chemist in the past hundred years, _______ led to the first mass-produced treatment for glaucoma.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "Julian synthesized the alkaloid physostigmine in 1935; it",
+    "in 1935 Julian synthesized the alkaloid physostigmine, which",
+    "Julian’s 1935 synthesis of the alkaloid physostigmine",
+    "the alkaloid physostigmine was synthesized by Julian in 1935 and"
+  ],
+  "answer": "Julian’s 1935 synthesis of the alkaloid physostigmine",
+  "explanation": "The modifier “Named in 1999… years” must be followed by the noun it describes — “Julian’s 1935 synthesis…” — which is what was named an achievement. The other options put Julian, “in 1935,” or the alkaloid right after the modifier, creating dangling modifiers."
+}

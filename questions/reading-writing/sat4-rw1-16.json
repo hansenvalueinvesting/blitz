@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-16",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat4",
+  "stem": "Art collectives, like the United States- and Vietnam-based collective The Propeller Group or Cuba’s Los Carpinteros, are groups of artists who agree to work together: perhaps for stylistic reasons, or to advance certain shared political ideals, or to help mitigate the costs of supplies and studio space. Regardless of the reasons, art collectives usually involve some collaboration among the artists. Based on a recent series of interviews with various art collectives, an arts journalist claims that this can be difficult for artists who are often used to having sole control over their work.\n\nWhich quotation from the interviews best illustrates the journalist’s claim?",
+  "choices": [
+    "“The first collective I joined included many amazingly talented artists, and we enjoyed each other’s company, but because we had a hard time sharing credit and responsibility for our work, the collective didn’t last.”",
+    "“We work together, but that doesn’t mean that individual projects are equally the work of all of us. Many of our projects are primarily the responsibility of whoever originally proposed the work to the group.”",
+    "“Having worked as a member of a collective for several years, it’s sometimes hard to recall what it was like to work alone without the collective’s support. But that support encourages my individual expression rather than limits it.”",
+    "“Sometimes an artist from outside the collective will choose to collaborate with us on a project, but all of those projects fit within the larger themes of the work the collective does on its own.”"
+  ],
+  "answer": "“The first collective I joined included many amazingly talented artists, and we enjoyed each other’s company, but because we had a hard time sharing credit and responsibility for our work, the collective didn’t last.”",
+  "explanation": "The claim is that collaboration is hard for artists used to sole control. The quotation about a collective ending because members struggled to share credit and responsibility — despite enjoying each other’s company — directly illustrates that difficulty. The others describe how responsibility is divided, praise collective support, or note outside collaborators, none showing the challenge of sharing control."
+}

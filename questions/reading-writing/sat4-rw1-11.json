@@ -1,0 +1,17 @@
+{
+  "id": "sat4-rw1-11",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Central ideas and details",
+  "source": "sat4",
+  "passage": "The following text is from Ezra Pound’s 1909 poem “Hymn III,” based on the work of Marcantonio Flaminio.",
+  "stem": "As a fragile and lovely flower unfolds its gleaming foliage on the breast of the fostering earth, if the dew and the rain draw it forth; / So doth my tender mind flourish, if it be fed with the sweet dew of the fostering spirit, / Lacking this, it beginneth straightway to languish, even as a floweret born upon dry earth, if the dew and the rain tend it not.\n\nBased on the text, in what way is the human mind like a flower?",
+  "choices": [
+    "It becomes increasingly vigorous with the passage of time.",
+    "It draws strength from changes in the weather.",
+    "It requires proper nourishment in order to thrive.",
+    "It perseveres despite challenging circumstances."
+  ],
+  "answer": "It requires proper nourishment in order to thrive.",
+  "explanation": "The text compares a flower’s need for dew and rain to the mind’s need to be “fed”; without such feeding, both “languish.” So both need proper nourishment to thrive. The text doesn’t address time, weather changes, or persistence despite hardship."
+}

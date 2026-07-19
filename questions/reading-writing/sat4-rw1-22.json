@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-22",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "In many of her landscape paintings from the 1970s and 1980s, Lebanese American artist Etel Adnan worked to capture the essence of California’s fog-shrouded Mount Tamalpais region through abstraction, using splotches of color to represent the area’s features. Interestingly, the triangle representing the mountain itself _______ among the few defined figures in her paintings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "are",
+    "have been",
+    "were",
+    "is"
+  ],
+  "answer": "is",
+  "explanation": "The singular subject “the triangle” requires the singular verb “is.” The plural verbs “are,” “have been,” and “were” don’t agree with it."
+}

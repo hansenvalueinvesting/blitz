@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-26",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "Sociologist Alton Okinaka sits on the review board tasked with adding new sites to the Hawai‘i Register of Historic Places, which includes Pi‘ilanihale Heiau and the ‘Ōpaeka‘a Road Bridge. Okinaka doesn’t make such decisions _______ all historical designations must be approved by a group of nine other experts from the fields of architecture, archaeology, history, and Hawaiian culture.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "single-handedly, however;",
+    "single-handedly; however,",
+    "single-handedly, however,",
+    "single-handedly however"
+  ],
+  "answer": "single-handedly; however,",
+  "explanation": "A comma sets off the supplementary adverb “however,” and a semicolon joins the two main clauses. Placing the semicolon after “single-handedly” and comma after “however” correctly signals the contrast; the other options misplace the punctuation or create splices/run-ons."
+}

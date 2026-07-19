@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-27",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat4",
+  "stem": "In 1968, US Congressman John Conyers introduced a bill to establish a national holiday in honor of Dr. Martin Luther King Jr. The bill didn’t make it to a vote, but Conyers was determined. He teamed up with Shirley Chisholm, the first Black woman to be elected to Congress, and they resubmitted the bill every session for the next fifteen years. _______ in 1983, the bill passed.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Instead,",
+    "Likewise,",
+    "Finally,",
+    "Additionally,"
+  ],
+  "answer": "Finally,",
+  "explanation": "“Finally” signals that the bill passing is the concluding event after many attempts from 1968 to 1983. “Instead,” “Likewise,” and “Additionally” wrongly suggest an alternative, a similarity, or merely another item."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-33",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat4",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Cambodia’s Angkor Wat was built in the 1100s to honor the Hindu god Vishnu.\n• It has been a Buddhist temple since the sixteenth century.\n• Decorrelation stretch analysis is a novel digital imaging technique that enhances the contrast between colors in a photograph.\n• Archaeologist Noel Hidalgo Tan applied decorrelation stretch analysis to photographs he had taken of Angkor Wat’s plaster walls.\n• Tan’s analysis revealed hundreds of images unknown to researchers.\n\nThe student wants to present Tan’s research to an audience unfamiliar with Angkor Wat. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Tan photographed Angkor Wat’s plaster walls and then applied decorrelation stretch analysis to the photographs.",
+    "Decorrelation stretch analysis is a novel digital imaging technique that Tan used to enhance the contrast between colors in a photograph.",
+    "Using a novel digital imaging technique, Tan revealed hundreds of images hidden on the walls of Angkor Wat, a Cambodian temple.",
+    "Built to honor a Hindu god before becoming a Buddhist temple, Cambodia’s Angkor Wat concealed hundreds of images on its plaster walls."
+  ],
+  "answer": "Using a novel digital imaging technique, Tan revealed hundreds of images hidden on the walls of Angkor Wat, a Cambodian temple.",
+  "explanation": "Choice C presents Tan’s research (revealing hundreds of hidden images via a novel technique) and identifies Angkor Wat as a Cambodian temple for the unfamiliar audience. The others omit the results, omit what Angkor Wat is, or don’t present the research."
+}

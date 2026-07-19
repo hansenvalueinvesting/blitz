@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-29",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat4",
+  "stem": "Samuel Coleridge-Taylor was a prominent classical music composer from England who toured the US three times in the early 1900s. The child of a West African father and an English mother, Coleridge-Taylor emphasized his mixed-race ancestry. For example, he referred to himself as Anglo-African. _______ he incorporated the sounds of traditional African music into his classical music compositions.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "In addition,",
+    "Actually,",
+    "However,",
+    "Regardless,"
+  ],
+  "answer": "In addition,",
+  "explanation": "“In addition” signals that incorporating African music is a second way Coleridge-Taylor emphasized his ancestry, adding to the previous example. “Actually,” “However,” and “Regardless” wrongly imply surprise, contrast, or persistence-despite."
+}

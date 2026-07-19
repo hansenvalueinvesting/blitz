@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw1-19",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "Literary agents estimate that more than half of all nonfiction books credited to a celebrity or other public figure are in fact written by ghostwriters, professional authors who are paid to write other _______ but whose names never appear on book covers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "people’s stories",
+    "peoples story’s",
+    "peoples stories",
+    "people’s story’s"
+  ],
+  "answer": "people’s stories",
+  "explanation": "The context needs the plural possessive “people’s” (multiple people) and the plural “stories” (multiple stories): other people’s stories. The other options misuse singular possessives or drop the needed apostrophe."
+}
