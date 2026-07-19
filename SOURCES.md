@@ -1,14 +1,5 @@
 # Sources
 
-Official College Board **linear digital SAT practice tests**. Each test is two PDFs:
-a questions PDF and an answer-explanations PDF, both under
-`https://satsuite.collegeboard.org`.
-
-These are the sources for every test currently in the question bank. When scraping a
-new test, add its two links here. (Note: the network proxy returns 403 for
-`satsuite.collegeboard.org`, so these can't be fetched from a session — the PDFs are
-uploaded by hand.)
-
 ## In the bank
 
 ### sat4 — SAT Practice Test 4
