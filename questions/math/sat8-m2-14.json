@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m2-14",
+  "section": "math",
+  "module": 2,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat8",
+  "stem": "If x/y = 4 and 24x/(ny) = 4, what is the value of n ?",
+  "choices": [
+    "24"
+  ],
+  "answer": "24",
+  "explanation": "Rewrite the second equation as (24/n)(x/y) = 4. Since x/y = 4, this becomes (24/n)(4) = 4, so 96/n = 4, and n = 24."
+}

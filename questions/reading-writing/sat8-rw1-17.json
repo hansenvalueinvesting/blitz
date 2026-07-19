@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-17",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat8",
+  "stem": "Many mosquito repellents contain natural components that work by activating multiple odor receptors on mosquitoes’ antennae. As the insects develop resistance, new repellents are needed. Ke Dong and her team found that EBF, a molecular component of a chrysanthemum-flower extract, can repel mosquitoes by activating just one odor receptor—and this receptor, Or31, is present in all mosquito species known to carry diseases. Therefore, the researchers suggest that in developing new repellents, it would be most useful to _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "identify molecular components similar to EBF that target the activation of Or31 receptors.",
+    "investigate alternative methods for extracting EBF molecules from chrysanthemums.",
+    "verify the precise locations of Or31 and other odor receptors on mosquitoes’ antennae.",
+    "determine the maximum number of different odor receptors that can be activated by a single molecule."
+  ],
+  "answer": "identify molecular components similar to EBF that target the activation of Or31 receptors.",
+  "explanation": "Because Or31 is shared by every disease-carrying mosquito and EBF repels by hitting just that receptor, the logical next step is to seek other EBF-like components that also act on Or31. The text gives no hint that EBF is hard to extract, that receptor locations are unknown, or that hitting many receptors at once is the goal."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-16",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (textual)",
+  "source": "sat8",
+  "stem": "Psychologists Dacher Keltner and Jonathan Haidt have argued that experiencing awe—a sensation of reverence and wonder typically brought on by perceiving something grand or powerful—can enable us to feel more connected to others and thereby inspire us to act more altruistically. Keltner, along with Paul K. Piff, Pia Dietze, and colleagues, claims to have found evidence for this effect in a recent study where participants were asked to either gaze up at exceptionally tall trees in a nearby grove (reported to be a universally awe-inspiring experience) or stare at the exterior of a nearby, nondescript building. After one minute, an experimenter deliberately spilled a box of pens nearby.\n\nWhich finding from the researchers’ study, if true, would most strongly support their claim?",
+  "choices": [
+    "Participants who had been looking at the trees helped the experimenter pick up significantly more pens than did participants who had been looking at the building.",
+    "Participants who helped the experimenter pick up the pens used a greater number of positive words to describe the trees and the building in a postexperiment survey than did participants who did not help the experimenter.",
+    "Participants who did not help the experimenter pick up the pens were significantly more likely to report having experienced a feeling of awe, regardless of whether they looked at the building or the trees.",
+    "Participants who had been looking at the building were significantly more likely to notice that the experimenter had dropped the pens than were participants who had been looking at the trees."
+  ],
+  "answer": "Participants who had been looking at the trees helped the experimenter pick up significantly more pens than did participants who had been looking at the building.",
+  "explanation": "The claim is that experiencing awe makes people more altruistic. If those who gazed at the awe-inspiring trees helped pick up far more pens than those who stared at the plain building, that directly shows awe boosting helping behavior. Choice C would undercut the claim, while B and D describe findings unrelated to whether awe increased helping."
+}

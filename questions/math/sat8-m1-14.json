@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m1-14",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "The expression 90y⁵ − 54y⁴ is equivalent to ry⁴(15y − 9), where r is a constant. What is the value of r ?",
+  "choices": [
+    "6"
+  ],
+  "answer": "6",
+  "explanation": "Expanding ry⁴(15y − 9) gives 15ry⁵ − 9ry⁴. Matching coefficients with 90y⁵ − 54y⁴ gives 15r = 90, so r = 6."
+}

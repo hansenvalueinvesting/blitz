@@ -1,0 +1,17 @@
+{
+  "id": "sat8-m2-12",
+  "section": "math",
+  "module": 2,
+  "topic": "Trigonometry",
+  "source": "sat8",
+  "stem": "In the right triangle shown, what is the value of sin A ?",
+  "choices": [
+    "1/171",
+    "35/171",
+    "171/35",
+    "171"
+  ],
+  "answer": "35/171",
+  "explanation": "The sine of angle A is the length of the side opposite A divided by the hypotenuse. Side BC (opposite A) is 35 and the hypotenuse AB is 171, so sin A = 35/171.",
+  "image": "sat8-m2-12.png"
+}

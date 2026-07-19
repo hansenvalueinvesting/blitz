@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-17",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat8",
+  "stem": "The domestic sweet potato (Ipomoea batatas) descends from a wild plant native to South America. It also populates the Polynesian Islands, where evidence confirms that Native Hawaiians and other Indigenous peoples were cultivating the plant centuries before seafaring first occurred over the thousands of miles of ocean separating them from South America. To explain how the sweet potato was first introduced in Polynesia, botanist Pablo Muñoz-Rodríguez and colleagues analyzed the DNA of numerous varieties of the plant, concluding that Polynesian varieties diverged from South American ones over 100,000 years ago. Given that Polynesia was peopled only in the last three thousand years, the team concluded that ______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "the cultivation of the sweet potato in Polynesia likely predates its cultivation in South America.",
+    "Polynesian peoples likely acquired the sweet potato from South American peoples only within the last three thousand years.",
+    "human activity likely played no role in the introduction of the sweet potato in Polynesia.",
+    "Polynesian sweet potato varieties likely descend from a single South American variety that was domesticated, not wild."
+  ],
+  "answer": "human activity likely played no role in the introduction of the sweet potato in Polynesia.",
+  "explanation": "Polynesian varieties split from South American ones over 100,000 years ago, but people reached Polynesia only within the last 3,000 years—so the plant arrived long before humans could have carried it. That leads to the conclusion that human activity didn’t bring the sweet potato to Polynesia. The other choices contradict this timeline or claim things the text doesn’t support about cultivation dates or domesticated origins."
+}

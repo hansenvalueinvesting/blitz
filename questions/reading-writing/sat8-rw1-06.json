@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-06",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat8",
+  "stem": "Archaeologists studying the ancient city of Pompeii in Italy recently discovered a well-preserved food shop known as a thermopolium. The site contains food remains, artworks, and decorations. These items give researchers a better understanding of what daily life in Pompeii may have been like. For example, the archaeologists found a ceramic jar that they believe likely contained a meat and seafood stew.\n\nWhich choice best states the main purpose of the text?",
+  "choices": [
+    "To compare ancient artworks with modern ones",
+    "To discuss the political system of Italy",
+    "To present a recent archaeological discovery",
+    "To describe a region’s climate"
+  ],
+  "answer": "To present a recent archaeological discovery",
+  "explanation": "The text announces a recently discovered food shop in Pompeii and then describes its contents and an example find, so its purpose is to present a recent archaeological discovery. It never compares artworks across eras, addresses Italian politics, or describes the climate."
+}

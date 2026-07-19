@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-22",
+  "section": "math",
+  "module": 1,
+  "topic": "Systems of equations",
+  "source": "sat8",
+  "stem": "y ≤ x + 7\ny ≥ −2x − 1\n\nWhich point (x, y) is a solution to the given system of inequalities in the xy-plane?",
+  "choices": [
+    "(−14, 0)",
+    "(0, −14)",
+    "(0, 14)",
+    "(14, 0)"
+  ],
+  "answer": "(14, 0)",
+  "explanation": "Test (14, 0): the first inequality gives 0 ≤ 14 + 7 = 21, true; the second gives 0 ≥ −2(14) − 1 = −29, true. Both hold, so (14, 0) is a solution. The other points fail at least one inequality."
+}

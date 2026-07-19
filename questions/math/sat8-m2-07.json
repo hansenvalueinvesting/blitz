@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m2-07",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "The function f is defined by f(x) = 8x³ + 4. What is the value of f(2) ?",
+  "choices": [
+    "68"
+  ],
+  "answer": "68",
+  "explanation": "Substitute x = 2: f(2) = 8(2)³ + 4 = 8(8) + 4 = 64 + 4 = 68."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-04",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "Which expression is equivalent to (2x² + x − 9) + (x² + 6x + 1) ?",
+  "choices": [
+    "2x² + 7x + 10",
+    "2x² + 6x − 8",
+    "3x² + 7x − 10",
+    "3x² + 7x − 8"
+  ],
+  "answer": "3x² + 7x − 8",
+  "explanation": "Combine like terms: the x² terms give 2x² + x² = 3x², the x terms give x + 6x = 7x, and the constants give −9 + 1 = −8. The result is 3x² + 7x − 8."
+}

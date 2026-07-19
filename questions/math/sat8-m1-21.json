@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m1-21",
+  "section": "math",
+  "module": 1,
+  "topic": "Systems of equations",
+  "source": "sat8",
+  "stem": "A small business owner budgets $2,200 to purchase candles. The owner must purchase a minimum of 200 candles to maintain the discounted pricing. If the owner pays $4.90 per candle to purchase small candles and $11.60 per candle to purchase large candles, what is the maximum number of large candles the owner can purchase to stay within the budget and maintain the discounted pricing?",
+  "choices": [
+    "182"
+  ],
+  "answer": "182",
+  "explanation": "Let s be small candles and L be large candles. The constraints are 4.90s + 11.60L ≤ 2,200 and s + L ≥ 200. Buying exactly 200 candles keeps cost lowest, so s = 200 − L, giving 4.90(200 − L) + 11.60L ≤ 2,200, which is 980 + 6.70L ≤ 2,200, so L ≤ 182.09. The largest whole number is 182."
+}

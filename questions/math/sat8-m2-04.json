@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-04",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "Sean rents a tent at a cost of $11 per day plus a onetime insurance fee of $10. Which equation represents the total cost c, in dollars, to rent the tent with insurance for d days?",
+  "choices": [
+    "c = 11(d + 10)",
+    "c = 10(d + 11)",
+    "c = 11d + 10",
+    "c = 10d + 11"
+  ],
+  "answer": "c = 11d + 10",
+  "explanation": "The daily charge of $11 for d days is 11d, and the one-time $10 insurance fee is added just once. Combining them gives the total cost c = 11d + 10."
+}

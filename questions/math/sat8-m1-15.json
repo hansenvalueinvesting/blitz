@@ -1,0 +1,17 @@
+{
+  "id": "sat8-m1-15",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "The graph of y = f(x) is shown, where the function f is defined by f(x) = ax³ + bx² + cx + d and a, b, c, and d are constants. For how many values of x does f(x) = 0 ?",
+  "choices": [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+  ],
+  "answer": "Three",
+  "explanation": "The solutions of f(x) = 0 are the x-values where the graph crosses the x-axis. The curve touches the x-axis at three points, so there are three values of x for which f(x) = 0.",
+  "image": "sat8-m1-15.png"
+}

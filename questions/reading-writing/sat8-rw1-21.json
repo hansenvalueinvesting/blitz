@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-21",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "Paintings by the renowned twentieth-century US _______ were featured in Artist to Artist, an exhibition at the Smithsonian Art Museum that paired the works of artists whose career trajectories intersected in meaningful ways.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "artists: Thomas Hart Benton and Jackson Pollock,",
+    "artists Thomas Hart Benton and Jackson Pollock",
+    "artists Thomas Hart Benton, and Jackson Pollock,",
+    "artists, Thomas Hart Benton and Jackson Pollock"
+  ],
+  "answer": "artists Thomas Hart Benton and Jackson Pollock",
+  "explanation": "The names “Thomas Hart Benton and Jackson Pollock” are a restrictive appositive that identifies which artists, so no punctuation should separate them from “artists” or split the subject from the verb “were featured.” The other options insert an unneeded colon, comma, or commas that break those connections."
+}

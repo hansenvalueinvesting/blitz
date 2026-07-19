@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-25",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat8",
+  "stem": "2x + 3y = 7\n10x + 15y = 35\n\nFor each real number r, which of the following points lies on the graph of each equation in the xy-plane for the given system?",
+  "choices": [
+    "(r/5 + 7, −r/5 + 35)",
+    "(−3r/2 + 7/2, r)",
+    "(r, 2r/3 + 7/3)",
+    "(r, −3r/2 + 7/2)"
+  ],
+  "answer": "(−3r/2 + 7/2, r)",
+  "explanation": "The second equation is just 5 times the first, so both describe the same line and any solution of one lies on the other. Substituting x = −3r/2 + 7/2 and y = r into 2x + 3y gives 2(−3r/2 + 7/2) + 3r = −3r + 7 + 3r = 7, which is true for every r."
+}

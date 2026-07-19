@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-09",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "A producer is creating a video with a length of 70 minutes. The video will consist of segments that are 1 minute long and segments that are 3 minutes long. Which equation represents this situation, where x represents the number of 1-minute segments and y represents the number of 3-minute segments?",
+  "choices": [
+    "4xy = 70",
+    "4(x + y) = 70",
+    "3x + y = 70",
+    "x + 3y = 70"
+  ],
+  "answer": "x + 3y = 70",
+  "explanation": "The x one-minute segments contribute x minutes and the y three-minute segments contribute 3y minutes. Since the total length is 70 minutes, x + 3y = 70."
+}

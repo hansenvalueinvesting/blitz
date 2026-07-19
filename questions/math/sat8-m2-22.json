@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-22",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "A cube has an edge length of 68 inches. A solid sphere with a radius of 34 inches is inside the cube, such that the sphere touches the center of each face of the cube. To the nearest cubic inch, what is the volume of the space in the cube not taken up by the sphere?",
+  "choices": [
+    "149,796",
+    "164,500",
+    "190,955",
+    "310,800"
+  ],
+  "answer": "149,796",
+  "explanation": "The cube's volume is 68³ = 314,432 cubic inches. The sphere's volume is (4/3)π(34)³ ≈ 164,636 cubic inches. Subtracting gives about 314,432 − 164,636 = 149,796 cubic inches of empty space."
+}

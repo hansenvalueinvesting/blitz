@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw2-08",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Text structure and purpose",
+  "source": "sat8",
+  "passage": "The following text is adapted from Jane Austen’s 1814 novel Mansfield Park. The speaker, Tom, is considering staging a play at home with a group of his friends and family.",
+  "stem": "We mean nothing but a little amusement among ourselves, just to vary the scene, and exercise our powers in something new. We want no audience, no publicity. We may be trusted, I think, in choosing some play most perfectly unexceptionable; and I can conceive no greater harm or danger to any of us in conversing in the elegant written language of some respectable author than in chattering in words of our own.\n\nWhich choice best states the main purpose of the text?",
+  "choices": [
+    "To offer Tom’s assurance that the play will be inoffensive and involve only a small number of people",
+    "To clarify that the play will not be performed in the manner Tom had originally intended",
+    "To elaborate on the idea that the people around Tom lack the skills to successfully stage a play",
+    "To assert that Tom believes the group performing the play will be able to successfully promote it"
+  ],
+  "answer": "To offer Tom’s assurance that the play will be inoffensive and involve only a small number of people",
+  "explanation": "Tom insists the group wants only “a little amusement among ourselves” with “no audience, no publicity,” and promises to choose a perfectly unobjectionable play—reassuring listeners the effort is harmless and private. He never says the plan has changed, that his companions lack skill, or that they intend to promote the show; in fact he rejects publicity."
+}

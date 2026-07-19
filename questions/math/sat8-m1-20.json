@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m1-20",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "y = x² − 14x + 22\n\nThe given equation relates the variables x and y. For what value of x does the value of y reach its minimum?",
+  "choices": [
+    "7"
+  ],
+  "answer": "7",
+  "explanation": "For y = ax² + bx + c the minimum occurs at x = −b/(2a). Here a = 1 and b = −14, so x = −(−14)/(2·1) = 7."
+}

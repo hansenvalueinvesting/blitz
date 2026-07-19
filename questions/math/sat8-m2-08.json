@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-08",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat8",
+  "stem": "The function f is defined by f(x) = (1/10)x − 2. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+  "choices": [
+    "(−2, 0)",
+    "(0, −2)",
+    "(0, 1/10)",
+    "(1/10, 0)"
+  ],
+  "answer": "(0, −2)",
+  "explanation": "The y-intercept occurs where x = 0. Substituting gives f(0) = (1/10)(0) − 2 = −2, so the graph crosses the y-axis at (0, −2)."
+}

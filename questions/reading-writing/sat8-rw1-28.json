@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-28",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat8",
+  "stem": "In 1974, Mexican chemist Mario Molina and US chemist F. Sherwood Rowland discovered that chemicals called CFCs were harmful to the ozone layer. Their research was extremely influential in the fight against CFCs. _______ it laid the foundation for a 1987 treaty that phased out the use of CFCs across the globe.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Regardless,",
+    "Specifically,",
+    "However,",
+    "Earlier,"
+  ],
+  "answer": "Specifically,",
+  "explanation": "The second sentence gives a concrete instance of the research’s influence—its role in a 1987 treaty—so “Specifically” fits. “Regardless” and “However” wrongly signal contrast, and “Earlier” wrongly places the treaty before the research."
+}

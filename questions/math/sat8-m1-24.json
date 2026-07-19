@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-24",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "x − 29 = (x − a)(x − 29)\n\nWhich of the following are solutions to the given equation, where a is a constant and a > 30 ?\n\nI. a\nII. a + 1\nIII. 29",
+  "choices": [
+    "I and II only",
+    "I and III only",
+    "II and III only",
+    "I, II, and III"
+  ],
+  "answer": "II and III only",
+  "explanation": "Move everything to one side: 0 = (x − a)(x − 29) − (x − 29) = (x − 29)[(x − a) − 1] = (x − 29)(x − a − 1). By the zero product property, x = 29 or x = a + 1. So the solutions are 29 and a + 1, which are statements III and II."
+}

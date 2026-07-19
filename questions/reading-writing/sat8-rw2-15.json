@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw2-15",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat8",
+  "stem": "The largest tyrannosaurids—the family of carnivorous dinosaurs that includes Tarbosaurus, Albertosaurus, and, most famously, Tyrannosaurus rex—are thought to have had the strongest bites of any land animals in Earth’s history. Determining the bite force of extinct animals can be difficult, however, and paleontologists Paul Barrett and Emily Rayfield have suggested that an estimate of dinosaur bite force may be significantly influenced by the methodology used in generating that estimate.\n\nWhich choice best describes data from the table that support Barrett and Rayfield’s suggestion?",
+  "choices": [
+    "The study by Meers used body-mass scaling and produced the lowest estimated maximum bite force, while the study by Cost et al. used muscular and skeletal modeling and produced the highest estimated maximum.",
+    "In their study, Gignac and Erickson used tooth-bone interaction analysis to produce an estimated bite force range with a minimum of 8,000 newtons and a maximum of 34,000 newtons.",
+    "The bite force estimates produced by Bates and Falkingham and by Cost et al. were similar to each other, while the estimates produced by Meers and by Gignac and Erickson each differed substantially from any other estimate.",
+    "The estimated maximum bite force produced by Cost et al. exceeded the estimated maximum produced by Bates and Falkingham, even though both groups of researchers used the same method to generate their estimates."
+  ],
+  "answer": "The bite force estimates produced by Bates and Falkingham and by Cost et al. were similar to each other, while the estimates produced by Meers and by Gignac and Erickson each differed substantially from any other estimate.",
+  "image": "sat8-rw2-15.png",
+  "explanation": "Barrett and Rayfield suggest that the method used strongly shapes the bite-force estimate. The table supports this: the two studies using muscular and skeletal modeling (Bates and Falkingham; Cost et al.) gave similar ranges, while the two using other methods (Meers’s body-mass scaling; Gignac and Erickson’s tooth-bone analysis) gave sharply different results. Choice A misreads Meers as the lowest maximum when it is the highest; B and D each cite only one study or a same-method comparison, which can’t show the method-dependence."
+}

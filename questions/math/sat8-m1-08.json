@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-08",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat8",
+  "stem": "f(x) = 4x + b\n\nFor the linear function f, b is a constant and f(7) = 28. What is the value of b ?",
+  "choices": [
+    "0",
+    "1",
+    "4",
+    "7"
+  ],
+  "answer": "0",
+  "explanation": "Substitute x = 7: f(7) = 4(7) + b = 28 + b. Since f(7) = 28, we have 28 + b = 28, so b = 0."
+}

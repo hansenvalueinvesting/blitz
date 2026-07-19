@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-32",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat8",
+  "stem": "While researching a topic, a student has taken the following notes:\n• The factors that affect clutch size (the number of eggs laid at one time) have been well studied in birds but not in lizards.\n• A team led by Shai Meiri of Tel Aviv University investigated which factors influence lizard clutch size.\n• Meiri’s team obtained clutch-size and habitat data for over 3,900 lizard species and analyzed the data with statistical models.\n• Larger clutch size was associated with environments in higher latitudes that have more seasonal change.\n• Lizards in higher-latitude environments may lay larger clutches to take advantage of shorter windows of favorable conditions.\n\nThe student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Researchers wanted to know which factors influence lizard egg clutch size because such factors have been well studied in birds but not in lizards.",
+    "After they obtained data for over 3,900 lizard species, researchers determined that larger clutch size was associated with environments in higher latitudes that have more seasonal change.",
+    "We now know that lizards in higher-latitude environments may lay larger clutches to take advantage of shorter windows of favorable conditions.",
+    "Researchers obtained clutch-size and habitat data for over 3,900 lizard species and analyzed the data with statistical models."
+  ],
+  "answer": "Researchers wanted to know which factors influence lizard egg clutch size because such factors have been well studied in birds but not in lizards.",
+  "explanation": "Choice A spells out what the researchers “wanted to know,” capturing the study’s aim. The other options report a finding, a conclusion, or the methods used, none of which emphasizes the purpose of the research."
+}

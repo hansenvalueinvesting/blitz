@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-17",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "p = k / (4j + 9)\n\nThe given equation relates the distinct positive numbers p, k, and j. Which equation correctly expresses 4j + 9 in terms of p and k ?",
+  "choices": [
+    "4j + 9 = k/p",
+    "4j + 9 = kp",
+    "4j + 9 = k − p",
+    "4j + 9 = p/k"
+  ],
+  "answer": "4j + 9 = k/p",
+  "explanation": "Multiply both sides by (4j + 9) to get p(4j + 9) = k, then divide both sides by p to isolate the expression: 4j + 9 = k/p."
+}

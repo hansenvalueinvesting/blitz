@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-24",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "Over twenty years ago, in a landmark experiment in the psychology of choice, professor Sheena Iyengar set up a jam-tasting booth at a grocery store. The number of jams available for tasting ______ some shoppers had twenty-four different options, others only six. Interestingly, the shoppers with fewer jams to choose from purchased more jam.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "varied:",
+    "varied,",
+    "varied, while",
+    "varied while"
+  ],
+  "answer": "varied:",
+  "explanation": "The colon after “varied” properly introduces the explanation of how the number of jams differed (some shoppers had twenty-four, others six). A comma makes a splice, and “while” illogically frames the description as a contrast or a simultaneous event rather than an explanation."
+}

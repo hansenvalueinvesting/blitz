@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-19",
+  "section": "math",
+  "module": 1,
+  "topic": "Trigonometry",
+  "source": "sat8",
+  "stem": "The measure of angle R is 2π/3 radians. The measure of angle T is 5π/12 radians greater than the measure of angle R. What is the measure of angle T, in degrees?",
+  "choices": [
+    "75",
+    "120",
+    "195",
+    "390"
+  ],
+  "answer": "195",
+  "explanation": "Angle T = 2π/3 + 5π/12 = 8π/12 + 5π/12 = 13π/12 radians. Converting to degrees by multiplying by 180/π gives (13/12)(180) = 195 degrees."
+}

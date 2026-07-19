@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-15",
+  "section": "math",
+  "module": 2,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat8",
+  "stem": "A bowl contains 20 ounces of water. When the bowl is uncovered, the amount of water in the bowl decreases by 1 ounce every 4 days. If 9 ounces of water remain in this bowl, for how many days has it been uncovered?",
+  "choices": [
+    "3",
+    "7",
+    "36",
+    "44"
+  ],
+  "answer": "44",
+  "explanation": "The bowl lost 20 − 9 = 11 ounces. Since it loses 1 ounce every 4 days, the time is 11 × 4 = 44 days."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-10",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "What is the equation of the line that passes through the point (0, 5) and is parallel to the graph of y = 7x + 4 in the xy-plane?",
+  "choices": [
+    "y = 5x",
+    "y = 7x + 5",
+    "y = 7x",
+    "y = 5x + 7"
+  ],
+  "answer": "y = 7x + 5",
+  "explanation": "Parallel lines share the same slope, so the line has slope 7. Passing through (0, 5) makes the y-intercept 5, giving y = 7x + 5."
+}

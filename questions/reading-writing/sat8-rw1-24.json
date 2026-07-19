@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-24",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "During the English neoclassical period (1660–1789), many writers imitated the epic poetry and satires of ancient Greece and Rome. They were not the first in England to adopt the literary modes of classical _______ some of the most prominent figures of the earlier Renaissance period were also influenced by ancient Greek and Roman literature.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "antiquity, however",
+    "antiquity, however,",
+    "antiquity, however;",
+    "antiquity; however,"
+  ],
+  "answer": "antiquity, however;",
+  "explanation": "The two independent clauses must be joined by a semicolon, and the supplementary adverb “however” belongs to the first clause, set off by a comma before it — giving “antiquity, however;”. Choices A and B use only commas, which can’t join two independent clauses, and D misplaces the semicolon after “antiquity,” before “however.”"
+}

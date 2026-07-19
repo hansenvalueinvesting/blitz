@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-33",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat8",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Las sergas de Esplandián was a novel popular in sixteenth-century Spain.\n• The novel featured a fictional island inhabited solely by Black women and known as California.\n• That same century, Spanish explorers learned of an “island” off the west coast of Mexico.\n• They called it California after the island in the novel.\n• The “island” was actually the peninsula now known as Baja California (“Lower California”), which lies to the south of the US state of California.\n\nThe student wants to emphasize the role a misconception played in the naming of a place. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "The novel Las sergas de Esplandián featured a fictional island known as California.",
+    "To the south of the US state of California lies Baja California (“Lower California”), originally called California after a fictional place.",
+    "In the sixteenth century, Spanish explorers learned of a peninsula off the west coast of Mexico and called it California.",
+    "Thinking it was an island, Spanish explorers called a peninsula California after an island in a popular novel."
+  ],
+  "answer": "Thinking it was an island, Spanish explorers called a peninsula California after an island in a popular novel.",
+  "explanation": "The goal is to emphasize how a misconception drove the naming, and this choice foregrounds that the explorers mistakenly thought the peninsula was an island and named it after the novel’s fictional island. The other choices mention the novel, the location, or the encounter but don’t stress the mistaken belief behind the name."
+}

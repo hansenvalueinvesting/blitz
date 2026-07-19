@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw1-07",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat8",
+  "passage": "The following text is from Sarah Orne Jewett’s 1899 short story “Martha’s Lady.” Martha is employed by Miss Pyne as a maid.",
+  "stem": "Miss Pyne sat by the window watching, in her best dress, looking stately and calm; she seldom went out now, and it was almost time for the carriage. Martha was just coming in from the garden with the strawberries, and with more flowers in her apron. It was a bright cool evening in June, the golden robins sang in the elms, and the sun was going down behind the apple-trees at the foot of the garden. The beautiful old house stood wide open to the long-expected guest.\n\nWhich choice best states the main purpose of the text?",
+  "choices": [
+    "To convey the worries brought about by a new guest",
+    "To describe how the characters have changed over time",
+    "To contrast the activity indoors with the stillness outside",
+    "To depict the setting as the characters await a visitor’s arrival"
+  ],
+  "answer": "To depict the setting as the characters await a visitor’s arrival",
+  "explanation": "The passage paints the evening scene—Miss Pyne waiting calmly, Martha gathering flowers, the house “wide open to the long-expected guest”—to show the characters preparing for a visitor’s arrival. Nothing signals worry, change over time, or a contrast between indoor and outdoor stillness (there is activity in both)."
+}

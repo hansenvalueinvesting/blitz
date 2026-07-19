@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-11",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Central ideas and details",
+  "source": "sat8",
+  "stem": "In the 1700s and 1800s, European composers experimented with volume in their musical works. They did so by increasing the number of musicians playing in the orchestra. For example, in some of his operas, German composer Richard Wagner added more horns, trombones, and tubas to the orchestra. With more instruments playing at the same time, the orchestra could play extremely loudly at key moments in his operas.\n\nAccording to the text, how did Richard Wagner achieve moments of extremely high volume in his operas?",
+  "choices": [
+    "By moving the performances of his operas from outdoor stages to indoor ones",
+    "By increasing the number of musicians playing horns, trombones, and tubas in the orchestra",
+    "By building a concert hall whose shape would cause sounds to echo",
+    "By insisting that the singers undergo special training to sing for extended periods of time"
+  ],
+  "answer": "By increasing the number of musicians playing horns, trombones, and tubas in the orchestra",
+  "explanation": "The text says Wagner added more horns, trombones, and tubas so that more instruments playing together could make the orchestra extremely loud at key moments. It never mentions moving venues, building an echoing hall, or training singers."
+}

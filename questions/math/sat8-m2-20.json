@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m2-20",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "A circle has center O, and points R and S lie on the circle. In triangle ORS, the measure of ∠ROS is 88°. What is the measure of ∠RSO, in degrees? (Disregard the degree symbol when entering your answer.)",
+  "choices": [
+    "46"
+  ],
+  "answer": "46",
+  "explanation": "OR and OS are both radii, so they are equal and triangle ORS is isosceles with ∠RSO = ∠ORS. Since the angles sum to 180°, 2(∠RSO) + 88 = 180, giving ∠RSO = 46°."
+}

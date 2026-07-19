@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw1-08",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat8",
+  "passage": "The following text is adapted from Aphra Behn’s 1689 novel The Lucky Mistake. Atlante and Rinaldo are neighbors who have been secretly exchanging letters through Charlot, Atlante’s sister.",
+  "stem": "[Atlante] gave this letter to Charlot; who immediately ran into the balcony with it, where she still found Rinaldo in a melancholy posture, leaning his head on his hand: She showed him the letter, but was afraid to toss it to him, for fear it might fall to the ground; so he ran and fetched a long cane, which he cleft at one end, and held it while she put the letter into the cleft, and stayed not to hear what he said to it. But never was man so transported with joy, as he was at the reading of this letter; it gives him new wounds; for to the generous, nothing obliges love so much as love.\n\nWhich choice best describes the overall structure of the text?",
+  "choices": [
+    "It describes the delivery of a letter, and then portrays a character’s happiness at reading that letter.",
+    "It establishes that a character is desperate to receive a letter, and then explains why another character has not yet written that letter.",
+    "It presents a character’s concerns about delivering a letter, and then details the contents of that letter.",
+    "It reveals the inspiration behind a character’s letter, and then emphasizes the excitement that another character feels upon receiving that letter."
+  ],
+  "answer": "It describes the delivery of a letter, and then portrays a character’s happiness at reading that letter.",
+  "explanation": "The passage first narrates how Charlot carefully passes the letter to Rinaldo on the cane, then shows Rinaldo “transported with joy” as he reads it—delivery followed by the reader’s happiness. The letter’s contents and its inspiration are never given, and Rinaldo is melancholy, not desperate."
+}

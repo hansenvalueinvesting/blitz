@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-11",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat8",
+  "stem": "y = −3x\n4x + y = 15\n\nThe solution to the given system of equations is (x, y). What is the value of x ?",
+  "choices": [
+    "1",
+    "5",
+    "15",
+    "45"
+  ],
+  "answer": "15",
+  "explanation": "Substitute y = −3x into the second equation: 4x + (−3x) = 15, which simplifies to x = 15."
+}

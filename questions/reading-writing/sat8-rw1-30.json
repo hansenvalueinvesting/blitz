@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-30",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat8",
+  "stem": "While researching a topic, a student has taken the following notes:\n• The Philadelphia and Lancaster Turnpike was a road built between 1792 and 1794.\n• It was the first private turnpike in the United States.\n• It connected the cities of Philadelphia and Lancaster in the state of Pennsylvania.\n• It was sixty-two miles long.\n\nThe student wants to emphasize the distance covered by the Philadelphia and Lancaster Turnpike. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.",
+    "The Philadelphia and Lancaster Turnpike was the first private turnpike in the United States.",
+    "The Philadelphia and Lancaster Turnpike, which connected two Pennsylvania cities, was built between 1792 and 1794.",
+    "A historic Pennsylvania road, the Philadelphia and Lancaster Turnpike was completed in 1794."
+  ],
+  "answer": "The sixty-two-mile-long Philadelphia and Lancaster Turnpike connected the Pennsylvania cities of Philadelphia and Lancaster.",
+  "explanation": "Only choice A foregrounds the turnpike’s length by calling it “sixty-two-mile-long,” directly emphasizing distance. The others stress its status as the first private turnpike, its construction dates, or its completion year instead of how far it stretched."
+}

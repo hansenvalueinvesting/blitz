@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-02",
+  "section": "math",
+  "module": 2,
+  "topic": "Data analysis",
+  "source": "sat8",
+  "stem": "Type of store | Average number of employees\nWarehouse store | 365\nDepartment store | 213\nSupermarket | 130\n\nFor a certain region, the table shows the average number of store employees in 2016 by type of store. Based on the table, how much greater was the average number of store employees in warehouse stores than in supermarkets?",
+  "choices": [
+    "83",
+    "152",
+    "235",
+    "495"
+  ],
+  "answer": "235",
+  "explanation": "Warehouse stores averaged 365 employees and supermarkets averaged 130. The difference is 365 − 130 = 235, so warehouse stores had 235 more employees on average."
+}

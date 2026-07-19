@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-32",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat8",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Some sandstone arches in Utah’s Arches National Park have been defaced by tourists’ carvings.\n• Park rangers can smooth away some carvings using power grinders.\n• For deep carvings, power grinding is not always feasible because it can greatly alter or damage the rock.\n• Park rangers can use an infilling technique, which involves filling in carvings with ground sandstone and a bonding agent.\n• This technique is minimally invasive.\n\nThe student wants to explain an advantage of the infilling technique. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "To remove carvings from sandstone arches in Utah’s Arches National Park, power grinding is not always feasible.",
+    "Filling in carvings with ground sandstone and a bonding agent is less invasive than smoothing them away with a power grinder, which can greatly alter or damage the sandstone arches.",
+    "Park rangers can use a power grinding technique to smooth away carvings or fill them in with ground sandstone and a bonding agent.",
+    "As methods for removing carvings from sandstone, power grinding and infilling differ in their level of invasiveness."
+  ],
+  "answer": "Filling in carvings with ground sandstone and a bonding agent is less invasive than smoothing them away with a power grinder, which can greatly alter or damage the sandstone arches.",
+  "explanation": "The goal is to state an advantage of infilling, and this choice highlights that infilling is less invasive than power grinding, which can damage the rock. Choice A gives a drawback of grinding, C simply lists the two methods, and D only notes they differ without naming infilling’s benefit."
+}

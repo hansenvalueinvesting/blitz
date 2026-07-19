@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-05",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "Within baleen whale species, some individuals develop an accessory spleen—a seemingly functionless formation of splenetic tissue outside the normal spleen. Given the formation’s greater prevalence among whales known to make deeper dives, some researchers hypothesize that its role isn’t ______; rather, the accessory spleen may actively support diving mechanisms.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "replicable",
+    "predetermined",
+    "operative",
+    "latent"
+  ],
+  "answer": "latent",
+  "explanation": "The word “rather” sets up a contrast: the spleen may not be dormant or functionless but instead actively support diving. “Latent” captures the functionless idea being challenged. “Replicable,” “predetermined,” and “operative” don’t fit that contrast—“operative” is even the opposite of what the sentence needs."
+}

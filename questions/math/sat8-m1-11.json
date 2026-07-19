@@ -1,0 +1,17 @@
+{
+  "id": "sat8-m1-11",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat8",
+  "stem": "Which of the following equations is the most appropriate linear model for the data shown in the scatterplot?",
+  "choices": [
+    "y = −1.9x − 10.1",
+    "y = −1.9x + 10.1",
+    "y = 1.9x − 10.1",
+    "y = 1.9x + 10.1"
+  ],
+  "answer": "y = −1.9x + 10.1",
+  "explanation": "As x increases the data points fall, so the model must have a negative slope, and the points meet the y-axis at a positive value, so a positive y-intercept. Only y = −1.9x + 10.1 has both a negative slope and a positive y-intercept.",
+  "image": "sat8-m1-11.png"
+}

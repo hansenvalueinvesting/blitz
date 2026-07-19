@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m2-21",
+  "section": "math",
+  "module": 2,
+  "topic": "Percentages",
+  "source": "sat8",
+  "stem": "The regular price of a shirt at a store is $11.70. The sale price of the shirt is 80% less than the regular price, and the sale price is 30% greater than the store's cost for the shirt. What was the store's cost, in dollars, for the shirt? (Disregard the $ sign when entering your answer. For example, if your answer is $4.97, enter 4.97)",
+  "choices": [
+    "1.8"
+  ],
+  "answer": "1.8",
+  "explanation": "The sale price is 80% less than $11.70, so it is 0.20 × 11.70 = $2.34. Since $2.34 is 30% more than the cost x, we have 1.30x = 2.34, giving x = 1.8."
+}

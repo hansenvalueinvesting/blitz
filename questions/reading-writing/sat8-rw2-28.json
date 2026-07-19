@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-28",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat8",
+  "stem": "Etched into Peru’s Nazca Desert are line drawings so large that they can only be fully seen from high above. Archaeologists have known of the lines since the 1920s, when a researcher spotted some from a nearby foothill, and they have been studying the markings ever since. ______ archaeologists’ efforts are aided by drones that capture high-resolution aerial photographs of the lines.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Currently,",
+    "In comparison,",
+    "Still,",
+    "However,"
+  ],
+  "answer": "Currently,",
+  "explanation": "The drones represent the present-day continuation of the ongoing research described before, so “Currently” fits. “In comparison,” “Still,” and “However” wrongly imply a comparison or a contrast that the passage doesn’t set up."
+}

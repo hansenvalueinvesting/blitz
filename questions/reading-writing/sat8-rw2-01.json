@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-01",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "Art scholars have noted that some colors seem to be more _______ viewers than others. For example, people tend to find paintings featuring blues and greens more appealing than paintings featuring yellows and oranges.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "confusing for",
+    "attractive to",
+    "corrected by",
+    "similar to"
+  ],
+  "answer": "attractive to",
+  "explanation": "The example shows people preferring paintings with certain colors, so the missing phrase must mean those colors appeal more to viewers—“attractive to.” “Confusing for,” “corrected by,” and “similar to” don’t capture the idea of appeal that the example illustrates."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-19",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "To survive when water is scarce, embryos inside African turquoise killifish eggs ______ a dormant state known as diapause. In this state, embryonic development is paused for as long as two years—longer than the life span of an adult killifish.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "enter",
+    "to enter",
+    "having entered",
+    "entering"
+  ],
+  "answer": "enter",
+  "explanation": "The main clause needs a finite verb for its subject “embryos,” and the present-tense “enter” supplies it. The nonfinite forms “to enter,” “having entered,” and “entering” can’t serve as the clause’s main verb."
+}

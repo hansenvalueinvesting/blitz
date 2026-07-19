@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-01",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "As Mexico’s first president from an Indigenous community, Benito Juarez became one of the most _______ figures in his country’s history: among the many significant accomplishments of his long tenure in office (1858–1872), Juarez consolidated the authority of the national government and advanced the rights of Indigenous peoples.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "unpredictable",
+    "important",
+    "secretive",
+    "ordinary"
+  ],
+  "answer": "important",
+  "explanation": "In context, “important” means significant or consequential. The text calls Juarez the first Indigenous president of Mexico and lists major achievements from his long tenure, marking him as a notable figure. “Unpredictable,” “secretive,” and “ordinary” clash with this portrait of a consequential leader."
+}

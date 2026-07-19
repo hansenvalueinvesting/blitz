@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-31",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat8",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Most, but not all, of the Moon’s oxygen comes from the Sun, via solar wind.\n• Cosmochemist Kentaro Terada from Osaka University wondered if some of the unaccounted-for oxygen could be coming from Earth.\n• In 2008, he analyzed data from the Japanese satellite Kaguya.\n• Kaguya gathered data about gases and particles it encountered while orbiting the Moon.\n• Based on the Kaguya data, Terada confirmed his suspicion that Earth is sending oxygen to the Moon.\n\nThe student wants to emphasize the aim of the research study. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "As it orbited the Moon, the Kaguya satellite collected data that was later analyzed by cosmochemist Kentaro Terada.",
+    "Before 2008, Kentaro Terada wondered if the Moon was receiving some of its oxygen from Earth.",
+    "Cosmochemist Kentaro Terada set out to determine whether some of the Moon’s oxygen was coming from Earth.",
+    "Kentaro Terada’s study determined that Earth is sending a small amount of oxygen to the Moon."
+  ],
+  "answer": "Cosmochemist Kentaro Terada set out to determine whether some of the Moon’s oxygen was coming from Earth.",
+  "explanation": "Choice C states the study’s goal—what Terada “set out to determine”—which is exactly the aim the student wants to stress. The other options describe the satellite’s data collection, Terada’s prior curiosity, or the study’s final conclusion rather than its purpose."
+}

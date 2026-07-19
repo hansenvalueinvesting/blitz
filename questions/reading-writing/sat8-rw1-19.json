@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-19",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "When writing The Other Black Girl (2021), novelist Zakiya Dalila Harris drew on her own experiences working at a publishing office. The award-winning book is Harris’s first novel, but her writing _______ honored before. At the age of twelve, she entered a contest to have a story published in American Girl magazine—and won.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "were",
+    "have been",
+    "has been",
+    "are"
+  ],
+  "answer": "has been",
+  "explanation": "The subject “her writing” is singular, so it needs the singular verb “has been.” The plural forms “were,” “have been,” and “are” don’t agree with that singular subject."
+}

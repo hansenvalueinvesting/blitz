@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m1-07",
+  "section": "math",
+  "module": 1,
+  "topic": "Percentages",
+  "source": "sat8",
+  "stem": "Out of 300 seeds that were planted, 80% sprouted. How many of these seeds sprouted?",
+  "choices": [
+    "240"
+  ],
+  "answer": "240",
+  "explanation": "Take 80% of 300: 0.80 × 300 = 240 seeds sprouted."
+}

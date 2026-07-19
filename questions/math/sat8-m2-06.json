@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m2-06",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat8",
+  "stem": "The function g is defined by g(x) = 6x. For what value of x is g(x) = 54 ?",
+  "choices": [
+    "9"
+  ],
+  "answer": "9",
+  "explanation": "Setting g(x) = 54 gives 6x = 54. Dividing both sides by 6 yields x = 9."
+}
