@@ -14,20 +14,22 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Blitz">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#0a0e14; --panel:#111823; --panel2:#0d141d; --line:#1e2a38;
     --ink:#e6edf3; --dim:#7d8da3; --faint:#4a5b70;
     --math:#4fd1c5; --rw:#f6a04d; --ok:#3fb950; --bad:#f75c68;
     --accent:#4fd1c5;
+    /* Adobe editorial pairing: Minion Pro (serif) for reading content,
+       Myriad Pro (sans) for UI/labels/data. Both are Adobe fonts, so they
+       render when installed locally and fall back gracefully otherwise. */
+    --serif:'Minion Pro',Georgia,'Times New Roman',serif;
+    --sans:'Myriad Pro','Segoe UI',system-ui,-apple-system,sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
   html,body{height:100%;overflow:hidden}
-  body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',system-ui,sans-serif}
-  .mono{font-family:'JetBrains Mono',monospace}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans)}
+  .mono{font-family:var(--sans)}
 
   #feed{height:100svh;overflow-y:scroll;scroll-snap-type:y mandatory;
         overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch}
@@ -39,33 +41,33 @@
   /* auto margins center content when it fits but stay scrollable (never clipped) when it overflows */
   .card>.tags{margin-top:auto}
   .card>.body{margin-bottom:auto}
-  .passage{font-size:14px;line-height:1.5;color:var(--dim);background:var(--panel2);
+  .passage{font-family:var(--serif);font-size:15px;line-height:1.55;color:var(--dim);background:var(--panel2);
            border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px;
            white-space:pre-wrap}
   .figure{max-width:100%;border-radius:10px;background:#fff;padding:8px;margin-bottom:16px;
           border:1px solid var(--line)}
   .tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
-  .tag{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.04em;
+  .tag{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.04em;
        text-transform:uppercase;padding:5px 9px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
   .tag.sec-math{color:var(--math);border-color:color-mix(in srgb,var(--math) 40%,transparent)}
   .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
-  .stem{font-size:14px;line-height:1.5;font-weight:500;margin-bottom:18px;white-space:pre-wrap}
+  .stem{font-family:var(--serif);font-size:15px;line-height:1.55;font-weight:500;margin-bottom:18px;white-space:pre-wrap}
   .choices{display:flex;flex-direction:column;gap:8px}
   /* each choice sits in a wrap so a horizontal swipe reveals the cross-out hint behind it */
   .choice-wrap{position:relative;border-radius:10px;overflow:hidden}
   .swipe-hint{position:absolute;inset:0;border-radius:10px;display:flex;align-items:center;justify-content:space-between;
               padding:0 18px;background:color-mix(in srgb,var(--bad) 15%,var(--panel));color:var(--bad);
-              font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;
+              font-family:var(--sans);font-weight:700;font-size:15px;
               opacity:0;transition:opacity .12s ease;pointer-events:none}
   .choice-wrap.swiping .swipe-hint{opacity:1}
   .choice{position:relative;z-index:1;width:100%;display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
           border:1px solid var(--line);border-radius:10px;cursor:pointer;touch-action:pan-y;
           transition:border-color .15s,background .15s,transform .2s ease;
-          font-family:'Space Grotesk',system-ui,sans-serif;color:var(--ink);
-          font-size:14px;line-height:1.4;text-align:left;white-space:pre-wrap}
+          font-family:var(--serif);color:var(--ink);
+          font-size:15px;line-height:1.45;text-align:left;white-space:pre-wrap}
   .choice.dragging{transition:border-color .15s,background .15s}   /* follow the finger instantly while dragging */
   .choice:active{background:var(--panel2)}
-  .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
+  .choice .key{font-family:var(--sans);font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
   .choice.selected{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,var(--panel))}
   .choice.selected .key{color:var(--accent)}
   .choice.will-elim{border-color:color-mix(in srgb,var(--bad) 55%,transparent)}
@@ -76,10 +78,10 @@
   .choice.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
   .choice.wrong .key{color:var(--bad)}
   .choice.locked{cursor:default}
-  .mc-hint{margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.06em;
+  .mc-hint{margin-top:10px;font-family:var(--sans);font-size:10.5px;letter-spacing:.06em;
            text-transform:uppercase;color:var(--faint);text-align:center}
   .explain{margin-top:16px;padding:13px 15px;background:var(--panel2);border-left:3px solid var(--accent);
-           border-radius:0 8px 8px 0;font-size:14px;line-height:1.5;color:var(--dim);display:none}
+           border-radius:0 8px 8px 0;font-family:var(--serif);font-size:15px;line-height:1.55;color:var(--dim);display:none}
   .explain.show{display:block;animation:rise .25s ease}
   .explain b{color:var(--ink);font-weight:700}
   @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -95,23 +97,23 @@
     .choice.correct,.fin.correct,.confetti i{animation:none}
     .confetti{display:none}
   }
-  .loading{color:var(--faint);font-family:'JetBrains Mono',monospace;font-size:13px}
+  .loading{color:var(--faint);font-family:var(--sans);font-size:13px}
   .card>.loading{margin:auto;text-align:center}   /* a not-yet-loaded card just centers "loading…" */
-  .hint{margin-top:22px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;
+  .hint{margin-top:22px;text-align:center;font-family:var(--sans);font-size:11px;
         letter-spacing:.1em;color:var(--faint);text-transform:uppercase}
   /* student-produced-response (fill-in) questions */
   .fillin{display:flex;gap:9px}
   .fin{flex:1;min-width:0;padding:12px 14px;background:var(--panel);border:1px solid var(--line);
-       border-radius:10px;color:var(--ink);font-size:14px;font-family:'JetBrains Mono',monospace}
+       border-radius:10px;color:var(--ink);font-size:14px;font-family:var(--sans)}
   .fin::placeholder{color:var(--faint)}
   .fin:focus{outline:none;border-color:var(--accent)}
   .fin.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
   .fin.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
   .fin:disabled{opacity:1}
   .fcheck{padding:12px 18px;background:var(--accent);color:var(--bg);border:none;border-radius:10px;
-          font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;cursor:pointer;flex:none}
+          font-family:var(--sans);font-weight:700;font-size:13px;cursor:pointer;flex:none}
   .fcheck:disabled{opacity:.5;cursor:default}
-  .solution{margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:13px;display:none}
+  .solution{margin-top:12px;font-family:var(--sans);font-size:13px;display:none}
   .solution.show{display:block}
   .solution.ok{color:var(--ok)}
   .solution.bad{color:var(--bad)}
@@ -121,9 +123,9 @@
        background:linear-gradient(180deg,var(--bg) 72%,transparent)}
   .bar-top{display:flex;align-items:center;justify-content:space-between}
   .bar-actions{display:flex;gap:8px}
-  .brand{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;letter-spacing:.02em}
+  .brand{font-family:var(--sans);font-weight:700;font-size:15px;letter-spacing:.02em}
   .brand span{color:var(--accent)}
-  .streak{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--dim);
+  .streak{font-family:var(--sans);font-size:11px;color:var(--dim);
           text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .gear{background:none;border:1px solid var(--line);color:var(--dim);width:36px;height:36px;border-radius:8px;
         font-size:16px;cursor:pointer;display:grid;place-items:center}
@@ -140,12 +142,12 @@
   .grip{width:38px;height:4px;background:var(--line);border-radius:2px;margin:8px auto 18px}
   .install-os{margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid var(--line)}
   .install-os:last-of-type{border-bottom:none;margin-bottom:8px}
-  .install-os .gh{font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:600;
+  .install-os .gh{font-family:var(--sans);font-size:13px;font-weight:600;
                   margin-bottom:9px;display:flex;align-items:center;gap:7px}
   .install-steps{margin:0;padding-left:20px;font-size:14px;line-height:1.55;color:var(--ink)}
   .install-steps li{margin-bottom:6px}
   .install-steps b{color:var(--accent);font-weight:600}
-  .sheet h2{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;text-transform:uppercase;
+  .sheet h2{font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;
             color:var(--dim);margin:24px 0 12px}
   .sheet h2:first-of-type{margin-top:0}
   .slabel{display:flex;justify-content:space-between;font-size:14px;margin-bottom:9px}
@@ -154,7 +156,7 @@
   input[type=range]{-webkit-appearance:none;width:100%;height:6px;border-radius:3px;background:var(--line);outline:none}
   input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;
        background:var(--accent);cursor:pointer;border:3px solid var(--bg);box-shadow:0 0 0 1px var(--accent)}
-  .pct{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--faint);text-align:center;margin-top:8px}
+  .pct{font-family:var(--sans);font-size:12px;color:var(--faint);text-align:center;margin-top:8px}
   .topicgroup{margin-bottom:16px}
   .topicgroup .gh{font-size:13px;font-weight:500;margin-bottom:9px;display:flex;align-items:center;gap:7px}
   .topicgroup .gh.math{color:var(--math)}.topicgroup .gh.rw{color:var(--rw)}
@@ -165,23 +167,23 @@
   .chip.on.math{background:var(--math);border-color:var(--math)}
   .chip.on.rw{background:var(--rw);border-color:var(--rw)}
   .done{width:100%;margin-top:26px;padding:15px;background:var(--accent);color:var(--bg);border:none;
-        border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;
+        border-radius:11px;font-family:var(--sans);font-weight:700;font-size:14px;
         letter-spacing:.05em;cursor:pointer}
   .done:active{opacity:.85}
   .data-section{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
   .wipe{width:100%;padding:14px;background:none;border:1px solid color-mix(in srgb,var(--bad) 55%,var(--line));
-        color:var(--bad);border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;
+        color:var(--bad);border-radius:11px;font-family:var(--sans);font-weight:700;
         font-size:13px;letter-spacing:.05em;cursor:pointer;transition:background .15s}
   .wipe:active{background:color-mix(in srgb,var(--bad) 14%,transparent)}
   .empty{height:100svh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
-  .empty .big{font-family:'JetBrains Mono',monospace;font-size:15px;color:var(--ink);margin-bottom:10px}
+  .empty .big{font-family:var(--sans);font-size:15px;color:var(--ink);margin-bottom:10px}
 
   /* bottom tool dock: drawing + calculator */
   .tools{position:fixed;left:0;right:0;bottom:0;z-index:22;display:flex;gap:10px;justify-content:center;
          padding:10px 20px calc(env(safe-area-inset-bottom) + 12px);pointer-events:none}
   .toolbtn{pointer-events:auto;display:flex;align-items:center;gap:7px;background:var(--panel);
            border:1px solid var(--line);color:var(--dim);padding:10px 15px;border-radius:22px;
-           font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;letter-spacing:.04em;
+           font-family:var(--sans);font-size:12px;font-weight:500;letter-spacing:.04em;
            text-transform:uppercase;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.45)}
   .toolbtn:active{background:var(--panel2)}
   .toolbtn.active{color:var(--bg);background:var(--accent);border-color:var(--accent)}
@@ -194,7 +196,7 @@
   .draw-tools{position:fixed;left:0;right:0;bottom:0;z-index:26;display:flex;gap:10px;justify-content:center;
               padding:10px 20px calc(env(safe-area-inset-bottom) + 12px)}
   .draw-tools button{border:1px solid var(--line);padding:11px 20px;border-radius:22px;
-              font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.05em;
+              font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.05em;
               text-transform:uppercase;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.5)}
   .draw-tools .clear{background:var(--panel);color:var(--bad);
               border-color:color-mix(in srgb,var(--bad) 45%,var(--line))}
@@ -210,7 +212,7 @@
   .calc-sheet.open{transform:none}
   .calc-head{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;
          border-bottom:1px solid var(--line);flex:none}
-  .calc-head .t{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;
+  .calc-head .t{font-family:var(--sans);font-size:13px;letter-spacing:.12em;
          text-transform:uppercase;color:var(--dim)}
   .calc-x{background:none;border:1px solid var(--line);color:var(--dim);width:34px;height:34px;
          border-radius:8px;font-size:16px;cursor:pointer;display:grid;place-items:center}
@@ -229,7 +231,7 @@
   .ref-cell{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px 8px 10px;
          display:flex;flex-direction:column;align-items:center;gap:8px;text-align:center}
   .ref-cell svg{width:96px;height:64px;display:block}
-  .ref-cell .f{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--ink);line-height:1.5}
+  .ref-cell .f{font-family:var(--sans);font-size:12px;color:var(--ink);line-height:1.5}
   .ref-note{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);
          font-size:12.5px;line-height:1.5;color:var(--dim)}
   .ref-note div{margin-bottom:6px}
