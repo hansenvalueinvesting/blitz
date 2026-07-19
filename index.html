@@ -19,7 +19,7 @@
   body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',system-ui,sans-serif}
   .mono{font-family:'JetBrains Mono',monospace}
 
-  #feed{height:100svh;overflow-y:scroll;scroll-snap-type:y proximity;
+  #feed{height:100svh;overflow-y:scroll;scroll-snap-type:y mandatory;
         overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch}
   #feed::-webkit-scrollbar{display:none}
   .card{height:100svh;scroll-snap-align:start;scroll-snap-stop:always;display:flex;flex-direction:column;
@@ -207,7 +207,24 @@ async function init(){
   paintStreak();
   buildSettingsUI();
   wireSheet();
+  feed.addEventListener('scroll', onFeedScroll, {passive:true});
   refill(true);
+}
+
+// Infinite feed: append more cards as you scroll toward the end (reels-style),
+// so the next question is ready by the time you snap to it — independent of answering.
+let scrollTick=false;
+function onFeedScroll(){
+  if(scrollTick) return;
+  scrollTick=true;
+  requestAnimationFrame(()=>{
+    scrollTick=false;
+    if(!feed.querySelector('.card')) return;   // nothing to page through (empty state)
+    // within ~2 screens of the bottom -> load the next couple of questions
+    if(feed.scrollTop + feed.clientHeight > feed.scrollHeight - feed.clientHeight*2){
+      appendCard(); appendCard();
+    }
+  });
 }
 
 function maybeGateDesktop(){
@@ -337,8 +354,6 @@ function answer(card,btn,chosen,correctAns){
   seen++; if(right) correct++;
   saveProgress(); paintStreak();
   card.querySelector('.explain').classList.add('show');
-  const idx=[...feed.children].indexOf(card);
-  if(feed.children.length-idx<4){ appendCard(); appendCard(); }
 }
 
 function buildSettingsUI(){
