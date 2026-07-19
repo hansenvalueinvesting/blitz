@@ -19,13 +19,17 @@
   body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',system-ui,sans-serif}
   .mono{font-family:'JetBrains Mono',monospace}
 
-  #feed{height:100dvh;overflow-y:scroll;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+  #feed{height:100svh;overflow-y:scroll;scroll-snap-type:y proximity;
+        overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch}
   #feed::-webkit-scrollbar{display:none}
-  .card{height:100dvh;scroll-snap-align:start;display:flex;flex-direction:column;
-        padding:calc(env(safe-area-inset-top) + 60px) 22px calc(env(safe-area-inset-bottom) + 24px);
-        justify-content:center;overflow-y:auto}
+  .card{height:100svh;scroll-snap-align:start;scroll-snap-stop:always;display:flex;flex-direction:column;
+        padding:calc(env(safe-area-inset-top) + 56px) 22px calc(env(safe-area-inset-bottom) + 24px);
+        overflow-y:auto;overscroll-behavior:contain}
   .card::-webkit-scrollbar{display:none}
-  .passage{font-size:15px;line-height:1.5;color:var(--dim);background:var(--panel2);
+  /* auto margins center content when it fits but stay scrollable (never clipped) when it overflows */
+  .card>.tags{margin-top:auto}
+  .card>.body{margin-bottom:auto}
+  .passage{font-size:13px;line-height:1.5;color:var(--dim);background:var(--panel2);
            border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px;
            white-space:pre-wrap}
   .figure{max-width:100%;border-radius:10px;background:#fff;padding:8px;margin-bottom:16px;
@@ -35,20 +39,20 @@
        text-transform:uppercase;padding:5px 9px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
   .tag.sec-math{color:var(--math);border-color:color-mix(in srgb,var(--math) 40%,transparent)}
   .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
-  .stem{font-size:22px;line-height:1.42;font-weight:500;margin-bottom:26px}
-  .choices{display:flex;flex-direction:column;gap:10px}
-  .choice{display:flex;align-items:flex-start;gap:12px;padding:15px 16px;background:var(--panel);
+  .stem{font-size:17px;line-height:1.42;font-weight:500;margin-bottom:20px}
+  .choices{display:flex;flex-direction:column;gap:8px}
+  .choice{display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
           border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s;
-          font-size:16px;line-height:1.35;text-align:left}
+          font-size:14px;line-height:1.35;text-align:left}
   .choice:active{background:var(--panel2)}
-  .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:14px;margin-top:1px}
+  .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
   .choice.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
   .choice.correct .key{color:var(--ok)}
   .choice.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
   .choice.wrong .key{color:var(--bad)}
   .choice.locked{cursor:default}
-  .explain{margin-top:20px;padding:15px 16px;background:var(--panel2);border-left:3px solid var(--accent);
-           border-radius:0 8px 8px 0;font-size:15px;line-height:1.5;color:var(--dim);display:none}
+  .explain{margin-top:16px;padding:13px 15px;background:var(--panel2);border-left:3px solid var(--accent);
+           border-radius:0 8px 8px 0;font-size:13px;line-height:1.5;color:var(--dim);display:none}
   .explain.show{display:block;animation:rise .25s ease}
   .explain b{color:var(--ink);font-weight:700}
   @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -98,8 +102,21 @@
         border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;
         letter-spacing:.05em;cursor:pointer}
   .done:active{opacity:.85}
-  .empty{height:100dvh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
+  .empty{height:100svh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
   .empty .big{font-family:'JetBrains Mono',monospace;font-size:15px;color:var(--ink);margin-bottom:10px}
+
+  .desktop-gate{position:fixed;inset:0;z-index:50;background:var(--bg);display:none;
+                flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px}
+  .desktop-gate.show{display:flex}
+  .desktop-gate .dg-brand{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;letter-spacing:.02em;margin-bottom:22px}
+  .desktop-gate .dg-brand span{color:var(--accent)}
+  .desktop-gate .dg-phone{font-size:52px;margin-bottom:20px;line-height:1}
+  .desktop-gate h1{font-size:20px;font-weight:600;margin-bottom:12px;max-width:22ch}
+  .desktop-gate p{font-size:14px;line-height:1.55;color:var(--dim);max-width:34ch;margin-bottom:26px}
+  .desktop-gate .dg-go{background:none;border:1px solid var(--line);color:var(--dim);
+        padding:11px 18px;border-radius:10px;font-family:'JetBrains Mono',monospace;font-size:13px;
+        letter-spacing:.04em;cursor:pointer}
+  .desktop-gate .dg-go:hover{color:var(--ink);border-color:var(--faint)}
 </style>
 </head>
 <body>
@@ -111,6 +128,14 @@
 </div>
 
 <div id="feed"></div>
+
+<div class="desktop-gate" id="desktopGate">
+  <div class="dg-brand">blitz<span>.</span></div>
+  <div class="dg-phone">📱</div>
+  <h1>Blitz is built for your phone</h1>
+  <p>It’s a vertical, swipe-through question feed — like scrolling a social app. Open this page on your phone for the intended experience.</p>
+  <button class="dg-go" id="dgGo">Use on desktop anyway</button>
+</div>
 
 <div class="scrim" id="scrim"></div>
 <div class="sheet" id="sheet">
@@ -152,6 +177,7 @@ const feed=$('feed');
 
 init();
 async function init(){
+  maybeGateDesktop();
   try{
     const r=await fetch('directory.json',{cache:'no-store'});
     if(!r.ok) throw 0;
@@ -168,6 +194,17 @@ async function init(){
   buildSettingsUI();
   wireSheet();
   refill(true);
+}
+
+function maybeGateDesktop(){
+  // "Desktop" = wide screen with a precise (mouse/trackpad) primary pointer.
+  // Touch phones report a coarse pointer, so they pass straight through.
+  const isDesktop = window.matchMedia('(min-width:760px)').matches
+                 && window.matchMedia('(pointer:fine)').matches;
+  if(!isDesktop) return;
+  const gate=$('desktopGate');
+  gate.classList.add('show');
+  $('dgGo').onclick=()=>gate.classList.remove('show');
 }
 
 function loadSettings(){
