@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-23",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Featuring jagged peaks of black ink surrounded by hazy swirls of blue and green paint, Zhang Daqian’s 1983 painting Panorama of Mount Lu is inspired by the tradition of qinglü shanshui, a type of Chinese landscape painting _______ by the use of blue and green hues to depict ethereal, otherworldly landscapes.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "has been characterized",
+    "will be characterized",
+    "characterized",
+    "is characterized"
+  ],
+  "answer": "characterized",
+  "explanation": "The nonfinite past participle “characterized” correctly begins a modifying phrase that describes “qinglü shanshui.” Each of the finite verbs — “has been characterized,” “will be characterized,” and “is characterized” — would start a second main clause that the lone comma can’t join, creating a comma splice."
+}

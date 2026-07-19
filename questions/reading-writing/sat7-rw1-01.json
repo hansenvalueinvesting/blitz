@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-01",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat7",
+  "stem": "On the basis of extensive calculations and models, astronomers in the 1990s predicted that the collision of two neutron stars or a neutron star and a black hole could release a massive burst of gamma rays in an event called a kilonova. This _______ was confirmed with observations in 2017.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "theory",
+    "evidence",
+    "constant",
+    "experiment"
+  ],
+  "answer": "theory",
+  "explanation": "A “theory” here is a well-supported scientific explanation. The astronomers built their prediction from extensive calculations and models, making it a theory that later observations in 2017 confirmed. A prediction isn’t itself “evidence,” a “constant” (an unchanging factor), or an “experiment” (a controlled test)."
+}

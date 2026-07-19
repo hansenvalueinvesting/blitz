@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-05",
+  "section": "math",
+  "module": 2,
+  "topic": "Statistics and probability",
+  "source": "sat7",
+  "stem": "−11, −9, 26\n\nA data set of three numbers is shown. If a number from this data set is selected at random, what is the probability of selecting a positive number?",
+  "choices": [
+    "0",
+    "1/3",
+    "2/3",
+    "1"
+  ],
+  "answer": "1/3",
+  "explanation": "Only one of the three values (26) is positive. The probability of picking a positive number is therefore the 1 positive value out of 3 total values, or 1/3."
+}

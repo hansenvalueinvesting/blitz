@@ -1,0 +1,13 @@
+{
+  "id": "sat7-m2-20",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "2x² − 8x − 7 = 0\n\nOne solution to the given equation can be written as (8 − √k)/4, where k is a constant. What is the value of k?",
+  "choices": [
+    "120"
+  ],
+  "answer": "120",
+  "explanation": "Using the quadratic formula with a = 2, b = −8, c = −7, the discriminant is (−8)² − 4(2)(−7) = 64 + 56 = 120. The solutions are (8 ± √120)/4, so matching the given form gives k = 120."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-27",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "f(x) = (x − 2)(x + 15)\n\nThe function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
+  "choices": ["-13/2"],
+  "answer": "-13/2",
+  "explanation": "The parabola's minimum occurs at the x-value midway between its x-intercepts. The intercepts are x = 2 and x = −15, so the minimum is at their midpoint, (2 + (−15))/2 = −13/2."
+}

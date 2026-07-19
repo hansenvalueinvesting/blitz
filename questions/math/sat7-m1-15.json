@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-15",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "A circle in the xy-plane has the equation (x − 13)² + (y − k)² = 64. Which of the following gives the center of the circle and its radius?",
+  "choices": ["The center is at (13, k) and the radius is 8.", "The center is at (k, 13) and the radius is 8.", "The center is at (k, 13) and the radius is 64.", "The center is at (13, k) and the radius is 64."],
+  "answer": "The center is at (13, k) and the radius is 8.",
+  "explanation": "In the standard form (x − h)² + (y − k)² = r², the center is (h, k) and the radius is r. Here h = 13, the second constant is k, and r² = 64, so r = 8. The center is (13, k) with radius 8."
+}

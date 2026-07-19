@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-22",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat7",
+  "stem": "x | f(x)\n−4 | 0\n−19/5 | 1\n−18/5 | 2\n\nFor the linear function f, the table shows three values of x and their corresponding values of f(x). If h(x) = f(x) − 13, which equation defines h?",
+  "choices": [
+    "h(x) = 5x − 4",
+    "h(x) = 5x + 7",
+    "h(x) = 5x + 9",
+    "h(x) = 5x + 20"
+  ],
+  "answer": "h(x) = 5x + 7",
+  "explanation": "Between x = −4 and x = −19/5 the input rises by 1/5 while f rises by 1, so the slope is 5. Using f(−4) = 0 gives f(x) = 5x + 20. Then h(x) = f(x) − 13 = 5x + 20 − 13 = 5x + 7."
+}

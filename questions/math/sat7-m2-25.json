@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-25",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "x² + 14x + y² = 6y + 109\n\nIn the xy-plane, the graph of the given equation is a circle. What is the length of the circle's radius?",
+  "choices": [
+    "√109",
+    "√149",
+    "√167",
+    "√341"
+  ],
+  "answer": "√167",
+  "explanation": "Move 6y left and complete the square: (x² + 14x + 49) + (y² − 6y + 9) = 109 + 49 + 9, which gives (x + 7)² + (y − 3)² = 167. Since r² = 167, the radius is √167."
+}

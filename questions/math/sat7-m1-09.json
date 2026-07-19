@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-09",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "Triangles EFG and JKL are congruent, where E, F, and G correspond to J, K, and L, respectively. The measure of angle E is 45° and the measure of angle F is 20°. What is the measure of angle J ?",
+  "choices": ["20°", "45°", "135°", "160°"],
+  "answer": "45°",
+  "explanation": "Corresponding angles of congruent triangles are equal. Angle E corresponds to angle J, so angle J has the same measure as angle E, which is 45°."
+}

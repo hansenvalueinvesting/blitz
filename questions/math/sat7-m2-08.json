@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-08",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "If 8x = 6, what is the value of 72x?",
+  "choices": [
+    "3",
+    "15",
+    "54",
+    "57"
+  ],
+  "answer": "54",
+  "explanation": "Since 72x is just 9 times 8x, multiply both sides of 8x = 6 by 9 to get 72x = 54. Choice A (3) is 4x, not 72x."
+}

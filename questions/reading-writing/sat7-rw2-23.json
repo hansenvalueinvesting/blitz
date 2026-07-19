@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-23",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "As the fourteenth US librarian of Congress, Carla Hayden has many responsibilities. These include overseeing the Library of Congress’s collections, which boast more than 162 million _______ the US Copyright Office, which registers copyright claims and advises Congress on copyright law; and appointing the US poet laureate.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "items managing",
+    "items, managing",
+    "items; managing",
+    "items. Managing"
+  ],
+  "answer": "items; managing",
+  "explanation": "This is a list of responsibilities whose items already contain commas, so semicolons must separate them. The semicolon after “items” pairs with the later semicolon to divide the three items cleanly. A comma or no punctuation muddles the series, and a period creates a fragment beginning with “Managing.”"
+}

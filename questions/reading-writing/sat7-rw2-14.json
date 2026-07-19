@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-14",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (textual)",
+  "source": "sat7",
+  "stem": "Janet Echelman is a sculptor and fiber artist. She has installed giant sculptures all over the world. Echelman uses bright and flowing materials, which mimic the wind. However, while her sculptures appear as delicate as a breeze, they are actually very durable.\n\nWhich quotation from an article about Echelman’s sculptures, if true, would most effectively illustrate the underlined claim?",
+  "choices": [
+    "“Echelman uses a special program that makes a 3D model of the sculpture.”",
+    "“The first part of planning a new sculpture is done using paper and pencil, and then a digital program is used to finalize the design.”",
+    "“The materials that Echelman uses to build her sculptures are both flexible and strong.”",
+    "“Each sculpture is designed to reflect local landmarks from the area in which it is eventually installed.”"
+  ],
+  "answer": "“The materials that Echelman uses to build her sculptures are both flexible and strong.”",
+  "explanation": "The claim is that the sculptures look delicate yet are actually durable, so evidence that the materials are “flexible and strong” directly supports it. The other quotations are about her 3D modeling, her planning process, and how the works reflect their locations—none of which addresses durability."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-04",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "Lorenzo purchased a box of cereal and some strawberries at the grocery store. Lorenzo paid $2 for the box of cereal and $1.90 per pound for the strawberries. If Lorenzo paid a total of $9.60 for the box of cereal and the strawberries, which of the following equations can be used to find p, the number of pounds of strawberries Lorenzo purchased? (Assume there is no sales tax.)",
+  "choices": ["1.90p + 2 = 9.60", "1.90p − 2 = 9.60", "1.90 + 2p = 9.60", "1.90 − 2p = 9.60"],
+  "answer": "1.90p + 2 = 9.60",
+  "explanation": "The strawberries cost 1.90p dollars for p pounds, and the cereal adds a fixed $2. Their sum equals the $9.60 total, so 1.90p + 2 = 9.60."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-01",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "A total of 165 people contributed to a charity event as either a donor or a volunteer. 130 people contributed as a donor. How many people contributed as a volunteer?",
+  "choices": [
+    "35",
+    "130",
+    "165",
+    "330"
+  ],
+  "answer": "35",
+  "explanation": "Every contributor was either a donor or a volunteer, so the two groups sum to 165. Subtracting the 130 donors leaves 165 − 130 = 35 volunteers."
+}

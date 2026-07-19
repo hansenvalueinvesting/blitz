@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-02",
+  "section": "math",
+  "module": 2,
+  "topic": "Percentages",
+  "source": "sat7",
+  "stem": "There are 250 trees in a park. Of these trees, 6% are birch trees. How many birch trees are in the park?",
+  "choices": [
+    "6",
+    "15",
+    "75",
+    "244"
+  ],
+  "answer": "15",
+  "explanation": "Taking 6% of the 250 trees means multiplying 250 by 0.06, which gives 15 birch trees. Choice A just repeats the percent, and choice C is 30% of 250 rather than 6%."
+}

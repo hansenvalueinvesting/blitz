@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-02",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "Rectangle P has an area of 72 square inches. If a rectangle with an area of 20 square inches is removed from rectangle P, what is the area, in square inches, of the resulting figure?",
+  "choices": ["92", "84", "80", "52"],
+  "answer": "52",
+  "explanation": "Removing a region of area 20 from a figure of area 72 leaves 72 − 20 = 52 square inches."
+}

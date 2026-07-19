@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-26",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Recently unearthed Neronian tools in France dating to 54,000 years ago and attributed to Homo sapiens may provide evidence that interactions between Neanderthals and modern humans occurred 10,000 years earlier than was previously _______ finding that, if true, would overturn current theories about H. sapiens migration during the Upper Paleolithic.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "supposed; a",
+    "supposed. A",
+    "supposed a",
+    "supposed, a"
+  ],
+  "answer": "supposed, a",
+  "explanation": "A comma correctly attaches the supplementary element “a finding…Paleolithic” to the main clause it describes. A semicolon or period can’t join a full clause to that fragment, and omitting punctuation altogether (“supposed a”) creates a run-on."
+}

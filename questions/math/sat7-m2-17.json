@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-17",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "Which expression is equivalent to (h¹⁵q⁷)/(h⁵q²¹), where h > 0 and q > 0?",
+  "choices": [
+    "h¹⁰/q¹⁴",
+    "h³/q³",
+    "h¹⁰q¹⁴",
+    "h³q³"
+  ],
+  "answer": "h¹⁰/q¹⁴",
+  "explanation": "Subtract exponents of like bases: h^(15−5) = h¹⁰ and q^(7−21) = q^(−14). The negative exponent moves q to the denominator, giving h¹⁰/q¹⁴."
+}

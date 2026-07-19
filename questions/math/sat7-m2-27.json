@@ -1,0 +1,13 @@
+{
+  "id": "sat7-m2-27",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "y = −2.5\ny = x² + 8x + k\n\nIn the given system of equations, k is a positive integer constant. The system has no real solutions. What is the least possible value of k?",
+  "choices": [
+    "14"
+  ],
+  "answer": "14",
+  "explanation": "Setting the equations equal gives x² + 8x + (k + 2.5) = 0. This has no real solution when the discriminant 8² − 4(k + 2.5) is negative, which means 64 < 4(k + 2.5), so k > 13.5. The least positive integer satisfying this is 14."
+}

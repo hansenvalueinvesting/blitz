@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-17",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat7",
+  "stem": "Data collected by the Mars rover Curiosity at the Gale Crater’s Murray Formation are suggestive of hydrological deposition of sediment in the distant past. To characterize the nature of the depositional environment, Frances Rivera-Hernández et al. analyzed the grain size of Murray Formation sediment, finding that although there are intervals of coarse grains, most of the sediment consists of fine grains that show signs of cracking due to episodic desiccation. Rivera-Hernández et al. concluded that the coarse grains are sandstone, which tends to be deposited by flowing water, whereas the fine grains are mudstone, which is slowly deposited by settling out of suspension in low-flow water, leading the researchers to posit that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "although the area of the Murray Formation experienced a prolonged period of dryness that prevented a lake from forming, water flowing from a distant source was present.",
+    "a lake existed at the Murray Formation for a prolonged period, though the lake occasionally experienced drying and there were periods in which one or more streams were present.",
+    "one or more streams existed at the Murray Formation for an extended period until being replaced by a lake that persisted for only a brief period before permanently drying.",
+    "a stream-fed lake was present at the Murray Formation for an extended period, and although the streams experienced occasional drying, the lake did not."
+  ],
+  "answer": "a lake existed at the Murray Formation for a prolonged period, though the lake occasionally experienced drying and there were periods in which one or more streams were present.",
+  "explanation": "The abundant fine grains point to a long-lasting body of low-flow water (a lake), the cracks indicate that it periodically dried out, and the coarse grains signal intervals with flowing streams. Choice B captures all three. The others deny a lake formed, shorten the lake’s existence, or claim the lake never dried despite the desiccation cracks in the fine grains."
+}

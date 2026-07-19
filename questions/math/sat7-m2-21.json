@@ -1,0 +1,13 @@
+{
+  "id": "sat7-m2-21",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "A line intersects two parallel lines, forming four acute angles and four obtuse angles. The measure of one of the acute angles is (9x − 560)°. The sum of the measures of one of the acute angles and three of the obtuse angles is (−18x + w)°. What is the value of w?",
+  "choices": [
+    "1660"
+  ],
+  "answer": "1660",
+  "explanation": "All four acute angles are equal and each obtuse angle is its supplement, (180 − (9x − 560))° = (−9x + 740)°. One acute plus three obtuse is (9x − 560) + 3(−9x + 740) = −18x + 1,660. Matching (−18x + w)° gives w = 1,660."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sat7-m1-01",
+  "section": "math",
+  "module": 1,
+  "topic": "Data analysis",
+  "source": "sat7",
+  "stem": "The scatterplot shows the temperature, in degrees Fahrenheit (°F), and the distance above sea level, in feet, measured at 6 locations on Mount Jefferson. A line of best fit is also shown.\n\nAt a distance of 4,000 feet above sea level, what is the temperature, in °F, predicted by the line of best fit?",
+  "choices": ["47", "35", "25", "0"],
+  "answer": "35",
+  "explanation": "On the line of best fit, the point whose x-value is 4,000 feet has a y-value of 35, so the predicted temperature there is 35°F. The value 47 is the prediction at 0 feet, and 25 is a measured point rather than the line's value.",
+  "image": "sat7-m1-01.png"
+}

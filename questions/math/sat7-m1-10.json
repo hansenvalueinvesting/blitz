@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-10",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat7",
+  "stem": "The function f is defined by f(x) = (1/2)(x + 6). What is the value of f(4) ?",
+  "choices": ["20", "12", "10", "5"],
+  "answer": "5",
+  "explanation": "Substituting 4 for x gives f(4) = (1/2)(4 + 6) = (1/2)(10) = 5."
+}

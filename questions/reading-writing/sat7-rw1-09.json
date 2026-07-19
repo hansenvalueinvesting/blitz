@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-09",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat7",
+  "stem": "In 2023 literary scholar Jeremy Douglass cautioned technology investors and enthusiasts who predict conventional books’ ultimate displacement by newer forms of media. Douglass observed that _the concept of an “interactive” text is much older than technologists assume, extending back to the first time readers scratched notes into a text’s margins._ In addition, newer media, such as video games, haven’t replaced older forms of entertainment, such as comic books, but rather exist alongside them. Douglass believes that rather than supplanting books, technology is simply making new forms of expression possible.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+  "choices": [
+    "It challenges the stance of the investors and enthusiasts who are mentioned earlier in the text.",
+    "It explains the basis for the claim made by the technologists mentioned in the text.",
+    "It suggests that academics are better suited than investors to see the potential uses of contemporary interactive texts.",
+    "It provides a historical anecdote about the technological challenges involved in reading the earliest interactive texts."
+  ],
+  "answer": "It challenges the stance of the investors and enthusiasts who are mentioned earlier in the text.",
+  "explanation": "The passage opens with Douglass warning investors and enthusiasts who expect new media to replace books; the underlined portion pushes back by noting that “interactive” texts long predate modern technology. It doesn’t support the technologists’ claim, compare academics with investors, or describe difficulties of reading early texts."
+}

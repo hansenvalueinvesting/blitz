@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-12",
+  "section": "math",
+  "module": 1,
+  "topic": "Systems of equations",
+  "source": "sat7",
+  "stem": "y = 6x + 3\n\nOne of the two equations in a system of linear equations is given. The system has infinitely many solutions. Which equation could be the second equation in this system?",
+  "choices": ["y = 2(6x) + 3", "y = 2(6x + 3)", "2(y) = 2(6x) + 3", "2(y) = 2(6x + 3)"],
+  "answer": "2(y) = 2(6x + 3)",
+  "explanation": "A linear system has infinitely many solutions only when the two equations are equivalent. Multiplying both sides of y = 6x + 3 by 2 gives 2(y) = 2(6x + 3), which is the same line."
+}

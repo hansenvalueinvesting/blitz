@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-03",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat7",
+  "stem": "In the 1990s, conservationists began planting more than 500,000 native trees in the habitat of the Azores bullfinch to boost the bird’s numbers. This approach was apparently _______: the Azores bullfinch’s population size increased from as few as 100 birds at the end of the 1980s to around 1,300 in 2023.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "amusing",
+    "costly",
+    "successful",
+    "disastrous"
+  ],
+  "answer": "successful",
+  "explanation": "“Successful” means achieving a goal, and the tree planting did just that—the bullfinch population grew from about 100 to roughly 1,300. There is nothing “amusing” about the effort, and the results were beneficial, not “costly” or “disastrous.”"
+}

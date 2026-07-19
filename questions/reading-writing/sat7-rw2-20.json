@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-20",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "The Globe Theatre in London is a reconstruction of the famed venue where many of Shakespeare’s plays were first performed. In 1613, a prop cannon _______ during a performance and ignited the Globe’s thatched roof. No one was hurt, but in two hours the original Globe was gone.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "malfunctions",
+    "will malfunction",
+    "has malfunctioned",
+    "malfunctioned"
+  ],
+  "answer": "malfunctioned",
+  "explanation": "The past-tense “malfunctioned” matches the other past-tense verbs (“ignited,” “was”) describing the 1613 fire. The present, future, and present-perfect forms are inconsistent with this clearly past event."
+}

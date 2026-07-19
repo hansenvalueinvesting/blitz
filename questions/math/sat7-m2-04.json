@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-04",
+  "section": "math",
+  "module": 2,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat7",
+  "stem": "The number of raccoons in a 131-square-mile area is estimated to be 2,358. What is the estimated population density, in raccoons per square mile, of this area?",
+  "choices": [
+    "18",
+    "131",
+    "149",
+    "2,376"
+  ],
+  "answer": "18",
+  "explanation": "Population density is the number of raccoons divided by the area, so 2,358 ÷ 131 = 18 raccoons per square mile. Choice B is just the area, not a density."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-13",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "If (6/7)p + 18 = 54, what is the value of 7p ?",
+  "choices": ["294"],
+  "answer": "294",
+  "explanation": "Subtracting 18 from both sides gives (6/7)p = 36, so multiplying by 7/6 yields p = 42. Then 7p = 7(42) = 294."
+}

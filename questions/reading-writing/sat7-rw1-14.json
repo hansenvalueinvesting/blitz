@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-14",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat7",
+  "stem": "Almost all works of fiction contain references to the progression of time, including the time of day when events in a story take place. In a 2020 study, Allen Kim, Charuta Pethe, and Steven Skiena claim that an observable pattern in such references reflects a shift in human behavior prompted by the spread of electric lighting in the late nineteenth century. The researchers drew this conclusion from an analysis of more than 50,000 novels spanning many centuries and cultures, using software to recognize and tally both specific time references—that is, clock phrases, such as 7 a.m. or 2:30 p.m.—and implied ones, such as mentions of meals typically associated with a particular time of day.\n\nWhich finding from the study, if true, would most directly support the researchers’ conclusion?",
+  "choices": [
+    "Novels published after the year 1800 include the clock phrase 10 a.m. less often than novels published before the year 1800 do.",
+    "Novels published after 1880 contain significantly more references to activities occurring after 10 p.m. than do novels from earlier periods.",
+    "Among novels published in the nineteenth century, implied time references become steadily more common than clock phrases as publication dates approach 1900.",
+    "The time references of noon (12 p.m.) and midnight (12 a.m.) are used with roughly the same frequency in the novels."
+  ],
+  "answer": "Novels published after 1880 contain significantly more references to activities occurring after 10 p.m. than do novels from earlier periods.",
+  "explanation": "The researchers argue that electric lighting late in the 1800s changed human behavior in a way visible in time references. A jump in references to after-10-p.m. activities in novels published after 1880 fits exactly — electric light made late-night activity more common. A decline in references to a daytime hour (10 a.m.), a shift toward implied references, or equal use of noon and midnight would not show that behavioral change."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-27",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat7",
+  "stem": "Guard cells are specialized cells that are part of a plant’s pores. These cells help regulate the amount of carbon dioxide a plant takes in. _______ they help regulate a plant’s water loss.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Additionally,",
+    "Previously,",
+    "In conclusion,",
+    "Instead,"
+  ],
+  "answer": "Additionally,",
+  "explanation": "Regulating water loss is a second, separate job of guard cells alongside regulating carbon dioxide intake, so the additive “Additionally” fits. “Previously” implies a time sequence, “In conclusion” signals a summary, and “Instead” implies a replacement — none of which matches two coexisting functions."
+}

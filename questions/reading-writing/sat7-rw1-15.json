@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw1-15",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat7",
+  "stem": "In a study of urban physical expansion, Richa Mahtta et al. conducted a meta-analysis of more than 300 cities worldwide to determine whether urban land expansion (ULE) was more strongly influenced by urban population growth or by growth in gross domestic product (GDP) per capita, a measure of economic activity. Because efficient national government is necessary to provide urban services and infrastructure that attract economic investment, Mahtta et al. propose that absent other factors, the importance of GDP per capita growth to ULE would likely increase relative to the importance of population growth as governments become more efficient. If true, this suggests the possibility that _______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+  "choices": [
+    "national governments of countries in Region 1 experienced declines in efficiency in the period from 2000 to 2014, relative to the period from 1970 to 2000.",
+    "countries in Region 1 experienced a slower rate of economic growth in the period from 2000 to 2014 than countries in Region 2 did, despite increasing national government efficiency in Region 1.",
+    "national governments of most countries in Region 2 became more efficient in the period from 2000 to 2014 than they had been in the period from 1970 to 2000, but those of several countries in this region did not.",
+    "national governments of countries in Region 1 and in Region 2 generally became more efficient in the period from 2000 to 2014 than they had been in the period from 1970 to 2000, but at different rates."
+  ],
+  "answer": "national governments of countries in Region 1 experienced declines in efficiency in the period from 2000 to 2014, relative to the period from 1970 to 2000.",
+  "image": "sat7-rw1-15.png",
+  "explanation": "Mahtta et al. reason that greater government efficiency should raise the share of ULE tied to GDP growth and lower the share tied to population growth. The graph shows the opposite for Region 1 — its GDP-per-capita share fell (and its population-growth share rose) from 1970–2000 to 2000–2014 — which, by their logic, points to declining efficiency there. The other options require data on economic-growth rates or on individual countries within a region that the graph doesn’t provide."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-07",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "What is an x-coordinate of an x-intercept of the graph of y = 3(x − 14)(x + 5)(x + 4) in the xy-plane?",
+  "choices": ["14"],
+  "answer": "14",
+  "explanation": "An x-intercept occurs where y = 0. Setting each factor to zero gives x = 14, x = −5, or x = −4, so any of those is a valid x-coordinate; 14 is one of them."
+}

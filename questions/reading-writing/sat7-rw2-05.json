@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-05",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat7",
+  "stem": "In 1776, the United States sent Benjamin Franklin to France to try to win the country’s support in the United States’ fight for independence from Great Britain. Franklin was very popular in France. This _______ surely helped him to convince France to assist the United States.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "thoughtfulness",
+    "esteem",
+    "controversy",
+    "sincerity"
+  ],
+  "answer": "esteem",
+  "explanation": "“Esteem” means high regard, which matches the statement that Franklin was very popular in France. His being held in high regard is what likely helped him win French support—not his “thoughtfulness” or “sincerity,” and the text mentions no “controversy.”"
+}

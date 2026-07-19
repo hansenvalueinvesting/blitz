@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-19",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "h(t) = −16t² + b\n\nThe function h estimates an object's height, in feet, above the ground t seconds after the object is dropped, where b is a constant. The function estimates that the object is 3,364 feet above the ground when it is dropped at t = 0. Approximately how many seconds after being dropped does the function estimate the object will hit the ground?",
+  "choices": [
+    "7.25",
+    "14.50",
+    "105.13",
+    "210.25"
+  ],
+  "answer": "14.50",
+  "explanation": "At t = 0 the height is b, so b = 3,364 and h(t) = −16t² + 3,364. Setting the height to 0 gives 16t² = 3,364, so t² = 210.25 and t ≈ 14.50 seconds (taking the positive root)."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-26",
+  "section": "math",
+  "module": 2,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat7",
+  "stem": "The speed of a vehicle is increasing at a rate of 7.3 meters per second squared. What is this rate, in miles per minute squared, rounded to the nearest tenth? (Use 1 mile = 1,609 meters.)",
+  "choices": [
+    "0.3",
+    "16.3",
+    "195.8",
+    "220.4"
+  ],
+  "answer": "16.3",
+  "explanation": "Convert meters to miles by dividing by 1,609, and seconds² to minutes² by multiplying by 60² = 3,600: 7.3 × (1/1,609) × 3,600 ≈ 16.33. Rounded to the nearest tenth, that is 16.3 miles per minute squared."
+}

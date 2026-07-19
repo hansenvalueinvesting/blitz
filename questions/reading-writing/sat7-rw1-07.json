@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-07",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat7",
+  "stem": "The majority of plastics today wind up in landfills or are, at best, recycled into materials that have a very limited range of applications. To address this problem, chemist Guoliang Liu and colleagues designed a reactor that melts polyethylene and polypropylene—two widely used plastics—into a wax. The wax can then be transformed into a surfactant _(a chemical compound usable as a detergent)_. With this promising new method, plastic waste could be turned into a range of useful cleaning products.\n\nWhich choice best states the function of the underlined portion of the text?",
+  "choices": [
+    "It clarifies the meaning of a scientific term.",
+    "It describes an environmental concern.",
+    "It explains the significance of a scientific discovery.",
+    "It identifies a result that confused the team."
+  ],
+  "answer": "It clarifies the meaning of a scientific term.",
+  "explanation": "Set off in parentheses, the underlined phrase simply defines “surfactant” as a compound that can be used as a detergent. It doesn’t itself raise an environmental concern, explain why the discovery matters, or mention any confusion on the team."
+}

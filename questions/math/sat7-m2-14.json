@@ -1,0 +1,13 @@
+{
+  "id": "sat7-m2-14",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "In triangle XYZ, angle Y is a right angle, point P lies on XZ, and point Q lies on YZ such that PQ is parallel to XY. If the measure of angle XZY is 63°, what is the measure, in degrees, of angle XPQ?",
+  "choices": [
+    "153"
+  ],
+  "answer": "153",
+  "explanation": "Because PQ is parallel to XY and angle Y is right, angle ZQP is also right, so in triangle ZQP angle ZPQ = 90 − 63 = 27°. Angle XPQ is supplementary to angle ZPQ, so it measures 180 − 27 = 153°."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-15",
+  "section": "math",
+  "module": 2,
+  "topic": "Exponential functions",
+  "source": "sat7",
+  "stem": "An investment account was opened with an initial value of $890. The value of the account doubled every 10 years. Which equation represents the value of the account M(t), in dollars, t years after the account was opened?",
+  "choices": [
+    "M(t) = 890(1/2)^(t/10)",
+    "M(t) = 890(1/10)^(t/2)",
+    "M(t) = 890(2)^(t/10)",
+    "M(t) = 890(10)^(t/2)"
+  ],
+  "answer": "M(t) = 890(2)^(t/10)",
+  "explanation": "Doubling every 10 years means multiplying by a factor of 2 once for each 10-year period, and t/10 counts those periods. Starting from $890, the value is M(t) = 890(2)^(t/10)."
+}

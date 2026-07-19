@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw1-11",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat7",
+  "passage": "The following text is from Thomas Mann’s 1924 novel The Magic Mountain, translated by John E. Woods in 1995.",
+  "stem": "The story of Hans Castorp that we intend to tell here—not for his sake (for the reader will come to know him as a perfectly ordinary, if engaging young man), but for the sake of the story itself, which seems to us to be very much worth telling (although in Hans Castorp’s favor it should be noted that it is his story, and that not every story happens to everybody)—is a story that took place long ago, and is, so to speak, covered with the patina of history and must necessarily be told with verbs whose tense is that of the deepest past.\n\nWhat does the text most strongly suggest about the story of Hans Castorp?",
+  "choices": [
+    "Though it is true that stories of even the most uninteresting people are themselves interesting because all people are unique, the reason this story is interesting is nonetheless difficult to understand because of the passage of time.",
+    "Even though it is a story of a person of no particular importance, its age and the manner in which it therefore must be told are both indicators that the story itself is important.",
+    "Like all stories about the lives of inconsequential people, this story must necessarily be related in a particular way if the reason the story is consequential is to be made evident to the audience.",
+    "It is a remarkable story that happened to an unremarkable person, though one could plausibly argue that because the story is valuable, some of its value accrues to the person at its center."
+  ],
+  "answer": "It is a remarkable story that happened to an unremarkable person, though one could plausibly argue that because the story is valuable, some of its value accrues to the person at its center.",
+  "explanation": "The narrator calls Hans Castorp “perfectly ordinary” yet insists the story is “very much worth telling,” and adds that it is to Castorp’s credit that the remarkable story is his — so an unremarkable man gains some worth from a valuable story. The narrator never says the story’s appeal is hard to grasp, nor claims its age and telling are what make it important, nor that all such stories require a special telling."
+}

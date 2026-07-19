@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-22",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Many mechanical calculators were powered by a notched cylinder mechanism called the Leibniz wheel. Leibniz wheel calculators were popular in the first half of the twentieth _______ these ingenious devices were eventually replaced by electronic calculators.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "century",
+    "century,",
+    "century, but",
+    "century that"
+  ],
+  "answer": "century, but",
+  "explanation": "Two independent clauses are joined here, so they need a comma plus a coordinating conjunction — “century, but.” “Century” alone creates a run-on, “century,” alone makes a comma splice, and “century that” produces an ungrammatical, illogical construction."
+}

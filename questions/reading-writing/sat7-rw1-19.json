@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-19",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "One of the earliest known maps is a Babylonian clay tablet thought to be almost 4,500 years old. The map _______ the area of a plot of land, shows a river valley, and includes the cardinal directions.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "describes",
+    "describe",
+    "have described",
+    "are describing"
+  ],
+  "answer": "describes",
+  "explanation": "The subject “The map” is singular and takes the singular present-tense verb “describes,” which also matches the other verbs in the list (“shows,” “includes”). The plural forms “describe,” “have described,” and “are describing” don’t agree with the singular subject."
+}

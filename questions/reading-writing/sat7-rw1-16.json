@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw1-16",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat7",
+  "stem": "A student is researching the Chinese government’s 1992 shift to a market economy that emphasizes trade liberalization. One means of trade liberalization involves expanding from ordinary imports into an emphasis on processing imports, which have two types: processing with assembly (in which a firm obtains raw materials from a foreign trading partner without payment and sells the final goods to that partner, charging for assembly) and processing with inputs (in which a firm expends capital to buy raw materials from a trading partner, processes them into final goods, and sells those goods to whichever trading partner it chooses). The student asserts that while initial efforts at trade liberalization were shaped by Chinese firms’ limited capital, this situation resolved during the 2000s.\n\nWhich choice best describes data from the graph that support the student’s assertion?",
+  "choices": [
+    "Processing imports with inputs were greater than both ordinary imports and processing imports with assembly in 2006.",
+    "From 2000 to 2006, processing imports with inputs rose much more sharply than processing imports with assembly did.",
+    "From 2000 to 2006, neither processing imports with inputs nor processing imports with assembly were greater than ordinary imports.",
+    "Processing imports with assembly were greater in 2006 than processing imports with inputs in 2000."
+  ],
+  "answer": "From 2000 to 2006, processing imports with inputs rose much more sharply than processing imports with assembly did.",
+  "image": "sat7-rw1-16.png",
+  "explanation": "Processing with inputs requires firms to spend capital up front, whereas processing with assembly does not; so a steep rise in the input type signals that firms gained the capital they had lacked. The graph’s much sharper climb in processing imports with inputs from 2000 to 2006 supports the claim that the limited-capital problem eased during the 2000s. The other options compare totals in single years and don’t capture a change over the period tied to available capital."
+}

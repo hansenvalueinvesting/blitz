@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-22",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "Points Q and R lie on a circle with center P. The radius of this circle is 9 inches. Triangle PQR has a perimeter of 31 inches. What is the length, in inches, of QR ?",
+  "choices": ["13√2", "13", "9√2", "9"],
+  "answer": "13",
+  "explanation": "Since P is the center and Q and R are on the circle, PQ and PR are radii of length 9 each. The perimeter is 9 + 9 + QR = 31, so QR = 31 − 18 = 13."
+}

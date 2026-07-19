@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-06",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat7",
+  "stem": "A line in the xy-plane has a slope of 9 and passes through the point (0, −5). The equation y = px + r defines the line, where p and r are constants. What is the value of p ?",
+  "choices": ["9"],
+  "answer": "9",
+  "explanation": "In the slope-intercept form y = px + r, p is the slope of the line. Since the line's slope is 9, p = 9."
+}

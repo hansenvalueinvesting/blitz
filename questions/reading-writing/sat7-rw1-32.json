@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-32",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat7",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Political scientist Graham Allison is known for his Thucydides trap theory.\n• Allison’s theory states that whenever “a rising power is threatening to displace a ruling power,” conflict is likely.\n• The theory is based on Thucydides’s explanation of the conflict between Athens and Sparta.\n• Thucydides wrote that “the rise of Athens and the fear this instilled in Sparta” made conflict “inevitable.”\n• History professor Edmund Stewart recently challenged the historical basis of the theory.\n• Stewart claimed that Athens was not a rising power and that the rivals experienced a “clash of cultures” instead.\n\nThe student wants to use a quotation to challenge Thucydides’s explanation of the conflict between Athens and Sparta. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "According to Allison’s Thucydides trap theory, whenever “a rising power is threatening to displace a ruling power,” conflict is likely.",
+    "Thucydides wrote that conflict between the two powers was “inevitable,” although Stewart later challenged the historical basis of this claim.",
+    "According to Stewart, a “clash of cultures” between Athens and Sparta caused the conflict, not Athens’s rise.",
+    "Thucydides explained that conflict was caused by “the rise of Athens and the fear this instilled in Sparta,” but Allison disagreed, seeing the conflict as an example of the Thucydides trap."
+  ],
+  "answer": "According to Stewart, a “clash of cultures” between Athens and Sparta caused the conflict, not Athens’s rise.",
+  "explanation": "Choice C uses Stewart’s quoted phrase “clash of cultures” to dispute Thucydides’s claim that the rise of Athens drove the conflict. Choice A quotes Allison without challenging Thucydides; choice B quotes Thucydides himself; and choice D wrongly casts Allison as disagreeing when his theory actually builds on Thucydides’s explanation."
+}

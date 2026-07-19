@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-10",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "Which expression is equivalent to (9x³ + 5x + 7) + (6x³ + 5x² − 5)?",
+  "choices": [
+    "15x⁶ + 5x² − 5x − 35",
+    "15x³ + 10x² + 2",
+    "15x⁶ + 5x² + 5x + 2",
+    "15x³ + 5x² + 5x + 2"
+  ],
+  "answer": "15x³ + 5x² + 5x + 2",
+  "explanation": "Combine like terms: 9x³ + 6x³ = 15x³, the lone 5x² stays, 5x stays, and 7 − 5 = 2. That gives 15x³ + 5x² + 5x + 2."
+}

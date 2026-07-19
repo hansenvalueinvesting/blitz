@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-25",
+  "section": "math",
+  "module": 1,
+  "topic": "Trigonometry",
+  "source": "sat7",
+  "stem": "Which of the following expressions is equivalent to (sin24°)(cos66°) + (cos24°)(sin66°) ?",
+  "choices": ["2(cos66°)(sin24°)", "2(cos66°) + 2(cos24°)", "(cos66°)² + (cos24°)²", "(cos66°)² + (sin24°)²"],
+  "answer": "(cos66°)² + (cos24°)²",
+  "explanation": "The sine of an angle equals the cosine of its complement, and 24° and 66° are complementary. So sin24° = cos66° and sin66° = cos24°. Substituting gives (cos66°)(cos66°) + (cos24°)(cos24°) = (cos66°)² + (cos24°)²."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-25",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Wanting to celebrate the 100th anniversary of the Alaska Purchase, _______ up with a motto that best captured the state’s unique character. The commission selected “North to the Future,” submitted by Juneau journalist Richard Peter, as its winning entry.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "a contest sponsored by the Alaska Centennial Commission would award $300 to an individual who came",
+    "an award of $300 would go to an individual in a contest sponsored by the Alaska Centennial Commission for coming",
+    "$300 would be awarded to an individual by the Alaska Centennial Commission in a contest for coming",
+    "the Alaska Centennial Commission sponsored a contest that would award $300 to an individual who came"
+  ],
+  "answer": "the Alaska Centennial Commission sponsored a contest that would award $300 to an individual who came",
+  "explanation": "The opening modifier “Wanting to celebrate…” must attach to whoever wanted to celebrate — the Alaska Centennial Commission. Only choice D places the commission right after the modifier. The others put “a contest,” “an award,” or “$300” in that spot, illogically implying those things wanted to celebrate the anniversary."
+}

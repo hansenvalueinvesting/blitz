@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-17",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat7",
+  "stem": "Narwhals are shy whales that live in the remote Arctic Ocean. Some of them have a long tusk, like a unicorn horn, with sensitive nerves. Narwhals are known for this tusk, but many actually don’t have one and its purpose is unknown. One group of scientists came up with a possible purpose in 2014. The scientists suggested that the tusk may help narwhals determine when water around them is likely to start freezing and become dangerous for them. Marine biologist Kristin Laidre disagrees with that idea, though. She reasons that if the narwhal’s tusk serves such an important purpose, then it’s most likely that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "some narwhals would seek a new habitat.",
+    "fewer marine animals would also have tusks.",
+    "more narwhals would have a tusk.",
+    "narwhals would become less shy over time."
+  ],
+  "answer": "more narwhals would have a tusk.",
+  "explanation": "Laidre’s objection turns on the fact that many narwhals lack a tusk. If the tusk really performed a life-saving function like detecting freezing water, that valuable trait would probably be far more widespread — so more narwhals would have one. Choosing a new habitat, other animals’ tusks, or shyness has no logical link to the tusk’s supposed importance."
+}

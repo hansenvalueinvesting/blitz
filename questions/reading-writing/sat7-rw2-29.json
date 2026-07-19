@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-29",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat7",
+  "stem": "Following the American Revolutionary War, North American foodways underwent a radical transformation, fueled in large part by spiking consumer demand for certain grains. The cultivation, trade, and transportation of maize and wheat, _______ reconfigured the continent’s existing regional foodways into a globally oriented food system.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "in particular,",
+    "alternatively,",
+    "by comparison,",
+    "second of all,"
+  ],
+  "answer": "in particular,",
+  "explanation": "Maize and wheat are the “certain grains” singled out from the general point about foodways, so “in particular” zeroes in on them. “Alternatively,” “by comparison,” and “second of all” would signal an alternative, a comparison, or a separate second point instead."
+}

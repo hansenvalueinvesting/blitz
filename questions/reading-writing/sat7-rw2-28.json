@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-28",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat7",
+  "stem": "In 2021, a model developed by astrophysicist Catherine Zucker and her research team revealed that the same supernovas responsible for the creation and ongoing expansion of the Local Bubble—a 14-million-year-old cavity in the Milky Way—are likely responsible for the formation of new stars. _______ this model detailed how the bubble’s expansion trapped interstellar clouds of gas and dust that became stars upon their eventual collapse.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Hence,",
+    "However,",
+    "Admittedly,",
+    "Specifically,"
+  ],
+  "answer": "Specifically,",
+  "explanation": "The second sentence spells out the precise mechanism behind the general claim in the first, so “Specifically” fits. It isn’t stating a consequence (“Hence”), a contrast (“However”), or a concession (“Admittedly”)."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sat7-m2-13",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat7",
+  "stem": "A circle has a radius of 2.1 inches. The area of the circle is bπ square inches, where b is a constant. What is the value of b?",
+  "choices": [
+    "4.41"
+  ],
+  "answer": "4.41",
+  "explanation": "The area of a circle is πr². With r = 2.1, the area is π(2.1)² = 4.41π square inches. Since this equals bπ, the value of b is 4.41."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-26",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat7",
+  "stem": "The cost of renting a carpet cleaner is $52 for the first day and $26 for each additional day. Which of the following functions gives the cost C(d), in dollars, of renting the carpet cleaner for d days, where d is a positive integer?",
+  "choices": ["C(d) = 26d + 26", "C(d) = 26d + 52", "C(d) = 52d − 26", "C(d) = 52d + 78"],
+  "answer": "C(d) = 26d + 26",
+  "explanation": "The cost is $52 for the first day plus $26 for each of the other d − 1 days: C(d) = 52 + 26(d − 1) = 52 + 26d − 26 = 26d + 26."
+}

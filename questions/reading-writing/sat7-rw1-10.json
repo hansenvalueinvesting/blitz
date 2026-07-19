@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-10",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat7",
+  "stem": "In 2018, scientists discovered an immense aggregation of Muusoctopus robustus (pearl octopuses) along a hydrothermal vent 3,200 meters beneath the ocean’s surface. Water temperatures at this site—named the Octopus Garden—climb as high as 11°C, much warmer than the ambient 1.6°C typical at this depth. Based on observations made over three years, scientists concluded that temperatures at the site likely confer reproductive benefits and that the site is used exclusively for reproduction—6,000 M. robustus adults, hatchlings, and eggs were observed at the garden, but no juveniles were present.\n\nWhich statement about M. robustus and the Octopus Garden is best supported by the text?",
+  "choices": [
+    "M. robustus leave the Octopus Garden upon reaching an intermediary stage of development.",
+    "The M. robustus population at the Octopus Garden remains stable despite variations in water temperature.",
+    "M. robustus nests in the Octopus Garden contain on average fewer but larger eggs than nests at similar ocean depths.",
+    "The Octopus Garden provides an ideal feeding ground for M. robustus hatchlings."
+  ],
+  "answer": "M. robustus leave the Octopus Garden upon reaching an intermediary stage of development.",
+  "explanation": "Scientists saw adults, hatchlings, and eggs but no juveniles, and concluded the site is used only for reproduction — which implies the octopuses depart once they reach the juvenile (intermediary) stage and return only to reproduce. The text says nothing about population stability, egg size in nests, or hatchlings feeding there."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw2-13",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat7",
+  "stem": "In terms of area and population, the three smallest Arabian Peninsula countries are Bahrain, Qatar, and Kuwait.\n\nAccording to the table, what is the total area of Bahrain?",
+  "choices": [
+    "4,268,873 square miles",
+    "4,471 square miles",
+    "304 square miles",
+    "6,880 square miles"
+  ],
+  "answer": "304 square miles",
+  "explanation": "The table lists Bahrain’s total area as 304 square miles. The other values are Qatar’s area (4,471), Kuwait’s area (6,880), and Kuwait’s population (4,268,873).",
+  "image": "sat7-rw2-13.png"
+}

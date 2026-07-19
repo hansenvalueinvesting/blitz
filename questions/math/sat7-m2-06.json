@@ -1,0 +1,13 @@
+{
+  "id": "sat7-m2-06",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat7",
+  "stem": "f(x) = 45x + 600\n\nThe function f gives the monthly fee f(x), in dollars, a facility charges to keep x crates in storage. What is the monthly fee, in dollars, the facility charges to keep 50 crates in storage?",
+  "choices": [
+    "2850"
+  ],
+  "answer": "2850",
+  "explanation": "Substitute x = 50 into the function: f(50) = 45(50) + 600 = 2,250 + 600 = 2,850. So the monthly fee for 50 crates is $2,850."
+}

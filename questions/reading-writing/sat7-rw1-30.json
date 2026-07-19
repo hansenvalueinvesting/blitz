@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-30",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat7",
+  "stem": "While researching a topic, a student has taken the following notes:\n• The Royal Alcázar of Seville is a historic royal palace in Andalucía, Spain.\n• The palace is famous for its intricate tilework.\n• The palace features majolica and arista tiles.\n• In the majolica style, designs are painted directly on the ceramic tiles.\n• In the arista style, designs are stamped into the ceramic tiles.\n\nThe student wants to contrast the two styles of tiles. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Tiles in the majolica and arista styles can be found in the Royal Alcázar of Seville in Andalucía, Spain.",
+    "Featuring tiles in the majolica and arista styles, the Royal Alcázar of Seville in Spain is famous for its intricate tilework.",
+    "In the arista style, designs are stamped into the ceramic tiles, whereas in the majolica style, the designs are painted directly on them.",
+    "Among the famous tilework of the Royal Alcázar of Seville are majolica style tiles, made by painting designs directly on the ceramic tiles."
+  ],
+  "answer": "In the arista style, designs are stamped into the ceramic tiles, whereas in the majolica style, the designs are painted directly on them.",
+  "explanation": "Choice C draws a direct contrast: arista designs are stamped in, while majolica designs are painted on. The other options note only that both styles appear at the palace or describe just one style, so they don’t contrast the two."
+}

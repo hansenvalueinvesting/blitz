@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-23",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat7",
+  "stem": "The linear function g is defined by g(x) = b − 15x, where b is a constant. If g(c + 7) = c/4, where c is a constant, which of the following expressions represents the value of b?",
+  "choices": [
+    "15c/4",
+    "19c/4 + 7",
+    "61c/4 + 105",
+    "15c + 105"
+  ],
+  "answer": "61c/4 + 105",
+  "explanation": "Substituting x = c + 7 gives g(c + 7) = b − 15(c + 7) = b − 15c − 105, and this equals c/4. Solving for b: b = c/4 + 15c + 105 = 61c/4 + 105."
+}

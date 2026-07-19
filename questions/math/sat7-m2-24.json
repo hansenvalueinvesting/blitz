@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-24",
+  "section": "math",
+  "module": 2,
+  "topic": "Trigonometry",
+  "source": "sat7",
+  "stem": "In triangle XYZ, angle Z is a right angle and the length of YZ is 24 units. If tan X = 12/35, what is the perimeter, in units, of triangle XYZ?",
+  "choices": [
+    "188",
+    "168",
+    "84",
+    "71"
+  ],
+  "answer": "168",
+  "explanation": "With the right angle at Z, tan X = YZ/XZ = 12/35. Setting 24/XZ = 12/35 gives XZ = 70. The hypotenuse XY = √(70² + 24²) = √5,476 = 74. The perimeter is 24 + 70 + 74 = 168."
+}

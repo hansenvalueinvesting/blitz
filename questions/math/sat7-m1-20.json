@@ -1,0 +1,12 @@
+{
+  "id": "sat7-m1-20",
+  "section": "math",
+  "module": 1,
+  "topic": "Data analysis",
+  "source": "sat7",
+  "stem": "During a study, the temperature, in degrees Celsius (°C), of the air in a chamber was recorded to the nearest integer at certain times. The scatterplot shows the recorded temperature y, in °C, of the air in the chamber x minutes after the start of the study.\n\nWhat was the average rate of change, in °C per minute, of the recorded temperature of the air in the chamber from x = 5 to x = 7 ?",
+  "choices": ["5"],
+  "answer": "5",
+  "explanation": "The average rate of change is the change in y divided by the change in x. The graph shows y = 14 at x = 5 and y = 24 at x = 7, so the rate is (24 − 14)/(7 − 5) = 10/2 = 5 °C per minute.",
+  "image": "sat7-m1-20.png"
+}

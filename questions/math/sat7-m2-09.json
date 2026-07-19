@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-09",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "Which expression is equivalent to 23x³ + 2x² + 9x?",
+  "choices": [
+    "23x(x² + 2x + 9)",
+    "9x(23x³ + 2x² + 1)",
+    "x(23x² + 2x + 9)",
+    "34(x³ + x² + x)"
+  ],
+  "answer": "x(23x² + 2x + 9)",
+  "explanation": "Each term shares a factor of x, so factoring x out gives x(23x² + 2x + 9). Distributing that back reproduces the original expression, while the other choices expand to different polynomials."
+}
