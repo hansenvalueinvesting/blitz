@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-29",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "In retrospect, one of the lessons of the 2003 Human Genome Project is that a gene is affected by many factors, not the least of which is its interactions with the protein products of other genes. _______ rather than just focusing on the human genome, efforts to better understand gene mutations related to disease have begun to consider the human proteome, the complete set of proteins expressed by human genes.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "In other words,",
+    "That said,",
+    "For example,",
+    "Accordingly,"
+  ],
+  "answer": "Accordingly,",
+  "explanation": "The shift toward studying the proteome is a direct result of learning that genes interact with other genes’ proteins, so “Accordingly” fits. “In other words” signals restatement, “That said” signals contrast, and “For example” signals illustration—none matches this cause-and-effect relationship."
+}

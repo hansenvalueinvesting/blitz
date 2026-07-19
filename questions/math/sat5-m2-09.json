@@ -1,0 +1,17 @@
+{
+  "id": "sat5-m2-09",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "A competitive diver dives from a platform into the water. The graph shown gives the height above the water y, in meters, of the diver x seconds after diving from the platform. What is the best interpretation of the x-intercept of the graph?",
+  "choices": [
+    "The diver reaches a maximum height above the water at 1.6 seconds.",
+    "The diver hits the water at 1.6 seconds.",
+    "The diver reaches a maximum height above the water at 0.2 seconds.",
+    "The diver hits the water at 0.2 seconds."
+  ],
+  "answer": "The diver hits the water at 1.6 seconds.",
+  "explanation": "The x-intercept is where the height y equals 0, meaning the diver is at water level. The graph crosses the x-axis at about 1.6 seconds, so that is when the diver hits the water. The choices about maximum height describe the top of the curve, not the x-intercept.",
+  "image": "sat5-m2-09.png",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

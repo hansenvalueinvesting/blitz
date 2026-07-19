@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-05",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat5",
+  "stem": "The table shows selected values from function f.\n\nx | f(x)\n−1 | 16\n0 | 17\n1 | 18\n2 | 19\n\nWhich of the following is the best description of function f ?",
+  "choices": [
+    "Decreasing linear",
+    "Increasing linear",
+    "Decreasing exponential",
+    "Increasing exponential"
+  ],
+  "answer": "Increasing linear",
+  "explanation": "As x increases by 1, f(x) rises by a constant 1 each time. A constant rate of change means the function is linear, and since the values increase, f is an increasing linear function."
+}

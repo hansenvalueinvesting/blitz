@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-31",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat5",
+  "stem": "While researching a topic, a student has taken the following notes:\n• In astronomy, the mass of stars can be described in units called solar masses.\n• One solar mass is roughly equal to the mass of the Sun.\n• The mass of the star Proxima Centauri is 0.122 solar masses.\n• The mass of the star Sirius A is 2.063 solar masses.\n\nThe student wants to emphasize the mass of Sirius A. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "The mass of stars, like Proxima Centauri, can be described in units called solar masses.",
+    "In astronomy, the mass of stars can be described in units called solar masses, and one solar mass is roughly equal to the mass of the Sun.",
+    "The Sun is more massive than Proxima Centauri, which has a mass of 0.122 solar masses.",
+    "With a mass of 2.063 solar masses, Sirius A is more massive than the Sun."
+  ],
+  "answer": "With a mass of 2.063 solar masses, Sirius A is more massive than the Sun.",
+  "explanation": "The goal is to stress Sirius A’s mass, and choice D puts that star and its 2.063-solar-mass figure front and center. The other choices emphasize solar masses in general or the mass of Proxima Centauri, not Sirius A."
+}

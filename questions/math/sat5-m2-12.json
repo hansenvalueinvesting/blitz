@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-12",
+  "topic": "Statistics and probability",
+  "stem": "At a movie theater, there are a total of 350 customers. Each customer is located in either theater A, theater B, or theater C. If one of these customers is selected at random, the probability of selecting a customer who is located in theater A is 0.48, and the probability of selecting a customer who is located in theater B is 0.24. How many customers are located in theater C?",
+  "choices": [
+    "28",
+    "40",
+    "84",
+    "98"
+  ],
+  "answer": "98",
+  "explanation": "Theater A holds 0.48(350) = 168 customers and theater B holds 0.24(350) = 84, for 252 total. The remaining customers, 350 − 252 = 98, are in theater C. Choice C, 84, is the count for theater B.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

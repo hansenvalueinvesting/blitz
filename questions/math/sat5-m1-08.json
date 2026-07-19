@@ -1,0 +1,17 @@
+{
+  "id": "sat5-m1-08",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat5",
+  "stem": "In the figure, line m is parallel to line n, and line k intersects both lines. Which of the following statements is true?\n\nNote: Figure not drawn to scale.",
+  "choices": [
+    "The value of x is less than 145.",
+    "The value of x is greater than 145.",
+    "The value of x is equal to 145.",
+    "The value of x cannot be determined."
+  ],
+  "answer": "The value of x is equal to 145.",
+  "explanation": "Where line k crosses line n, the angle marked x° and the 145° angle are vertical angles, which are always congruent. Therefore x is equal to 145.",
+  "image": "sat5-m1-08.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat5-m2-02",
+  "topic": "Linear functions",
+  "stem": "Argon is placed inside a container with a constant volume. The graph shows the estimated pressure y, in pounds per square inch (psi), of the argon when its temperature is x kelvins.\n\nWhat is the estimated pressure of the argon, in psi, when the temperature is 600 kelvins?",
+  "choices": [
+    "6",
+    "12",
+    "300",
+    "600"
+  ],
+  "answer": "12",
+  "explanation": "On the graph the horizontal axis is temperature and the vertical axis is pressure. Reading up from x = 600 to the line and across to the y-axis gives a pressure of 12 psi. Choice A is the pressure at 300 kelvins, and choice D is just the temperature value.",
+  "image": "sat5-m2-02.png",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

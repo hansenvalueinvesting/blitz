@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-20",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "When they were first introduced to western Europe from Byzantium in the eleventh century, table forks were met with much resistance. The Bishop of Ostia, St. Peter Damian, condemned the eating utensils because he considered _______ dangerous and unnecessary luxury items.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "them",
+    "this",
+    "that",
+    "it"
+  ],
+  "answer": "them",
+  "explanation": "The pronoun refers back to the plural “eating utensils,” so the plural “them” is needed for agreement. “This,” “that,” and “it” are all singular and don’t match the plural antecedent."
+}

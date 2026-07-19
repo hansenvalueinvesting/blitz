@@ -1,0 +1,17 @@
+{
+  "id": "sat5-rw1-16",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat5",
+  "stem": "The population of the coral Lophelia pertusa declined significantly around 9,000 years ago in the Alboran Sea and around 11,000 years ago near the Mauritanian coast. Using the ratio of manganese to calcium, which inversely correlates with ocean oxygenation levels, marine scientist Rodrigo da Costa Portilho-Ramos and colleagues evaluated whether oxygenation played a role in the declines of L. pertusa. The researchers concluded that oxygenation may have been important in the Alboran Sea but not near the Mauritanian coast, since _______\n\nWhich choice most effectively uses data from the graph to complete the statement?",
+  "choices": [
+    "a substantial increase in oxygenation in the Alboran Sea corresponded with the local decline in L. pertusa, but the opposite relationship between oxygenation and L. pertusa was found near the Mauritanian coast.",
+    "L. pertusa declined in the Alboran Sea during a period of substantial local decline in oxygenation, but L. pertusa declined near the Mauritanian coast during a period of little local change in oxygenation.",
+    "oxygenation in the Alboran Sea was higher before the decline in L. pertusa than after the decline, whereas oxygenation near the Mauritanian coast was relatively low both before and after the decline in L. pertusa.",
+    "oxygenation in the Alboran Sea tended to be substantially higher than oxygenation near the Mauritanian coast during the period studied."
+  ],
+  "answer": "L. pertusa declined in the Alboran Sea during a period of substantial local decline in oxygenation, but L. pertusa declined near the Mauritanian coast during a period of little local change in oxygenation.",
+  "explanation": "Because the manganese-to-calcium ratio moves opposite to oxygenation, the sharp rise in that ratio in the Alboran Sea around 9,000 years ago means oxygenation dropped sharply there as the coral declined, while the nearly flat Mauritanian line means little oxygenation change accompanied its decline. That contrast supports oxygenation mattering in one place but not the other. Choice A reverses the Alboran trend, and choices C and D misread the graph and don’t link change to the declines.",
+  "image": "sat5-rw1-16.png"
+}

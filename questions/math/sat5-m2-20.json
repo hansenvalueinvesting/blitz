@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m2-20",
+  "topic": "Systems of equations",
+  "stem": "5y = 10x + 11\n−5y = 5x − 21\n\nThe solution to the given system of equations is (x, y). What is the value of 30x ?",
+  "choices": [
+    "20"
+  ],
+  "answer": "20",
+  "explanation": "Adding the two equations eliminates y: 0 = 15x − 10, so 15x = 10. Multiplying both sides by 2 gives 30x = 20.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

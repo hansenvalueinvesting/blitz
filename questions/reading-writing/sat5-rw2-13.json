@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-13",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (textual)",
+  "source": "sat5",
+  "stem": "Fish whose DNA has been modified to include genetic material from other species are known as transgenic. Some transgenic fish have genes from jellyfish that result in fluorescence (that is, they glow in the dark). Although these fish were initially engineered for research purposes in the 1990s, they were sold as pets in the 2000s and can now be found in the wild in creeks in Brazil. A student in a biology seminar who is writing a paper on these fish asserts that their escape from Brazilian fish farms into the wild may have significant negative long-term ecological effects.\n\nWhich quotation from a researcher would best support the student’s assertion?",
+  "choices": [
+    "“In one site in the wild where transgenic fish were observed, females outnumbered males, while in another the numbers of females and males were equivalent.”",
+    "“Though some presence of transgenic fish in the wild has been recorded, there are insufficient studies of the impact of those fish on the ecosystems into which they are introduced.”",
+    "“The ecosystems into which transgenic fish are known to have been introduced may represent a subset of the ecosystems into which the fish have actually been introduced.”",
+    "“Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.”"
+  ],
+  "answer": "“Through interbreeding, transgenic fish might introduce the trait of fluorescence into wild fish populations, making those populations more vulnerable to predators.”",
+  "explanation": "The student claims the escaped fish could cause serious long-term harm, and choice D names a concrete harm: interbreeding could spread the glow trait to wild fish, exposing them to predators. The other quotations only note sex ratios, call for more research, or say the fish may be more widespread—none identifies a negative ecological effect."
+}

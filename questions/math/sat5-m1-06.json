@@ -1,0 +1,14 @@
+{
+  "id": "sat5-m1-06",
+  "section": "math",
+  "module": 1,
+  "topic": "Systems of equations",
+  "source": "sat5",
+  "stem": "The graph of a system of linear equations is shown. The solution to the system is (x, y). What is the value of x ?",
+  "choices": [
+    "4"
+  ],
+  "answer": "4",
+  "explanation": "The solution is the point where the two lines cross. On the graph the lines intersect at (4, 1), so the x-value of the solution is 4.",
+  "image": "sat5-m1-06.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-19",
+  "topic": "Linear equations",
+  "stem": "2x − y > 883\n\nFor which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?",
+  "choices": [
+    "x | y\n440 | 0\n441 | −2\n442 | −4",
+    "x | y\n440 | 0\n442 | −2\n441 | −4",
+    "x | y\n442 | 0\n440 | −2\n441 | −4",
+    "x | y\n442 | 0\n441 | −2\n440 | −4"
+  ],
+  "answer": "x | y\n442 | 0\n441 | −2\n440 | −4",
+  "explanation": "Solving the inequality for y gives y < 2x − 883. That requires y < −3 at x = 440, y < −1 at x = 441, and y < 1 at x = 442. Only the table in choice D meets all three conditions (x = 440 with y = −4, x = 441 with y = −2, x = 442 with y = 0).",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

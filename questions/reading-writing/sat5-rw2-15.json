@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-15",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (textual)",
+  "source": "sat5",
+  "stem": "“Poetry” is a 1919 poem by Marianne Moore. The poem highlights an ambivalence toward poetry as the speaker acknowledges its merits while also expressing a sense of displeasure, writing _______\n\nWhich quotation from “Poetry” most effectively illustrates the claim?",
+  "choices": [
+    "“nor is it valid / to discriminate against ‘business documents and / school-books’; all these phenomena are important.”",
+    "“One must make a distinction / however: when dragged into prominence by half poets, the result is not / poetry”",
+    "“when [poems] become so derivative as to become unintelligible, the / same thing may be said for all of us—that we / do not admire what / we cannot understand.”",
+    "“Reading [poetry], however, with a perfect contempt for it, one discovers that there is in / it after all, a place for the genuine.”"
+  ],
+  "answer": "“Reading [poetry], however, with a perfect contempt for it, one discovers that there is in / it after all, a place for the genuine.”",
+  "explanation": "The claim needs a quotation that voices both displeasure and appreciation, and choice D does exactly that: even reading with “contempt,” the speaker finds “a place for the genuine.” The other quotations express only criticism (or none), so they don’t capture the mixed, ambivalent attitude."
+}

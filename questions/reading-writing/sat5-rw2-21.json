@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-21",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "Julia Alvarez’s 1994 novel In the Time of the Butterflies, a fictionalized account of the lives of the Mirabal _______ can serve as a starting point for those wanting to explore how the rule of dictator Rafael Trujillo has been represented in Dominican American literature.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "sisters, and",
+    "sisters and",
+    "sisters,",
+    "sisters"
+  ],
+  "answer": "sisters,",
+  "explanation": "The phrase “a fictionalized account of the lives of the Mirabal sisters” is a supplementary element, so it needs a closing comma to pair with the comma after “Butterflies.” Adding “and” or dropping the comma fails to properly set off that nonessential description."
+}

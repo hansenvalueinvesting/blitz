@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-05",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "Despite the generalizations about human behavior they have produced, many studies of behavioral psychology have used highly unrepresentative subject pools: students at the colleges and universities where the researchers are employed. To _______ this situation, it is necessary to actively recruit subjects from diverse backgrounds and locations.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "sanction",
+    "ameliorate",
+    "rationalize",
+    "postulate"
+  ],
+  "answer": "ameliorate",
+  "explanation": "The text presents a flawed situation (unrepresentative subject pools) and a remedy (recruiting diverse subjects), so the missing word should mean to improve or fix it — “ameliorate.” “Sanction” (approve or penalize), “rationalize” (justify), and “postulate” (propose a theory) don’t capture the idea of remedying the problem."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-10",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat5",
+  "stem": "Changes to vegetation cover and other human activities influence carbon and nitrogen levels in soil, though how deep these effects extend is unclear. Hypothesizing that differences in land use lead to differences in carbon and nitrogen levels that are not restricted to the topsoil layer (0–30 cm deep), Chukwuebuka Okolo and colleagues sampled soils across multiple land-use types (e.g., grazing land, cropland, forest) within each of several Ethiopian locations. They found, though, that across land-use types, carbon and nitrogen decreased to comparably low levels beyond depths of 30 cm.\n\nWhich choice best describes the overall structure of the text?",
+  "choices": [
+    "It describes a phenomenon that scientists do not fully understand, explains a research team’s hypothesis about that phenomenon, and then describes a finding that led the team to refine the hypothesis.",
+    "It introduces an unresolved scientific question, presents a research team’s hypothesis pertaining to that question, and then describes an observation made by the team that conflicts with that hypothesis.",
+    "It discusses a process that scientists are somewhat unclear about, introduces competing hypotheses about that process, and then explains how a research team concluded that one of those hypotheses is likely correct.",
+    "It explains a hypothesis that has been the subject of scientific debate, discusses how a research team tested that hypothesis, and then presents data the team collected that validate the hypothesis."
+  ],
+  "answer": "It introduces an unresolved scientific question, presents a research team’s hypothesis pertaining to that question, and then describes an observation made by the team that conflicts with that hypothesis.",
+  "explanation": "The text opens with an open question (how deep land-use effects on soil reach), states Okolo’s team’s hypothesis (differences extend below the topsoil), and then reports a finding that contradicts it (carbon and nitrogen dropped to similarly low levels below 30 cm regardless of land use). The team didn’t refine the hypothesis, weigh competing hypotheses, or find data that validated it."
+}

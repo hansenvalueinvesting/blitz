@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-17",
+  "section": "math",
+  "module": 1,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat5",
+  "stem": "At a particular track meet, the ratio of coaches to athletes is 1 to 26. If there are x coaches at the track meet, which of the following expressions represents the number of athletes at the track meet?",
+  "choices": [
+    "x/26",
+    "26x",
+    "x + 26",
+    "26/x"
+  ],
+  "answer": "26x",
+  "explanation": "For each coach there are 26 athletes, so multiplying both parts of the 1 : 26 ratio by x gives x coaches to 26x athletes. The number of athletes is 26x."
+}

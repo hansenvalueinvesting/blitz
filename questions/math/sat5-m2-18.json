@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-18",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "If 4√(2x) = 16, what is the value of 6x ?",
+  "choices": [
+    "24",
+    "48",
+    "72",
+    "96"
+  ],
+  "answer": "48",
+  "explanation": "Dividing both sides by 4 gives √(2x) = 4. Squaring both sides gives 2x = 16, and multiplying by 3 gives 6x = 48. (Note x = 8.) Choice A is 3x and choices C and D are larger multiples of x.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

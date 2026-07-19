@@ -1,0 +1,17 @@
+{
+  "id": "sat5-rw1-06",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat5",
+  "passage": "The following text is adapted from Jean Webster’s 1912 novel Daddy-Long-Legs. The narrator is a young college student writing letters detailing her weekly experiences.",
+  "stem": "[The college is] organizing the Freshman basket-ball team and there’s just a chance that I shall make it. I’m little of course, but terribly quick and wiry and tough. While the others are hopping about in the air, I can dodge under their feet and grab the ball.\n\nWhich choice best states the main purpose of the text?",
+  "choices": [
+    "To compare basketball with other sports",
+    "To provide details of how to play basketball",
+    "To state how players will be chosen for the basketball team",
+    "To explain why the narrator thinks she might make the basketball team"
+  ],
+  "answer": "To explain why the narrator thinks she might make the basketball team",
+  "explanation": "The narrator says there’s a chance she’ll make the team and then explains why: she’s quick, wiry, and tough enough to dodge under taller players and grab the ball. The text isn’t comparing sports, teaching how to play, or describing the team’s selection process."
+}

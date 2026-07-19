@@ -1,0 +1,17 @@
+{
+  "id": "sat5-m1-16",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat5",
+  "stem": "The graph of the rational function f is shown, where y = f(x) and x ≥ 0. Which of the following is the graph of y = f(x) + 5, where x ≥ 0 ?",
+  "choices": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "answer": "D",
+  "explanation": "Adding 5 to f(x) shifts the entire graph up 5 units. The original passes through (3, 3), so the new graph must pass through (3, 8); only choice D is the original curve raised by 5.",
+  "image": "sat5-m1-16.png"
+}

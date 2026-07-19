@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-24",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "In her 1983 book The Managed Heart: Commercialization of Human Feeling, sociologist Arlie Russell Hochschild first explored at length her conception of a “sociology of emotions”—the idea that the various cultural and ideological frameworks a person has internalized (class, gender, political affiliation, etc.) _______ each emotional reaction that person has within a situation.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "underlies",
+    "is underlying",
+    "underlie",
+    "has been underlying"
+  ],
+  "answer": "underlie",
+  "explanation": "The subject of the verb is the plural “frameworks,” so the plural verb “underlie” is required for subject-verb agreement. “Underlies,” “is underlying,” and “has been underlying” are all singular forms that don’t agree with the plural subject."
+}

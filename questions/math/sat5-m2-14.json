@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m2-14",
+  "topic": "Geometry",
+  "stem": "The length of each edge of a box is 29 inches. Each side of the box is in the shape of a square. The box does not have a lid. What is the exterior surface area, in square inches, of this box without a lid?",
+  "choices": [
+    "4205"
+  ],
+  "answer": "4205",
+  "explanation": "A box without a lid has 5 square faces. Each face has area 29² = 841 square inches, so the total exterior surface area is 5(841) = 4,205 square inches.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

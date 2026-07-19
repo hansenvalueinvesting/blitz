@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m1-21",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat5",
+  "stem": "The function g is defined by g(x) = (x + 14)(t − x), where t is a constant. In the xy-plane, the graph of y = g(x) passes through the point (24, 0). What is the value of g(0) ?",
+  "choices": [
+    "336"
+  ],
+  "answer": "336",
+  "explanation": "Since g(24) = 0 and x + 14 ≠ 0 at x = 24, the factor t − x must be zero there, giving t = 24. Then g(0) = (0 + 14)(24 − 0) = 14 × 24 = 336."
+}

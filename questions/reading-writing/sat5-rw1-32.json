@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-32",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat5",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Scientists have developed a “freeze-thaw” battery that can retain 92% of its charge after twelve weeks.\n• The battery contains molten salt (a type of salt that liquifies when heated and solidifies at room temperature).\n• When the salt is in a liquid state, energy flows through the battery.\n• When the salt is in a solid state, energy stops flowing and is stored in the battery.\n• The stored (frozen) energy can be used by reheating (thawing) the battery.\n\nThe student wants to specify how the salt enables energy storage. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Scientists have developed a freeze-thaw battery that contains molten salt, which liquifies when heated and solidifies at room temperature.",
+    "The stored energy in a freeze-thaw battery, which contains molten salt, can be used by reheating the battery.",
+    "When the molten salt in a freeze-thaw battery solidifies at room temperature, energy stops flowing and can be stored in the battery.",
+    "Molten salt allows a freeze-thaw battery to retain 92% of its charge after twelve weeks."
+  ],
+  "answer": "When the molten salt in a freeze-thaw battery solidifies at room temperature, energy stops flowing and can be stored in the battery.",
+  "explanation": "The goal is to explain how the salt stores energy, and this choice shows that when the salt solidifies, energy stops flowing and is stored. The other options describe the salt’s general properties, how stored energy is released, or how much charge is retained — not the mechanism of storage."
+}

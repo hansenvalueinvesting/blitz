@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-27",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "In 2014, Nestor Gomez won his first-ever storytelling competition, relating a tale about his life as a Guatemalan immigrant living in Chicago. _______ in 2017, Gomez created the show 80 Minutes Around the World as a platform for others to share stories about their immigration experiences.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Instead,",
+    "For example,",
+    "Later,",
+    "In other words,"
+  ],
+  "answer": "Later,",
+  "explanation": "The 2017 event follows the 2014 win in time, so the chronological “Later” is the logical transition. The passage isn’t offering an alternative (“Instead”), an illustration (“For example”), or a restatement (“In other words”)."
+}

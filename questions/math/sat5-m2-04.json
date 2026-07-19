@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-04",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "Which expression is equivalent to 16x³y² + 14xy ?",
+  "choices": [
+    "2xy(8xy + 7)",
+    "2xy(8x²y + 7)",
+    "14xy(2x²y + 1)",
+    "14xy(8x²y + 1)"
+  ],
+  "answer": "2xy(8x²y + 7)",
+  "explanation": "The greatest common factor of 16x³y² and 14xy is 2xy. Dividing each term by 2xy leaves 8x²y and 7, so the expression factors to 2xy(8x²y + 7). The other choices distribute back to different expressions.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-22",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "An online content creator who uses copyrighted songs without permission risks being demonetized (prohibited from including paid advertisements in content). The best way to avoid demonetization is to choose music from the public domain. Using one of these noncopyrighted songs _______ a creator won’t lose advertising revenue.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "are ensuring",
+    "have ensured",
+    "ensure",
+    "ensures"
+  ],
+  "answer": "ensures",
+  "explanation": "The subject is the singular gerund phrase “Using one of these noncopyrighted songs,” which takes the singular verb “ensures.” The plural forms “are ensuring,” “have ensured,” and “ensure” don’t agree with that singular subject."
+}

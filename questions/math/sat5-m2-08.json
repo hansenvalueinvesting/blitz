@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-08",
+  "topic": "Linear equations",
+  "stem": "Line r in the xy-plane has a slope of 4 and passes through the point (0, 6). Which equation defines line r ?",
+  "choices": [
+    "y = −6x + 4",
+    "y = 6x + 4",
+    "y = 4x − 6",
+    "y = 4x + 6"
+  ],
+  "answer": "y = 4x + 6",
+  "explanation": "In slope-intercept form y = mx + b, the slope m is 4 and the point (0, 6) shows the y-intercept b is 6, giving y = 4x + 6. The other choices use the wrong slope or the wrong y-intercept.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

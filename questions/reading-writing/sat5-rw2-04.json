@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-04",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "The War of 1812 has _______ place in historical memory in Britain, partly because it is overshadowed by the much larger concurrent conflict against Napoleonic France and partly because it essentially maintained the geopolitical status quo for Britain: the country neither gained nor lost significant territory or position as a result of its participation in the war.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "a tenuous",
+    "an enduring",
+    "a contentious",
+    "a conspicuous"
+  ],
+  "answer": "a tenuous",
+  "explanation": "Since the war was overshadowed by the fight with France and changed nothing geopolitically, it holds only a weak, uncertain—“tenuous”—spot in British memory. “Enduring” and “conspicuous” suggest a lasting or prominent place, the opposite of the point, and nothing in the text points to disagreement, so “contentious” doesn’t fit."
+}

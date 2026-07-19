@@ -1,0 +1,17 @@
+{
+  "id": "sat5-m1-01",
+  "section": "math",
+  "module": 1,
+  "topic": "Systems of equations",
+  "source": "sat5",
+  "stem": "The graph of a system of a linear equation and a nonlinear equation is shown. What is the solution (x, y) to this system?",
+  "choices": [
+    "(0, 0)",
+    "(0, 4)",
+    "(4, 5)",
+    "(5, 0)"
+  ],
+  "answer": "(4, 5)",
+  "explanation": "The solution of a system is the point where the two graphs intersect. The line and the curve shown cross at (4, 5), so that ordered pair is the solution to the system.",
+  "image": "sat5-m1-01.png"
+}

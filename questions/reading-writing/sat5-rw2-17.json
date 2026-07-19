@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-17",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat5",
+  "stem": "In dialects of English spoken in Scotland, the “r” sound is strongly emphasized when it appears at the end of syllables (as in “car”) or before other consonant sounds (as in “bird”). English dialects of the Upland South, a region stretching from Oklahoma to western Virginia, place similar emphasis on “r” at the ends of syllables and before other consonant sounds. Historical records show that the Upland South was colonized largely by people whose ancestors came from Scotland. Thus, linguists have concluded that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "the English dialects spoken in the Upland South acquired their emphasis on the “r” sound from dialects spoken in Scotland.",
+    "emphasis on the “r” sound will eventually spread from English dialects spoken in the Upland South to dialects spoken elsewhere.",
+    "the English dialects spoken in Scotland were influenced by dialects spoken in the Upland South.",
+    "people from Scotland abandoned their emphasis on the “r” sound after relocating to the Upland South."
+  ],
+  "answer": "the English dialects spoken in the Upland South acquired their emphasis on the “r” sound from dialects spoken in Scotland.",
+  "explanation": "Since the Upland South was settled mainly by people of Scottish descent and both dialects stress “r” the same way, the logical conclusion is that the Upland South feature came from Scottish dialects. Choice C reverses the direction of influence, D contradicts the fact that the emphasis persists, and B makes an unsupported prediction about future spread."
+}

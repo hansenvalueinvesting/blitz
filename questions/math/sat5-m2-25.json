@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-25",
+  "topic": "Exponential functions",
+  "stem": "P(t) = 260(1.04)^((6/4)t)\n\nThe function P models the population, in thousands, of a certain city t years after 2003. According to the model, the population is predicted to increase by 4% every n months. What is the value of n ?",
+  "choices": [
+    "8",
+    "12",
+    "18",
+    "72"
+  ],
+  "answer": "8",
+  "explanation": "The base 1.04 means the population grows 4% each time the exponent (6/4)t increases by 1. Setting (6/4)t = 1 gives t = 4/6 = 2/3 of a year. Since a year is 12 months, 2/3 of a year is 8 months, so n = 8.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

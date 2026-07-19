@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-18",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat5",
+  "stem": "Kaylani used fabric measuring 5 yards in length to make each suit for a men’s choir. The relationship between the number of suits that Kaylani made, x, and the total length of fabric that she purchased y, in yards, is represented by the equation y − 5x = 6. What is the best interpretation of 6 in this context?",
+  "choices": [
+    "Kaylani made 6 suits.",
+    "Kaylani purchased a total of 6 yards of fabric.",
+    "Kaylani used a total of 6 yards of fabric to make the suits.",
+    "Kaylani purchased 6 yards more fabric than she used to make the suits."
+  ],
+  "answer": "Kaylani purchased 6 yards more fabric than she used to make the suits.",
+  "explanation": "Rewriting the equation as y = 5x + 6 shows that the total fabric purchased equals the 5x yards actually used plus 6 extra yards. So 6 is the amount of fabric purchased beyond what was used."
+}

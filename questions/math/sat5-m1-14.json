@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m1-14",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat5",
+  "stem": "A store sells two different-sized containers of blueberries. The store’s sales of these blueberries totaled 896.86 dollars last month. The equation 4.51x + 6.07y = 896.86 represents this situation, where x is the number of smaller containers sold and y is the number of larger containers sold. According to the equation, what is the price, in dollars, of each smaller container?",
+  "choices": [
+    "4.51"
+  ],
+  "answer": "4.51",
+  "explanation": "The term 4.51x is the revenue from the x smaller containers, so 4.51 dollars is the price of each smaller container."
+}

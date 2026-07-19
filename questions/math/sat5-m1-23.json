@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-23",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat5",
+  "stem": "A right rectangular prism has a height of 9 inches. The length of the prism’s base is x inches, which is 7 inches more than the width of the prism’s base. Which function V gives the volume of the prism, in cubic inches, in terms of the length of the prism’s base?",
+  "choices": [
+    "V(x) = x(x + 9)(x + 7)",
+    "V(x) = x(x + 9)(x − 7)",
+    "V(x) = 9x(x + 7)",
+    "V(x) = 9x(x − 7)"
+  ],
+  "answer": "V(x) = 9x(x − 7)",
+  "explanation": "The width is 7 less than the length, so it is x − 7. Volume equals length × width × height = x(x − 7)(9), which is V(x) = 9x(x − 7)."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-23",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "Which expression is equivalent to 42a/k + 42ak, where k > 0 ?",
+  "choices": [
+    "84a/k",
+    "84ak²/k",
+    "42a(k + 1)/k",
+    "42a(k² + 1)/k"
+  ],
+  "answer": "42a(k² + 1)/k",
+  "explanation": "Writing the second term over the common denominator k gives 42ak²/k, so the sum is (42a + 42ak²)/k. Factoring 42a from the numerator gives 42a(1 + k²)/k, or 42a(k² + 1)/k.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m2-27",
+  "topic": "Geometry",
+  "stem": "For an electric field passing through a flat surface perpendicular to it, the electric flux of the electric field through the surface is the product of the electric field's strength and the area of the surface. A certain flat surface consists of two adjacent squares, where the side length, in meters, of the larger square is 3 times the side length, in meters, of the smaller square. An electric field with strength 29.00 volts per meter passes uniformly through this surface, which is perpendicular to the electric field. If the total electric flux of the electric field through this surface is 4,640 volts · meters, what is the electric flux, in volts · meters, of the electric field through the larger square?",
+  "choices": [
+    "4176"
+  ],
+  "answer": "4176",
+  "explanation": "If the smaller square has area x, the larger square (side 3 times as long) has area 9x, so the total area is 10x. Flux is strength times area: 29(10x) = 4,640, giving x = 16. The larger square's area is 9(16) = 144 square meters, and its flux is 144(29) = 4,176 volts · meters.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

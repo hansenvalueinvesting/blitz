@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-22",
+  "topic": "Geometry",
+  "stem": "Rectangles ABCD and EFGH are similar. The length of each side of EFGH is 6 times the length of the corresponding side of ABCD. The area of ABCD is 54 square units. What is the area, in square units, of EFGH?",
+  "choices": [
+    "9",
+    "36",
+    "324",
+    "1,944"
+  ],
+  "answer": "1,944",
+  "explanation": "When each side is scaled by 6, the area is scaled by 6² = 36. So the area of EFGH is 36(54) = 1,944 square units. Choice B, 36, is only the scale factor for area, not the resulting area.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

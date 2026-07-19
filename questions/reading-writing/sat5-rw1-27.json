@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-27",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "Celebrated Tewa potter Maria Martinez (1887–1980) made her signature all-black ceramic vessels using a heating technique called reduction firing. This technique involves smothering the flame surrounding the clay vessel. _______ the vessel takes on a shiny, black hue.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "On the contrary,",
+    "For example,",
+    "Previously,",
+    "As a result,"
+  ],
+  "answer": "As a result,",
+  "explanation": "The vessel turning black is the outcome of the reduction-firing technique described in the previous sentence, so “As a result” fits. “On the contrary” signals opposition, “For example” signals an illustration, and “Previously” signals an earlier time — none matches a cause-and-effect relationship."
+}

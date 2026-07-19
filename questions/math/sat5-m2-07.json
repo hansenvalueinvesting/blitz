@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m2-07",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "(d − 30)(d + 30) − 7 = −7\n\nWhat is a solution to the given equation?",
+  "choices": [
+    "30"
+  ],
+  "answer": "30",
+  "explanation": "Adding 7 to both sides gives (d − 30)(d + 30) = 0. A product equals 0 only when a factor is 0, so d = 30 or d = −30; either value is a valid solution.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

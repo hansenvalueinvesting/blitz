@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-03",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "K.D. Leka and colleagues found that the Sun’s corona provides an advance indication of solar flares—intense eruptions of electromagnetic radiation that emanate from active regions in the Sun’s photosphere and can interfere with telecommunications on Earth. Preceding a flare, the corona temporarily exhibits increased brightness above the region where the flare is _______ .\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "antecedent",
+    "impending",
+    "innocuous",
+    "perpetual"
+  ],
+  "answer": "impending",
+  "explanation": "The corona brightens before a flare appears, so the flare is approaching or about to occur — “impending.” “Antecedent” would wrongly make the flare come first, “innocuous” contradicts that flares disrupt communications, and “perpetual” would mean the flare never stops, contradicting the idea of an advance warning of its arrival."
+}

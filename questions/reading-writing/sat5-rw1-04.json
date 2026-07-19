@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-04",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "To demonstrate that the integrity of underground metal pipes can be assessed without unearthing the pipes, engineer Aroba Saleem and colleagues _______ the tendency of some metals’ internal magnetic fields to alter under stress: the team showed that such alterations can be measured from a distance and can reveal concentrations of stress in the pipes.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "hypothesized",
+    "discounted",
+    "redefined",
+    "exploited"
+  ],
+  "answer": "exploited",
+  "explanation": "The researchers put a known property — that some metals’ magnetic fields change under stress — to productive use to detect stress in buried pipes, so they “exploited” it. The text treats this property as an established fact they made use of, not something they tentatively assumed (“hypothesized”), dismissed (“discounted”), or reformulated (“redefined”)."
+}

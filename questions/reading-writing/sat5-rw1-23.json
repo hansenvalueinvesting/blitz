@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-23",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "What makes the theremin a unique musical instrument? You play it without touching it. When you place your _______ the pitch will shift as your hands move through the air.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "hand’s between the two antenna’s,",
+    "hands between the two antennas,",
+    "hands’ between the two antennas’,",
+    "hands’ between the two antennas,"
+  ],
+  "answer": "hands between the two antennas,",
+  "explanation": "The sentence simply refers to two hands placed between two antennas, so both words should be plain plurals: “hands” and “antennas.” The possessive apostrophes in the other options (“hand’s,” “antenna’s,” “hands’,” “antennas’”) are incorrect because nothing here is being possessed."
+}

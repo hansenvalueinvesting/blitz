@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-12",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat5",
+  "stem": "For a snowstorm in a certain town, the minimum rate of snowfall recorded was 0.6 inches per hour, and the maximum rate of snowfall recorded was 1.8 inches per hour. Which inequality is true for all values of s, where s represents a rate of snowfall, in inches per hour, recorded for this snowstorm?",
+  "choices": [
+    "s ≥ 2.4",
+    "s ≥ 1.8",
+    "0 ≤ s ≤ 0.6",
+    "0.6 ≤ s ≤ 1.8"
+  ],
+  "answer": "0.6 ≤ s ≤ 1.8",
+  "explanation": "Every recorded rate is at least the minimum of 0.6 and at most the maximum of 1.8 inches per hour. That is exactly the compound inequality 0.6 ≤ s ≤ 1.8."
+}

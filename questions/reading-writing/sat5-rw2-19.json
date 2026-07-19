@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-19",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "A harpsichord may look just like a piano, but the difference between the two instruments is easy to hear. When a harpsichord’s keys are pressed, the strings inside the _______ are plucked, not struck.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "instrument:",
+    "instrument",
+    "instrument—",
+    "instrument,"
+  ],
+  "answer": "instrument",
+  "explanation": "The subject “the strings inside the instrument” flows directly into its verb “are plucked,” and no punctuation belongs between a subject and its verb. Adding a colon, dash, or comma would wrongly interrupt that connection."
+}
