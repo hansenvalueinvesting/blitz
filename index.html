@@ -19,13 +19,17 @@
   body{background:var(--bg);color:var(--ink);font-family:'Space Grotesk',system-ui,sans-serif}
   .mono{font-family:'JetBrains Mono',monospace}
 
-  #feed{height:100dvh;overflow-y:scroll;scroll-snap-type:y mandatory;scroll-behavior:smooth}
+  #feed{height:100svh;overflow-y:scroll;scroll-snap-type:y proximity;
+        overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch}
   #feed::-webkit-scrollbar{display:none}
-  .card{height:100dvh;scroll-snap-align:start;display:flex;flex-direction:column;
-        padding:calc(env(safe-area-inset-top) + 60px) 22px calc(env(safe-area-inset-bottom) + 24px);
-        justify-content:center;overflow-y:auto}
+  .card{height:100svh;scroll-snap-align:start;scroll-snap-stop:always;display:flex;flex-direction:column;
+        padding:calc(env(safe-area-inset-top) + 56px) 22px calc(env(safe-area-inset-bottom) + 24px);
+        overflow-y:auto;overscroll-behavior:contain}
   .card::-webkit-scrollbar{display:none}
-  .passage{font-size:15px;line-height:1.5;color:var(--dim);background:var(--panel2);
+  /* auto margins center content when it fits but stay scrollable (never clipped) when it overflows */
+  .card>.tags{margin-top:auto}
+  .card>.body{margin-bottom:auto}
+  .passage{font-size:13px;line-height:1.5;color:var(--dim);background:var(--panel2);
            border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px;
            white-space:pre-wrap}
   .figure{max-width:100%;border-radius:10px;background:#fff;padding:8px;margin-bottom:16px;
@@ -35,20 +39,20 @@
        text-transform:uppercase;padding:5px 9px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
   .tag.sec-math{color:var(--math);border-color:color-mix(in srgb,var(--math) 40%,transparent)}
   .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
-  .stem{font-size:22px;line-height:1.42;font-weight:500;margin-bottom:26px}
-  .choices{display:flex;flex-direction:column;gap:10px}
-  .choice{display:flex;align-items:flex-start;gap:12px;padding:15px 16px;background:var(--panel);
+  .stem{font-size:17px;line-height:1.42;font-weight:500;margin-bottom:20px}
+  .choices{display:flex;flex-direction:column;gap:8px}
+  .choice{display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
           border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s;
-          font-size:16px;line-height:1.35;text-align:left}
+          font-size:14px;line-height:1.35;text-align:left}
   .choice:active{background:var(--panel2)}
-  .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:14px;margin-top:1px}
+  .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
   .choice.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
   .choice.correct .key{color:var(--ok)}
   .choice.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
   .choice.wrong .key{color:var(--bad)}
   .choice.locked{cursor:default}
-  .explain{margin-top:20px;padding:15px 16px;background:var(--panel2);border-left:3px solid var(--accent);
-           border-radius:0 8px 8px 0;font-size:15px;line-height:1.5;color:var(--dim);display:none}
+  .explain{margin-top:16px;padding:13px 15px;background:var(--panel2);border-left:3px solid var(--accent);
+           border-radius:0 8px 8px 0;font-size:13px;line-height:1.5;color:var(--dim);display:none}
   .explain.show{display:block;animation:rise .25s ease}
   .explain b{color:var(--ink);font-weight:700}
   @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
@@ -98,8 +102,26 @@
         border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;
         letter-spacing:.05em;cursor:pointer}
   .done:active{opacity:.85}
-  .empty{height:100dvh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
+  .data-section{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+  .wipe{width:100%;padding:14px;background:none;border:1px solid color-mix(in srgb,var(--bad) 55%,var(--line));
+        color:var(--bad);border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;
+        font-size:13px;letter-spacing:.05em;cursor:pointer;transition:background .15s}
+  .wipe:active{background:color-mix(in srgb,var(--bad) 14%,transparent)}
+  .empty{height:100svh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
   .empty .big{font-family:'JetBrains Mono',monospace;font-size:15px;color:var(--ink);margin-bottom:10px}
+
+  .desktop-gate{position:fixed;inset:0;z-index:50;background:var(--bg);display:none;
+                flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px}
+  .desktop-gate.show{display:flex}
+  .desktop-gate .dg-brand{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;letter-spacing:.02em;margin-bottom:22px}
+  .desktop-gate .dg-brand span{color:var(--accent)}
+  .desktop-gate .dg-phone{font-size:52px;margin-bottom:20px;line-height:1}
+  .desktop-gate h1{font-size:20px;font-weight:600;margin-bottom:12px;max-width:22ch}
+  .desktop-gate p{font-size:14px;line-height:1.55;color:var(--dim);max-width:34ch;margin-bottom:26px}
+  .desktop-gate .dg-go{background:none;border:1px solid var(--line);color:var(--dim);
+        padding:11px 18px;border-radius:10px;font-family:'JetBrains Mono',monospace;font-size:13px;
+        letter-spacing:.04em;cursor:pointer}
+  .desktop-gate .dg-go:hover{color:var(--ink);border-color:var(--faint)}
 </style>
 </head>
 <body>
@@ -111,6 +133,14 @@
 </div>
 
 <div id="feed"></div>
+
+<div class="desktop-gate" id="desktopGate">
+  <div class="dg-brand">blitz<span>.</span></div>
+  <div class="dg-phone">📱</div>
+  <h1>Blitz is built for your phone</h1>
+  <p>It’s a vertical, swipe-through question feed — like scrolling a social app. Open this page on your phone for the intended experience.</p>
+  <button class="dg-go" id="dgGo">Use on desktop anyway</button>
+</div>
 
 <div class="scrim" id="scrim"></div>
 <div class="sheet" id="sheet">
@@ -137,10 +167,17 @@
   </div>
 
   <button class="done" id="done">Apply &amp; shuffle</button>
+
+  <div class="data-section">
+    <h2>Data</h2>
+    <button class="wipe" id="wipe">Delete all app data</button>
+    <div class="pct">clears your progress, accuracy, and saved settings on this device</div>
+  </div>
 </div>
 
 <script>
 const SETTINGS_KEY='blitz.settings.v1';
+const PROGRESS_KEY='blitz.progress.v1';
 let DIR=[], settings=null, seen=0, correct=0;
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
@@ -152,6 +189,7 @@ const feed=$('feed');
 
 init();
 async function init(){
+  maybeGateDesktop();
   try{
     const r=await fetch('directory.json',{cache:'no-store'});
     if(!r.ok) throw 0;
@@ -165,9 +203,22 @@ async function init(){
     return;
   }
   settings=loadSettings();
+  const prog=loadProgress(); seen=prog.seen; correct=prog.correct;
+  paintStreak();
   buildSettingsUI();
   wireSheet();
   refill(true);
+}
+
+function maybeGateDesktop(){
+  // "Desktop" = wide screen with a precise (mouse/trackpad) primary pointer.
+  // Touch phones report a coarse pointer, so they pass straight through.
+  const isDesktop = window.matchMedia('(min-width:760px)').matches
+                 && window.matchMedia('(pointer:fine)').matches;
+  if(!isDesktop) return;
+  const gate=$('desktopGate');
+  gate.classList.add('show');
+  $('dgGo').onclick=()=>gate.classList.remove('show');
 }
 
 function loadSettings(){
@@ -175,6 +226,17 @@ function loadSettings(){
   return structuredClone(DEFAULT);
 }
 function saveSettings(){localStorage.setItem(SETTINGS_KEY,JSON.stringify(settings));}
+
+function loadProgress(){
+  try{const p=JSON.parse(localStorage.getItem(PROGRESS_KEY));
+      if(p&&typeof p.seen==='number'&&typeof p.correct==='number') return p;}catch(e){}
+  return {seen:0, correct:0};
+}
+function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({seen,correct}));}
+function paintStreak(){
+  const acc = seen ? Math.round(correct/seen*100) : 0;
+  $('streak').textContent=`${seen} seen · ${acc}% acc`;
+}
 
 function topicsFor(sec){return [...new Set(DIR.filter(q=>q.section===sec).map(q=>q.topic))].sort();}
 function activeTopics(sec){return topicsFor(sec).filter(t=>!settings.topicsOff[t]);}
@@ -273,7 +335,7 @@ function answer(card,btn,chosen,correctAns){
   const right=chosen===correctAns;
   if(!right) btn.classList.add('wrong');
   seen++; if(right) correct++;
-  $('streak').textContent=`${seen} seen · ${Math.round(correct/seen*100)}% acc`;
+  saveProgress(); paintStreak();
   card.querySelector('.explain').classList.add('show');
   const idx=[...feed.children].indexOf(card);
   if(feed.children.length-idx<4){ appendCard(); appendCard(); }
@@ -320,6 +382,19 @@ function wireSheet(){
   $('secSlider').oninput=e=>{settings.secMath=+e.target.value;paintSliders();};
   $('modSlider').oninput=e=>{settings.mod1=+e.target.value;paintSliders();};
   $('done').onclick=()=>{ saveSettings(); close(); refill(true); };
+  $('wipe').onclick=()=>{ if(wipeData()) close(); };
+}
+
+function wipeData(){
+  if(!confirm('Delete all Blitz data on this device? This clears your progress, accuracy, and saved settings. This cannot be undone.')) return false;
+  localStorage.removeItem(PROGRESS_KEY);
+  localStorage.removeItem(SETTINGS_KEY);
+  settings=structuredClone(DEFAULT);
+  seen=0; correct=0;
+  paintStreak();
+  buildSettingsUI();   // reset sliders + topic chips to defaults
+  refill(true);        // reshuffle the feed under the fresh settings
+  return true;
 }
 
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
