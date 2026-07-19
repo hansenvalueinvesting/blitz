@@ -162,6 +162,8 @@
   .draw-tools .clear{background:var(--panel);color:var(--bad);
               border-color:color-mix(in srgb,var(--bad) 45%,var(--line))}
   .draw-tools .done{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+  .draw-tools .ur{background:var(--panel);color:var(--ink);padding:11px 15px;font-size:16px;line-height:1}
+  .draw-tools button:disabled{opacity:.38;cursor:default}
 
   /* calculator overlay: a Desmos graphing calculator in a bottom sheet */
   .calc-sheet{position:fixed;left:0;right:0;bottom:0;z-index:31;background:var(--panel);
@@ -218,6 +220,8 @@
 <div class="draw-layer" id="drawLayer">
   <canvas id="drawCanvas"></canvas>
   <div class="draw-tools">
+    <button class="ur" id="drawUndo" aria-label="Undo">↶</button>
+    <button class="ur" id="drawRedo" aria-label="Redo">↷</button>
     <button class="clear" id="drawClear">Clear</button>
     <button class="done" id="drawDone">Done</button>
   </div>
@@ -643,40 +647,52 @@ function wipeData(){
 }
 
 // ---- Drawing + Calculator dock ----------------------------------------------
-let dctx=null, drawing=false, hasInk=false, lastX=0, lastY=0, curCard=0;
+// Ink is stored as vector strokes (arrays of points) rather than baked pixels, so
+// it survives closing/reopening the whiteboard, redraws crisply on resize, and
+// supports undo/redo. It's only wiped by Clear or by scrolling to the next question.
+let dctx=null, drawing=false, curCard=0;
+let strokes=[], redoStack=[], curStroke=null;
 
 function wireTools(){
   const drawBtn=$('drawBtn'), calcBtn=$('calcBtn');
   const drawLayer=$('drawLayer'), canvas=$('drawCanvas');
 
   // --- drawing ---
-  const openDraw=()=>{ drawLayer.classList.add('open'); drawBtn.classList.add('active'); sizeCanvas(); };
+  // Opening just re-shows the surface and repaints saved strokes — it never clears.
+  const openDraw=()=>{ drawLayer.classList.add('open'); drawBtn.classList.add('active'); sizeCanvas(); updateUndoRedo(); };
   const closeDraw=()=>{ drawLayer.classList.remove('open'); drawBtn.classList.remove('active'); };
   drawBtn.onclick=()=> drawLayer.classList.contains('open') ? closeDraw() : openDraw();
   $('drawDone').onclick=closeDraw;
   $('drawClear').onclick=clearDraw;
+  $('drawUndo').onclick=undoDraw;
+  $('drawRedo').onclick=redoDraw;
 
+  const ptOf=e=>{ const r=canvas.getBoundingClientRect(); return {x:e.clientX-r.left, y:e.clientY-r.top}; };
   canvas.addEventListener('pointerdown',e=>{
     drawing=true; canvas.setPointerCapture(e.pointerId);
-    const r=canvas.getBoundingClientRect();
-    lastX=e.clientX-r.left; lastY=e.clientY-r.top;
-    // a tap leaves a dot
-    dctx.beginPath(); dctx.arc(lastX,lastY,1.5,0,Math.PI*2); dctx.fillStyle='#4fd1c5'; dctx.fill();
-    hasInk=true;
+    curStroke=[ptOf(e)];
+    redoStack=[];            // a fresh stroke drops any redo history
+    drawStroke(curStroke);   // a tap leaves a dot
+    updateUndoRedo();
   });
   canvas.addEventListener('pointermove',e=>{
     if(!drawing) return;
-    const r=canvas.getBoundingClientRect();
-    const x=e.clientX-r.left, y=e.clientY-r.top;
-    dctx.beginPath(); dctx.moveTo(lastX,lastY); dctx.lineTo(x,y); dctx.stroke();
-    lastX=x; lastY=y; hasInk=true;
+    const p=ptOf(e), last=curStroke[curStroke.length-1];
+    dctx.beginPath(); dctx.moveTo(last.x,last.y); dctx.lineTo(p.x,p.y); dctx.stroke();
+    curStroke.push(p);
   });
-  ['pointerup','pointercancel'].forEach(ev=>canvas.addEventListener(ev,()=>{drawing=false;}));
+  const endStroke=()=>{
+    if(!drawing) return;
+    drawing=false;
+    if(curStroke && curStroke.length) strokes.push(curStroke);
+    curStroke=null; updateUndoRedo();
+  };
+  ['pointerup','pointercancel'].forEach(ev=>canvas.addEventListener(ev,endStroke));
 
   // Scrolling to a new problem wipes the scratch work (like a fresh sheet of paper).
   feed.addEventListener('scroll',()=>{
     const idx=Math.round(feed.scrollTop/feed.clientHeight);
-    if(idx!==curCard){ curCard=idx; if(hasInk) clearDraw(); }
+    if(idx!==curCard){ curCard=idx; if(strokes.length||redoStack.length) clearDraw(); }
   },{passive:true});
   window.addEventListener('resize',()=>{ if(drawLayer.classList.contains('open')) sizeCanvas(); });
 
@@ -702,14 +718,40 @@ function sizeCanvas(){
   dctx.setTransform(dpr,0,0,dpr,0,0);
   dctx.lineCap='round'; dctx.lineJoin='round';
   dctx.strokeStyle='#4fd1c5'; dctx.lineWidth=3;
-  hasInk=false;   // resizing resets the surface
+  redraw();   // repaint saved strokes onto the (re)sized surface
 }
-function clearDraw(){
+function drawStroke(pts){
+  if(!pts||!pts.length) return;
+  if(pts.length===1){ dctx.beginPath(); dctx.arc(pts[0].x,pts[0].y,1.5,0,Math.PI*2); dctx.fillStyle='#4fd1c5'; dctx.fill(); return; }
+  dctx.beginPath(); dctx.moveTo(pts[0].x,pts[0].y);
+  for(let i=1;i<pts.length;i++) dctx.lineTo(pts[i].x,pts[i].y);
+  dctx.stroke();
+}
+function redraw(){
   const canvas=$('drawCanvas');
   if(!dctx) return;
   dctx.save(); dctx.setTransform(1,0,0,1,0,0);
   dctx.clearRect(0,0,canvas.width,canvas.height); dctx.restore();
-  hasInk=false;
+  for(const s of strokes) drawStroke(s);
+}
+function updateUndoRedo(){
+  const u=$('drawUndo'), r=$('drawRedo');
+  if(u) u.disabled=!strokes.length;
+  if(r) r.disabled=!redoStack.length;
+}
+function undoDraw(){
+  if(drawing||!strokes.length) return;
+  redoStack.push(strokes.pop());
+  redraw(); updateUndoRedo();
+}
+function redoDraw(){
+  if(drawing||!redoStack.length) return;
+  strokes.push(redoStack.pop());
+  redraw(); updateUndoRedo();
+}
+function clearDraw(){
+  strokes=[]; redoStack=[]; curStroke=null;
+  redraw(); updateUndoRedo();
 }
 
 let desmosState='idle', desmosCalc=null;   // idle | loading | ready | failed
