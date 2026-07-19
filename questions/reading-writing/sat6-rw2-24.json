@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-24",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "Latin America is known to have dozens, if not hundreds, of popular dance forms. Only five of these dances are included in international ballroom dance _______ rumba, samba, cha-cha-cha, paso doble, and jive—the last of which is grouped with the other Latin dances despite not having Latin roots.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "competitions, however:",
+    "competitions, however,",
+    "competitions, however;",
+    "competitions; however,"
+  ],
+  "answer": "competitions, however:",
+  "explanation": "A comma sets off the supplementary adverb \"however\" from the main clause, and a colon after it correctly introduces the list of five dances that follows. A comma or semicolon can't introduce that list, and placing the semicolon after \"competitions\" would wrongly signal that the list contrasts with the preceding clause."
+}

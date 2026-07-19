@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-19",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "In forecasting weather events, meteorologists sometimes discuss the role of atmospheric rivers. What are atmospheric rivers, and how _______ Part of the water cycle, atmospheric rivers are narrow channels of moisture moving through the atmosphere. In certain conditions, these “rivers” can release some of their moisture as precipitation.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "do they affect our weather.",
+    "they do affect our weather.",
+    "do they affect our weather?",
+    "they do affect our weather?"
+  ],
+  "answer": "do they affect our weather?",
+  "explanation": "The sentence asks a direct question (\"What are atmospheric rivers, and how...\"), so it needs interrogative word order (\"do they affect\") and a question mark at the end. A period is wrong for a question, and \"they do affect\" uses statement order rather than question order."
+}

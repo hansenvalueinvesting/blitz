@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-03",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat6",
+  "stem": "_______ the long-standing trend of overemphasizing teenagers and young adults in research on social media use, scholars have recently begun to expand their focus to include the fastest-growing cohort of social media users: senior citizens.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "Exacerbating",
+    "Redressing",
+    "Epitomizing",
+    "Precluding"
+  ],
+  "answer": "Redressing",
+  "explanation": "By broadening their studies to include senior citizens, scholars are correcting, or “redressing,” the earlier overemphasis on the young. “Exacerbating” (worsening) and “epitomizing” (exemplifying) contradict that corrective action, and “precluding” (preventing in advance) can’t apply to a trend that already existed."
+}

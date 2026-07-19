@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-03",
+  "section": "math",
+  "module": 2,
+  "topic": "Statistics and probability",
+  "source": "sat6",
+  "stem": "On a street with 7 houses, 2 houses are blue. If a house from this street is selected at random, what is the probability of selecting a house that is blue?",
+  "choices": [
+    "1/7",
+    "2/7",
+    "5/7",
+    "7/7"
+  ],
+  "answer": "2/7",
+  "explanation": "The probability equals the number of blue houses divided by the total number of houses. With 2 blue houses out of 7, the probability is 2/7."
+}

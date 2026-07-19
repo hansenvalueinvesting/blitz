@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m2-04",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat6",
+  "stem": "The graph of function f is shown, where y = f(x).\n\nWhich of the following describes function f?",
+  "choices": [
+    "Increasing linear",
+    "Decreasing linear",
+    "Increasing exponential",
+    "Decreasing exponential"
+  ],
+  "answer": "Increasing linear",
+  "explanation": "The graph rises from left to right, so f increases as x increases. Because it is a straight line, the rate of change is constant, which makes f a linear function. So f is increasing linear.",
+  "image": "sat6-m2-04.png"
+}

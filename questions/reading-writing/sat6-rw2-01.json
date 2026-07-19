@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-01",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat6",
+  "passage": "The works of Chicana artist Ester Hernandez are now _______ in museums both in the United States and abroad, but the murals she contributed to as a member of Las Mujeres Muralistas early in her artistic career were displayed in outdoor public spaces across San Francisco.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "invented",
+    "adjusted",
+    "featured",
+    "recommended"
+  ],
+  "answer": "featured",
+  "explanation": "The passage contrasts where Hernandez's early murals were shown (outdoor public spaces) with where her work appears now (museums worldwide), so the blank needs a word meaning displayed prominently. “Featured” fits. “Invented” and “adjusted” wrongly imply creating or altering the works, and “recommended” refers to endorsing rather than exhibiting them."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-30",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat6",
+  "stem": "In hindsight, given the ideas about the natural world circulating among British scientists in the 1800s, the theory of natural selection was an obvious next step. It may not have been a coincidence, _______ that Charles Darwin and Alfred Wallace arrived at the concept independently. Indeed, contrary to the popular myth of the lone genius, theirs is not the first paradigm-shifting theory to have emerged from multiple scholars working in parallel.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "however,",
+    "then,",
+    "moreover,",
+    "for example,"
+  ],
+  "answer": "then,",
+  "explanation": "That two scientists reached the idea independently follows logically from the notion that the theory was an “obvious next step,” so “then” fits as a consequence. “However” implies contrast, “moreover” merely adds, and “for example” signals an illustration—none matching the logical follow-through."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-22",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "stem": "Researchers Amit Kumar and Nicholas Epley investigated how _______ In a series of experiments conducted in 2022, they found that people performing small acts of kindness underestimated the positive effect their actions had on others.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "do people perceive acts of kindness.",
+    "do people perceive acts of kindness?",
+    "people perceive acts of kindness?",
+    "people perceive acts of kindness."
+  ],
+  "answer": "people perceive acts of kindness.",
+  "explanation": "The sentence reports an indirect question—what the researchers investigated—so it needs a declarative clause (“how people perceive acts of kindness”) ending in a period. The inverted “do people perceive” wording and the question marks would wrongly turn it into a direct question."
+}

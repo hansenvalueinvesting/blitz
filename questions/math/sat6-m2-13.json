@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m2-13",
+  "section": "math",
+  "module": 2,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat6",
+  "stem": "Brian saves 2/5 of the $215 he earns each week from his job. If Brian continues to save at this rate, how much money, in dollars, will Brian save in 9 weeks?",
+  "choices": [
+    "774"
+  ],
+  "answer": "774",
+  "explanation": "Each week Brian saves 2/5 of $215, which is $86. Over 9 weeks that is 86 × 9 = 774 dollars."
+}

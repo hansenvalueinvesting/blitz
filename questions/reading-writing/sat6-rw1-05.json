@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-05",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat6",
+  "stem": "While recent scholarship has undermined claims that the works of twelfth-century Islamic philosopher Ibn Rushd were _______ other Muslim philosophers of his time, it is indisputable that his location in the Muslim-ruled area of what is now Spain meant that his works were primarily available thousands of miles west of the era’s center of Islamic thought.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "controversial among",
+    "antagonistic toward",
+    "imitated by",
+    "inconsequential to"
+  ],
+  "answer": "inconsequential to",
+  "explanation": "His distant location might suggest his ideas had little effect on his peers, but recent scholarship has undermined that claim—so his works were not “inconsequential to” other Muslim philosophers. The passage isn’t about whether his works stirred dispute, were hostile, or were copied, so the other options don’t fit the contrast being drawn."
+}

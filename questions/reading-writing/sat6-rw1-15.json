@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw1-15",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat6",
+  "stem": "It may seem that the optimal strategy for an animal pursuing prey or escaping predators is to move at maximal speed, but the energy expense of exploiting full speed capacity can disfavor such a strategy even in escape contexts, as evidenced by the fact that _______\n\nWhich choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+    "most lizard species use about the same percentage of their maximal speed when escaping predation as they do when pursuing prey.",
+    "multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation.",
+    "more lizard species use, on average, 90%–100% of their maximal speed while escaping predation than use any other percentage of their maximal speed.",
+    "at least 4 lizard species use, on average, less than 100% of their maximal speed while pursuing prey."
+  ],
+  "answer": "multiple lizard species move at an average of less than 90% of their maximal speed while escaping predation.",
+  "explanation": "To back the idea that top speed is often avoided even when escaping, the sentence needs escape data showing sub-maximal speeds. The graph counts several escaping species in the 50–59, 60–69, 70–79, and 80–89 percent bands, so multiple species escape at under 90% of maximal speed. Choice C reports the busiest escape category but doesn’t make the point about avoiding full speed, and choices A and D either can’t be read species-by-species or concern pursuing rather than escaping.",
+  "image": "sat6-rw1-15.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-26",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "A species of Byropsis algae produces toxins to avoid being eaten by predators. However, in some cases, the toxins the organism uses to protect itself from predation actually _______ its attractiveness to predators. The Hawaiian sea slug, for example, not only tolerates Byropsis toxins but actually uses them for protection in the same way the algae does.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "is increasing",
+    "increase",
+    "increases",
+    "has increased"
+  ],
+  "answer": "increase",
+  "explanation": "The subject of the verb is the plural noun \"toxins,\" so the plural verb \"increase\" is needed for subject-verb agreement. \"Is increasing,\" \"increases,\" and \"has increased\" are all singular forms and don't agree with the plural subject."
+}

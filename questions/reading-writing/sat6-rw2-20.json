@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-20",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "One of the few African American global explorers during the turn of the 20th century, _______",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "Matthew Henson made several treks across Greenland between 1891 and 1909.",
+    "1891 and 1909 were the years between which Matthew Henson made several treks across Greenland.",
+    "Greenland was where Matthew Henson made several treks between 1891 and 1909.",
+    "several treks across Greenland were made by Matthew Henson between 1891 and 1909."
+  ],
+  "answer": "Matthew Henson made several treks across Greenland between 1891 and 1909.",
+  "explanation": "The opening modifier describes a person—one of the few African American global explorers—so the noun it modifies, Matthew Henson, must come right after the comma. The other choices place years, Greenland, or the treks in that spot, creating dangling modifiers that illogically describe those things as the explorer."
+}

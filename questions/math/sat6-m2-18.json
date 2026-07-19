@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-18",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat6",
+  "stem": "Line k is defined by y = 7x + 1/8. Line j is perpendicular to line k in the xy-plane. What is the slope of line j?",
+  "choices": [
+    "−8",
+    "−1/7",
+    "1/8",
+    "7"
+  ],
+  "answer": "−1/7",
+  "explanation": "In slope-intercept form, the slope of line k is 7. A line perpendicular to it has the opposite reciprocal slope, which is −1/7."
+}

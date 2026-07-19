@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-18",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat6",
+  "stem": "Consumer psychologists have theorized that the likelihood that people who identify as ethical consumers—meaning that they strive to purchase goods and services with positive or neutral social and ecological effects—will purchase a given product positively correlates with their perception of that product’s effects. In a recent study of the attitudes of self-identified ethical consumers toward purchasing a specific mobile phone coming to market, researchers found that, on average, study participants in their twenties rated the phone’s social and ecological effects much less positively than did participants in other age groups. All other things being equal, if consumer psychologists’ theory is correct, this finding suggests that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "the phone is less appealing to ethical consumers in their twenties than other similar phones on the market are.",
+    "ethical consumers in their twenties are less likely to purchase the phone than ethical consumers in other age groups are.",
+    "there is not a meaningful difference in the likelihood of purchasing the phone among ethical consumers in different age groups.",
+    "ethical consumers in their twenties are more likely than ethical consumers in other age groups to consider a phone’s social and ecological effects when deciding whether to purchase that phone."
+  ],
+  "answer": "ethical consumers in their twenties are less likely to purchase the phone than ethical consumers in other age groups are.",
+  "explanation": "The theory ties buying likelihood to how positively consumers view a product’s effects, and twenty-somethings viewed this phone’s effects less positively than others did, so they should be less likely to buy it. Choice A introduces other phones the study never measured, C ignores the age difference the study found, and D contradicts the idea that all ethical consumers weigh such effects."
+}

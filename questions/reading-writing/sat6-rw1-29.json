@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-29",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat6",
+  "stem": "The Inca of South America used intricately knotted string devices called quipus to record countable information, like population data and payments. _______ they may have used quipus to record more complex information, like stories and myths, according to researchers.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "As a result,",
+    "In other words,",
+    "In addition,",
+    "For example,"
+  ],
+  "answer": "In addition,",
+  "explanation": "The possibility that quipus also recorded stories and myths is an added use beyond recording countable data, so “In addition” fits. “As a result,” “In other words,” and “For example” would wrongly signal a consequence, a restatement, or an illustration of the first point."
+}

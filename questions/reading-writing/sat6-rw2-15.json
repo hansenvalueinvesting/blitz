@@ -1,0 +1,18 @@
+{
+  "id": "sat6-rw2-15",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat6",
+  "image": "sat6-rw2-15.png",
+  "passage": "To test whether a medication is effective, scientists compare outcomes for patients taking it and patients taking a placebo (a medically inactive substance). Patients normally aren’t told they’re receiving a placebo, but a research team conducted a study to see if there might be a medical benefit to telling them. The team used various measures to evaluate participants, with higher ratings indicating greater well-being in each measure. Compared to the mean ratings after 21 days for participants in the control group, the mean ratings for participants who were aware of taking a placebo _______",
+  "stem": "Which choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+    "ranged from 5.0 to 92.00, indicating that well-being varied widely from participant to participant.",
+    "were lower for two measures, with the rating for only one measure indicating greater well-being for these participants.",
+    "ranged from 3.9 to 46.00, with no rating indicating greater well-being in any measure for these participants.",
+    "were higher for all three measures, indicating greater overall well-being for these participants."
+  ],
+  "answer": "were higher for all three measures, indicating greater overall well-being for these participants.",
+  "explanation": "For every measure, the mean rating for participants aware of taking a placebo (5.0, 92.00, 11.4) exceeds the control group's (3.9, 46.00, 5.4), and since higher ratings mean greater well-being, these participants showed greater overall well-being. The table reports means, not individual variation, and its values cite the placebo-aware group, not the control group."
+}

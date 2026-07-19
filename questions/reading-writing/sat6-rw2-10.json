@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-10",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Central ideas and details",
+  "source": "sat6",
+  "passage": "Elizabeth Asiedu has identified a negative correlation between the share of developing countries’ economies derived from natural-resource extraction and those countries’ receipts of foreign investment. This may appear counterintuitive—resource extraction requires initial investments (in extractive technology, for instance) at scales best met by multinational corporations—but Asiedu notes that natural-resource industries’ boom-bust cycle can destabilize local currencies and increase developing countries’ vulnerability to external shocks, creating levels of uncertainty to which foreign investors are typically averse.",
+  "stem": "Which choice best states the main idea of the text?",
+  "choices": [
+    "Although it may seem surprising that foreign investment declines in developing countries as natural-resource extraction makes up a larger share of those countries’ economies, that decline happens because resource extraction requires initial investments too large for foreign investors to supply.",
+    "Although developing countries tend to become less dependent on foreign investment as natural-resource industries make up a larger share of their economies, this change may not occur if the boom-bust cycle of those industries destabilizes local currencies or increases countries’ vulnerability to external shocks.",
+    "Although one might expect that foreign investment would increase as natural-resource extraction makes up a larger share of developing countries’ economies, the opposite happens because heavy reliance on natural resources can lead to unattractive conditions for investors.",
+    "Although foreign investors tend to avoid initial investments in natural-resource industries in developing countries, foreign investment may increase significantly as those industries stabilize and the risks associated with them decline."
+  ],
+  "answer": "Although one might expect that foreign investment would increase as natural-resource extraction makes up a larger share of developing countries’ economies, the opposite happens because heavy reliance on natural resources can lead to unattractive conditions for investors.",
+  "explanation": "The passage's key point is that, contrary to expectation, foreign investment falls as resource extraction grows because such economies become unstable and unappealing to investors. Choice A wrongly blames the size of initial investments, choice B misframes the trend as countries choosing to reduce dependence, and choice D wrongly predicts investment rising as industries stabilize."
+}

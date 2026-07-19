@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-33",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat6",
+  "stem": "While researching a topic, a student has taken the following notes:\n• The ancient Arab dhow was a sailing vessel distinguishable by its triangular sails and stitched hull construction.\n• Dhows were used primarily for trade along the coasts of Arab, South Asian, and East African countries.\n• Contemporary shipbuilders in Oman use a mix of modern and traditional materials to build replicas of ancient dhows.\n• Most of the materials used are traditional.\n• Replica hulls are stitched together using the same traditional coconut palm fiber rope used on the hulls of ancient dhows.\n\nThe student wants to make a generalization about the materials used in dhow replicas. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "A traditional material that was used to stitch together the hulls of ancient dhows, coconut palm fiber rope is still used by shipbuilders.",
+    "The ancient Arab dhow was a sailing vessel used primarily for trade and distinguishable by its triangular sails.",
+    "Although most materials used in dhow replicas are traditional, some modern materials are used.",
+    "Contemporary shipbuilders in Oman build replicas of the dhow, which was an ancient sailing vessel with a stitched hull construction."
+  ],
+  "answer": "Although most materials used in dhow replicas are traditional, some modern materials are used.",
+  "explanation": "Choice C generalizes about the replicas’ materials overall, noting that they are mostly traditional with some modern ones mixed in. The other choices give a single example (the rope), describe the ancient dhow itself, or introduce the replicas without characterizing the mix of materials."
+}

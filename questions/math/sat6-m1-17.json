@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-17",
+  "topic": "Linear equations",
+  "stem": "P = N(19 − C)\n\nThe given equation relates the positive numbers P, N, and C. Which equation correctly expresses C in terms of P and N ?",
+  "choices": [
+    "C = (19 + P)/N",
+    "C = (19 − P)/N",
+    "C = 19 + P/N",
+    "C = 19 − P/N"
+  ],
+  "answer": "C = 19 − P/N",
+  "explanation": "Dividing both sides by N gives P/N = 19 − C. Solving for C yields C = 19 − P/N.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

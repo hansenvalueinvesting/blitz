@@ -1,0 +1,18 @@
+{
+  "id": "sat6-rw2-13",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat6",
+  "image": "sat6-rw2-13.png",
+  "passage": "In 2021, four of the United States national parks that were among the most visited were Grand Canyon National Park, Rocky Mountain National Park, Yellowstone National Park, and Zion National Park. The graph shows the number of visits for recreation to each of these parks during the three-month period with the highest number of visitors. A student notes that among the parks shown in the graph, the park with the highest monthly recreation visits in all three months was _______\n\n[Graph: Recreation Visits by Month to Four US National Parks during the Peak Season in 2021 (thousands of visits), for June, July, and August. Yellowstone: ~940, ~1,080, ~920. Rocky Mountain: ~670, ~900, ~750. Zion: ~680, ~580, ~470. Grand Canyon: ~540, ~560, ~430.]",
+  "stem": "Which choice most effectively uses data from the graph to complete the text?",
+  "choices": [
+    "Zion National Park.",
+    "Rocky Mountain National Park.",
+    "Yellowstone National Park.",
+    "Grand Canyon National Park."
+  ],
+  "answer": "Yellowstone National Park.",
+  "explanation": "Across all three months, Yellowstone's visit totals are higher than those of any other park shown, making it the park with the highest monthly recreation visits every month. The other three parks each fall below Yellowstone in June, July, and August."
+}

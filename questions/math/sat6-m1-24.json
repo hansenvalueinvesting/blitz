@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m1-24",
+  "topic": "Trigonometry",
+  "stem": "Right triangle ABC is shown. What is the value of tan A ?",
+  "choices": [
+    "√3/54",
+    "1/√3",
+    "√3",
+    "27√3"
+  ],
+  "answer": "√3",
+  "explanation": "Angle B is 30° and angle C is 90°, so angle A is 60°. In this 30-60-90 triangle the side opposite A (length 27√3) and the side adjacent to A (length 27) give tan A = 27√3/27 = √3.",
+  "image": "sat6-m1-24.png",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

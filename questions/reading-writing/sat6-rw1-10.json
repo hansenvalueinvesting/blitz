@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-10",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Central ideas and details",
+  "source": "sat6",
+  "stem": "To understand how Paleolithic artists navigated dark caves, archaeologist Mª Ángeles Medina-Alcaide and her team tested different lighting methods in a cave in Spain using replicas of artifacts found in European caves with art. They used three different Paleolithic light sources—torches, animal-fat lamps, and fireplaces—determining that each likely had a specific purpose. For instance, the team learned that the animal-fat lamps were less useful than torches while walking because the lamps didn’t illuminate the cave floor.\n\nWhich choice best states the main idea of the text?",
+  "choices": [
+    "Medina-Alcaide and her team’s study demonstrated that fireplaces were essential to the creators of Paleolithic cave art.",
+    "Medina-Alcaide and her team discovered that Paleolithic cave artists in Spain used animal-fat lamps more often than they used torches.",
+    "Medina-Alcaide and her team were reluctant to draw many conclusions from their study because of the difficulty they had replicating light sources based on known artifacts.",
+    "Medina-Alcaide and her team tested Paleolithic light sources and learned some details about how Paleolithic artists traveled within dark caves."
+  ],
+  "answer": "Medina-Alcaide and her team tested Paleolithic light sources and learned some details about how Paleolithic artists traveled within dark caves.",
+  "explanation": "The passage explains that the researchers experimented with three replica light sources to figure out how Paleolithic artists moved through dark caves, and gives the torch-versus-lamp finding as an example. It doesn’t call fireplaces essential, rank how often each source was used, or say the team hesitated to draw conclusions."
+}

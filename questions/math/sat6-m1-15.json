@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m1-15",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "The graph models the number of active projects a company was working on x months after the end of November 2012, where 0 ≤ x ≤ 6. According to the model, what is the predicted number of active projects the company was working on at the end of November 2012?",
+  "choices": [
+    "0",
+    "5",
+    "8",
+    "9"
+  ],
+  "answer": "5",
+  "explanation": "The end of November 2012 corresponds to x = 0, which is the graph's y-intercept. The curve meets the y-axis at 5, so the model predicts 5 active projects.",
+  "image": "sat6-m1-15.png",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-28",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat6",
+  "stem": "Working together with the Navajo Nation Department of Water Resources, Dr. Lani Tsinnajinnie analyzed data about snowpack levels in the Chuska Mountains. She found that the snowpack (the amount of snow on the ground) was deepest in early March at lower elevations. At higher elevations, _______ the snowpack was deepest in mid-March.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "in other words,",
+    "for instance,",
+    "on the other hand,",
+    "in summary,"
+  ],
+  "answer": "on the other hand,",
+  "explanation": "The higher-elevation timing (mid-March) contrasts with the lower-elevation timing (early March), so “on the other hand” correctly marks the contrast. “In other words,” “for instance,” and “in summary” would signal a restatement, an example, or a summary rather than a contrast."
+}

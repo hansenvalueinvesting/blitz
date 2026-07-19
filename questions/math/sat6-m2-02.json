@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m2-02",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat6",
+  "stem": "Note: Figure not drawn to scale.\n\nIn the figure, two lines intersect at a point. Angle 1 and angle 2 are vertical angles. The measure of angle 1 is 72°. What is the measure of angle 2?",
+  "choices": [
+    "72°",
+    "108°",
+    "144°",
+    "288°"
+  ],
+  "answer": "72°",
+  "explanation": "Vertical angles are always equal in measure. Since angle 1 and angle 2 are vertical angles and angle 1 measures 72°, angle 2 also measures 72°.",
+  "image": "sat6-m2-02.png"
+}

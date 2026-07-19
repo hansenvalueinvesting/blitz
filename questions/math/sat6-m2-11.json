@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-11",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat6",
+  "stem": "The function f defined by f(t) = 14t + 9 gives the estimated length, in inches, of a vine plant t months after Tavon purchased it. Which of the following is the best interpretation of 9 in this context?",
+  "choices": [
+    "Tavon will keep the vine plant for 9 months.",
+    "The vine plant is expected to grow 9 inches each month.",
+    "The vine plant is expected to grow to a maximum length of 9 inches.",
+    "The estimated length of the vine plant was 9 inches when Tavon purchased it."
+  ],
+  "answer": "The estimated length of the vine plant was 9 inches when Tavon purchased it.",
+  "explanation": "In f(t) = 14t + 9, the constant 9 is the value of f when t = 0, which is the moment of purchase. So 9 represents the plant's estimated length of 9 inches at purchase. The 14 is the growth rate per month, not the constant."
+}

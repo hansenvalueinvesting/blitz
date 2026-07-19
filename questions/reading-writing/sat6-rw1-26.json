@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-26",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat6",
+  "stem": "In the search for extraterrestrial life, astrobiologists Stuart Bartlett and Michael L. Wong propose that scientists avoid using the term “life.” _______ researchers should use another word: “lyfe.” This new term, they argue, could be used to draw distinctions between the known characteristics of life on Earth and the potentially differing characteristics of lyfe on other planets.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Previously,",
+    "Regardless,",
+    "There,",
+    "Instead,"
+  ],
+  "answer": "Instead,",
+  "explanation": "Using “lyfe” is presented as a substitute for the term “life,” so “Instead” correctly signals an alternative. “Previously,” “Regardless,” and “There” wrongly imply a time sequence, a concession, or a place rather than a replacement."
+}

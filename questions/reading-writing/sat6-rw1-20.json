@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-20",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "stem": "Louise Bennett (1919–2006), also known as “Miss Lou,” was an influential Jamaican poet and folklorist. Her innovative poems _______ the use of Jamaican Creole (a spoken language) in literature.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "popularized;",
+    "popularized,",
+    "popularized",
+    "popularized:"
+  ],
+  "answer": "popularized",
+  "explanation": "The verb “popularized” flows directly into its object, “the use of Jamaican Creole,” so no punctuation belongs between them. A semicolon, comma, or colon inserted there would ungrammatically split the verb from its object."
+}

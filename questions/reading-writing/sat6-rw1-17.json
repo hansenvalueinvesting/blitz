@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-17",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat6",
+  "stem": "The Cretaceous pterosaur Tupandactylus navigans is known for having an anomalously oversized head crest. Until an almost complete fossil skeleton was found in Brazil, paleontologists had been able to study only skull specimens from T. navigans, though it was presumed that, like other pterosaurs, the species’s primary form of locomotion was powered flight. Examining the fuller skeleton in 2016, Victor Beccari and his team determined that T. navigans had long hind legs, short wings, and an unusually long neck—characteristics that, combined with the creature’s large-crested head, would have made sustained flight difficult and walking upright relatively comfortable. Based on these findings the team suggests that T. navigans likely _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "flew for longer distances than did other pterosaur species that had oversized head crests.",
+    "had longer wings than other pterosaur species considered to have been comfortable walking.",
+    "had a smaller head than researchers expected based on the earlier T. navigans skull specimens.",
+    "flew for shorter distances and spent more time walking than researchers previously thought."
+  ],
+  "answer": "flew for shorter distances and spent more time walking than researchers previously thought.",
+  "explanation": "The fuller skeleton’s short wings, long legs, long neck, and big crest made sustained flight hard and upright walking easy, so the team would infer the animal relied more on walking and less on flight than the old flight-only assumption held. Choices A and C contradict the findings (difficult flight; a still-large crest), and B misreads the short wings that made walking comfortable."
+}

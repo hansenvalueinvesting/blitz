@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-18",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "w² + 12w − 40 = 0\n\nWhich of the following is a solution to the given equation?",
+  "choices": [
+    "6 − 2√19",
+    "2√19",
+    "√19",
+    "−6 + 2√19"
+  ],
+  "answer": "−6 + 2√19",
+  "explanation": "Completing the square turns the equation into (w + 6)² = 76, so w + 6 = ±2√19 and w = −6 ± 2√19. Of the two solutions, −6 + 2√19 is listed.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-21",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "Woven from recycled yarn and hand tufted using a carpet weaving technique passed down by the artist’s Turkish grandmother, _______ so lush and tactilely inviting that you are tempted to reach out and touch them.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "the topological tapestries of Argentine textile artist Alexandra Kehayoglou are",
+    "the Argentine textile artist Alexandra Kehayoglou creates topological tapestries that are",
+    "when she creates her topological tapestries, Argentine textile artist Alexandra Kehayoglou makes them",
+    "Alexandra Kehayoglou is an Argentine textile artist whose topological tapestries are"
+  ],
+  "answer": "the topological tapestries of Argentine textile artist Alexandra Kehayoglou are",
+  "explanation": "The opening modifier describes something woven and hand tufted—the tapestries—so \"the topological tapestries\" must directly follow the comma. The other options put Kehayoglou herself in that position, illogically implying that the artist, not the tapestries, was woven from recycled yarn."
+}

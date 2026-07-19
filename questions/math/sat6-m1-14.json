@@ -1,0 +1,14 @@
+{
+  "id": "sat6-m1-14",
+  "topic": "Geometry",
+  "stem": "The figure shows the lengths, in inches, of two sides of a right triangle. What is the area of the triangle, in square inches?",
+  "choices": [
+    "15/2"
+  ],
+  "answer": "15/2",
+  "explanation": "The two given sides are the legs, so they serve as base and height. The area is (1/2)(5)(3) = 15/2 square inches.",
+  "image": "sat6-m1-14.png",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

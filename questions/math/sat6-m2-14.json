@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m2-14",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat6",
+  "stem": "A rectangle has an area of 155 square inches. The length of the rectangle is 4 inches less than 7 times the width of the rectangle. What is the width of the rectangle, in inches?",
+  "choices": [
+    "5"
+  ],
+  "answer": "5",
+  "explanation": "Let x be the width, so the length is 7x − 4. The area gives x(7x − 4) = 155, or 7x² − 4x − 155 = 0, which factors as (7x + 31)(x − 5) = 0. Since the width must be positive, x = 5."
+}

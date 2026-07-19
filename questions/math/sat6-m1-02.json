@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m1-02",
+  "topic": "Data analysis",
+  "stem": "The scatterplot shows the relationship between two variables, x and y. Which of the following graphs shows the most appropriate model for the data?",
+  "choices": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "answer": "D",
+  "explanation": "The points rise slowly at first and then shoot up, an increasing curved (exponential-like) trend, and a good model should have points scattered both above and below it. Only choice D is an increasing curve that runs through the middle of the data; A and B are straight lines and C sits above every point.",
+  "image": "sat6-m1-02.png",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

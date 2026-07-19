@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m1-20",
+  "topic": "Linear equations",
+  "stem": "What is the y-coordinate of the y-intercept of the graph of 3x/7 = −5y/9 + 21 in the xy-plane?",
+  "choices": [
+    "189/5"
+  ],
+  "answer": "189/5",
+  "explanation": "The y-intercept occurs where x = 0, giving 0 = −5y/9 + 21. Then 5y/9 = 21, so 5y = 189 and y = 189/5.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

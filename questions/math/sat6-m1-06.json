@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m1-06",
+  "topic": "Ratios, rates, proportions",
+  "stem": "How many yards are equivalent to 1,116 inches? (1 yard = 36 inches)",
+  "choices": [
+    "31"
+  ],
+  "answer": "31",
+  "explanation": "Since 36 inches make 1 yard, dividing 1,116 by 36 gives 31 yards.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

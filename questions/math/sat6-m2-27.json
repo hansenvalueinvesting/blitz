@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m2-27",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat6",
+  "stem": "48x − 64y = 48y + 24\nry = 1/8 − 12x\n\nIn the given system of equations, r is a constant. If the system has no solution, what is the value of r?",
+  "choices": [
+    "−28"
+  ],
+  "answer": "−28",
+  "explanation": "Rewriting the first equation gives 48x − 112y = 24, and the second gives 12x + ry = 1/8. The system has no solution when the lines are parallel, meaning the coefficients are proportional. Since 12 is 1/4 of 48, r must be 1/4 of −112, giving r = −28."
+}

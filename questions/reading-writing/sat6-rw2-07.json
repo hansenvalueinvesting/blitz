@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-07",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Text structure and purpose",
+  "source": "sat6",
+  "passage": "Researchers have long hypothesized that woolly mammoths were hunted to extinction in North America by humans using spears with grooved tips known as Clovis points. One anthropologist set out to test this hypothesis. Using a mechanical spear-thrower, he launched spears with Clovis points into mounds of clay—substitutes for the animals’ large bodies. The projectiles generally penetrated only a few inches into the clay, an amount insufficient to have harmed most woolly mammoths. This led the anthropologist to conclude that hunters using spears with Clovis points likely weren’t the principal drivers of the extinction.",
+  "stem": "Which choice best states the main purpose of the text?",
+  "choices": [
+    "To argue for the significance of new findings amid an ongoing debate among researchers",
+    "To discuss the advantages and disadvantages of the method used in an experiment",
+    "To summarize two competing hypotheses and a major finding associated with each one",
+    "To describe an experiment whose results cast doubt on an established hypothesis"
+  ],
+  "answer": "To describe an experiment whose results cast doubt on an established hypothesis",
+  "explanation": "The text opens with a long-held hypothesis, then describes the anthropologist's clay-mound experiment and its result, which undercuts that hypothesis. There's no sign of an ongoing debate or competing hypotheses, and the passage discusses the method's results rather than weighing its pros and cons."
+}

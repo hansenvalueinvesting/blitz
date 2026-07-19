@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-08",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat6",
+  "stem": "Which expression is equivalent to 5x⁵ − 6x⁴ + 8x³?",
+  "choices": [
+    "x⁴(5x − 6)",
+    "x³(5x² − 6x + 8)",
+    "8x³(5x² − 6x + 1)",
+    "6x⁵(−6x⁴ + 8x³ + 1)"
+  ],
+  "answer": "x³(5x² − 6x + 8)",
+  "explanation": "Each term shares a common factor of x³. Factoring x³ out of 5x⁵ − 6x⁴ + 8x³ leaves 5x² − 6x + 8, giving x³(5x² − 6x + 8)."
+}

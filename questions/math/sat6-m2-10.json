@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-10",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat6",
+  "stem": "7(2x − 3) = 63\n\nWhich equation has the same solution as the given equation?",
+  "choices": [
+    "2x − 3 = 9",
+    "2x − 3 = 56",
+    "2x − 21 = 63",
+    "2x − 21 = 78"
+  ],
+  "answer": "2x − 3 = 9",
+  "explanation": "Dividing both sides of 7(2x − 3) = 63 by 7 gives 2x − 3 = 9. This equation has the same solution as the original."
+}

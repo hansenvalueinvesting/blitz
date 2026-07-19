@@ -1,0 +1,14 @@
+{
+  "id": "sat6-m1-21",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "The graph of y = 2x² + bx + c is shown, where b and c are constants. What is the value of bc ?",
+  "choices": [
+    "−24"
+  ],
+  "answer": "−24",
+  "explanation": "The graph crosses the y-axis at (0, −6), so c = −6. Using another point on the curve, (−1, −8), gives −8 = 2 − b − 6, which yields b = 4. Thus bc = (4)(−6) = −24.",
+  "image": "sat6-m1-21.png",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

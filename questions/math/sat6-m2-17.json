@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-17",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat6",
+  "stem": "x² = −841\n\nHow many distinct real solutions does the given equation have?",
+  "choices": [
+    "Exactly one",
+    "Exactly two",
+    "Infinitely many",
+    "Zero"
+  ],
+  "answer": "Zero",
+  "explanation": "The square of any real number is never negative, so x² can never equal −841. The equation therefore has zero real solutions."
+}

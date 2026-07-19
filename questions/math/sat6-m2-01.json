@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-01",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat6",
+  "stem": "The function f is defined by f(x) = 8x. For what value of x does f(x) = 72?",
+  "choices": [
+    "8",
+    "9",
+    "64",
+    "80"
+  ],
+  "answer": "9",
+  "explanation": "Setting f(x) = 72 gives the equation 72 = 8x. Dividing both sides by 8 gives x = 9, so f(x) = 72 when x is 9."
+}

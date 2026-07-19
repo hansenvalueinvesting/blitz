@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-13",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat6",
+  "stem": "The 2021 exhibition This Is the Day at Arkansas’s Crystal Bridges Museum of American Art featured works dealing with expressions of faith and spirituality in the Black community. The museum’s 2022 exhibition The Dirty South, meanwhile, focused on Black culture in the American South from 1920 to 2020, with a particular focus on the intersections between visual arts and music. Together, these exhibitions don’t merely highlight the diversity of the Black experience in the US; they also showcase the diverse media through which artists have depicted and engaged with that experience.\n\nWhich statement about the exhibitions, if true, would most directly support the underlined claim?",
+  "choices": [
+    "Between them, This Is the Day and The Dirty South included drawings, paintings, photographs, sculptures, textiles, videos, costumes, and music.",
+    "This Is the Day included works by fewer than two dozen artists, whereas The Dirty South included works by more than 80 artists.",
+    "This Is the Day exclusively included works in the permanent collection of the museum, whereas The Dirty South included works from multiple sources outside the museum.",
+    "Between them, This Is the Day and The Dirty South included works depicting more than 300 years of Black experience in the United States."
+  ],
+  "answer": "Between them, This Is the Day and The Dirty South included drawings, paintings, photographs, sculptures, textiles, videos, costumes, and music.",
+  "explanation": "The underlined claim is specifically about the variety of media artists used. Choice A backs that up by listing many different media—drawings, paintings, sculptures, textiles, videos, and more—across the two shows. The others address artist counts, sourcing, or time span, none of which speaks to diversity of media."
+}

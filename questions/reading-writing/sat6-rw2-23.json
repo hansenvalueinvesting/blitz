@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-23",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "Using natural debris, such as dried _______ such as plastic bags; and more traditional art supplies, such as tree glue, Ghanaian artist Ed Franklin Gavua creates his striking Yiiiiikakaii African masks, which he hopes can help viewers rethink how waste is used in their communities.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "leaves, man-made trash:",
+    "leaves; man-made trash,",
+    "leaves, man-made trash,",
+    "leaves; man-made trash;"
+  ],
+  "answer": "leaves; man-made trash,",
+  "explanation": "This is a complex series whose items already contain internal commas, so semicolons must separate the items. The semicolon after \"leaves\" divides the first item (\"natural debris, such as dried leaves\") from the second (\"man-made trash, such as plastic bags\"), and the comma after \"trash\" correctly sets off its descriptive phrase. The other choices misuse a colon or fail to match the series' semicolons."
+}

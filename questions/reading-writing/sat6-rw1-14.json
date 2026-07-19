@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw1-14",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat6",
+  "stem": "To investigate potential cognitive benefits of taking leave from work, psychologist Jan Packer and colleagues conducted a six-month study of Australian university staff members who took no leave from work during the study, took 2–4 days of leave, or took 1–5 weeks of leave. Tests of attentiveness were administered to participants three times during the study: at random for the no-leave staff, and for the rest, one week before their leave, one week following their return to work, and one week after the second test administration. After analyzing the results, the researchers concluded that longer leave times might not confer a greater cognitive benefit than shorter leave times do.\n\nWhich choice best describes data from the graph that support the researchers’ conclusion?",
+  "choices": [
+    "In the second test administration, participants who took 2–4 days of leave had higher average attentiveness scores than did those who took no leave, but in the third test administration, those who took no leave had higher average scores than those who took 1–5 weeks of leave.",
+    "In the first test administration, participants who took 2–4 days of leave had lower average attentiveness scores than did those who took 1–5 weeks of leave and those who took no leave.",
+    "In both the second and third test administrations, participants who took 2–4 days of leave had higher average attentiveness scores than did participants who took 1–5 weeks of leave.",
+    "In the second and third test administrations, participants who took 2–4 days of leave had higher average attentiveness scores than did those who took no leave."
+  ],
+  "answer": "In both the second and third test administrations, participants who took 2–4 days of leave had higher average attentiveness scores than did participants who took 1–5 weeks of leave.",
+  "explanation": "The conclusion is that longer leave doesn’t beat shorter leave cognitively, so the relevant comparison is the 2–4 day group versus the 1–5 week group after leave. Choice C captures it: on both post-leave tests the short-leave group scored higher than the long-leave group. The other options bring in the no-leave group or the pre-leave test, which don’t bear on the short-versus-long comparison.",
+  "image": "sat6-rw1-14.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-25",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "stem": "Consider the mechanics of the pinhole camera: light passes through a small hole, resulting in a focused projected image. A ray diagram reveals how this _______ the hole’s small size restricts light to a single ray, all light passing through the hole can only arrive at a single destination, eliminating diffraction and ensuring a clear image.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "works because",
+    "works. Because",
+    "works, it’s because",
+    "works: it’s because"
+  ],
+  "answer": "works. Because",
+  "explanation": "“A ray diagram reveals how this works” is a complete sentence, and “Because the hole’s small size…image” is another, so a period between them is correct. The other options fuse the two clauses or splice them with a comma, producing run-ons or comma splices."
+}
