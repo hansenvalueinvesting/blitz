@@ -4,7 +4,7 @@
   "module": 2,
   "topic": "Text structure and purpose",
   "source": "sat6",
-  "passage": "The people of medieval Europe have traditionally been seen as uninterested in cleanliness and hygiene, but modern research has shown that this is largely a myth. According to historian Eleanor Janega, most medieval towns in Europe had at least one public bathhouse, which often offered both full-immersion baths and—more affordably—steam baths. While such amenities were available mainly to town dwellers, regular bathing in rivers and streams or daily sponge baths at home were common practices throughout medieval Europe.",
+  "passage": "The people of medieval Europe have traditionally been seen as uninterested in cleanliness and hygiene, but modern research has shown that this is largely a myth. According to historian Eleanor Janega, most medieval towns in Europe had at least one public bathhouse, which often offered both full-immersion baths and—more affordably—steam baths. _While such amenities were available mainly to town dwellers, regular bathing in rivers and streams or daily sponge baths at home were common practices throughout medieval Europe._",
   "stem": "Which choice best describes the function of the underlined portion?",
   "choices": [
     "It asserts that in medieval Europe steam baths were more popular in rural areas than in urban ones.",
@@ -13,5 +13,5 @@
     "It explains why Janega decided to study the popularity of public bathhouses in medieval Europe."
   ],
   "answer": "It concedes that not all people in medieval Europe had access to public bathhouses.",
-  "explanation": "The underlined portion notes that bathhouses were mainly for town dwellers, acknowledging that some people lacked access before the text explains those people still bathed in other ways. It concerns access, not steam baths being more rural, nor a flaw in earlier scholarship, nor Janega's motivation for studying the topic."
+  "explanation": "The underlined sentence concedes that the bathhouses were mainly for town dwellers—so not everyone had access—while noting that people everywhere still bathed in rivers or with sponge baths. It concerns access, not steam baths being more rural, nor a flaw in earlier scholarship, nor Janega's motivation for studying the topic."
 }

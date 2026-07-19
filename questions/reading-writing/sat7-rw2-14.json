@@ -4,7 +4,7 @@
   "module": 2,
   "topic": "Command of evidence (textual)",
   "source": "sat7",
-  "stem": "Janet Echelman is a sculptor and fiber artist. She has installed giant sculptures all over the world. Echelman uses bright and flowing materials, which mimic the wind. However, while her sculptures appear as delicate as a breeze, they are actually very durable.\n\nWhich quotation from an article about Echelman’s sculptures, if true, would most effectively illustrate the underlined claim?",
+  "stem": "Janet Echelman is a sculptor and fiber artist. She has installed giant sculptures all over the world. Echelman uses bright and flowing materials, which mimic the wind. However, _while her sculptures appear as delicate as a breeze, they are actually very durable._\n\nWhich quotation from an article about Echelman’s sculptures, if true, would most effectively illustrate the underlined claim?",
   "choices": [
     "“Echelman uses a special program that makes a 3D model of the sculpture.”",
     "“The first part of planning a new sculpture is done using paper and pencil, and then a digital program is used to finalize the design.”",

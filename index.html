@@ -52,6 +52,9 @@
   .tag.sec-math{color:var(--math);border-color:color-mix(in srgb,var(--math) 40%,transparent)}
   .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
   .stem{font-family:var(--serif);font-size:15px;line-height:1.55;font-weight:500;margin-bottom:18px;white-space:pre-wrap}
+  /* the "underlined portion" of an SAT function question: brighten it and give the
+     underline room so it clearly reads as the span the question is asking about */
+  .passage u,.stem u{color:var(--ink);text-decoration-thickness:1.5px;text-underline-offset:3px}
   .choices{display:flex;flex-direction:column;gap:8px}
   /* each choice sits in a wrap so a horizontal swipe reveals the cross-out hint behind it */
   .choice-wrap{position:relative;border-radius:10px;overflow:hidden}
@@ -777,7 +780,7 @@ function renderQuestion(card,q){
     </div>
     <div class="body"></div>`;
   const body=card.querySelector('.body');
-  const passageHTML = q.passage ? `<div class="passage">${esc(q.passage)}</div>` : '';
+  const passageHTML = q.passage ? `<div class="passage">${fmt(q.passage)}</div>` : '';
   // math figures live at questions/math/images/<image>; only math has them
   const imgHTML = q.image ? `<img class="figure" alt="figure for this question" src="questions/${q.section}/images/${esc(q.image)}" onerror="this.style.display='none'">` : '';
   // A single "choice" means a student-produced response — render a type-your-answer box, like the real SAT.
@@ -792,7 +795,7 @@ function renderQuestion(card,q){
   body.innerHTML=`
     ${passageHTML}
     ${imgHTML}
-    <div class="stem">${esc(q.stem)}</div>
+    <div class="stem">${fmt(q.stem)}</div>
     ${answerHTML}
     <div class="explain"><b>Why:</b> ${esc(q.explanation||'')}</div>
     <div class="hint">swipe up for next</div>`;
@@ -1155,6 +1158,11 @@ function loadDesmos(){
 }
 
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+// Reading text can mark an underlined portion with _paired underscores_ (the SAT
+// "function of the underlined portion" items). Escape first, then turn each
+// _…_ pair into <u>…</u>. Requiring at least one non-underscore character
+// between the markers leaves fill-in-the-blank runs ("_______") untouched.
+function fmt(s){return esc(s).replace(/_([^_]+)_/g,'<u>$1</u>');}
 </script>
 </body>
 </html>
