@@ -4,11 +4,11 @@
   "module": 2,
   "topic": "Statistics and probability",
   "source": "sat4",
-  "passage": "[Table — 100 tiles. Square: Red 10, Blue 20, Yellow 25 (Total 55). Pentagon: Red 20, Blue 10, Yellow 15 (Total 45). Column totals: Red 30, Blue 30, Yellow 40, overall 100.]",
   "stem": "The table summarizes the distribution of color and shape for 100 tiles of equal area. If one of these tiles is selected at random, what is the probability of selecting a red tile? (Express your answer as a decimal or fraction, not as a percent.)",
   "choices": [
     "3/10"
   ],
   "answer": "3/10",
-  "explanation": "There are 30 red tiles out of 100 total, so the probability of selecting a red tile is 30/100 = 3/10 (equivalently 0.3)."
+  "explanation": "There are 30 red tiles out of 100 total, so the probability of selecting a red tile is 30/100 = 3/10 (equivalently 0.3).",
+  "image": "sat4-m2-13.png"
 }

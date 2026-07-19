@@ -4,7 +4,6 @@
   "module": 2,
   "topic": "Command of evidence (quantitative)",
   "source": "sat4",
-  "passage": "[Refer to the graph: “Economic Policy Uncertainty in the United Kingdom, 2005–2010,” plotting tax and public spending policy, trade policy, and general economic policy (larger values = more uncertainty).]",
   "stem": "High levels of public uncertainty about which economic policies a country will adopt can make planning difficult for businesses, but measures of such uncertainty have not tended to be very detailed. Recently, however, economist Sandile Hlatshwayo analyzed trends in news reports to derive measures not only for general economic policy uncertainty but also for uncertainty related to specific areas of economic policy, like tax or trade policy. One revelation of her work is that a general measure may not fully reflect uncertainty about specific areas of policy, as in the case of the United Kingdom, where general economic policy uncertainty _______\n\nWhich choice most effectively uses data from the graph to illustrate the claim?",
   "choices": [
     "aligned closely with uncertainty about tax and public spending policy in 2005 but differed from uncertainty about tax and public spending policy by a large amount in 2009.",

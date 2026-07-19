@@ -29,7 +29,7 @@
   /* auto margins center content when it fits but stay scrollable (never clipped) when it overflows */
   .card>.tags{margin-top:auto}
   .card>.body{margin-bottom:auto}
-  .passage{font-size:13px;line-height:1.5;color:var(--dim);background:var(--panel2);
+  .passage{font-size:14px;line-height:1.5;color:var(--dim);background:var(--panel2);
            border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:16px;
            white-space:pre-wrap}
   .figure{max-width:100%;border-radius:10px;background:#fff;padding:8px;margin-bottom:16px;
@@ -39,11 +39,11 @@
        text-transform:uppercase;padding:5px 9px;border-radius:4px;border:1px solid var(--line);color:var(--dim)}
   .tag.sec-math{color:var(--math);border-color:color-mix(in srgb,var(--math) 40%,transparent)}
   .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
-  .stem{font-size:17px;line-height:1.42;font-weight:500;margin-bottom:20px}
+  .stem{font-size:14px;line-height:1.5;font-weight:500;margin-bottom:18px;white-space:pre-wrap}
   .choices{display:flex;flex-direction:column;gap:8px}
   .choice{display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
           border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s;
-          font-size:14px;line-height:1.35;text-align:left}
+          font-size:14px;line-height:1.4;text-align:left;white-space:pre-wrap}
   .choice:active{background:var(--panel2)}
   .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
   .choice.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
@@ -52,13 +52,29 @@
   .choice.wrong .key{color:var(--bad)}
   .choice.locked{cursor:default}
   .explain{margin-top:16px;padding:13px 15px;background:var(--panel2);border-left:3px solid var(--accent);
-           border-radius:0 8px 8px 0;font-size:13px;line-height:1.5;color:var(--dim);display:none}
+           border-radius:0 8px 8px 0;font-size:14px;line-height:1.5;color:var(--dim);display:none}
   .explain.show{display:block;animation:rise .25s ease}
   .explain b{color:var(--ink);font-weight:700}
   @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
   .loading{color:var(--faint);font-family:'JetBrains Mono',monospace;font-size:13px}
   .hint{margin-top:22px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;
         letter-spacing:.1em;color:var(--faint);text-transform:uppercase}
+  /* student-produced-response (fill-in) questions */
+  .fillin{display:flex;gap:9px}
+  .fin{flex:1;min-width:0;padding:12px 14px;background:var(--panel);border:1px solid var(--line);
+       border-radius:10px;color:var(--ink);font-size:14px;font-family:'JetBrains Mono',monospace}
+  .fin::placeholder{color:var(--faint)}
+  .fin:focus{outline:none;border-color:var(--accent)}
+  .fin.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
+  .fin.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
+  .fin:disabled{opacity:1}
+  .fcheck{padding:12px 18px;background:var(--accent);color:var(--bg);border:none;border-radius:10px;
+          font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;cursor:pointer;flex:none}
+  .fcheck:disabled{opacity:.5;cursor:default}
+  .solution{margin-top:12px;font-family:'JetBrains Mono',monospace;font-size:13px;display:none}
+  .solution.show{display:block}
+  .solution.ok{color:var(--ok)}
+  .solution.bad{color:var(--bad)}
 
   .bar{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;flex-direction:column;gap:5px;
        padding:calc(env(safe-area-inset-top) + 12px) 20px 12px;
@@ -342,22 +358,38 @@ function renderQuestion(card,q){
   const passageHTML = q.passage ? `<div class="passage">${esc(q.passage)}</div>` : '';
   // math figures live at questions/math/images/<image>; only math has them
   const imgHTML = q.image ? `<img class="figure" alt="figure for this question" src="questions/${q.section}/images/${esc(q.image)}" onerror="this.style.display='none'">` : '';
+  // A single "choice" means a student-produced response — render a type-your-answer box, like the real SAT.
+  const spr = q.choices.length===1;
+  const answerHTML = spr
+    ? `<div class="fillin">
+         <input class="fin" type="text" inputmode="text" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="Type your answer">
+         <button class="fcheck">Check</button>
+       </div>
+       <div class="solution"></div>`
+    : `<div class="choices"></div>`;
   body.innerHTML=`
     ${passageHTML}
     ${imgHTML}
     <div class="stem">${esc(q.stem)}</div>
-    <div class="choices"></div>
+    ${answerHTML}
     <div class="explain"><b>Why:</b> ${esc(q.explanation||'')}</div>
     <div class="hint">swipe up for next</div>`;
-  const wrap=body.querySelector('.choices');
-  const keys=['A','B','C','D','E','F'];
-  q.choices.forEach((c,i)=>{
-    const b=document.createElement('button');
-    b.className='choice';
-    b.innerHTML=`<span class="key">${keys[i]||'•'}</span><span>${esc(c)}</span>`;
-    b.onclick=()=>answer(card,b,c,q.answer);
-    wrap.appendChild(b);
-  });
+  if(spr){
+    const inp=body.querySelector('.fin'), btn=body.querySelector('.fcheck');
+    const go=()=>answerSPR(card,inp,btn,q.answer);
+    btn.onclick=go;
+    inp.addEventListener('keydown',e=>{ if(e.key==='Enter'){ e.preventDefault(); go(); } });
+  }else{
+    const wrap=body.querySelector('.choices');
+    const keys=['A','B','C','D','E','F'];
+    q.choices.forEach((c,i)=>{
+      const b=document.createElement('button');
+      b.className='choice';
+      b.innerHTML=`<span class="key">${keys[i]||'•'}</span><span>${esc(c)}</span>`;
+      b.onclick=()=>answer(card,b,c,q.answer);
+      wrap.appendChild(b);
+    });
+  }
 }
 
 function answer(card,btn,chosen,correctAns){
@@ -369,6 +401,37 @@ function answer(card,btn,chosen,correctAns){
   });
   const right=chosen===correctAns;
   if(!right) btn.classList.add('wrong');
+  attempted++; if(right) correct++;
+  saveProgress(); paintStreak();
+  card.querySelector('.explain').classList.add('show');
+}
+
+// Grade a typed fill-in answer: accept the exact stored form or a numeric equivalent
+// (so "1/5", "0.2" and ".2" all match), tolerating SAT-style rounding.
+function toNumber(s){
+  s=String(s).trim().replace(/\s+/g,'');
+  if(/^-?\d+\/-?\d+$/.test(s)){ const [a,b]=s.split('/').map(Number); return b?a/b:null; }
+  if(/^-?(\d+\.?\d*|\.\d+)$/.test(s)) return parseFloat(s);
+  return null;
+}
+function sprCorrect(typed,answer){
+  const t=String(typed).trim();
+  if(!t) return false;
+  if(t===String(answer).trim()) return true;
+  const a=toNumber(answer), b=toNumber(typed);
+  if(a!==null && b!==null) return Math.abs(a-b) <= 0.01;   // allow rounded decimals of fractions
+  return false;
+}
+function answerSPR(card,inp,btn,correctAns){
+  if(card.dataset.done) return;
+  if(!inp.value.trim()) return;               // need an entry before grading
+  card.dataset.done='1';
+  const right=sprCorrect(inp.value,correctAns);
+  inp.disabled=true; btn.disabled=true;
+  inp.classList.add(right?'correct':'wrong');
+  const sol=card.querySelector('.solution');
+  sol.textContent = right ? '✓ Correct' : `✗ Correct answer: ${correctAns}`;
+  sol.classList.add('show', right?'ok':'bad');
   attempted++; if(right) correct++;
   saveProgress(); paintStreak();
   card.querySelector('.explain').classList.add('show');

@@ -4,7 +4,6 @@
   "module": 2,
   "topic": "Geometry",
   "source": "sat4",
-  "passage": "[Figure: transversal t crosses parallel lines m and n; at line m it forms angle x° (above) and y° (below the intersection), and at line n it forms angle z°. Not drawn to scale.]",
   "stem": "In the figure, lines m and n are parallel. If x = 6k + 13 and y = 8k − 29, what is the value of z?\n\nNote: Figure not drawn to scale.",
   "choices": [
     "3",

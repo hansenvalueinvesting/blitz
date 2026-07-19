@@ -4,7 +4,6 @@
   "module": 2,
   "topic": "Systems of equations",
   "source": "sat4",
-  "passage": "[Graph: two lines that intersect only at the point (8, 2).]",
   "stem": "If a new graph of three linear equations is created using the system of equations shown and the equation x + 4y = −16, how many solutions (x, y) will the resulting system of three equations have?",
   "choices": [
     "Zero",
