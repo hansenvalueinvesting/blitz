@@ -51,17 +51,33 @@
   .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
   .stem{font-size:14px;line-height:1.5;font-weight:500;margin-bottom:18px;white-space:pre-wrap}
   .choices{display:flex;flex-direction:column;gap:8px}
-  .choice{display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
+  .choice-row{display:flex;align-items:stretch;gap:8px}
+  .choice{flex:1;min-width:0;display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
           border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s;
           font-family:'Space Grotesk',system-ui,sans-serif;color:var(--ink);
           font-size:14px;line-height:1.4;text-align:left;white-space:pre-wrap}
   .choice:active{background:var(--panel2)}
   .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
+  .choice.selected{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,var(--panel))}
+  .choice.selected .key{color:var(--accent)}
+  .choice.eliminated{opacity:.45;cursor:default}
+  .choice.eliminated .ctext{text-decoration:line-through;text-decoration-thickness:2px}
   .choice.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
   .choice.correct .key{color:var(--ok)}
   .choice.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
   .choice.wrong .key{color:var(--bad)}
   .choice.locked{cursor:default}
+  .elim{flex:none;width:42px;background:var(--panel);border:1px solid var(--line);border-radius:10px;
+        color:var(--faint);font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;cursor:pointer;
+        display:flex;align-items:center;justify-content:center}
+  .elim .letter{position:relative}
+  .elim .letter::after{content:'';position:absolute;left:-2px;right:-2px;top:50%;height:2px;
+        background:currentColor;transform:scaleX(0);transition:transform .12s ease}
+  .elim.on{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 45%,transparent)}
+  .elim.on .letter::after{transform:scaleX(1)}
+  .elim:disabled{opacity:.4;cursor:default}
+  .mc-hint{margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.06em;
+           text-transform:uppercase;color:var(--faint);text-align:center}
   .explain{margin-top:16px;padding:13px 15px;background:var(--panel2);border-left:3px solid var(--accent);
            border-radius:0 8px 8px 0;font-size:14px;line-height:1.5;color:var(--dim);display:none}
   .explain.show{display:block;animation:rise .25s ease}
@@ -75,17 +91,9 @@
               animation:conf var(--d,.9s) cubic-bezier(.15,.55,.4,1) forwards}
   @keyframes conf{0%{transform:translate(0,0) rotate(0);opacity:1}
                   100%{transform:translate(var(--x),var(--y)) rotate(var(--r));opacity:0}}
-  .streak.hit{animation:streakflash .55s ease}
-  @keyframes streakflash{0%,100%{color:var(--dim)}30%{color:var(--ok);text-shadow:0 0 14px color-mix(in srgb,var(--ok) 55%,transparent)}}
-  .milestone{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:70}
-  .milestone span{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:30px;letter-spacing:.04em;
-                  color:var(--ok);text-shadow:0 0 26px color-mix(in srgb,var(--ok) 65%,transparent);
-                  animation:mile 1.15s cubic-bezier(.2,1.3,.4,1) forwards}
-  @keyframes mile{0%{opacity:0;transform:scale(.6)}20%{opacity:1;transform:scale(1.12)}
-                  68%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1.04) translateY(-14px)}}
   @media (prefers-reduced-motion:reduce){
-    .choice.correct,.fin.correct,.confetti i,.milestone span,.streak.hit{animation:none}
-    .confetti,.milestone{display:none}
+    .choice.correct,.fin.correct,.confetti i{animation:none}
+    .confetti{display:none}
   }
   .loading{color:var(--faint);font-family:'JetBrains Mono',monospace;font-size:13px}
   .hint{margin-top:22px;text-align:center;font-family:'JetBrains Mono',monospace;font-size:11px;
@@ -393,7 +401,7 @@
 <script>
 const SETTINGS_KEY='blitz.settings.v1';
 const PROGRESS_KEY='blitz.progress.v1';
-let DIR=[], settings=null, attempted=0, correct=0, streakCount=0;
+let DIR=[], settings=null, attempted=0, correct=0;
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
 
@@ -489,20 +497,10 @@ function confettiBurst(cx,cy,colors){
   document.body.appendChild(layer);
   setTimeout(()=>layer.remove(),1500);
 }
-function milestone(n){
-  const m=document.createElement('div'); m.className='milestone';
-  m.innerHTML=`<span>🔥 ${n} IN A ROW</span>`;
-  document.body.appendChild(m);
-  try{navigator.vibrate&&navigator.vibrate([18,40,60]);}catch(e){}
-  setTimeout(()=>m.remove(),1200);
-}
 function celebrate(el,sec){
-  streakCount++;
   const r=el.getBoundingClientRect();
   confettiBurst(r.left+r.width/2, r.top+r.height/2, ['#3fb950', accentFor(sec), '#e6edf3']);
-  const s=$('streak'); s.classList.remove('hit'); void s.offsetWidth; s.classList.add('hit');
   try{navigator.vibrate&&navigator.vibrate(15);}catch(e){}
-  if(streakCount===3||streakCount===5||(streakCount>=10&&streakCount%5===0)) milestone(streakCount);
 }
 
 function topicsFor(sec){return [...new Set(DIR.filter(q=>q.section===sec).map(q=>q.topic))].sort();}
@@ -600,25 +598,57 @@ function renderQuestion(card,q){
     const wrap=body.querySelector('.choices');
     const keys=['A','B','C','D','E','F'];
     q.choices.forEach((c,i)=>{
+      const key=keys[i]||'•';
+      const row=document.createElement('div');
+      row.className='choice-row';
       const b=document.createElement('button');
       b.className='choice';
-      b.innerHTML=`<span class="key">${keys[i]||'•'}</span><span>${esc(c)}</span>`;
-      b.onclick=()=>answer(card,b,c,q.answer);
-      wrap.appendChild(b);
+      b.innerHTML=`<span class="key">${key}</span><span class="ctext">${esc(c)}</span>`;
+      b.onclick=()=>selectOrSubmit(card,b,c,q.answer);
+      const el=document.createElement('button');
+      el.className='elim';
+      el.type='button';
+      el.setAttribute('aria-label',`Cross out choice ${key}`);
+      el.innerHTML=`<span class="letter">${key}</span>`;
+      el.onclick=()=>toggleEliminate(card,b,el);
+      row.appendChild(b); row.appendChild(el);
+      wrap.appendChild(row);
     });
+    const hint=document.createElement('div');
+    hint.className='mc-hint';
+    hint.textContent='tap to select · tap again to submit';
+    wrap.appendChild(hint);
   }
+}
+
+// First tap on a choice selects it; a second tap on the already-selected choice submits.
+function selectOrSubmit(card,btn,chosen,correctAns){
+  if(card.dataset.done) return;
+  if(btn.classList.contains('eliminated')) return;   // un-cross it first
+  if(btn.classList.contains('selected')){ answer(card,btn,chosen,correctAns); return; }
+  card.querySelectorAll('.choice.selected').forEach(b=>b.classList.remove('selected'));
+  btn.classList.add('selected');
+}
+
+// Toggle a strikethrough on a choice; a crossed-out choice can't be selected until un-crossed.
+function toggleEliminate(card,choiceBtn,elimBtn){
+  if(card.dataset.done) return;
+  const on=choiceBtn.classList.toggle('eliminated');
+  elimBtn.classList.toggle('on', on);
+  if(on) choiceBtn.classList.remove('selected');
 }
 
 function answer(card,btn,chosen,correctAns){
   if(card.dataset.done) return;
   card.dataset.done='1';
+  card.querySelectorAll('.elim').forEach(e=>e.disabled=true);
   card.querySelectorAll('.choice').forEach(b=>{
-    b.classList.add('locked');
-    if(b.querySelector('span:last-child').textContent===correctAns) b.classList.add('correct');
+    b.classList.add('locked'); b.classList.remove('selected');
+    if(b.querySelector('.ctext').textContent===correctAns){ b.classList.add('correct'); b.classList.remove('eliminated'); }
   });
   const right=chosen===correctAns;
   if(!right) btn.classList.add('wrong');
-  attempted++; if(right){correct++;} else {streakCount=0;}
+  attempted++; if(right) correct++;
   saveProgress(); paintStreak();
   if(right) celebrate(card.querySelector('.choice.correct'), card.dataset.section);
   card.querySelector('.explain').classList.add('show');
@@ -650,7 +680,7 @@ function answerSPR(card,inp,btn,correctAns){
   const sol=card.querySelector('.solution');
   sol.textContent = right ? '✓ Correct' : `✗ Correct answer: ${correctAns}`;
   sol.classList.add('show', right?'ok':'bad');
-  attempted++; if(right){correct++;} else {streakCount=0;}
+  attempted++; if(right) correct++;
   saveProgress(); paintStreak();
   if(right) celebrate(inp, card.dataset.section);
   card.querySelector('.explain').classList.add('show');
