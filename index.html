@@ -565,11 +565,16 @@ function appendCard(){
 function renderQuestion(card,q){
   const secClass=q.section==='math'?'sec-math':'sec-rw';
   const secName=q.section==='math'?'Math':'R&W';
+  // Build a "which test" tag from the source slug + question number in the id.
+  // source "sat4" -> "Test 4"; id "sat4-rw1-05" -> question "5".
+  const testNum=(q.source||'').replace(/^sat/i,'');
+  const qNum=(q.id.split('-').pop()||'').replace(/^0+/,'')||q.id.split('-').pop();
+  const srcParts=[testNum?`Test ${testNum}`:null, `Mod ${q.module}`, qNum?`Q${qNum}`:null].filter(Boolean);
   card.innerHTML=`
     <div class="tags">
       <span class="tag ${secClass}">${secName}</span>
-      <span class="tag">Module ${q.module}</span>
       <span class="tag">${esc(q.topic)}</span>
+      <span class="tag">${esc(srcParts.join(' · '))}</span>
     </div>
     <div class="body"></div>`;
   const body=card.querySelector('.body');
