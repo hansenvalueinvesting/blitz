@@ -149,7 +149,7 @@
     <div class="brand">blitz<span>.</span></div>
     <button class="gear" id="gear" aria-label="Settings">⚙</button>
   </div>
-  <div class="streak mono" id="streak">0 seen · 0 attempted · 0% accuracy</div>
+  <div class="streak mono" id="streak">0 attempted · 0% accuracy</div>
 </div>
 
 <div id="feed"></div>
@@ -198,7 +198,7 @@
 <script>
 const SETTINGS_KEY='blitz.settings.v1';
 const PROGRESS_KEY='blitz.progress.v1';
-let DIR=[], settings=null, seen=0, attempted=0, correct=0;
+let DIR=[], settings=null, attempted=0, correct=0;
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
 
@@ -206,16 +206,6 @@ const DEFAULT={secMath:50, mod1:50, topicsOff:{}}; // topicsOff[topic]=true mean
 
 const $=id=>document.getElementById(id);
 const feed=$('feed');
-
-// Count a card as "seen" the first time it scrolls into view — not only when answered.
-const seenObs=new IntersectionObserver(entries=>{
-  for(const e of entries){
-    if(e.isIntersecting && e.target.classList.contains('card') && !e.target.dataset.counted){
-      e.target.dataset.counted='1';
-      seen++; saveProgress(); paintStreak();
-    }
-  }
-},{root:feed, threshold:0.6});
 
 init();
 async function init(){
@@ -233,7 +223,7 @@ async function init(){
     return;
   }
   settings=loadSettings();
-  const prog=loadProgress(); seen=prog.seen; attempted=prog.attempted; correct=prog.correct;
+  const prog=loadProgress(); attempted=prog.attempted; correct=prog.correct;
   paintStreak();
   buildSettingsUI();
   wireSheet();
@@ -276,16 +266,16 @@ function saveSettings(){localStorage.setItem(SETTINGS_KEY,JSON.stringify(setting
 
 function loadProgress(){
   try{const p=JSON.parse(localStorage.getItem(PROGRESS_KEY));
-      if(p&&typeof p.seen==='number'){
-        // migrate older saves that only had {seen, correct} (seen == attempts then)
-        return {seen:p.seen, attempted:(typeof p.attempted==='number'?p.attempted:p.seen), correct:p.correct||0};
+      if(p&&typeof p.correct==='number'){
+        // accept older saves that had a {seen} field (seen == attempts then)
+        return {attempted:(typeof p.attempted==='number'?p.attempted:(p.seen||0)), correct:p.correct||0};
       }}catch(e){}
-  return {seen:0, attempted:0, correct:0};
+  return {attempted:0, correct:0};
 }
-function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({seen,attempted,correct}));}
+function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({attempted,correct}));}
 function paintStreak(){
   const acc = attempted ? Math.round(correct/attempted*100) : 0;
-  $('streak').textContent=`${seen} seen · ${attempted} attempted · ${acc}% accuracy`;
+  $('streak').textContent=`${attempted} attempted · ${acc}% accuracy`;
 }
 
 function topicsFor(sec){return [...new Set(DIR.filter(q=>q.section===sec).map(q=>q.topic))].sort();}
@@ -346,7 +336,6 @@ function appendCard(){
     </div>
     <div class="body"><div class="loading">loading question…</div></div>`;
   feed.appendChild(card);
-  seenObs.observe(card);
   loadQuestion(entry).then(q=>{
     if(!q){ card.querySelector('.body').innerHTML='<div class="loading">couldn\'t load this question — skipping</div>'; return; }
     renderQuestion(card,q);
@@ -486,7 +475,7 @@ function wipeData(){
   localStorage.removeItem(PROGRESS_KEY);
   localStorage.removeItem(SETTINGS_KEY);
   settings=structuredClone(DEFAULT);
-  seen=0; attempted=0; correct=0;
+  attempted=0; correct=0;
   paintStreak();
   buildSettingsUI();   // reset sliders + topic chips to defaults
   refill(true);        // reshuffle the feed under the fresh settings
