@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m2-19",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat6",
+  "stem": "The table shows the linear relationship between the number of cars, c, on a commuter train and the maximum number of passengers and crew, p, that the train can carry. Which equation represents the linear relationship between c and p?",
+  "choices": [
+    "55c − p = −9",
+    "55c − p = 9",
+    "55p − c = −9",
+    "55p − c = 9"
+  ],
+  "answer": "55c − p = −9",
+  "explanation": "The rate of change is (284 − 174)/(5 − 3) = 55 passengers per car, so p = 55c + b. Using c = 10, p = 559 gives 559 = 550 + b, so b = 9 and p = 55c + 9. Rearranging gives 55c − p = −9.",
+  "image": "sat6-m2-19.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m1-05",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "An object was launched upward from a platform. The graph shown models the height above ground, y, in meters, of the object x seconds after it was launched. For which of the following intervals of time was the height of the object increasing for the entire interval?",
+  "choices": [
+    "From x = 0 to x = 2",
+    "From x = 0 to x = 4",
+    "From x = 2 to x = 3",
+    "From x = 3 to x = 4"
+  ],
+  "answer": "From x = 0 to x = 2",
+  "explanation": "The curve rises until it peaks at x = 2 and falls afterward, so the height increases over the whole interval only from x = 0 to x = 2. Each other interval includes part of the descent.",
+  "image": "sat6-m1-05.png",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

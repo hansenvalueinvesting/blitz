@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-25",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "For thousands of years, humans have used domesticated goats (Capra hircus) to clear land of unwanted vegetation. When it comes to their diets, goats are notoriously _______ they will devour all kinds of shrubs and weeds, leaving virtually no part of any plant unconsumed.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "indiscriminate and",
+    "indiscriminate,",
+    "indiscriminate",
+    "indiscriminate:"
+  ],
+  "answer": "indiscriminate:",
+  "explanation": "A colon correctly separates the two main clauses (\"goats are notoriously indiscriminate\" and \"they will devour all kinds of shrubs and weeds\") while introducing the second as an explanation of the first. A comma creates a splice, no punctuation creates a run-on, and \"and\" fails to signal that what follows explains the goats' indiscriminate diet."
+}

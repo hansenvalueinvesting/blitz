@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-12",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat6",
+  "passage": "Some astronomers searching for extraterrestrial life have proposed that atmospheric NH3 (ammonia) can serve as a biosignature gas—an indication that a planet harbors life. Jingcheng Huang, Sara Seager, and colleagues evaluated this possibility, finding that on rocky planets, atmospheric NH3 likely couldn’t reach detectably high levels in the absence of biological activity. But the team also found that on so-called mini-Neptunes—gas planets smaller than Neptune but with atmospheres similar to Neptune’s—atmospheric pressure and temperature can be high enough to produce atmospheric NH3.",
+  "stem": "Based on the text, Huang, Seager, and colleagues would most likely agree with which statement about atmospheric NH3?",
+  "choices": [
+    "Its presence is more likely to indicate that a planet is a mini-Neptune than that the planet is a rocky planet that could support life.",
+    "Its absence from a planet that’s not a mini-Neptune indicates that the planet probably doesn’t have life.",
+    "It should be treated as a biosignature gas if detected in the atmosphere of a rocky planet but not if detected in the atmosphere of a mini-Neptune.",
+    "It doesn’t reliably reach high enough concentrations in the atmospheres of rocky planets or mini-Neptunes to be treated as a biosignature gas."
+  ],
+  "answer": "It should be treated as a biosignature gas if detected in the atmosphere of a rocky planet but not if detected in the atmosphere of a mini-Neptune.",
+  "explanation": "The team found that on rocky planets high NH3 likely requires life, so it can signal life there, but on mini-Neptunes NH3 can form without any life, so it isn't a reliable sign there. That supports treating it as a biosignature only on rocky planets. The other choices misstate the findings about detectability and presence versus absence."
+}

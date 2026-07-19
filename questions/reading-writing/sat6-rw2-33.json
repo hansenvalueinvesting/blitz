@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-33",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat6",
+  "passage": "While researching a topic, a student has taken the following notes:\n\n- The US government classifies sensitive information according to the degree to which disclosure could affect the nation’s security.\n- Information that could cause “damage” to national security is classified as Confidential.\n- Information that could cause “serious damage” to national security is classified as Secret.\n- Most routine diplomatic correspondence, if disclosed, could cause damage but not serious damage to national security.\n- Diplomatic correspondence includes communication with both allies and adversaries.",
+  "stem": "The student wants to indicate which category most routine diplomatic correspondence belongs in, based on how sensitive information is classified. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "According to the US government, which classifies such sensitive information as routine diplomatic correspondence, Confidential information could damage national security if disclosed.",
+    "Most routine diplomatic correspondence is classified according to the degree to which disclosure could affect the nation’s security.",
+    "Having the potential to damage national security if disclosed, most routine diplomatic correspondence is classified as Confidential.",
+    "If disclosed, communication with both allies and adversaries could affect the nation’s security."
+  ],
+  "answer": "Having the potential to damage national security if disclosed, most routine diplomatic correspondence is classified as Confidential.",
+  "explanation": "The goal is to name the correct classification, and this choice states that routine diplomatic correspondence is Confidential because disclosure could cause damage (not serious damage). The other options describe the classification system generally or restate that disclosure could affect security without naming the category."
+}

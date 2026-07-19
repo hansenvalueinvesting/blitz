@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m1-27",
+  "topic": "Geometry",
+  "stem": "In right triangle ABC, angle C is the right angle and BC = 162. Point D on side AB is connected by a line segment with point E on side AC such that line segment DE is parallel to side BC and CE = 2AE. What is the length of line segment DE ?",
+  "choices": [
+    "54"
+  ],
+  "answer": "54",
+  "explanation": "Since DE is parallel to BC, triangle ADE is similar to triangle ABC with DE/BC = AE/AC. With CE = 2AE, we get AC = AE + 2AE = 3AE, so AE/AC = 1/3. Then DE = (1/3)(162) = 54.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

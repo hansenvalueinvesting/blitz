@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-01",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat6",
+  "stem": "Though not closely related, the hedgehog tenrecs of Madagascar share basic _______ true hedgehogs, including protective spines, pointed snouts, and small body size—traits the two groups of mammals independently developed in response to equivalent roles in their respective habitats.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "examples of",
+    "concerns about",
+    "indications of",
+    "similarities with"
+  ],
+  "answer": "similarities with",
+  "explanation": "The text says the two groups of mammals aren’t closely related yet developed the same physical traits, so tenrecs “share” a resemblance to true hedgehogs. “Examples of” fails because unrelated animals can’t be examples of one another; “concerns about” and “indications of” don’t describe a shared resemblance."
+}

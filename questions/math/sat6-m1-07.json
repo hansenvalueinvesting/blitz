@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m1-07",
+  "topic": "Linear functions",
+  "stem": "f(x) = 14 + 4x\n\nThe function f represents the total cost, in dollars, of attending an arcade when x games are played. How many games can be played for a total cost of $58?",
+  "choices": [
+    "11"
+  ],
+  "answer": "11",
+  "explanation": "Setting the cost equal to 58 gives 58 = 14 + 4x. Subtracting 14 leaves 44 = 4x, and dividing by 4 gives x = 11 games.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

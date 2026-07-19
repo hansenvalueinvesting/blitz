@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-02",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat6",
+  "passage": "Whether Carmen Lomas Garza is creating small paintings and illustrations or large public artworks—such as Baile, a copper cutout of traditional Mexican dance in the San Francisco International Airport—she is _______ direct experience, drawing from memories of her childhood in Texas or details of her current surroundings in California.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "complimented by",
+    "uncertain about",
+    "unbothered by",
+    "inspired by"
+  ],
+  "answer": "inspired by",
+  "explanation": "The text says Garza draws on memories and details from her surroundings to make her art, so the blank needs a phrase meaning influenced or motivated by direct experience. “Inspired by” captures that. “Complimented by” (praised) makes no sense with an inanimate source, and “uncertain about” and “unbothered by” would imply she doubts or ignores the experiences she actually relies on."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-19",
+  "topic": "Statistics and probability",
+  "stem": "The table shown summarizes the number of employees at each of the 17 restaurants in a town.\n\nNumber of employees | Number of restaurants\n2 to 7 | 2\n8 to 13 | 4\n14 to 19 | 2\n20 to 25 | 7\n26 to 31 | 2\n\nWhich of the following could be the median number of employees for the restaurants in this town?",
+  "choices": [
+    "2",
+    "9",
+    "15",
+    "21"
+  ],
+  "answer": "21",
+  "explanation": "With 17 restaurants ordered by employee count, the median is the 9th value. The first 8 restaurants fall in the ranges up to 19, so the 9th lands in the 20-to-25 range; among the choices only 21 is in that range.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

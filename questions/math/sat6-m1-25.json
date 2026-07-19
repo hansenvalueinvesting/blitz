@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-25",
+  "topic": "Exponential functions",
+  "stem": "At the time that an article was first featured on the home page of a news website, there were 40 comments on the article. An exponential model estimates that at the end of each hour after the article was first featured on the home page, the number of comments on the article had increased by 190% of the number of comments on the article at the end of the previous hour. Which of the following equations best represents this model, where C is the estimated number of comments on the article t hours after the article was first featured on the home page and t ≤ 4 ?",
+  "choices": [
+    "C = 40(1.19)ᵗ",
+    "C = 40(1.9)ᵗ",
+    "C = 40(19)ᵗ",
+    "C = 40(2.9)ᵗ"
+  ],
+  "answer": "C = 40(2.9)ᵗ",
+  "explanation": "Starting at 40 comments with a 190% hourly increase, each hour the count becomes the previous amount plus 1.9 times it, a growth factor of 1 + 1.9 = 2.9. So C = 40(2.9)ᵗ.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

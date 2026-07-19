@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m1-13",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "The function h is defined by h(x) = 8/(5x + 6). What is the value of h(2) ?",
+  "choices": [
+    "1/2"
+  ],
+  "answer": "1/2",
+  "explanation": "Substituting x = 2 gives 8/(5·2 + 6) = 8/16, which simplifies to 1/2.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

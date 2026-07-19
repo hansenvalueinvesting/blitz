@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m2-26",
+  "section": "math",
+  "module": 2,
+  "topic": "Data analysis",
+  "source": "sat6",
+  "stem": "The scatterplot shows the relationship between two variables, x and y, for data set E. A line of best fit is shown. Data set F is created by multiplying the y-coordinate of each data point from data set E by 3.9. Which of the following could be an equation of a line of best fit for data set F?",
+  "choices": [
+    "y = 46.8 + 5.9x",
+    "y = 46.8 + 1.5x",
+    "y = 12 + 5.9x",
+    "y = 12 + 1.5x"
+  ],
+  "answer": "y = 46.8 + 5.9x",
+  "explanation": "Multiplying every y-value by 3.9 scales both the intercept and the slope of the line of best fit by 3.9. The line for E has intercept ≈ 12 and slope ≈ 1.5, so for F the intercept ≈ 12 × 3.9 = 46.8 and slope ≈ 1.5 × 3.9 ≈ 5.9, giving y = 46.8 + 5.9x.",
+  "image": "sat6-m2-26.png"
+}

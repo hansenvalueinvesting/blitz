@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw1-11",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat6",
+  "stem": "A student is using the table as part of a social studies class presentation on the US auto industry in the early twentieth century. The student notes that, according to the table, from 1910 to 1925 _______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+    "the number of cars produced increased but the number of companies producing cars decreased.",
+    "both the number of cars produced and the number of companies producing cars remained unchanged.",
+    "the number of cars produced decreased but the number of companies producing cars remained unchanged.",
+    "both the number of cars produced and the number of companies producing cars increased."
+  ],
+  "answer": "the number of cars produced increased but the number of companies producing cars decreased.",
+  "explanation": "The table shows cars produced climbing from 123,990 in 1910 to 3,185,881 in 1925, while the number of companies fell from 320 to 80. So production rose as the number of producers dropped. The other options misstate one or both trends as unchanged or reversed.",
+  "image": "sat6-rw1-11.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-16",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (textual)",
+  "source": "sat6",
+  "passage": "As media consumption has become increasingly multiplatform and socially mediated, active news acquisition has diminished in favor of an attitude known as “news finds me” (NFM), in which people passively rely on their social networks and ambient media environments for information about current events. Homero Gil de Zúñiga and Trevor Diehl examined data on a representative group of adults in the United States to determine participants’ strength of NFM attitude, political knowledge, and political interest. Although no major election took place sufficiently near the study for Gil de Zúñiga and Diehl to identify causality between NFM and voting behavior, they did posit that NFM may reduce voting probability through an indirect effect.",
+  "stem": "Which finding, if true, would most directly support the idea advanced by Gil de Zúñiga and Diehl?",
+  "choices": [
+    "NFM attitude tends to increase in strength as major elections approach, and people are significantly more likely to vote in major elections than in minor elections.",
+    "NFM attitude has a strong negative effect on political knowledge and interest, and there is known to be a strong positive correlation between political knowledge and interest and the likelihood of voting.",
+    "Political interest is known to have a strong positive effect on likelihood of voting but shows only a weak positive effect on political knowledge, and NFM attitude shows little correlation with either political knowledge or political interest.",
+    "The likelihood of voting increases as political knowledge increases, and the relationship between NFM attitude and political knowledge tends to strengthen as the size of people’s social networks increases."
+  ],
+  "answer": "NFM attitude has a strong negative effect on political knowledge and interest, and there is known to be a strong positive correlation between political knowledge and interest and the likelihood of voting.",
+  "explanation": "The researchers propose NFM lowers voting probability indirectly, so support comes from a chain: NFM harms political knowledge and interest, and those in turn drive voting. Choice B supplies exactly that pathway. Choice C's claim that NFM barely correlates with knowledge or interest would undercut the idea, and A and D don't establish the indirect effect on voting."
+}

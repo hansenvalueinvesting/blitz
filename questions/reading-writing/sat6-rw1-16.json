@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-16",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat6",
+  "stem": "Under normal atmospheric pressure at Earth’s surface, water molecules form a tetrahedral network stabilized by hydrogen bonds between adjacent molecules. Extreme high pressure, such as can be found in deep ocean waters, destabilizes these bonds and compresses water’s structure, allowing water molecules within organisms to permeate proteins and impede crucial biological functions; yet deep-sea organisms known as piezophiles have adapted to extreme pressure. Studies have found a positive correlation between the depths that various piezophiles inhabit and concentrations of a compound called trimethylamine N-oxide (TMAO) in their muscle tissues, which has led a team of researchers to hypothesize that TMAO reduces water’s compressibility.\n\nWhich finding, if true, would most directly support the researchers’ hypothesis?",
+  "choices": [
+    "Water molecules are found to be impervious to TMAO even when the water molecules’ tetrahedral configuration has been distorted by high pressure.",
+    "Examination of TMAO’s molecular structure shows that TMAO molecules retain their shape even as pressure increases.",
+    "A positive correlation is found between concentrations of TMAO and the rate at which water’s molecular structure compresses as pressure increases.",
+    "Analysis of water’s molecular structure under high pressure reveals that hydrogen bonds are more stable when TMAO is present than when it is not."
+  ],
+  "answer": "Analysis of water’s molecular structure under high pressure reveals that hydrogen bonds are more stable when TMAO is present than when it is not.",
+  "explanation": "Because pressure compresses water by breaking the hydrogen bonds that hold its structure, showing that TMAO keeps those bonds stable under pressure would directly explain how TMAO reduces compressibility. Choice C actually describes faster compression with more TMAO, the opposite effect, while choices A and B concern TMAO’s own resistance rather than its effect on water’s structure."
+}

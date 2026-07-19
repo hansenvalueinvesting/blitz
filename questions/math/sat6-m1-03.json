@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-03",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "k² − 53 = 91\n\nWhat is the positive solution to the given equation?",
+  "choices": [
+    "144",
+    "72",
+    "38",
+    "12"
+  ],
+  "answer": "12",
+  "explanation": "Adding 53 to both sides gives k² = 144, and taking the square root gives k = ±12. The positive solution is therefore 12.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

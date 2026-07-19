@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-23",
+  "section": "math",
+  "module": 2,
+  "topic": "Exponential functions",
+  "source": "sat6",
+  "stem": "f(x) = (1.84)^(x/4)\n\nThe function f is defined by the given equation. The equation can be rewritten as f(x) = (1 + p/100)^x, where p is a constant. Which of the following is closest to the value of p?",
+  "choices": [
+    "16",
+    "21",
+    "46",
+    "96"
+  ],
+  "answer": "16",
+  "explanation": "Rewriting gives f(x) = (1.84^(1/4))^x ≈ (1.1647)^x. Matching this to (1 + p/100)^x means 1 + p/100 ≈ 1.1647, so p/100 ≈ 0.1647 and p ≈ 16.5. Of the choices, 16 is closest."
+}

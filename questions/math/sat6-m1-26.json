@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-26",
+  "topic": "Linear functions",
+  "stem": "x | g(x)\n−27 | 3\n−9 | 0\n21 | 5\n\nThe table shows three values of x and their corresponding values of g(x), where g(x) = f(x)/(x + 3) and f is a linear function. What is the y-intercept of the graph of y = f(x) in the xy-plane?",
+  "choices": [
+    "(0, 36)",
+    "(0, 12)",
+    "(0, 4)",
+    "(0, −9)"
+  ],
+  "answer": "(0, 36)",
+  "explanation": "From g(x) = f(x)/(x + 3), the values give f(−27) = 3(−24) = −72 and f(−9) = 0(−6) = 0. The slope of the linear f is (0 − (−72))/(−9 − (−27)) = 72/18 = 4, so f(x) = 4x + b; using f(−9) = 0 gives b = 36, so the y-intercept is (0, 36).",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-04",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat6",
+  "passage": "In 1891, design artist William Morris cofounded the Kelmscott Press, which printed editions of books using preindustrial methods. Historians argue that Morris’s repudiation of industrialization is _______ the Kelmscott editions’ use of handmade materials and intricate ornamentation reminiscent of medieval manuscripts: these meticulously handcrafted elements exemplify the artistry involved.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "insensible to",
+    "manifest in",
+    "scrutinized by",
+    "complicated by"
+  ],
+  "answer": "manifest in",
+  "explanation": "The passage presents the handmade materials and ornamentation as evidence of Morris's rejection of industrialization, so the blank needs a phrase meaning evident from. “Manifest in” works. “Insensible to” and “complicated by” wrongly suggest his stance ignores or is muddled by those methods, and “scrutinized by” nonsensically makes the materials examine his attitude."
+}

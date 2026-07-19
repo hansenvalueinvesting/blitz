@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-09",
+  "section": "math",
+  "module": 2,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat6",
+  "stem": "The ratio of the length of line segment XY to the length of line segment ZV is 6 to 1. If the length of line segment XY is 102 inches, what is the length, in inches, of line segment ZV?",
+  "choices": [
+    "17",
+    "96",
+    "102",
+    "612"
+  ],
+  "answer": "17",
+  "explanation": "The ratio XY to ZV is 6 to 1, so XY = 6 × ZV. With XY = 102, solving 102 = 6 × ZV gives ZV = 17 inches."
+}

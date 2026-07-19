@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-11",
+  "topic": "Linear equations",
+  "stem": "y > 4x + 8\n\nFor which of the following tables are all the values of x and their corresponding values of y solutions to the given inequality?",
+  "choices": [
+    "x: 2, 4, 6 | y: 19, 30, 41",
+    "x: 2, 4, 6 | y: 8, 16, 24",
+    "x: 2, 4, 6 | y: 13, 18, 23",
+    "x: 2, 4, 6 | y: 13, 21, 29"
+  ],
+  "answer": "x: 2, 4, 6 | y: 19, 30, 41",
+  "explanation": "At x = 2 the inequality requires y > 4(2) + 8 = 16, so the y-value paired with 2 must exceed 16; only the first table does this (y = 19). Checking its other rows, 30 > 24 and 41 > 32 both hold, so every pair satisfies the inequality.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-09",
+  "topic": "Exponential functions",
+  "stem": "P(t) = 1,800(1.02)ᵗ\n\nThe function P gives the estimated number of marine mammals in a certain area, where t is the number of years since a study began. What is the best interpretation of P(0) = 1,800 in this context?",
+  "choices": [
+    "The estimated number of marine mammals in the area was 102 when the study began.",
+    "The estimated number of marine mammals in the area was 1,800 when the study began.",
+    "The estimated number of marine mammals in the area increased by 102 each year during the study.",
+    "The estimated number of marine mammals in the area increased by 1,800 each year during the study."
+  ],
+  "answer": "The estimated number of marine mammals in the area was 1,800 when the study began.",
+  "explanation": "Because t = 0 marks the start of the study, P(0) is the population at that starting moment. So P(0) = 1,800 means there were an estimated 1,800 marine mammals when the study began.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

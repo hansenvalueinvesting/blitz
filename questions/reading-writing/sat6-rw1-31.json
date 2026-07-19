@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-31",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat6",
+  "stem": "While researching a topic, a student has taken the following notes:\n• In the 1930s, the Imperial Sugar Cane Institute in India sought to limit the country’s dependence on imported sugarcane.\n• The institute enlisted botanist Janaki Ammal to breed a local variety of sugarcane.\n• She crossbred the imported sugarcane species Saccharum officinarum with grasses native to India.\n• She succeeded in creating sugarcane hybrids well suited to India’s climate.\n\nThe student wants to emphasize Janaki Ammal’s achievement. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "By crossbreeding the imported sugarcane species Saccharum officinarum with grasses native to India, Ammal succeeded in creating sugarcane hybrids well suited to India’s climate.",
+    "In the 1930s, the Imperial Sugar Cane Institute, which enlisted Ammal, sought to limit dependence on imported sugarcane.",
+    "Ammal was enlisted by the Imperial Sugar Cane Institute at a time when a local variety of sugarcane needed to be produced.",
+    "As part of efforts to breed a local variety of sugarcane, an imported sugarcane species called Saccharum officinarum was crossbred with grasses native to India."
+  ],
+  "answer": "By crossbreeding the imported sugarcane species Saccharum officinarum with grasses native to India, Ammal succeeded in creating sugarcane hybrids well suited to India’s climate.",
+  "explanation": "Choice A centers Ammal and credits her with the accomplishment—creating climate-suited hybrids through crossbreeding. The others foreground the institute’s goal, merely mention that Ammal was enlisted, or describe the crossbreeding in the passive voice without attributing the success to her."
+}

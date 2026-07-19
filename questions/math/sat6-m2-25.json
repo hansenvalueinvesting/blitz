@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-25",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat6",
+  "stem": "In the xy-plane, a circle has center C with coordinates (h, k). Points A and B lie on the circle. Point A has coordinates (h + 1, k + √102), and ∠ACB is a right angle. What is the length of AB?",
+  "choices": [
+    "√206",
+    "2√102",
+    "103√2",
+    "103√3"
+  ],
+  "answer": "√206",
+  "explanation": "AC is a radius, and its length is √(1² + (√102)²) = √103. Since AC and BC are both radii, BC = √103 too. Because ∠ACB is a right angle, AB is the hypotenuse: AB = √((√103)² + (√103)²) = √206."
+}

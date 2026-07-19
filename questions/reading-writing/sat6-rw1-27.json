@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-27",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat6",
+  "stem": "Before it unveiled a massive new gallery in 2009, the Art Institute of Chicago was only able to display about 5% of its art collection. _______ the museum is able to display close to 30% of its collection.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Additionally,",
+    "For example,",
+    "Nevertheless,",
+    "Today,"
+  ],
+  "answer": "Today,",
+  "explanation": "The second sentence describes the museum’s present-day capacity after the 2009 gallery opened, so the time-marking “Today” fits. “Additionally,” “For example,” and “Nevertheless” wrongly suggest an added fact, an illustration, or a contrast rather than a shift to the present."
+}

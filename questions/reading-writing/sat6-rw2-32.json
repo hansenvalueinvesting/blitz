@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-32",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat6",
+  "passage": "While researching a topic, a student has taken the following notes:\n\n- Doña María do Carmo Bandeira was a Brazilian botanist.\n- Between 1924 and 1941, she collected approximately 800 botanical samples.\n- She collected a sample of Polytrichum juniperinum from Serra de Itatiaia in Mauá in February of 1925.\n- She collected a sample of Sphagnum gracilescen from Ponte do Inferno in Corcovado in March of 1925.\n- Polytrichum juniperinum and Sphagnum gracilescen are both species of moss.",
+  "stem": "The student wants to emphasize the sample collected from Serra de Itatiaia. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Doña María do Carmo Bandeira was a botanist notable for collecting approximately 800 botanical samples between 1924 and 1941.",
+    "Among the many botanical samples Doña María do Carmo Bandeira collected was Polytrichum juniperinum, a species of moss she collected from Serra de Itatiaia in 1925.",
+    "Between 1924 and 1941, Doña María do Carmo Bandeira collected many botanical samples, such as Polytrichum juniperinum from Serra de Itatiaia and Sphagnum gracilescen from Ponte do Inferno.",
+    "Between 1924 and 1941, Doña María do Carmo Bandeira collected samples of Polytrichum juniperinum and Sphagnum gracilescen, both species of moss."
+  ],
+  "answer": "Among the many botanical samples Doña María do Carmo Bandeira collected was Polytrichum juniperinum, a species of moss she collected from Serra de Itatiaia in 1925.",
+  "explanation": "The goal is to spotlight the Serra de Itatiaia sample, and this choice focuses on that single sample—Polytrichum juniperinum collected there in 1925. Choice A omits it, while C and D place it alongside the Ponte do Inferno sample rather than emphasizing it."
+}

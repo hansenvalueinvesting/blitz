@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-11",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat6",
+  "passage": "To understand how temperature change affects microorganism-mediated cycling of soil nutrients in alpine ecosystems, Eva Kaštovská et al. collected plant-soil cores in the Tatra Mountains at elevations around 2,100 meters and transplanted them to elevations of 1,700–1,800 meters, where the mean air temperature was warmer by 2°C. Microorganism-mediated nutrient cycling was accelerated in the transplanted cores; crucially, microorganism community composition was unchanged, allowing Kaštovská et al. to attribute the acceleration to temperature-induced increases in microorganism activity.",
+  "stem": "It can most reasonably be inferred from the text that the finding about the microorganism community composition was important for which reason?",
+  "choices": [
+    "It provided preliminary evidence that microorganism-mediated nutrient cycling was accelerated in the transplanted cores.",
+    "It suggested that temperature-induced changes in microorganism activity may be occurring at increasingly high elevations.",
+    "It ruled out a potential alternative explanation for the acceleration in microorganism-mediated nutrient cycling.",
+    "It clarified that microorganism activity levels in the plant-soil cores varied depending on which microorganisms comprised the community."
+  ],
+  "answer": "It ruled out a potential alternative explanation for the acceleration in microorganism-mediated nutrient cycling.",
+  "explanation": "Because the microorganism community stayed the same, the researchers could credit the faster nutrient cycling to temperature-driven activity rather than a shift in which microorganisms were present—eliminating a competing explanation. The unchanged composition isn't evidence that cycling accelerated, doesn't concern elevation trends, and doesn't show activity varying by community makeup."
+}

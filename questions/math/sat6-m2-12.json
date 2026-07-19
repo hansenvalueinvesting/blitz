@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-12",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat6",
+  "stem": "(x + 2)(x − 5)(x + 9) = 0\n\nWhat is a positive solution to the given equation?",
+  "choices": [
+    "3",
+    "4",
+    "5",
+    "18"
+  ],
+  "answer": "5",
+  "explanation": "By the zero product property, each factor can equal 0, giving x = −2, x = 5, and x = −9. The only positive solution is 5."
+}

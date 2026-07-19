@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-10",
+  "topic": "Linear equations",
+  "stem": "A manager is responsible for ordering supplies for a shaved ice shop. The shop's inventory starts with 4,500 paper cups, and the manager estimates that 70 of these paper cups are used each day. Based on this estimate, in how many days will the supply of paper cups reach 1,700?",
+  "choices": [
+    "20",
+    "40",
+    "60",
+    "80"
+  ],
+  "answer": "40",
+  "explanation": "The supply after x days is 4,500 − 70x, and setting this equal to 1,700 gives 70x = 2,800, so x = 40 days.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-24",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "stem": "Jamaican British artist Willard Wigan is known for his remarkable _______ so small that they are best viewed through a microscope, Wigan’s sculptures are made from tiny natural materials, such as spiderweb strands.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "microsculptures creations",
+    "microsculptures, creations",
+    "microsculptures. Creations",
+    "microsculptures and creations"
+  ],
+  "answer": "microsculptures. Creations",
+  "explanation": "Two complete sentences meet here, so a period after “microsculptures” correctly separates them, with “Creations…” beginning the next sentence that modifies “Wigan’s sculptures.” Running them together, splicing them with a comma, or joining with “and” without a comma all create grammatical errors."
+}

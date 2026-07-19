@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-23",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "stem": "In a painting titled “The Milkmaid” by Johannes Vermeer, the artist prominently features a bread basket, milk pitcher, and bowl. Such quotidian objects, depicted in exquisite detail by Vermeer, a painter celebrated for his naturalism, _______ the daily minutiae of a seventeenth-century Dutch household.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "was revealing",
+    "has revealed",
+    "reveals",
+    "reveal"
+  ],
+  "answer": "reveal",
+  "explanation": "The subject is the plural “objects,” so the plural verb “reveal” is required. The singular forms “was revealing,” “has revealed,” and “reveals” don’t agree with that plural subject."
+}

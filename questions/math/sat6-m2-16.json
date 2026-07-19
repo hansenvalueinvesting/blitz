@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-16",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat6",
+  "stem": "A right circular cylinder has a volume of 432 cubic centimeters. The area of the base of the cylinder is 24 square centimeters. What is the height, in centimeters, of the cylinder?",
+  "choices": [
+    "18",
+    "24",
+    "216",
+    "10,368"
+  ],
+  "answer": "18",
+  "explanation": "The volume of a cylinder equals the base area times the height. With 432 = 24 × h, dividing both sides by 24 gives h = 18 centimeters."
+}

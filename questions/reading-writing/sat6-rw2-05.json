@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-05",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat6",
+  "passage": "Mary Engle Pennington, a chemist who helped advance home refrigeration, undoubtedly made a substantial impact on society, but her place in our historical memory is perhaps more _______ than that of Stephanie Kwolek, who invented the incredibly strong material known as Kevlar, an accomplishment for which she will long be remembered.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "permanent",
+    "tentative",
+    "warranted",
+    "prominent"
+  ],
+  "answer": "tentative",
+  "explanation": "The sentence contrasts Pennington with Kwolek, who “will long be remembered,” implying Pennington's memorability is less secure, so the blank needs a word meaning uncertain. “Tentative” fits. “Permanent” and “prominent” would remove the contrast by making her equally memorable, and “warranted” addresses whether the fame is deserved, not how lasting it is."
+}

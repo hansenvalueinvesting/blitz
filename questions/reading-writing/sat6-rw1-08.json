@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw1-08",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat6",
+  "passage": "The following text is adapted from Herman Melville’s 1855 novel Israel Potter. Israel is a young man wandering through New England during the late eighteenth century.\n\nHe hired himself out for three months; at the end of that time to receive for his wages two hundred acres of land lying in New Hampshire. [...] His employer proving false to the contract in the matter of the land, and there being no law in the country to force him to fulfil it, Israel—who, however brave-hearted, and even much of a dare-devil upon a pinch, seems nevertheless to have evinced, throughout many parts of his career, a singular patience and mildness—was obliged to look round for other means of livelihood than clearing out a farm for himself in the wilderness.",
+  "stem": "Which choice best describes the function of the underlined portion in the text as a whole?",
+  "choices": [
+    "It implies that Israel treasures a particular characteristic of his personality when that characteristic should usually be regarded as a flaw.",
+    "It suggests that if not for a certain aspect of his character, Israel might not have been as easily thwarted in his ambition to establish a farm.",
+    "It shows why Israel would not have been able to undertake the enormous amount of labor necessary to run a farm even if he had owned the necessary property.",
+    "It explains why, when the situation requires it, Israel is able to undertake courageous acts that others would generally avoid."
+  ],
+  "answer": "It suggests that if not for a certain aspect of his character, Israel might not have been as easily thwarted in his ambition to establish a farm.",
+  "explanation": "The underlined portion notes that, though occasionally daring, Israel was generally patient and mild—a meekness that helps explain why he had no recourse when his employer cheated him of the promised land. It doesn’t say he prizes this trait, doubt his capacity for farm labor, or emphasize courage others lack; it accounts for how he was so easily deprived of his farm."
+}

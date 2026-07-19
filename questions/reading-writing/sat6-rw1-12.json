@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-12",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat6",
+  "stem": "External shopping cues are a type of marketing that uses obvious messaging—a display featuring a new product, for example, or a “buy one, get one free” offer—to entice consumers to make spontaneous purchases. In a study, data scientist Sam K. Hui and colleagues found that this effect can also be achieved with a less obvious cue: rearranging a store’s layout. The researchers explain that trying to find items in new locations causes shoppers to move through more of the store, exposing them to more products and increasing the likelihood that they’ll buy an item they hadn’t planned on purchasing.\n\nWhich response from a survey given to shoppers who made a purchase at a retail store best supports the researchers’ explanation?",
+  "choices": [
+    "“I needed to buy some cleaning supplies, but they weren’t in their regular place. While I was looking for them, I saw this interesting notebook and decided to buy it, too.”",
+    "“I didn’t buy everything on my shopping list today. I couldn’t find a couple of the items in the store, even though I looked all over for them.”",
+    "“The store sent me a coupon for a new brand of soup, so I came here to find out what kinds of soup that brand offers. I decided to buy a few cans because I had the coupon.”",
+    "“This store is larger than one that’s closer to where I live, and it carries more products. I came here to buy some things that the other store doesn’t always have.”"
+  ],
+  "answer": "“I needed to buy some cleaning supplies, but they weren’t in their regular place. While I was looking for them, I saw this interesting notebook and decided to buy it, too.”",
+  "explanation": "The researchers claim that hunting for items in unfamiliar spots exposes shoppers to more products and triggers unplanned buys. Choice A shows exactly that: a shopper searching for misplaced supplies stumbles on a notebook and buys it on impulse. The other responses describe buying less, buying because of a coupon, or buying at a bigger store—none tied to a rearranged layout."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-17",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat6",
+  "passage": "The practice of logging (cutting down trees for commercial and other uses) is often thought to be at odds with forest conservation (the work of preserving forests). However, a massive study in forest management and preservation spanning 700,000 hectares in Oregon’s Malheur National Forest calls that view into question. So far, results of the study suggest that forest plots that have undergone limited logging (the careful removal of a controlled number of trees) may be more robust than plots that haven’t been logged at all. These results, in turn, suggest that _______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+    "logging may be useful for maintaining healthy forests, provided it is limited.",
+    "other forest management strategies are more effective than limited logging.",
+    "as time passes, it will be difficult to know whether limited logging has any benefits.",
+    "the best way to support forest health may be to leave large forests entirely untouched."
+  ],
+  "answer": "logging may be useful for maintaining healthy forests, provided it is limited.",
+  "explanation": "Since limited logging produced more robust plots than no logging at all, it follows that carefully controlled logging can help keep forests healthy. The study gives no basis for ranking other strategies, doesn't suggest benefits will be hard to detect, and contradicts the idea that leaving forests untouched is best."
+}

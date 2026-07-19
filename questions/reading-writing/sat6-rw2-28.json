@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-28",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat6",
+  "passage": "The liquid metals in Earth’s core circulate constantly, and this circulation generates electrical currents that flow between Earth’s North and South magnetic poles. These electrical currents, _______ create a barrier around Earth that protects us from radiation and charged particles coming from space.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+    "in turn,",
+    "likewise,",
+    "nevertheless,",
+    "in reality,"
+  ],
+  "answer": "in turn,",
+  "explanation": "The protective barrier is a consequence of the electrical currents just described, so \"in turn,\" which signals a resulting effect, is the logical transition. \"Likewise\" implies similarity, \"nevertheless\" implies contrast, and \"in reality\" implies contradiction—none of which matches this cause-and-effect relationship."
+}

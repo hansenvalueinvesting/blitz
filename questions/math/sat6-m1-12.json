@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-12",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "Which expression is equivalent to (x² + 11)² + (x − 5)(x + 5) ?",
+  "choices": [
+    "x⁴ + 23x² − 14",
+    "x⁴ + 23x² + 96",
+    "x⁴ + 12x² + 121",
+    "x⁴ + x² + 146"
+  ],
+  "answer": "x⁴ + 23x² + 96",
+  "explanation": "Expanding (x² + 11)² gives x⁴ + 22x² + 121, and (x − 5)(x + 5) is x² − 25. Adding them combines the x² terms (22x² + x²) and the constants (121 − 25) to give x⁴ + 23x² + 96.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

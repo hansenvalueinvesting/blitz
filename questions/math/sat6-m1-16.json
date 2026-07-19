@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-16",
+  "topic": "Linear functions",
+  "stem": "The relationship between two variables, x and y, is linear. For every increase in the value of x by 1, the value of y increases by 8. When the value of x is 2, the value of y is 18. Which equation represents this relationship?",
+  "choices": [
+    "y = 2x + 18",
+    "y = 2x + 8",
+    "y = 8x + 2",
+    "y = 3x + 26"
+  ],
+  "answer": "y = 8x + 2",
+  "explanation": "A change of 8 in y per unit change in x means the slope is 8, so y = 8x + b. Plugging in (2, 18) gives 18 = 16 + b, so b = 2 and the equation is y = 8x + 2.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

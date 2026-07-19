@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-18",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat6",
+  "passage": "Even with the widespread adoption of personal computers, many authors still choose to write and revise their novels by hand and only then transcribe the final version on a computer. It may be tempting to speculate about how a novel written this way would be affected if it had been exclusively typed instead, but each novel is a unique entity resulting from a specific set of circumstances. Therefore, _______",
+  "stem": "Which choice most logically completes the text?",
+  "choices": [
+    "in order to increase their efficiency, authors who currently write their novels largely by hand should instead work only on a computer.",
+    "authors who do most of their drafting and revising by hand likely have more success than those who work entirely on a computer.",
+    "novels written by hand take less time to produce, on average, than novels written on a computer do.",
+    "there is no way to reasonably evaluate how a work would be different if it had been written by other means."
+  ],
+  "answer": "there is no way to reasonably evaluate how a work would be different if it had been written by other means.",
+  "explanation": "Because each novel results from a unique set of circumstances, there's no way to isolate the effect of the writing method and judge how the work would differ if written another way. The text says nothing about efficiency, relative success, or how long novels take to produce, so those completions aren't supported."
+}

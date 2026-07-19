@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m2-22",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat6",
+  "stem": "In triangle ABC, angle B is a right angle. The length of side AB is 10√37 and the length of side BC is 24√37. What is the length of side AC?",
+  "choices": [
+    "14√37",
+    "26√37",
+    "34√37",
+    "√(34 · 37)"
+  ],
+  "answer": "26√37",
+  "explanation": "Since angle B is right, AC is the hypotenuse. By the Pythagorean theorem, AC² = (10√37)² + (24√37)² = 3700 + 21312 = 676 · 37. Taking the positive square root gives AC = 26√37."
+}

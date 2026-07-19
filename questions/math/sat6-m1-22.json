@@ -1,0 +1,16 @@
+{
+  "id": "sat6-m1-22",
+  "topic": "Percentages",
+  "stem": "In 2008, Zinah earned 14% more than in 2007, and in 2009 Zinah earned 4% more than in 2008. If Zinah earned y times as much in 2009 as in 2007, what is the value of y ?",
+  "choices": [
+    "0.5600",
+    "1.0056",
+    "1.1800",
+    "1.1856"
+  ],
+  "answer": "1.1856",
+  "explanation": "Two successive increases multiply, so the 2009 amount is 1.14 × 1.04 = 1.1856 times the 2007 amount. Therefore y = 1.1856.",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m2-20",
+  "section": "math",
+  "module": 2,
+  "topic": "Exponential functions",
+  "source": "sat6",
+  "stem": "If 4^(8c) = ∛(4⁷), what is the value of c?",
+  "choices": [
+    "7/24"
+  ],
+  "answer": "7/24",
+  "explanation": "The cube root of 4⁷ can be written as 4^(7/3), so 4^(8c) = 4^(7/3). Setting the exponents equal gives 8c = 7/3, and dividing by 8 gives c = 7/24."
+}

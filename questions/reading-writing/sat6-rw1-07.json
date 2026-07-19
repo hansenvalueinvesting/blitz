@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-07",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat6",
+  "stem": "When classical pianist Martha Argerich performs, it appears as if the music is coming to her spontaneously. She’s highly skilled technically, but because of how freely she plays and her willingness to take risks, she seems relaxed and natural. Her apparent ease, however, is due to a tremendous amount of preparation. Despite Argerich’s experience and virtuosity, she never takes for granted that she knows a piece of music. Instead, she approaches the music as if encountering it for the first time and tries to understand it anew.\n\nWhich choice best states the main purpose of the text?",
+  "choices": [
+    "To provide details about how Argerich identifies which pieces of music she will perform",
+    "To assert that Argerich’s performances look effortless because of how she prepares for them",
+    "To discuss the kinds of music Argerich feels most comfortable encountering for the first time",
+    "To describe the unique way that Argerich approaches music she hasn’t performed before"
+  ],
+  "answer": "To assert that Argerich’s performances look effortless because of how she prepares for them",
+  "explanation": "The passage sets up an apparent contradiction—Argerich looks spontaneous—and resolves it by explaining that her ease actually comes from intense preparation. It never covers how she chooses pieces, what genres she prefers, or claims her approach is unique, so those options miss the central point."
+}

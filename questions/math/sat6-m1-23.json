@@ -1,0 +1,17 @@
+{
+  "id": "sat6-m1-23",
+  "topic": "Geometry",
+  "stem": "Circle A (shown) is defined by the equation (x + 2)² + y² = 9. Circle B (not shown) is the result of shifting circle A down 6 units and increasing the radius so that the radius of circle B is 2 times the radius of circle A. Which equation defines circle B ?",
+  "choices": [
+    "(x + 2)² + (y + 6)² = (4)(9)",
+    "2(x + 2)² + 2(y + 6)² = 9",
+    "(x + 2)² + (y − 6)² = (4)(9)",
+    "2(x + 2)² + 2(y − 6)² = 9"
+  ],
+  "answer": "(x + 2)² + (y + 6)² = (4)(9)",
+  "explanation": "Circle A has center (−2, 0) and radius 3. Shifting down 6 moves the center to (−2, −6), and doubling the radius makes it 6, so the radius squared is 36 = (4)(9). This gives (x + 2)² + (y + 6)² = (4)(9).",
+  "image": "sat6-m1-23.png",
+  "section": "math",
+  "module": 1,
+  "source": "sat6"
+}

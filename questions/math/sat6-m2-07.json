@@ -1,0 +1,13 @@
+{
+  "id": "sat6-m2-07",
+  "section": "math",
+  "module": 2,
+  "topic": "Percentages",
+  "source": "sat6",
+  "stem": "The amount of Hanna's bill for a food order was $50. Hanna gave a tip of 20% of the amount of the bill. What is the amount, in dollars, of the tip Hanna gave?",
+  "choices": [
+    "10"
+  ],
+  "answer": "10",
+  "explanation": "A 20% tip on a $50 bill is 0.20 × 50 = 10, so the tip was 10 dollars."
+}

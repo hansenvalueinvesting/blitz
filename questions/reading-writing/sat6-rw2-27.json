@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-27",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat6",
+  "passage": "After appropriate permissions are granted, a typical archaeological dig begins with a surveyor making a detailed grid of the excavation site. Then, the site is carefully dug, and any artifacts found are recorded and mapped onto the site grid. _______ the artifacts are removed, cataloged, and analyzed in a laboratory.",
+  "stem": "Which choice completes the text with the most logical transition?",
+  "choices": [
+    "For instance,",
+    "On the contrary,",
+    "Earlier,",
+    "Finally,"
+  ],
+  "answer": "Finally,",
+  "explanation": "The text lays out a sequence of steps in a dig, and this sentence describes the last actions—removing, cataloging, and analyzing artifacts—so \"Finally\" fits. \"For instance\" would wrongly signal an example, \"on the contrary\" a contradiction, and \"earlier\" would reverse the chronological order."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-30",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat6",
+  "passage": "While researching a topic, a student has taken the following notes:\n\n- In World War I, US soldiers who were members of the Choctaw Nation in Oklahoma participated in the Choctaw Code Talkers program.\n- The Choctaw Code Talkers were trained to relay coded military information in their native language.\n- In World War II, the US Army recruited Navajo (Diné) soldiers to transmit coded messages in their native language.\n- These soldiers were known as the Navajo Code Talkers.",
+  "stem": "The student wants to emphasize a similarity between the Choctaw Code Talkers and the Navajo Code Talkers. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "US soldiers who were members of the Choctaw Nation in Oklahoma used their native language to relay coded information.",
+    "In World War II, one group of Navajo (Diné) soldiers was known as the Navajo Code Talkers.",
+    "Both the Choctaw Code Talkers and the Navajo Code Talkers transmitted coded military messages in the soldiers’ native languages.",
+    "The Choctaw Code Talkers, not the Navajo Code Talkers, served in World War I."
+  ],
+  "answer": "Both the Choctaw Code Talkers and the Navajo Code Talkers transmitted coded military messages in the soldiers’ native languages.",
+  "explanation": "The goal is to highlight a shared trait, and this choice explicitly says both groups sent coded military messages in their native languages. The other options describe only one group, or point out a difference (which group served in which war) rather than a similarity."
+}

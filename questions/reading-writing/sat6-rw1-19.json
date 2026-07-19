@@ -1,0 +1,16 @@
+{
+  "id": "sat6-rw1-19",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "stem": "The Boston Saloon was one of the most popular African American–owned establishments in nineteenth-century Nevada. _______ by businessman William A.G. Brown, the saloon was known to offer elegant accommodations and an inclusive environment.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "Created",
+    "Creates",
+    "Creating",
+    "Create"
+  ],
+  "answer": "Created",
+  "explanation": "The blank begins a modifying phrase describing the saloon, which calls for the past participle “created by…Brown.” The finite verbs “creates” and “create” and the present participle “creating” can’t form that supplementary modifier without producing an ungrammatical sentence."
+}

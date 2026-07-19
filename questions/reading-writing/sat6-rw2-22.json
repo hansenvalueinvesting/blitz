@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-22",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat6",
+  "passage": "Physical materials can be classified by how much light passes through them. Clear glass, which is classified as transparent, allows all (or almost all) light to pass _______ wax paper, which is classified as translucent, allows only some light to pass through.",
+  "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "through,",
+    "through",
+    "through;",
+    "through and"
+  ],
+  "answer": "through;",
+  "explanation": "The sentence joins two independent clauses (\"Clear glass...allows all...light to pass through\" and \"wax paper...allows only some light to pass through\"), which a semicolon can correctly connect. A comma alone creates a splice, no punctuation creates a run-on, and \"and\" produces the illogical reading that glass lets light pass through wax paper."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat6-rw2-03",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat6",
+  "passage": "Animal researcher Amalia P.M. Bastos led a 2021 study about a wild kea parrot that used small stones as tools to preen its feathers. Skeptical colleagues had initially suggested to Bastos that the kea’s interactions with the stones might simply be _______, but Bastos and her team showed that the kea was using the stones deliberately.",
+  "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "intriguing",
+    "obvious",
+    "accidental",
+    "observable"
+  ],
+  "answer": "accidental",
+  "explanation": "The skeptics' view must contrast with Bastos's conclusion that the kea used the stones deliberately, so the blank needs a word meaning unintentional. “Accidental” supplies that opposition. “Intriguing,” “obvious,” and “observable” could all coexist with the idea that the behavior was deliberate, so none of them registers the doubt the skeptics expressed."
+}
