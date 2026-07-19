@@ -227,7 +227,10 @@ after a question is picked does the app fetch that one file (cached, with dedupe
 ## Build conventions
 
 - Single-file `index.html`, vanilla JS, no framework, no build tools.
-- Fonts: Space Grotesk (display/body) + JetBrains Mono (data/labels).
+- Fonts: Minion Pro (serif) for reading content — passages, stems, choices,
+  explanations — and Myriad Pro (sans) for all UI, labels, and data. Both are
+  Adobe fonts referenced via the `--serif` / `--sans` CSS variables; they render
+  when installed locally and fall back to generic serif/sans-serif otherwise.
 - Dark terminal aesthetic. Section accents: math = teal (#4fd1c5), R&W = amber (#f6a04d).
 - Deploy: push to the repo, enable GitHub Pages on the branch.
 - App name **Blitz** — set in the `.brand` element, the `<title>`, and the
