@@ -4,7 +4,6 @@
   "module": 1,
   "topic": "Command of evidence (quantitative)",
   "source": "sat4",
-  "passage": "[Refer to the table: “Effects of Mycorrhizal Fungi on 3 Plant Species.” With fungi vs. fungi-killed soil — Corn (host): 15.1 / 3.8; Marigold (host): 10.2 / 2.4; Broccoli (non-host): 7.5 / 7.]",
   "stem": "Mycorrhizal fungi in soil benefits many plants, substantially increasing the mass of some. A student conducted an experiment to illustrate this effect. The student chose three plant species for the experiment, including two that are mycorrhizal hosts (species known to benefit from mycorrhizal fungi) and one nonmycorrhizal species (a species that doesn’t benefit from and may even be harmed by mycorrhizal fungi). The student then grew several plants from each species both in soil containing mycorrhizal fungi and in soil that had been treated to kill mycorrhizal and other fungi. After several weeks, the student measured the plants’ average mass and was surprised to discover that _______\n\nWhich choice most effectively uses data from the table to complete the statement?",
   "choices": [
     "broccoli grown in soil containing mycorrhizal fungi had a slightly higher average mass than broccoli grown in soil that had been treated to kill fungi.",
@@ -13,5 +12,6 @@
     "corn had the highest average mass of all three species grown in soil that had been treated to kill fungi, while marigolds had the lowest."
   ],
   "answer": "broccoli grown in soil containing mycorrhizal fungi had a slightly higher average mass than broccoli grown in soil that had been treated to kill fungi.",
-  "explanation": "The surprise is that the nonmycorrhizal species (broccoli) did better with fungi — the table shows broccoli’s average mass was higher with fungi (7.5 g) than without (7 g), contrary to expectation. The corn and marigold results (mycorrhizal hosts benefiting) are expected, and choice D misstates the data."
+  "explanation": "The surprise is that the nonmycorrhizal species (broccoli) did better with fungi — the table shows broccoli’s average mass was higher with fungi (7.5 g) than without (7 g), contrary to expectation. The corn and marigold results (mycorrhizal hosts benefiting) are expected, and choice D misstates the data.",
+  "image": "sat4-rw1-17.png"
 }

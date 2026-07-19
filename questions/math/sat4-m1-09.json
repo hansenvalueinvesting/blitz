@@ -4,7 +4,6 @@
   "module": 1,
   "topic": "Geometry",
   "source": "sat4",
-  "passage": "[Figure: two right triangles, PQR and STU, with right angles marked at R and U. Note: figures not drawn to scale.]",
   "stem": "Right triangles PQR and STU are similar, where P corresponds to S. If the measure of angle Q is 18°, what is the measure of angle S?",
   "choices": [
     "18°",

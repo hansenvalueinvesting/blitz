@@ -4,7 +4,6 @@
   "module": 1,
   "topic": "Data analysis",
   "source": "sat4",
-  "passage": "[Bar graph — number of students voting for each activity: activity 1 ≈ 29, activity 2 ≈ 31, activity 3 ≈ 39, activity 4 ≈ 43, activity 5 ≈ 48.]",
   "stem": "A group of students voted on five after-school activities. The bar graph shows the number of students who voted for each of the five activities.\n\nHow many students chose activity 3?",
   "choices": [
     "25",
