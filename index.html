@@ -33,7 +33,7 @@
         overscroll-behavior-y:contain;-webkit-overflow-scrolling:touch}
   #feed::-webkit-scrollbar{display:none}
   .card{height:100svh;scroll-snap-align:start;scroll-snap-stop:always;display:flex;flex-direction:column;
-        padding:calc(env(safe-area-inset-top) + 84px) 22px calc(env(safe-area-inset-bottom) + 24px);
+        padding:calc(env(safe-area-inset-top) + 84px) 22px calc(env(safe-area-inset-bottom) + 78px);
         overflow-y:auto}
   .card::-webkit-scrollbar{display:none}
   /* auto margins center content when it fits but stay scrollable (never clipped) when it overflows */
@@ -53,6 +53,7 @@
   .choices{display:flex;flex-direction:column;gap:8px}
   .choice{display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
           border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s;
+          font-family:'Space Grotesk',system-ui,sans-serif;color:var(--ink);
           font-size:14px;line-height:1.4;text-align:left;white-space:pre-wrap}
   .choice:active{background:var(--panel2)}
   .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
@@ -138,18 +139,45 @@
   .empty{height:100svh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
   .empty .big{font-family:'JetBrains Mono',monospace;font-size:15px;color:var(--ink);margin-bottom:10px}
 
-  .desktop-gate{position:fixed;inset:0;z-index:50;background:var(--bg);display:none;
-                flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px}
-  .desktop-gate.show{display:flex}
-  .desktop-gate .dg-brand{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:22px;letter-spacing:.02em;margin-bottom:22px}
-  .desktop-gate .dg-brand span{color:var(--accent)}
-  .desktop-gate .dg-phone{font-size:52px;margin-bottom:20px;line-height:1}
-  .desktop-gate h1{font-size:20px;font-weight:600;margin-bottom:12px;max-width:22ch}
-  .desktop-gate p{font-size:14px;line-height:1.55;color:var(--dim);max-width:34ch;margin-bottom:26px}
-  .desktop-gate .dg-go{background:none;border:1px solid var(--line);color:var(--dim);
-        padding:11px 18px;border-radius:10px;font-family:'JetBrains Mono',monospace;font-size:13px;
-        letter-spacing:.04em;cursor:pointer}
-  .desktop-gate .dg-go:hover{color:var(--ink);border-color:var(--faint)}
+  /* bottom tool dock: drawing + calculator */
+  .tools{position:fixed;left:0;right:0;bottom:0;z-index:22;display:flex;gap:10px;justify-content:center;
+         padding:10px 20px calc(env(safe-area-inset-bottom) + 12px);pointer-events:none}
+  .toolbtn{pointer-events:auto;display:flex;align-items:center;gap:7px;background:var(--panel);
+           border:1px solid var(--line);color:var(--dim);padding:10px 15px;border-radius:22px;
+           font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:500;letter-spacing:.04em;
+           text-transform:uppercase;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.45)}
+  .toolbtn:active{background:var(--panel2)}
+  .toolbtn.active{color:var(--bg);background:var(--accent);border-color:var(--accent)}
+  .toolbtn .ic{font-size:14px;line-height:1}
+
+  /* drawing overlay: a shaded whiteboard you scribble on over the question */
+  .draw-layer{position:fixed;inset:0;z-index:25;display:none;background:rgba(6,10,16,.34);touch-action:none}
+  .draw-layer.open{display:block}
+  #drawCanvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:crosshair}
+  .draw-tools{position:fixed;left:0;right:0;bottom:0;z-index:26;display:flex;gap:10px;justify-content:center;
+              padding:10px 20px calc(env(safe-area-inset-bottom) + 12px)}
+  .draw-tools button{border:1px solid var(--line);padding:11px 20px;border-radius:22px;
+              font-family:'JetBrains Mono',monospace;font-size:12px;font-weight:700;letter-spacing:.05em;
+              text-transform:uppercase;cursor:pointer;box-shadow:0 4px 18px rgba(0,0,0,.5)}
+  .draw-tools .clear{background:var(--panel);color:var(--bad);
+              border-color:color-mix(in srgb,var(--bad) 45%,var(--line))}
+  .draw-tools .done{background:var(--accent);color:var(--bg);border-color:var(--accent)}
+
+  /* calculator overlay: a Desmos graphing calculator in a bottom sheet */
+  .calc-sheet{position:fixed;left:0;right:0;bottom:0;z-index:31;background:var(--panel);
+         border-top:1px solid var(--line);border-radius:18px 18px 0 0;
+         transform:translateY(100%);transition:transform .3s cubic-bezier(.22,1,.36,1);
+         height:82dvh;display:flex;flex-direction:column;overflow:hidden}
+  .calc-sheet.open{transform:none}
+  .calc-head{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;
+         border-bottom:1px solid var(--line);flex:none}
+  .calc-head .t{font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.12em;
+         text-transform:uppercase;color:var(--dim)}
+  .calc-x{background:none;border:1px solid var(--line);color:var(--dim);width:34px;height:34px;
+         border-radius:8px;font-size:16px;cursor:pointer;display:grid;place-items:center}
+  .calc-x:active{background:var(--panel2)}
+  #desmos{flex:1;width:100%;min-height:0}
+  .calc-fallback{padding:30px 22px;color:var(--dim);font-size:14px;line-height:1.5;text-align:center}
 </style>
 </head>
 <body>
@@ -164,12 +192,26 @@
 
 <div id="feed"></div>
 
-<div class="desktop-gate" id="desktopGate">
-  <div class="dg-brand">blitz<span>.</span></div>
-  <div class="dg-phone">📱</div>
-  <h1>Blitz is built for your phone</h1>
-  <p>It’s a vertical, swipe-through question feed — like scrolling a social app. Open this page on your phone for the intended experience.</p>
-  <button class="dg-go" id="dgGo">Use on desktop anyway</button>
+<div class="tools">
+  <button class="toolbtn" id="drawBtn"><span class="ic">✏️</span>Draw</button>
+  <button class="toolbtn" id="calcBtn"><span class="ic">🖩</span>Calc</button>
+</div>
+
+<div class="draw-layer" id="drawLayer">
+  <canvas id="drawCanvas"></canvas>
+  <div class="draw-tools">
+    <button class="clear" id="drawClear">Clear</button>
+    <button class="done" id="drawDone">Done</button>
+  </div>
+</div>
+
+<div class="scrim" id="calcScrim"></div>
+<div class="calc-sheet" id="calcSheet">
+  <div class="calc-head">
+    <span class="t">Calculator</span>
+    <button class="calc-x" id="calcX" aria-label="Close calculator">✕</button>
+  </div>
+  <div id="desmos"></div>
 </div>
 
 <div class="scrim" id="scrim"></div>
@@ -219,7 +261,6 @@ const feed=$('feed');
 
 init();
 async function init(){
-  maybeGateDesktop();
   try{
     const r=await fetch('directory.json',{cache:'no-store'});
     if(!r.ok) throw 0;
@@ -238,6 +279,7 @@ async function init(){
   buildSettingsUI();
   wireSheet();
   feed.addEventListener('scroll', onFeedScroll, {passive:true});
+  wireTools();
   refill(true);
 }
 
@@ -255,17 +297,6 @@ function onFeedScroll(){
       appendCard(); appendCard();
     }
   });
-}
-
-function maybeGateDesktop(){
-  // "Desktop" = wide screen with a precise (mouse/trackpad) primary pointer.
-  // Touch phones report a coarse pointer, so they pass straight through.
-  const isDesktop = window.matchMedia('(min-width:760px)').matches
-                 && window.matchMedia('(pointer:fine)').matches;
-  if(!isDesktop) return;
-  const gate=$('desktopGate');
-  gate.classList.add('show');
-  $('dgGo').onclick=()=>gate.classList.remove('show');
 }
 
 function loadSettings(){
@@ -490,6 +521,103 @@ function wipeData(){
   buildSettingsUI();   // reset sliders + topic chips to defaults
   refill(true);        // reshuffle the feed under the fresh settings
   return true;
+}
+
+// ---- Drawing + Calculator dock ----------------------------------------------
+let dctx=null, drawing=false, hasInk=false, lastX=0, lastY=0, curCard=0;
+
+function wireTools(){
+  const drawBtn=$('drawBtn'), calcBtn=$('calcBtn');
+  const drawLayer=$('drawLayer'), canvas=$('drawCanvas');
+
+  // --- drawing ---
+  const openDraw=()=>{ drawLayer.classList.add('open'); drawBtn.classList.add('active'); sizeCanvas(); };
+  const closeDraw=()=>{ drawLayer.classList.remove('open'); drawBtn.classList.remove('active'); };
+  drawBtn.onclick=()=> drawLayer.classList.contains('open') ? closeDraw() : openDraw();
+  $('drawDone').onclick=closeDraw;
+  $('drawClear').onclick=clearDraw;
+
+  canvas.addEventListener('pointerdown',e=>{
+    drawing=true; canvas.setPointerCapture(e.pointerId);
+    const r=canvas.getBoundingClientRect();
+    lastX=e.clientX-r.left; lastY=e.clientY-r.top;
+    // a tap leaves a dot
+    dctx.beginPath(); dctx.arc(lastX,lastY,1.5,0,Math.PI*2); dctx.fillStyle='#4fd1c5'; dctx.fill();
+    hasInk=true;
+  });
+  canvas.addEventListener('pointermove',e=>{
+    if(!drawing) return;
+    const r=canvas.getBoundingClientRect();
+    const x=e.clientX-r.left, y=e.clientY-r.top;
+    dctx.beginPath(); dctx.moveTo(lastX,lastY); dctx.lineTo(x,y); dctx.stroke();
+    lastX=x; lastY=y; hasInk=true;
+  });
+  ['pointerup','pointercancel'].forEach(ev=>canvas.addEventListener(ev,()=>{drawing=false;}));
+
+  // Scrolling to a new problem wipes the scratch work (like a fresh sheet of paper).
+  feed.addEventListener('scroll',()=>{
+    const idx=Math.round(feed.scrollTop/feed.clientHeight);
+    if(idx!==curCard){ curCard=idx; if(hasInk) clearDraw(); }
+  },{passive:true});
+  window.addEventListener('resize',()=>{ if(drawLayer.classList.contains('open')) sizeCanvas(); });
+
+  // --- calculator (Desmos) ---
+  calcBtn.onclick=openCalc;
+  $('calcX').onclick=closeCalc;
+  $('calcScrim').onclick=closeCalc;
+}
+
+function sizeCanvas(){
+  const canvas=$('drawCanvas');
+  const dpr=window.devicePixelRatio||1;
+  const w=canvas.clientWidth, h=canvas.clientHeight;
+  canvas.width=Math.round(w*dpr); canvas.height=Math.round(h*dpr);
+  dctx=canvas.getContext('2d');
+  dctx.setTransform(dpr,0,0,dpr,0,0);
+  dctx.lineCap='round'; dctx.lineJoin='round';
+  dctx.strokeStyle='#4fd1c5'; dctx.lineWidth=3;
+  hasInk=false;   // resizing resets the surface
+}
+function clearDraw(){
+  const canvas=$('drawCanvas');
+  if(!dctx) return;
+  dctx.save(); dctx.setTransform(1,0,0,1,0,0);
+  dctx.clearRect(0,0,canvas.width,canvas.height); dctx.restore();
+  hasInk=false;
+}
+
+let desmosState='idle', desmosCalc=null;   // idle | loading | ready | failed
+function openCalc(){
+  $('calcScrim').classList.add('open'); $('calcSheet').classList.add('open');
+  loadDesmos();
+}
+function closeCalc(){
+  $('calcScrim').classList.remove('open'); $('calcSheet').classList.remove('open');
+}
+function loadDesmos(){
+  if(desmosState==='ready'){ if(desmosCalc) desmosCalc.resize(); return; }
+  if(desmosState==='loading') return;
+  if(desmosState==='failed'){ $('desmos').innerHTML=''; }   // let a reopen retry
+  desmosState='loading';
+  const s=document.createElement('script');
+  s.src='https://www.desmos.com/api/v1.11/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6';
+  s.onload=()=>{
+    try{
+      desmosCalc=Desmos.GraphingCalculator($('desmos'),{
+        keypad:true, expressions:true, settingsMenu:false, border:false,
+        invertedColors:true, projectorMode:false, autosize:true
+      });
+      desmosState='ready';
+    }catch(e){
+      desmosState='failed';
+      $('desmos').innerHTML='<div class="calc-fallback">Couldn’t start the calculator.</div>';
+    }
+  };
+  s.onerror=()=>{
+    desmosState='failed';
+    $('desmos').innerHTML='<div class="calc-fallback">Couldn’t load the calculator — it needs a network connection. Check your connection and reopen.</div>';
+  };
+  document.head.appendChild(s);
 }
 
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
