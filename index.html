@@ -485,6 +485,15 @@ async function init(){
   feed.addEventListener('scroll', onFeedScroll, {passive:true});
   wireTools();
   refill(true);
+  registerSW();
+}
+
+// Service worker: makes the installed app pick up new versions when online
+// (network-first shell) while still working offline. updateViaCache:'none'
+// means the browser never serves sw.js itself from a stale HTTP cache.
+function registerSW(){
+  if(!('serviceWorker' in navigator)) return;
+  navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});
 }
 
 // Infinite feed: append more cards as you scroll toward the end (reels-style),
