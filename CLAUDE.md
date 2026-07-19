@@ -235,6 +235,15 @@ after a question is picked does the app fetch that one file (cached, with dedupe
 
 ---
 
+## Merging
+
+- **When your changes are complete and pushed, merge the pull request into the
+  default branch automatically — don't wait to be asked.** Only hold off if the
+  user explicitly says not to merge, or if the work is clearly still in progress
+  (unresolved review feedback, failing checks, or an open question).
+
+---
+
 ## Session checklist
 
 1. Read this file.
@@ -250,7 +259,9 @@ after a question is picked does the app fetch that one file (cached, with dedupe
 
 - **Video explanations** (Dolphin's signature): add an optional `video` URL field to a
   question and render it in the explain area — no directory change needed.
-- **Progress across reloads**: the seen/accuracy counter currently resets; could store
-  per-question history in `localStorage`, or Supabase for cross-device sync.
+- **Progress across reloads**: the seen/accuracy counter now persists in
+  `localStorage` (`blitz.progress.v1`), and settings has a "Delete all app data"
+  button that clears it. Could still add per-question history, or Supabase for
+  cross-device sync.
 - **Directory splitting**: only if `directory.json` ever gets too big (fine into the
   tens of thousands of entries).

@@ -102,6 +102,11 @@
         border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:14px;
         letter-spacing:.05em;cursor:pointer}
   .done:active{opacity:.85}
+  .data-section{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
+  .wipe{width:100%;padding:14px;background:none;border:1px solid color-mix(in srgb,var(--bad) 55%,var(--line));
+        color:var(--bad);border-radius:11px;font-family:'JetBrains Mono',monospace;font-weight:700;
+        font-size:13px;letter-spacing:.05em;cursor:pointer;transition:background .15s}
+  .wipe:active{background:color-mix(in srgb,var(--bad) 14%,transparent)}
   .empty{height:100svh;display:grid;place-items:center;text-align:center;padding:40px;color:var(--dim)}
   .empty .big{font-family:'JetBrains Mono',monospace;font-size:15px;color:var(--ink);margin-bottom:10px}
 
@@ -162,10 +167,17 @@
   </div>
 
   <button class="done" id="done">Apply &amp; shuffle</button>
+
+  <div class="data-section">
+    <h2>Data</h2>
+    <button class="wipe" id="wipe">Delete all app data</button>
+    <div class="pct">clears your progress, accuracy, and saved settings on this device</div>
+  </div>
 </div>
 
 <script>
 const SETTINGS_KEY='blitz.settings.v1';
+const PROGRESS_KEY='blitz.progress.v1';
 let DIR=[], settings=null, seen=0, correct=0;
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
@@ -191,6 +203,8 @@ async function init(){
     return;
   }
   settings=loadSettings();
+  const prog=loadProgress(); seen=prog.seen; correct=prog.correct;
+  paintStreak();
   buildSettingsUI();
   wireSheet();
   refill(true);
@@ -212,6 +226,17 @@ function loadSettings(){
   return structuredClone(DEFAULT);
 }
 function saveSettings(){localStorage.setItem(SETTINGS_KEY,JSON.stringify(settings));}
+
+function loadProgress(){
+  try{const p=JSON.parse(localStorage.getItem(PROGRESS_KEY));
+      if(p&&typeof p.seen==='number'&&typeof p.correct==='number') return p;}catch(e){}
+  return {seen:0, correct:0};
+}
+function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({seen,correct}));}
+function paintStreak(){
+  const acc = seen ? Math.round(correct/seen*100) : 0;
+  $('streak').textContent=`${seen} seen · ${acc}% acc`;
+}
 
 function topicsFor(sec){return [...new Set(DIR.filter(q=>q.section===sec).map(q=>q.topic))].sort();}
 function activeTopics(sec){return topicsFor(sec).filter(t=>!settings.topicsOff[t]);}
@@ -310,7 +335,7 @@ function answer(card,btn,chosen,correctAns){
   const right=chosen===correctAns;
   if(!right) btn.classList.add('wrong');
   seen++; if(right) correct++;
-  $('streak').textContent=`${seen} seen · ${Math.round(correct/seen*100)}% acc`;
+  saveProgress(); paintStreak();
   card.querySelector('.explain').classList.add('show');
   const idx=[...feed.children].indexOf(card);
   if(feed.children.length-idx<4){ appendCard(); appendCard(); }
@@ -357,6 +382,19 @@ function wireSheet(){
   $('secSlider').oninput=e=>{settings.secMath=+e.target.value;paintSliders();};
   $('modSlider').oninput=e=>{settings.mod1=+e.target.value;paintSliders();};
   $('done').onclick=()=>{ saveSettings(); close(); refill(true); };
+  $('wipe').onclick=()=>{ if(wipeData()) close(); };
+}
+
+function wipeData(){
+  if(!confirm('Delete all Blitz data on this device? This clears your progress, accuracy, and saved settings. This cannot be undone.')) return false;
+  localStorage.removeItem(PROGRESS_KEY);
+  localStorage.removeItem(SETTINGS_KEY);
+  settings=structuredClone(DEFAULT);
+  seen=0; correct=0;
+  paintStreak();
+  buildSettingsUI();   // reset sliders + topic chips to defaults
+  refill(true);        // reshuffle the feed under the fresh settings
+  return true;
 }
 
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
