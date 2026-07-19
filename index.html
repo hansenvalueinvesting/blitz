@@ -715,10 +715,16 @@ function attachSwipe(card,wrap,btn){
     if(!active) return;
     dx=e.clientX-startX; const dy=e.clientY-startY;
     if(!horizontal){
-      if(Math.abs(dx)>LOCK && Math.abs(dx)>Math.abs(dy)){
+      const adx=Math.abs(dx), ady=Math.abs(dy);
+      // Only claim the gesture as a horizontal cross-out swipe when it clearly
+      // dominates the vertical component. A mostly-vertical or diagonal flick
+      // (adx barely over ady) used to be mis-read as horizontal, which captured
+      // the pointer and left the feed unable to scroll — so a scroll "failed"
+      // and you had to try again. Anything not clearly sideways defers to the feed.
+      if(adx>LOCK && adx>ady*1.4){
         horizontal=true; btn.classList.add('dragging'); wrap.classList.add('swiping');
         try{btn.setPointerCapture(e.pointerId);}catch(_){}
-      }else if(Math.abs(dy)>LOCK){ active=false; return; }   // vertical -> let the feed scroll
+      }else if(ady>LOCK){ active=false; return; }   // vertical/diagonal -> let the feed scroll
     }
     if(horizontal){
       e.preventDefault();
