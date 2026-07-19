@@ -51,15 +51,24 @@
   .tag.sec-rw{color:var(--rw);border-color:color-mix(in srgb,var(--rw) 40%,transparent)}
   .stem{font-size:14px;line-height:1.5;font-weight:500;margin-bottom:18px;white-space:pre-wrap}
   .choices{display:flex;flex-direction:column;gap:8px}
-  .choice-row{display:flex;align-items:stretch;gap:8px}
-  .choice{flex:1;min-width:0;display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
-          border:1px solid var(--line);border-radius:10px;cursor:pointer;transition:border-color .15s,background .15s;
+  /* each choice sits in a wrap so a horizontal swipe reveals the cross-out hint behind it */
+  .choice-wrap{position:relative;border-radius:10px;overflow:hidden}
+  .swipe-hint{position:absolute;inset:0;border-radius:10px;display:flex;align-items:center;justify-content:space-between;
+              padding:0 18px;background:color-mix(in srgb,var(--bad) 15%,var(--panel));color:var(--bad);
+              font-family:'JetBrains Mono',monospace;font-weight:700;font-size:15px;
+              opacity:0;transition:opacity .12s ease;pointer-events:none}
+  .choice-wrap.swiping .swipe-hint{opacity:1}
+  .choice{position:relative;z-index:1;width:100%;display:flex;align-items:flex-start;gap:11px;padding:12px 14px;background:var(--panel);
+          border:1px solid var(--line);border-radius:10px;cursor:pointer;touch-action:pan-y;
+          transition:border-color .15s,background .15s,transform .2s ease;
           font-family:'Space Grotesk',system-ui,sans-serif;color:var(--ink);
           font-size:14px;line-height:1.4;text-align:left;white-space:pre-wrap}
+  .choice.dragging{transition:border-color .15s,background .15s}   /* follow the finger instantly while dragging */
   .choice:active{background:var(--panel2)}
   .choice .key{font-family:'JetBrains Mono',monospace;font-weight:700;color:var(--faint);flex:none;font-size:12px;margin-top:1px}
   .choice.selected{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 14%,var(--panel))}
   .choice.selected .key{color:var(--accent)}
+  .choice.will-elim{border-color:color-mix(in srgb,var(--bad) 55%,transparent)}
   .choice.eliminated{opacity:.45;cursor:default}
   .choice.eliminated .ctext{text-decoration:line-through;text-decoration-thickness:2px}
   .choice.correct{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 12%,var(--panel))}
@@ -67,15 +76,6 @@
   .choice.wrong{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 12%,var(--panel))}
   .choice.wrong .key{color:var(--bad)}
   .choice.locked{cursor:default}
-  .elim{flex:none;width:42px;background:var(--panel);border:1px solid var(--line);border-radius:10px;
-        color:var(--faint);font-family:'JetBrains Mono',monospace;font-weight:700;font-size:13px;cursor:pointer;
-        display:flex;align-items:center;justify-content:center}
-  .elim .letter{position:relative}
-  .elim .letter::after{content:'';position:absolute;left:-2px;right:-2px;top:50%;height:2px;
-        background:currentColor;transform:scaleX(0);transition:transform .12s ease}
-  .elim.on{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 45%,transparent)}
-  .elim.on .letter::after{transform:scaleX(1)}
-  .elim:disabled{opacity:.4;cursor:default}
   .mc-hint{margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.06em;
            text-transform:uppercase;color:var(--faint);text-align:center}
   .explain{margin-top:16px;padding:13px 15px;background:var(--panel2);border-left:3px solid var(--accent);
@@ -599,24 +599,20 @@ function renderQuestion(card,q){
     const keys=['A','B','C','D','E','F'];
     q.choices.forEach((c,i)=>{
       const key=keys[i]||'•';
-      const row=document.createElement('div');
-      row.className='choice-row';
+      const cw=document.createElement('div');
+      cw.className='choice-wrap';
+      cw.innerHTML=`<div class="swipe-hint"><span>✕</span><span>✕</span></div>`;
       const b=document.createElement('button');
       b.className='choice';
       b.innerHTML=`<span class="key">${key}</span><span class="ctext">${esc(c)}</span>`;
-      b.onclick=()=>selectOrSubmit(card,b,c,q.answer);
-      const el=document.createElement('button');
-      el.className='elim';
-      el.type='button';
-      el.setAttribute('aria-label',`Cross out choice ${key}`);
-      el.innerHTML=`<span class="letter">${key}</span>`;
-      el.onclick=()=>toggleEliminate(card,b,el);
-      row.appendChild(b); row.appendChild(el);
-      wrap.appendChild(row);
+      b.onclick=()=>{ if(b._swiped){ b._swiped=false; return; } selectOrSubmit(card,b,c,q.answer); };
+      attachSwipe(card,cw,b);
+      cw.appendChild(b);
+      wrap.appendChild(cw);
     });
     const hint=document.createElement('div');
     hint.className='mc-hint';
-    hint.textContent='tap to select · tap again to submit';
+    hint.textContent='tap to select · tap again to submit · swipe to cross out';
     wrap.appendChild(hint);
   }
 }
@@ -631,17 +627,54 @@ function selectOrSubmit(card,btn,chosen,correctAns){
 }
 
 // Toggle a strikethrough on a choice; a crossed-out choice can't be selected until un-crossed.
-function toggleEliminate(card,choiceBtn,elimBtn){
+function toggleEliminate(card,choiceBtn){
   if(card.dataset.done) return;
   const on=choiceBtn.classList.toggle('eliminated');
-  elimBtn.classList.toggle('on', on);
   if(on) choiceBtn.classList.remove('selected');
+}
+
+// Horizontal swipe (either direction) on a choice toggles its cross-out; a mostly-vertical
+// drag is left to the feed to scroll. A completed swipe suppresses the tap-click that follows.
+function attachSwipe(card,wrap,btn){
+  let startX=0,startY=0,dx=0,active=false,horizontal=false;
+  const THRESH=45, LOCK=10;
+  btn.addEventListener('pointerdown',e=>{
+    if(card.dataset.done) return;
+    active=true; horizontal=false; dx=0; startX=e.clientX; startY=e.clientY;
+  });
+  btn.addEventListener('pointermove',e=>{
+    if(!active) return;
+    dx=e.clientX-startX; const dy=e.clientY-startY;
+    if(!horizontal){
+      if(Math.abs(dx)>LOCK && Math.abs(dx)>Math.abs(dy)){
+        horizontal=true; btn.classList.add('dragging'); wrap.classList.add('swiping');
+        try{btn.setPointerCapture(e.pointerId);}catch(_){}
+      }else if(Math.abs(dy)>LOCK){ active=false; return; }   // vertical -> let the feed scroll
+    }
+    if(horizontal){
+      e.preventDefault();
+      const clamped=Math.max(-90,Math.min(90,dx));
+      btn.style.transform=`translateX(${clamped}px)`;
+      btn.classList.toggle('will-elim', Math.abs(dx)>THRESH);
+    }
+  });
+  const end=()=>{
+    if(!active) return;
+    active=false;
+    if(horizontal){
+      btn._swiped=true; setTimeout(()=>{ btn._swiped=false; },350);   // swallow the trailing click
+      if(Math.abs(dx)>THRESH) toggleEliminate(card,btn);
+      btn.classList.remove('dragging','will-elim'); wrap.classList.remove('swiping');
+      btn.style.transform='';
+    }
+  };
+  btn.addEventListener('pointerup',end);
+  btn.addEventListener('pointercancel',end);
 }
 
 function answer(card,btn,chosen,correctAns){
   if(card.dataset.done) return;
   card.dataset.done='1';
-  card.querySelectorAll('.elim').forEach(e=>e.disabled=true);
   card.querySelectorAll('.choice').forEach(b=>{
     b.classList.add('locked'); b.classList.remove('selected');
     if(b.querySelector('.ctext').textContent===correctAns){ b.classList.add('correct'); b.classList.remove('eliminated'); }
