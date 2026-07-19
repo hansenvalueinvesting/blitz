@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-25",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat4",
+  "stem": "The equation x² + (y − 1)² = 49 represents circle A. Circle B is obtained by shifting circle A down 2 units in the xy-plane. Which of the following equations represents circle B?",
+  "choices": [
+    "(x − 2)² + (y − 1)² = 49",
+    "x² + (y − 3)² = 49",
+    "(x + 2)² + (y − 1)² = 49",
+    "x² + (y + 1)² = 49"
+  ],
+  "answer": "x² + (y + 1)² = 49",
+  "explanation": "Circle A has center (0, 1). Shifting down 2 units moves the center to (0, −1) while keeping radius 7, giving x² + (y − (−1))² = 49, or x² + (y + 1)² = 49."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-19",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "14x/(7y) = 2√(w + 19)\n\nThe given equation relates the distinct positive real numbers w, x, and y. Which equation correctly expresses w in terms of x and y?",
+  "choices": [
+    "w = √(x/y) − 19",
+    "w = √(28x/(14y)) − 19",
+    "w = (x/y)² − 19",
+    "w = (28x/(14y))² − 19"
+  ],
+  "answer": "w = (x/y)² − 19",
+  "explanation": "The left side simplifies: 14x/(7y) = 2x/y, so 2x/y = 2√(w + 19). Dividing by 2 gives x/y = √(w + 19). Squaring both sides gives (x/y)² = w + 19, so w = (x/y)² − 19."
+}

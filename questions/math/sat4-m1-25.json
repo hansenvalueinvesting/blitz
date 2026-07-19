@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-25",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat4",
+  "stem": "An isosceles right triangle has a hypotenuse of length 58 inches. What is the perimeter, in inches, of this triangle?",
+  "choices": [
+    "29√2",
+    "58√2",
+    "58 + 58√2",
+    "58 + 116√2"
+  ],
+  "answer": "58 + 58√2",
+  "explanation": "The two equal legs each have length x, where x² + x² = 58², so 2x² = 3364 and x = 58/√2 = 29√2. The perimeter is 58 + 2(29√2) = 58 + 58√2 inches."
+}

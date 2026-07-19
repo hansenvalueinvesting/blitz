@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-15",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat4",
+  "stem": "Line t in the xy-plane has a slope of −1/3 and passes through the point (9, 10). Which equation defines line t?",
+  "choices": [
+    "y = 13x − 1/3",
+    "y = 9x + 10",
+    "y = −x/3 + 10",
+    "y = −x/3 + 13"
+  ],
+  "answer": "y = −x/3 + 13",
+  "explanation": "Using y = mx + b with m = −1/3 and the point (9, 10): 10 = −(1/3)(9) + b = −3 + b, so b = 13. The line is y = −x/3 + 13."
+}

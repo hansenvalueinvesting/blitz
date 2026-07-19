@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m2-06",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat4",
+  "stem": "|x − 5| = 10\n\nWhat is one possible solution to the given equation?",
+  "choices": [
+    "15"
+  ],
+  "answer": "15",
+  "explanation": "By the definition of absolute value, x − 5 = 10 or x − 5 = −10, giving x = 15 or x = −5. Either value is a correct solution; 15 is one of them."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-03",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "Particle physicists like Ayana Holloway Arce and Aida El-Khadra spend much of their time _______ what is invisible to the naked eye: using sophisticated technology, they closely examine the behavior of subatomic particles, the smallest detectable parts of matter.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "selecting",
+    "inspecting",
+    "creating",
+    "deciding"
+  ],
+  "answer": "inspecting",
+  "explanation": "“Inspecting” means examining closely, which matches the text’s statement that these physicists “closely examine” subatomic particles with advanced technology. They study the particles, not select, create, or decide what is visible."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-02",
+  "section": "math",
+  "module": 2,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat4",
+  "stem": "A fish swam a distance of 5,104 yards. How far did the fish swim, in miles? (1 mile = 1,760 yards)",
+  "choices": [
+    "0.3",
+    "2.9",
+    "3,344",
+    "6,864"
+  ],
+  "answer": "2.9",
+  "explanation": "Dividing the distance in yards by 1,760 yards per mile gives 5,104 ÷ 1,760 ≈ 2.9 miles."
+}

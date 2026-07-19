@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-18",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "f(x) = (x − 10)(x + 13)\n\nThe function f is defined by the given equation. For what value of x does f(x) reach its minimum?",
+  "choices": [
+    "−130",
+    "−13",
+    "−23/2",
+    "−3/2"
+  ],
+  "answer": "−3/2",
+  "explanation": "Expanding gives f(x) = x² + 3x − 130, an upward-opening parabola whose minimum is at the vertex. The x-coordinate of the vertex is −b/(2a) = −3/2."
+}

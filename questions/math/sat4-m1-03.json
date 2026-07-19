@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-03",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "x²/25 = 36\n\nWhat is a solution to the given equation?",
+  "choices": [
+    "6",
+    "30",
+    "450",
+    "900"
+  ],
+  "answer": "30",
+  "explanation": "Multiplying both sides by 25 gives x² = 900, so x = 30 or x = −30. Of the two, only 30 appears among the choices."
+}

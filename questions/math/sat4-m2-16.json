@@ -1,0 +1,18 @@
+{
+  "id": "sat4-m2-16",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat4",
+  "passage": "[Figure: transversal t crosses parallel lines m and n; at line m it forms angle x° (above) and y° (below the intersection), and at line n it forms angle z°. Not drawn to scale.]",
+  "stem": "In the figure, lines m and n are parallel. If x = 6k + 13 and y = 8k − 29, what is the value of z?\n\nNote: Figure not drawn to scale.",
+  "choices": [
+    "3",
+    "21",
+    "41",
+    "139"
+  ],
+  "answer": "41",
+  "explanation": "The angles marked x° and y° are vertical angles where the transversal crosses line m, so x = y: 6k + 13 = 8k − 29, giving 2k = 42 and k = 21. Then y = 8(21) − 29 = 139°. Because m and n are parallel, y° and z° are same-side interior angles and therefore supplementary, so z = 180 − 139 = 41°.",
+  "image": "sat4-m2-16.png"
+}

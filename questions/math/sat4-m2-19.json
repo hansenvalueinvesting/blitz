@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-19",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "The function f(x) = (1/9)(x − 7)² + 3 gives a metal ball’s height above the ground f(x), in inches, x seconds after it started moving on a track, where 0 ≤ x ≤ 10. Which of the following is the best interpretation of the vertex of the graph of y = f(x) in the xy-plane?",
+  "choices": [
+    "The metal ball’s minimum height was 3 inches above the ground.",
+    "The metal ball’s minimum height was 7 inches above the ground.",
+    "The metal ball’s height was 3 inches above the ground when it started moving.",
+    "The metal ball’s height was 7 inches above the ground when it started moving."
+  ],
+  "answer": "The metal ball’s minimum height was 3 inches above the ground.",
+  "explanation": "The function is in vertex form with vertex (7, 3), and since the parabola opens upward the vertex is the lowest point. So the ball’s minimum height was 3 inches, reached 7 seconds after it started."
+}

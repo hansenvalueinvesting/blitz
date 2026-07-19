@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m1-13",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat4",
+  "stem": "If x/8 = 5, what is the value of 8/x?",
+  "choices": [
+    "1/5"
+  ],
+  "answer": "1/5",
+  "explanation": "From x/8 = 5, multiplying by 8 gives x = 40. Then 8/x = 8/40 = 1/5 (equivalently 0.2)."
+}

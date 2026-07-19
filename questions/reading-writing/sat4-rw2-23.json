@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-23",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "In 2010, archaeologist Noel Hidalgo Tan was visiting the twelfth-century temple of Angkor Wat in Cambodia when he noticed markings of red paint on the temple _______ the help of digital imaging techniques, he discovered the markings to be part of an elaborate mural containing over 200 paintings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "walls, with",
+    "walls with",
+    "walls so with",
+    "walls. With"
+  ],
+  "answer": "walls. With",
+  "explanation": "Two complete sentences are being joined, so a period after “walls” correctly separates them, with the second beginning “With the help of digital imaging techniques...” The comma or no-punctuation options create comma splices or run-ons, and “so with” is ungrammatical."
+}

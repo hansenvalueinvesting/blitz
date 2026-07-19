@@ -1,0 +1,18 @@
+{
+  "id": "sat4-m1-12",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat4",
+  "passage": "[Line graph passing through (0, −8) and (−8, 0).]",
+  "stem": "What is an equation of the graph shown?",
+  "choices": [
+    "y = −2x − 8",
+    "y = x − 8",
+    "y = −x − 8",
+    "y = 2x − 8"
+  ],
+  "answer": "y = −x − 8",
+  "explanation": "The line crosses the y-axis at (0, −8), so b = −8, and it also passes through (−8, 0). The slope between these points is (0 − (−8))/(−8 − 0) = −1, giving y = −x − 8.",
+  "image": "sat4-m1-12.png"
+}

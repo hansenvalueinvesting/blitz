@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-16",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat4",
+  "stem": "Many of William Shakespeare’s tragedies address broad themes that still appeal to today’s audiences. For instance, Romeo and Juliet, which is set in the Italy of Shakespeare’s time, tackles the themes of parents versus children and love versus hate, and the play continues to be read and produced widely around the world. But understanding Shakespeare’s so-called history plays can require a knowledge of several centuries of English history. Consequently, _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "many theatergoers and readers today are likely to find Shakespeare’s history plays less engaging than the tragedies.",
+    "some of Shakespeare’s tragedies are more relevant to today’s audiences than twentieth-century plays.",
+    "Romeo and Juliet is the most thematically accessible of all Shakespeare’s tragedies.",
+    "experts in English history tend to prefer Shakespeare’s history plays to his other works."
+  ],
+  "answer": "many theatergoers and readers today are likely to find Shakespeare’s history plays less engaging than the tragedies.",
+  "explanation": "The text contrasts the timeless, broadly appealing themes of the tragedies with the history plays, which require knowing centuries of English history. It follows that today’s audiences would likely find the history plays less engaging than the tragedies. The other choices aren’t supported by that contrast."
+}

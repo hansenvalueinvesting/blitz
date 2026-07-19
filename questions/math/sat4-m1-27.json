@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m1-27",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat4",
+  "stem": "Function f is defined by f(x) = −a^x + b, where a and b are constants. In the xy-plane, the graph of y = f(x) − 15 has a y-intercept at (0, −99/7). The product of a and b is 65/7. What is the value of a?",
+  "choices": [
+    "5"
+  ],
+  "answer": "5",
+  "explanation": "At x = 0, y = f(0) − 15 = (−a⁰ + b) − 15 = −1 + b − 15 = b − 16, and this equals −99/7, so b = 13/7. Since ab = 65/7, a = (65/7)/(13/7) = 5."
+}

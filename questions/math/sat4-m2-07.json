@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m2-07",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat4",
+  "stem": "f(x) = 7x + 1\n\nThe function gives the total number of people on a company retreat with x managers. What is the total number of people on a company retreat with 7 managers?",
+  "choices": [
+    "50"
+  ],
+  "answer": "50",
+  "explanation": "Substituting x = 7 gives f(7) = 7(7) + 1 = 49 + 1 = 50 people."
+}

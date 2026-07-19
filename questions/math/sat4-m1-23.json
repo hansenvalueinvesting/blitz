@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-23",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "The expression 4x² + bx − 45, where b is a constant, can be rewritten as (hx + k)(x + j), where h, k, and j are integer constants. Which of the following must be an integer?",
+  "choices": [
+    "b/h",
+    "b/k",
+    "45/h",
+    "45/k"
+  ],
+  "answer": "45/k",
+  "explanation": "Expanding (hx + k)(x + j) gives hx² + (hj + k)x + kj, so kj = −45. Then j = −45/k, and since j is an integer, 45/k must be an integer."
+}

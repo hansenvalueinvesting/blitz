@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-10",
+  "section": "math",
+  "module": 2,
+  "topic": "Statistics and probability",
+  "source": "sat4",
+  "stem": "To estimate the proportion of a population that has a certain characteristic, a random sample was selected from the population. Based on the sample, it is estimated that the proportion of the population that has the characteristic is 0.49, with an associated margin of error of 0.04. Based on this estimate and margin of error, which of the following is the most appropriate conclusion about the proportion of the population that has the characteristic?",
+  "choices": [
+    "It is plausible that the proportion is between 0.45 and 0.53.",
+    "It is plausible that the proportion is less than 0.45.",
+    "The proportion is exactly 0.49.",
+    "It is plausible that the proportion is greater than 0.53."
+  ],
+  "answer": "It is plausible that the proportion is between 0.45 and 0.53.",
+  "explanation": "The plausible values run from the estimate minus the margin of error to the estimate plus it: 0.49 − 0.04 = 0.45 to 0.49 + 0.04 = 0.53. So the proportion is plausibly between 0.45 and 0.53."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sat4-m2-24",
+  "section": "math",
+  "module": 2,
+  "topic": "Statistics and probability",
+  "source": "sat4",
+  "passage": "[Dot plot titled “Data Set A,” 15 values on a number line: 22 (5 dots), 23 (4 dots), 24 (3 dots), 25 (2 dots), 26 (1 dot); median 23, minimum 22, maximum 26 (range 4).]",
+  "stem": "The dot plot represents the 15 values in data set A. Data set B is created by adding 56 to each of the values in data set A. Which of the following correctly compares the medians and the ranges of data sets A and B?",
+  "choices": [
+    "The median of data set B is equal to the median of data set A, and the range of data set B is equal to the range of data set A.",
+    "The median of data set B is equal to the median of data set A, and the range of data set B is greater than the range of data set A.",
+    "The median of data set B is greater than the median of data set A, and the range of data set B is equal to the range of data set A.",
+    "The median of data set B is greater than the median of data set A, and the range of data set B is greater than the range of data set A."
+  ],
+  "answer": "The median of data set B is greater than the median of data set A, and the range of data set B is equal to the range of data set A.",
+  "explanation": "Adding the same constant to every value shifts each value up, so the median increases by 56. But the spacing between values is unchanged, so the range (maximum minus minimum) stays the same. Thus B’s median is greater while its range equals A’s.",
+  "image": "sat4-m2-24.png"
+}

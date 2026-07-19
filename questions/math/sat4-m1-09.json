@@ -1,0 +1,18 @@
+{
+  "id": "sat4-m1-09",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat4",
+  "passage": "[Figure: two right triangles, PQR and STU, with right angles marked at R and U. Note: figures not drawn to scale.]",
+  "stem": "Right triangles PQR and STU are similar, where P corresponds to S. If the measure of angle Q is 18°, what is the measure of angle S?",
+  "choices": [
+    "18°",
+    "72°",
+    "82°",
+    "162°"
+  ],
+  "answer": "72°",
+  "explanation": "In the similar triangles, the right angles are at R and U, so Q corresponds to T and P corresponds to S. Angles Q and T are congruent, so angle T = 18°; then in triangle STU, angle S = 180° − 90° − 18° = 72°.",
+  "image": "sat4-m1-09.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-18",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "Square P has a side length of x inches. Square Q has a perimeter that is 176 inches greater than the perimeter of square P. The function f gives the area of square Q, in square inches. Which of the following defines f?",
+  "choices": [
+    "f(x) = (x + 44)²",
+    "f(x) = (x + 176)²",
+    "f(x) = (176x + 44)²",
+    "f(x) = (176x + 176)²"
+  ],
+  "answer": "f(x) = (x + 44)²",
+  "explanation": "Square P has perimeter 4x, so square Q has perimeter 4x + 176 and side length (4x + 176)/4 = x + 44. Its area is the side squared: (x + 44)²."
+}

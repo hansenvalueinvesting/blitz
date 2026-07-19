@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-27",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat4",
+  "stem": "During a 2021 launch, Rocket Labs’ Electron rocket experienced an unexpected failure: its second-stage booster shut down suddenly after ignition. _______ instead of downplaying the incident, Rocket Labs’ CEO publicly acknowledged what happened and apologized for the loss of the rocket’s payload, which had consisted of two satellites.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Afterward,",
+    "Additionally,",
+    "Indeed,",
+    "Similarly,"
+  ],
+  "answer": "Afterward,",
+  "explanation": "“Afterward” signals a time sequence: the CEO’s acknowledgment and apology came after the booster failure. The other transitions signal addition, emphasis, or similarity, none of which fits the chronological relationship between the failure and the CEO’s response."
+}

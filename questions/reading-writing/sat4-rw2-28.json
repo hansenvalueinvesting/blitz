@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-28",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat4",
+  "stem": "When soil becomes contaminated by toxic metals, it can be removed from the ground and disposed of in a landfill. _______ contaminated soil can be detoxified via phytoremediation: plants that can withstand high concentrations of metals absorb the pollutants and store them in their shoots, which are then cut off and safely disposed of, preserving the health of the plants.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Alternatively,",
+    "Specifically,",
+    "For example,",
+    "As a result,"
+  ],
+  "answer": "Alternatively,",
+  "explanation": "“Alternatively” signals that phytoremediation is a different option from the first method (removing the soil to a landfill). The text presents two contrasting approaches, not an example, specification, or result of the first."
+}

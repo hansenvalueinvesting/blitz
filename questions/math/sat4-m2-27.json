@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m2-27",
+  "section": "math",
+  "module": 2,
+  "topic": "Percentages",
+  "source": "sat4",
+  "stem": "210 is p% greater than 30. What is the value of p?",
+  "choices": [
+    "600"
+  ],
+  "answer": "600",
+  "explanation": "“p% greater than 30” means 210 = 30(1 + p/100). Dividing by 30 gives 7 = 1 + p/100, so p/100 = 6 and p = 600."
+}

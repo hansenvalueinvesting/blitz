@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-02",
+  "section": "math",
+  "module": 1,
+  "topic": "Percentages",
+  "source": "sat4",
+  "stem": "What percentage of 300 is 75?",
+  "choices": [
+    "25%",
+    "50%",
+    "75%",
+    "225%"
+  ],
+  "answer": "25%",
+  "explanation": "Let x% of 300 equal 75, so (x/100)(300) = 75, which simplifies to 3x = 75 and x = 25. Thus 75 is 25% of 300."
+}

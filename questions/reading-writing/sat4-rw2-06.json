@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-06",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "For a 2020 exhibition, photographer and neurobiologist Okunola Jeyifous _______ a series of new images based on a series of alphabet posters from the 1970s known as the “Black ABCs,” which featured Black children from Chicago. Jeyifous photographed the now-adult models and layered the photos over magnified images of the models’ cells, resulting in what he called “micro and macro portraiture.”\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "validated",
+    "created",
+    "challenged",
+    "restored"
+  ],
+  "answer": "created",
+  "explanation": "“Created” means produced. The text describes the process by which Jeyifous made a new series of images, combining photographs with magnified cell images. He produced the works rather than validating, challenging, or restoring them."
+}

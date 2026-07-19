@@ -1,0 +1,18 @@
+{
+  "id": "sat4-m2-22",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat4",
+  "passage": "[Graph: two lines that intersect only at the point (8, 2).]",
+  "stem": "If a new graph of three linear equations is created using the system of equations shown and the equation x + 4y = −16, how many solutions (x, y) will the resulting system of three equations have?",
+  "choices": [
+    "Zero",
+    "Exactly one",
+    "Exactly two",
+    "Infinitely many"
+  ],
+  "answer": "Zero",
+  "explanation": "The two lines already shown meet only at (8, 2), so any common solution of all three must be (8, 2). But (8, 2) does not satisfy x + 4y = −16 (8 + 8 = 16 ≠ −16), so the three-equation system has zero solutions.",
+  "image": "sat4-m2-22.png"
+}

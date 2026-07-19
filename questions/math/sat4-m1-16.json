@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-16",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat4",
+  "stem": "The function f(x) = 206(1.034)^x models the value, in dollars, of a certain bank account by the end of each year from 1957 through 1972, where x is the number of years after 1957. Which of the following is the best interpretation of “f(5) is approximately equal to 243” in this context?",
+  "choices": [
+    "The value of the bank account is estimated to be approximately 5 dollars greater in 1962 than in 1957.",
+    "The value of the bank account is estimated to be approximately 243 dollars in 1962.",
+    "The value, in dollars, of the bank account is estimated to be approximately 5 times greater in 1962 than in 1957.",
+    "The value of the bank account is estimated to increase by approximately 243 dollars every 5 years between 1957 and 1972."
+  ],
+  "answer": "The value of the bank account is estimated to be approximately 243 dollars in 1962.",
+  "explanation": "Since x is years after 1957, x = 5 corresponds to 1962, and f(5) is the account’s value that year. So f(5) ≈ 243 means the account was worth about $243 in 1962."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-32",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat4",
+  "stem": "While researching a topic, a student has taken the following notes:\n• The Atlantic Monthly magazine was first published in 1857.\n• The magazine focused on politics, art, and literature.\n• In 2019, historian Cathryn Halverson published the book Faraway Women and the “Atlantic Monthly.”\n• Its subject is female authors whose autobiographies appeared in the magazine in the early 1900s.\n• One of the authors discussed is Juanita Harrison.\n\nThe student wants to introduce Cathryn Halverson’s book to an audience already familiar with the Atlantic Monthly. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Cathryn Halverson’s Faraway Women and the “Atlantic Monthly” discusses female authors whose autobiographies appeared in the magazine in the early 1900s.",
+    "A magazine called the Atlantic Monthly, referred to in Cathryn Halverson’s book title, was first published in 1857.",
+    "Faraway Women and the “Atlantic Monthly” features contributors to the Atlantic Monthly, first published in 1857 as a magazine focusing on politics, art, and literature.",
+    "An author discussed by Cathryn Halverson is Juanita Harrison, whose autobiography appeared in the Atlantic Monthly in the early 1900s."
+  ],
+  "answer": "Cathryn Halverson’s Faraway Women and the “Atlantic Monthly” discusses female authors whose autobiographies appeared in the magazine in the early 1900s.",
+  "explanation": "Because the audience already knows the magazine, the sentence should introduce the book and its subject without background on the Atlantic Monthly. Choice A names the book and describes its focus. Choices B and C waste words explaining the magazine, and D highlights a single author rather than introducing the book."
+}

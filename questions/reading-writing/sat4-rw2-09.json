@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-09",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Text structure and purpose",
+  "source": "sat4",
+  "stem": "Some bird species don’t raise their own chicks. Instead, adult females lay their eggs in other nests, next to another bird species’ own eggs. _Female cuckoos have been seen quickly laying eggs in the nests of other bird species when those birds are out looking for food._ After the eggs hatch, the noncuckoo parents will typically raise the cuckoo chicks as if they were their own offspring, even if the cuckoos look very different from the other chicks.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+    "It introduces a physical feature of female cuckoos that is described later in the text.",
+    "It describes the appearance of the cuckoo nests mentioned earlier in the text.",
+    "It offers a detail about how female cuckoos carry out the behavior discussed in the text.",
+    "It explains how other birds react to the female cuckoo behavior discussed in the text."
+  ],
+  "answer": "It offers a detail about how female cuckoos carry out the behavior discussed in the text.",
+  "explanation": "The general behavior—laying eggs in another species’ nest—is introduced first, and the underlined sentence gives a specific detail about how cuckoos do it (quickly, while the host birds are away feeding). It doesn’t describe a physical feature, the nests, or the other birds’ reaction."
+}

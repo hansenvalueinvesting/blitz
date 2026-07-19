@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-24",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "Working from an earlier discovery of Charpentier’s, chemists Emmanuelle Charpentier and Jennifer Doudna—winners of the 2020 Nobel Prize in Chemistry—re-created and then reprogrammed the so-called “genetic scissors” of a species of DNA-cleaving bacteria _______ a tool that is revolutionizing the field of gene technology.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "to forge",
+    "forging",
+    "forged",
+    "and forging"
+  ],
+  "answer": "to forge",
+  "explanation": "The infinitive “to forge” correctly forms a clause explaining the purpose of re-creating and reprogramming the genetic scissors. The other choices produce faulty or run-on constructions when attached to the main clause."
+}

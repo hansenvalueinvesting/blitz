@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-03",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "Which expression is equivalent to 12x³ − 5x³?",
+  "choices": [
+    "7x⁶",
+    "17x³",
+    "7x³",
+    "17x⁶"
+  ],
+  "answer": "7x³",
+  "explanation": "The two terms are like terms, so subtract their coefficients while keeping x³: 12x³ − 5x³ = 7x³."
+}

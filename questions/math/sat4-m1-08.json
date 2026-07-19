@@ -1,0 +1,17 @@
+{
+  "id": "sat4-m1-08",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat4",
+  "passage": "[Table — x: 0, 1, 2; f(x): 29, 32, 35.]",
+  "stem": "For the linear function f, the table shows three values of x and their corresponding values of f(x). Which equation defines f(x)?",
+  "choices": [
+    "f(x) = 3x + 29",
+    "f(x) = 29x + 32",
+    "f(x) = 35x + 29",
+    "f(x) = 32x + 35"
+  ],
+  "answer": "f(x) = 3x + 29",
+  "explanation": "A linear function has the form f(x) = mx + b. At x = 0, f(x) = 29, so b = 29. Each time x increases by 1, f(x) increases by 3 (29→32→35), so the slope m is 3, giving f(x) = 3x + 29."
+}

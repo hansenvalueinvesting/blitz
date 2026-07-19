@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-11",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (textual)",
+  "source": "sat4",
+  "stem": "A student performs an experiment testing her hypothesis that a slightly acidic soil environment is more beneficial for the growth of the plant Brassica rapa parachinensis (a vegetable commonly known as choy sum) than a neutral soil environment. She plants sixteen seeds of choy sum in a mixture of equal amounts of coffee grounds (which are highly acidic) and potting soil and another sixteen seeds in potting soil without coffee grounds as the control for the experiment. The two groups of seeds were exposed to the same growing conditions and monitored for three weeks.\n\nWhich finding, if true, would most directly weaken the student’s hypothesis?",
+  "choices": [
+    "The choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds.",
+    "The choy sum grown in the soil without coffee grounds weighed significantly less at the end of the experiment than the choy sum grown in the mixture of soil and coffee grounds.",
+    "The choy sum seeds planted in the soil without coffee grounds sprouted significantly later in the experiment than did the seeds planted in the mixture of soil and coffee grounds.",
+    "Significantly fewer of the choy sum seeds planted in the soil without coffee grounds sprouted plants than did the seeds planted in the mixture of soil and coffee grounds."
+  ],
+  "answer": "The choy sum planted in the soil without coffee grounds were significantly taller at the end of the experiment than the choy sum planted in the mixture of soil and coffee grounds.",
+  "explanation": "The hypothesis says acidic soil helps choy sum more than neutral soil. If the plants in the neutral (no-coffee) soil grew significantly taller than those in the acidic mixture, that outcome contradicts the hypothesis. The other findings favor the acidic soil or don’t bear on the acid-vs-neutral comparison."
+}
