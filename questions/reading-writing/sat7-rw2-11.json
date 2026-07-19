@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-11",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Central ideas and details",
+  "source": "sat7",
+  "stem": "Conservationists worldwide are working to protect ecosystems from habitat destruction and biodiversity loss, and in many cases, initiatives that rely on natural features or processes can help address such challenges. In response to a rapidly dwindling population of blueback salmon, the Quinault Indian Nation (a tribe in Washington State) partnered with the conservation organization Wild Salmon Center to restore naturally occurring logjams in the Quinault River. The logjams create shady pools where the blueback salmon can rest and spawn, thus promoting blueback population recovery.\n\nWhich choice best states the main idea of the text?",
+  "choices": [
+    "A partnership between the Quinault Indian Nation and Wild Salmon Center shows the importance of collaborative approaches to preserving biodiversity.",
+    "Nature-based approaches can be effective ways to achieve conservation goals.",
+    "As indicated by a recent project, logjams help the blueback salmon thrive and reproduce.",
+    "Scientists now realize that nature-based conservation methods offer better long-term solutions to environmental issues than methods that are not nature-based do."
+  ],
+  "answer": "Nature-based approaches can be effective ways to achieve conservation goals.",
+  "explanation": "The passage makes a general point—that relying on natural features or processes can help conservation—and uses the salmon logjam project as one illustration. The partnership and the logjams are supporting details, not the central claim, and the text never argues that nature-based methods beat other methods."
+}

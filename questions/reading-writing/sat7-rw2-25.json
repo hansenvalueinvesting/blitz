@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-25",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Chondrites are stony meteorites that are undifferentiated—that is, their contents have not melted and separated into distinct layers. They are hardly _______ many chondrites experience aqueous alteration as a result of exposure to fluids, as well as fracturing, veining, and localized melting due to collisions with other objects.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "pristine, though",
+    "pristine, though;",
+    "pristine; though",
+    "pristine, though,"
+  ],
+  "answer": "pristine, though;",
+  "explanation": "A comma sets off the adverb “though” from the clause “They are hardly pristine,” and a semicolon then joins that main clause to the following main clause. Placing the semicolon after “pristine,” or using no joining punctuation, produces illogical connections or a comma splice."
+}

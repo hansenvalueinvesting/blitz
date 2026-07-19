@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-20",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Eighteen letters written by Louisa May Alcott, author of the popular novel Little Women (1868), can be found at the New York Historical Society. _______ letters demonstrate Alcott’s keen business sense in her interactions with publishers.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "One",
+    "That",
+    "This",
+    "These"
+  ],
+  "answer": "These",
+  "explanation": "The plural determiner “These” agrees with the plural noun “letters” and clearly points back to the eighteen letters just mentioned. “One,” “That,” and “This” are singular and don’t agree with “letters.”"
+}

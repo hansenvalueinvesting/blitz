@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-27",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat7",
+  "stem": "Famous for its four-degree tilt, the leaning Garisenda Tower is a popular attraction in Bologna’s city center. However, measurements taken in 2023 showed that the tower was rotating in a concerning way. _______ city officials closed the area around the tower so experts could explore solutions to stabilize the historical twelfth-century structure.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Similarly,",
+    "As a result,",
+    "For example,",
+    "In comparison,"
+  ],
+  "answer": "As a result,",
+  "explanation": "Officials closed the area because the measurements revealed worrisome rotation, so “As a result” fits the cause-and-effect link. “Similarly,” “For example,” and “In comparison” all misrepresent that relationship."
+}

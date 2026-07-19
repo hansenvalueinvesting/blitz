@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-19",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "(12/n) − (2/t) = −(2/w)\n\nThe given equation relates the variables n, t, and w, where n > 0, t > 0, and w > t. Which expression is equivalent to n ?",
+  "choices": ["12tw", "6(t − w)", "(w − t)/(6tw)", "6tw/(w − t)"],
+  "answer": "6tw/(w − t)",
+  "explanation": "Adding 2/t to both sides gives 12/n = 2/t − 2/w = (2w − 2t)/(tw) = 2(w − t)/(tw). Dividing by 2 gives 6/n = (w − t)/(tw). Taking reciprocals (all quantities positive) gives n/6 = tw/(w − t), so n = 6tw/(w − t)."
+}

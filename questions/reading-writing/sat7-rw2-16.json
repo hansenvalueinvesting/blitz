@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-16",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat7",
+  "stem": "The Uto-Aztecan language family is divided into a northern branch, which includes the Shoshone language of present-day Idaho and Utah, and a southern one, whose best-known representative is Nahuatl, the language of the Aztec Empire in Mexico. Lexical similarities across the family, including of botanical terms, confirm descent from a single language spoken millennia ago, and the family’s geographical distribution suggests an origin in what is now the US Southwest. However, vocabulary pertaining to maize isn’t shared between northern and southern branches, despite the crop’s universal cultivation among Uto-Aztecan tribes. Given archaeological evidence that maize originated in Mexico and diffused northward into what became the US Southwest, some linguists reason that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "northern Uto-Aztecan tribes likely obtained the crop directly from a southern Uto-Aztecan tribe rather than from a non-Uto-Aztecan tribe.",
+    "variation in maize-related vocabulary within each branch of the Uto-Aztecan family likely reflects regionally specific methods for cultivating the crop.",
+    "southern Uto-Aztecan tribes likely acquired maize at roughly the same time as northern Uto-Aztecan tribes did, though from different sources.",
+    "the family’s division into northern and southern branches likely preceded the acquisition of the crop by the Uto-Aztecan tribes."
+  ],
+  "answer": "the family’s division into northern and southern branches likely preceded the acquisition of the crop by the Uto-Aztecan tribes.",
+  "explanation": "The branches share much vocabulary but not maize terms, and maize spread north only after reaching the region. That pattern fits a split that happened before maize arrived, so each branch coined its own maize words separately. The other options address transfer between tribes or variation within a branch, which the text’s focus on differences between the branches doesn’t support."
+}

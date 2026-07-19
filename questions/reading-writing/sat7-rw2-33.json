@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-33",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat7",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Chiura Obata was a Japanese American artist who lived in California.\n• Yosemite Falls is a notable painting by Obata.\n• It uses a Japanese method of black ink painting called sumi-e.\n• This painting was completed in 1930.\n\nThe student wants to indicate the year Yosemite Falls was completed. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "While living in California, Obata created black ink paintings.",
+    "Obata, a Japanese American artist, created a notable painting.",
+    "Yosemite Falls was completed in 1930.",
+    "Obata used a Japanese painting method called sumi-e."
+  ],
+  "answer": "Yosemite Falls was completed in 1930.",
+  "explanation": "The goal is to state when Yosemite Falls was finished, and choice C names the painting and its 1930 completion date. The other options describe where Obata worked, that he made a notable painting, or the technique he used—none give the year."
+}

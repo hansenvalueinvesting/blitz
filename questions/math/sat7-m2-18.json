@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-18",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat7",
+  "stem": "3y = 4x + 17\n−3y = 9x − 23\n\nThe solution to the given system of equations is (x, y). What is the value of 39x?",
+  "choices": [
+    "−18",
+    "−6",
+    "6",
+    "18"
+  ],
+  "answer": "18",
+  "explanation": "Adding the two equations eliminates y: 0 = 13x − 6, so 13x = 6. Multiplying both sides by 3 gives 39x = 18."
+}

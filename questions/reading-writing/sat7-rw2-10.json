@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-10",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Central ideas and details",
+  "source": "sat7",
+  "stem": "Hevea brasiliensis, a tree in the Amazon rainforest, is the world’s main source of natural rubber. The tree produces a milky substance called latex that is used to make rubber. The bark of Hevea brasiliensis is helpful for the process of making rubber because it has a unique structure that makes it easy to collect latex. A network of tubes in the tree’s inner bark helps the latex to flow out easily when people make small cuts into the bark.\n\nWhat feature of Hevea brasiliensis does the text say is helpful for the process of making rubber?",
+  "choices": [
+    "Its latex produces rubber of an especially high quality.",
+    "Its bark has a unique structure that makes it easy to collect latex.",
+    "It is able to grow in a wide variety of climates around the world.",
+    "It is one of only two trees in the Amazon that produce latex."
+  ],
+  "answer": "Its bark has a unique structure that makes it easy to collect latex.",
+  "explanation": "The text explicitly says the bark’s unique structure—a network of tubes in the inner bark—makes latex easy to collect, which is what helps in making rubber. The passage never mentions rubber quality, the tree’s climate range, or a claim that only two Amazon trees produce latex."
+}

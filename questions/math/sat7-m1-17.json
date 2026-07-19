@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-17",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat7",
+  "stem": "For the exponential function f, the value of f(0) is c, where c is a constant. Of the following equations that define the function f, which equation shows the value of c as the coefficient or the base?",
+  "choices": ["f(x) = 22(1.5)^(x+1)", "f(x) = 33(1.5)^x", "f(x) = 49.5(1.5)^(x−1)", "f(x) = 74.25(1.5)^(x−2)"],
+  "answer": "f(x) = 33(1.5)^x",
+  "explanation": "For f(x) = a(1.5)^(x−k), the coefficient a equals the function's value when the exponent is 0, i.e. when x = k. Only in f(x) = 33(1.5)^x is the exponent 0 at x = 0, so f(0) = 33 is shown directly as the coefficient."
+}

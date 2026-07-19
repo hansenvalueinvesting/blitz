@@ -1,0 +1,12 @@
+{
+  "id": "sat7-m1-08",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "The graph shown gives the estimated value, in dollars, of a tablet as a function of the number of months since it was purchased. What is the best interpretation of the y-intercept of the graph in this context?",
+  "choices": ["The estimated value of the tablet was $225 when it was purchased.", "The estimated value of the tablet 24 months after it was purchased was $225.", "The estimated value of the tablet had decreased by $225 in the 24 months after it was purchased.", "The estimated value of the tablet decreased by approximately 2.25% each year after it was purchased."],
+  "answer": "The estimated value of the tablet was $225 when it was purchased.",
+  "explanation": "The y-intercept is where x = 0, meaning 0 months after purchase. The graph crosses the y-axis at 225, so the tablet was worth $225 at the time it was purchased.",
+  "image": "sat7-m1-08.png"
+}

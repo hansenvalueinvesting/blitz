@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-21",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Nigerian American artist Toyin Ojih Odutola uses black-ink pens to create highly detailed drawings of human figures. Her portrait of novelist Zadie _______ is displayed in the National Portrait Gallery in London.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "Smith:",
+    "Smith—",
+    "Smith",
+    "Smith,"
+  ],
+  "answer": "Smith",
+  "explanation": "The subject “Her portrait of novelist Zadie Smith” runs straight into its verb “is displayed,” so no punctuation belongs between them. A colon, dash, or comma would wrongly break the subject from the verb."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw1-12",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat7",
+  "stem": "Researcher Judith Hilton and her team interviewed 55 people about which factors would make them switch from using single-use plastic containers to reusable containers. The graph shows three of the factors mentioned in the interviews and the percentage of participants who mentioned them.\n\nAccording to the graph, about what percentage of participants mentioned costs in the interviews?",
+  "choices": [
+    "10%",
+    "95%",
+    "25%",
+    "50%"
+  ],
+  "answer": "50%",
+  "image": "sat7-rw1-12.png",
+  "explanation": "The bar for costs reaches roughly the 50% mark on the graph, so about half of the participants mentioned costs. The other values (10%, 95%, 25%) don’t match the height of the costs bar."
+}

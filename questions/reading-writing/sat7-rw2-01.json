@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-01",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat7",
+  "stem": "Taking photographs in the mid-1800s was complicated and expensive, but this changed with the 1854 invention of the carte de visite, a small photo that cost little to make. Carte de visite photos helped to _______ photography: they made it easy and enjoyable for everyday people to have their pictures taken, and people at the time loved exchanging these small photos with friends and family.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "weaken",
+    "praise",
+    "popularize",
+    "isolate"
+  ],
+  "answer": "popularize",
+  "explanation": "To “popularize” something is to make it widely used and enjoyed. The text says the cheap carte de visite let everyday people have their pictures taken and share them, spreading photography broadly. It didn’t “weaken” or “isolate” the technology, and photos themselves can’t “praise” anything."
+}

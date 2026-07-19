@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-16",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat7",
+  "stem": "y < x\nx < 22\n\nFor which of the following tables are all the values of x and their corresponding values of y solutions to the given system of inequalities?",
+  "choices": [
+    "x | y\n19 | 18\n20 | 19\n21 | 20",
+    "x | y\n19 | 20\n20 | 21\n21 | 22",
+    "x | y\n23 | 22\n24 | 23\n25 | 24",
+    "x | y\n23 | 24\n24 | 25\n25 | 26"
+  ],
+  "answer": "x | y\n19 | 18\n20 | 19\n21 | 20",
+  "explanation": "Every row must satisfy both y < x and x < 22. In choice A each x is less than 22 and each y is less than its x. The other tables either have y greater than x or x values of 22 or more."
+}

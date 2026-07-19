@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-03",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "|p| + 61 = 65\n\nWhich value is a solution to the given equation?",
+  "choices": ["65/61", "4", "126", "130"],
+  "answer": "4",
+  "explanation": "Subtracting 61 from both sides gives |p| = 4, so p = 4 or p = −4. Of the choices given, 4 is a solution. The other options come from dividing (65/61), adding (126), or otherwise mishandling the equation."
+}

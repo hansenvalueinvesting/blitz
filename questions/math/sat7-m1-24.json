@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m1-24",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "x | y\n−2s | 24\n−s | 21\ns | 15\n\nThe table shows three values of x and their corresponding values of y, where s is a constant. There is a linear relationship between x and y. Which of the following equations represents this relationship?",
+  "choices": [
+    "sx + 3y = 18s",
+    "3x + sy = 18s",
+    "3x + sy = 18",
+    "sx + 3y = 18"
+  ],
+  "answer": "3x + sy = 18s",
+  "explanation": "Using the points (−s, 21) and (s, 15), the slope is (15 − 21)/(s − (−s)) = −6/(2s) = −3/s. With point (s, 15): y − 15 = (−3/s)(x − s), which simplifies to y = (−3/s)x + 18. Multiplying by s gives sy = −3x + 18s, or 3x + sy = 18s."
+}

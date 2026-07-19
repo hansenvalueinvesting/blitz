@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-33",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat7",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Researchers in a 2021 study wanted to determine the rate at which 17 languages conveyed both information and syllables.\n• They calculated the bits of information conveyed per second (the IR, or information rate).\n• The IR was found to be approximately consistent across the 17 languages (an average of 39 bits per second).\n• They calculated the number of syllables spoken per second (the SR, or syllable rate).\n• Spanish had the second-fastest SR (7.7 syllables per second).\n• Vietnamese had the sixteenth-fastest SR (5.3 syllables per second).\n\nThe student wants to present an overview of the study’s findings. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "The 2021 study determined the information rate (IR) of 17 languages in bits of information conveyed per second.",
+    "Researchers found that information was conveyed more quickly in Spanish, at 7.7 syllables per second, than in Vietnamese, at 5.3 syllables per second.",
+    "Vietnamese had the sixteenth-fastest syllable rate, lower than that of Spanish, which had the second-fastest; however, Spanish had the lower information rate of the two.",
+    "Though some of the languages differed in number of syllables spoken per second, all 17 conveyed information at roughly the same rate."
+  ],
+  "answer": "Though some of the languages differed in number of syllables spoken per second, all 17 conveyed information at roughly the same rate.",
+  "explanation": "Choice D captures the study’s two main findings at once: syllable rates varied across languages (Spanish faster, Vietnamese slower) while the information rate stayed roughly constant for all 17. Choice A reports only one metric, and choices B and C misdescribe the data — mixing up syllable rate with information rate and inventing an information-rate comparison the notes don’t support."
+}

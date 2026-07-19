@@ -1,0 +1,13 @@
+{
+  "id": "sat7-m2-07",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "The function f is defined by f(x) = 5(1/4 − x)² + 11/4. What is the value of f(1/4)?",
+  "choices": [
+    "11/4"
+  ],
+  "answer": "11/4",
+  "explanation": "Substituting x = 1/4 makes the term (1/4 − 1/4) equal 0, so the squared term vanishes: f(1/4) = 5(0)² + 11/4 = 11/4."
+}

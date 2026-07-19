@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw2-09",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Cross-text connections",
+  "source": "sat7",
+  "passage": "Text 1\nLittle is known about how plate tectonics—wherein slabs of Earth’s crust move over, under, away from, and against one another—began. Some researchers contend that tectonic movements began around 3 billion years ago, often noting that computer models of Earth’s mantle temperature at the time indicate that the mantle would have been sufficiently molten to enable the plates to move.\n\nText 2\nUltimately, any plausible claim about the inception of tectonic movement must rest on empirical evidence from the geological record. Researcher Wriju Chowdhury and his team analyzed the geochemistry of zircon crystals to gain insight into the chemical composition of the magma from which the crystals formed and, based on the data, compellingly argue that plate tectonics may have been occurring as early as 4.2 billion years ago.",
+  "stem": "Based on the texts, how would the author of Text 2 most likely respond to what “some researchers contend” as described in Text 1?",
+  "choices": [
+    "By suggesting that the temperature of Earth’s mantle 3 billion years ago was likely insufficient to allow for the level of tectonic movement predicted by computer models",
+    "By distinguishing between computer models of Earth’s mantle temperature that reliably predict the onset of plate tectonics and those that do not",
+    "By indicating that computer models of Earth’s mantle temperature are still being improved such that new models tend to be much more reliable than their predecessors",
+    "By asserting that a more definitive form of evidence than the computer models suggests a different timeline for the onset of plate tectonics on Earth"
+  ],
+  "answer": "By asserting that a more definitive form of evidence than the computer models suggests a different timeline for the onset of plate tectonics on Earth",
+  "explanation": "Text 1’s researchers rely on computer models to date tectonics to about 3 billion years ago, while Text 2 insists on empirical evidence and cites zircon analysis pointing to 4.2 billion years ago. Text 2’s author would therefore counter that stronger, empirical evidence indicates a different timeline. The author makes no claim about mantle temperature and rejects computer models entirely, so wouldn’t sort them into reliable and unreliable kinds or praise their improvement."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-23",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "In a set of four consecutive odd integers, where the integers are ordered from least to greatest, the first integer is represented by x. The product of 12 and the fourth odd integer is at most 26 less than the sum of the first and third odd integers. Which inequality represents this situation?",
+  "choices": ["12(x + 6) ≤ x + (x + 4) − 26", "12(x + 6) ≥ 26 − (x + (x + 4))", "12(x + 4) ≤ x + (x + 3) − 26", "12(x + 4) ≥ 26 − (x + (x + 3))"],
+  "answer": "12(x + 6) ≤ x + (x + 4) − 26",
+  "explanation": "The consecutive odd integers are x, x + 2, x + 4, and x + 6. Twelve times the fourth is 12(x + 6); 26 less than the sum of the first and third is x + (x + 4) − 26. 'At most' means ≤, so 12(x + 6) ≤ x + (x + 4) − 26."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-18",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat7",
+  "stem": "An analysis by Alain Elayi and colleagues of coins minted in Sidon in the fifth and fourth centuries BCE reveals a change in their composition over time: while a coin from circa 450 BCE contains about 98% silver and 1% copper, a coin from 367 BCE (the end of Ba’alšillem II’s reign) contains 74.2% silver and 24.7% copper, giving it a relatively yellowish appearance that traders would have noticed. Because coins with a silver content below 80% were widely considered unsuitable for trade, Elayi et al. speculate that a crisis in confidence in the currency occurred in Sidon around 367 BCE, which was likely relieved—despite Sidon’s persistent oppressive financial obligations—as a result of Ba’alšillem II’s successor Abd’aštart I’s decision to _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "proclaim that the percentage of silver in coins suitable for trade would be raised to a threshold higher than 80%.",
+    "keep the amount of silver in Sidonian coins consistent with that in coins minted in 367 BCE but decrease their weight.",
+    "begin minting heavier coins with a proportion of silver to copper similar to that in coins minted in 367 BCE.",
+    "fund the mining of some copper deposits that were not available to Ba’alšillem II."
+  ],
+  "answer": "keep the amount of silver in Sidonian coins consistent with that in coins minted in 367 BCE but decrease their weight.",
+  "explanation": "The 367 BCE coins lost trust because their silver share fell below the 80% threshold. Keeping the same amount of silver but making the coins lighter raises the silver percentage back above the threshold without requiring more silver, which Sidon’s finances couldn’t spare. Raising the threshold, keeping the same low silver proportion, or adding still more copper would each worsen rather than relieve the crisis."
+}

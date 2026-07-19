@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-16",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "The function f is defined by f(x) = |x − 4x|. What value of a satisfies f(5) − f(a) = −15 ?",
+  "choices": ["−20", "5", "10", "45"],
+  "answer": "10",
+  "explanation": "Since x − 4x = −3x, f(x) = |−3x| = 3|x|. So f(5) = 15 and f(a) = 3|a|. The equation 15 − 3|a| = −15 gives 3|a| = 30, so |a| = 10 and a = 10 (or −10); 10 is the choice that works."
+}

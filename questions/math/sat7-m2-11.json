@@ -1,0 +1,16 @@
+{
+  "id": "sat7-m2-11",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "At a state fair, attendees can win tokens that are worth a different number of points depending on the shape. One attendee won S square tokens and C circle tokens worth a total of 1,120 points. The equation 80S + 90C = 1,120 represents this situation. How many more points is a circle token worth than a square token?",
+  "choices": [
+    "950",
+    "90",
+    "80",
+    "10"
+  ],
+  "answer": "10",
+  "explanation": "In the equation, the coefficient 80 is the points per square token and 90 is the points per circle token. A circle token is worth 90 − 80 = 10 more points than a square token."
+}

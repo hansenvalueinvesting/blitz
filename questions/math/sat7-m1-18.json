@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-18",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat7",
+  "stem": "The function f(t) = 40,000(2)^(t/790) gives the number of bacteria in a population t minutes after an initial observation. How much time, in minutes, does it take for the number of bacteria in the population to double?",
+  "choices": ["2", "790", "1,580", "40,000"],
+  "answer": "790",
+  "explanation": "Because the base is 2, the factor (2)^(t/790) doubles each time the exponent t/790 increases by 1, which happens when t increases by 790. So the population doubles every 790 minutes."
+}

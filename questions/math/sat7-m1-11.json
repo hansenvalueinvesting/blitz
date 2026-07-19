@@ -1,0 +1,12 @@
+{
+  "id": "sat7-m1-11",
+  "section": "math",
+  "module": 1,
+  "topic": "Systems of equations",
+  "source": "sat7",
+  "stem": "The graph of a system of an absolute value function and a linear function is shown. What is the solution (x, y) to this system of two equations?",
+  "choices": ["(0, 8)", "(7/2, 9/2)", "(−7/2, 9/2)", "(−3, 4)"],
+  "answer": "(−7/2, 9/2)",
+  "explanation": "The solution is the point where the two graphs intersect. That point has an x-coordinate between −4 and −3 and a y-coordinate between 4 and 5, matching (−7/2, 9/2). Choice (0, 8) is the line's y-intercept and (−3, 4) is the vertex of the V-shaped graph.",
+  "image": "sat7-m1-11.png"
+}

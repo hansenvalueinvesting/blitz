@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-24",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Increasing the heat on an uncovered boiling pot of water does not increase the temperature of the water. What increases is the rate at which the water turns to _______ a pressure cooker pot, though, an airtight seal traps the vapor in the pot, creating pressure that allows the temperature of the water to increase past its boiling point.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "vapor. With",
+    "vapor with",
+    "vapor, with",
+    "vapor and with"
+  ],
+  "answer": "vapor. With",
+  "explanation": "A period after “vapor” correctly separates two complete sentences. Without it, the options create a run-on (“vapor with”), a comma splice (“vapor, with”), or an ungrammatical join with “and” lacking the needed comma."
+}

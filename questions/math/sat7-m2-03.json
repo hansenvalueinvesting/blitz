@@ -1,0 +1,17 @@
+{
+  "id": "sat7-m2-03",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat7",
+  "stem": "The graph of the quadratic function y = f(x) is shown. What is the vertex of the graph?",
+  "choices": [
+    "(0, −2)",
+    "(0, −3)",
+    "(0, 2)",
+    "(0, 3)"
+  ],
+  "answer": "(0, 2)",
+  "explanation": "The parabola opens upward, so its vertex is the lowest point of the graph. That minimum sits on the y-axis at a height of 2, so the vertex is (0, 2).",
+  "image": "sat7-m2-03.png"
+}

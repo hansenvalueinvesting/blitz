@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-21",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "The Dust Bowl was a period of severe drought that plagued the Great Plains of the US during the 1930s. During this time, dust storms _______ over 100 million acres of land. They even reached as far east as New York City.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "are affecting",
+    "will have affected",
+    "will affect",
+    "affected"
+  ],
+  "answer": "affected",
+  "explanation": "The events took place in the 1930s (“During this time”), so the simple past tense “affected” is correct. The present progressive “are affecting,” future perfect “will have affected,” and future “will affect” all misplace the action in the present or future."
+}

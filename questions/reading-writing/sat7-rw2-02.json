@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-02",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat7",
+  "stem": "Painter Alma W. Thomas was fascinated by the colors and shapes found in nature. The flowers and trees in the garden at her home in Washington, DC, _______ her work. For example, Thomas’s use of broken brushstrokes was inspired by the way that light would shine through the leaves of a tree in front of her house.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "restricted",
+    "announced",
+    "distracted",
+    "influenced"
+  ],
+  "answer": "influenced",
+  "explanation": "Here “influenced” means shaped or had an effect on. The garden’s plants inspired Thomas’s technique, such as her broken brushstrokes echoing light through leaves. They didn’t “restrict” or “distract” her positive work, and trees can’t “announce” a painter’s work."
+}

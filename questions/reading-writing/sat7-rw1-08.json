@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw1-08",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat7",
+  "passage": "The following text is from H.D.’s 1916 poem “Mid-Day.” In the poem, the speaker is on a path in an outdoor setting.",
+  "stem": "_A slight wind shakes the seed-pods—_ / my thoughts are spent / as the black seeds. / My thoughts tear me, / I dread their fever. / I am scattered in its whirl. / I am scattered like / the hot shrivelled seeds.\n\nWhich choice best describes the function of the underlined portion in the text as a whole?",
+  "choices": [
+    "It illustrates a change in the natural environment that the speaker implies is responsible for the growing misgivings described in the text.",
+    "It establishes an example of consistency in the natural landscape that the speaker then contrasts with the unpredictability of human emotions.",
+    "It presents an observation of an occurrence in the natural world that the speaker then expands on to convey a sense of a turbulent interior state.",
+    "It evokes the ordinariness of an event in nature to suggest that the critical self-evaluation the speaker engages in is a common pursuit."
+  ],
+  "answer": "It presents an observation of an occurrence in the natural world that the speaker then expands on to convey a sense of a turbulent interior state.",
+  "explanation": "The underlined line notes a natural event — wind shaking the seed-pods — which the speaker then develops into a comparison between the scattered black seeds and a restless, “scattered” mind. The wind isn’t presented as the cause of the speaker’s feelings, nor as a steady constant contrasted with emotion, nor as evidence that self-scrutiny is routine."
+}

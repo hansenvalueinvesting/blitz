@@ -1,0 +1,11 @@
+{
+  "id": "sat7-m1-21",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat7",
+  "stem": "In August, a car dealer completed 15 more than 3 times the number of sales the car dealer completed in September. In August and September, the car dealer completed 363 sales. How many sales did the car dealer complete in September?",
+  "choices": ["87"],
+  "answer": "87",
+  "explanation": "Let x be September's sales; August's are 3x + 15. Their total is x + (3x + 15) = 363, so 4x + 15 = 363, giving 4x = 348 and x = 87."
+}

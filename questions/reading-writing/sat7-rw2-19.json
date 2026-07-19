@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-19",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Nowadays, tug-of-war is usually seen as an informal game one might play at a picnic or in gym class. Surprisingly, the Olympic committee once decided _______ tug-of-war as an official Olympic event! Nations competed in the event at the Olympic Games from 1900 to 1920.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "included",
+    "including",
+    "include",
+    "to include"
+  ],
+  "answer": "to include",
+  "explanation": "The infinitive “to include” correctly follows “decided” to state what the committee decided to do. The finite forms “included” and “include,” and the participle “including,” can’t form this subordinate clause grammatically."
+}

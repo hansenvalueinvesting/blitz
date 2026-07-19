@@ -1,0 +1,17 @@
+{
+  "id": "sat7-m2-12",
+  "section": "math",
+  "module": 2,
+  "topic": "Data analysis",
+  "source": "sat7",
+  "stem": "In the given scatterplot, a line of best fit for the data is shown.\n\nWhich of the following is closest to the slope of the line of best fit shown?",
+  "choices": [
+    "0",
+    "1/2",
+    "1",
+    "2"
+  ],
+  "answer": "2",
+  "explanation": "The line rises from roughly (1, 3) to about (7, 14.5), a change of about 11.5 in y over 6 in x, giving a slope near 1.9. Of the choices, 2 is closest.",
+  "image": "sat7-m2-12.png"
+}

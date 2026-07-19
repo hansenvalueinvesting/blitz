@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-22",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "When a given industry—water and electricity are two well-known examples—carries high infrastructural start-up costs and other barriers that discourage competition, _______ of just one or two suppliers per municipality. Such industries are known as natural monopolies.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "these often consist",
+    "they often consist",
+    "it often consists",
+    "this often consists"
+  ],
+  "answer": "it often consists",
+  "explanation": "The singular pronoun “it” agrees with the singular antecedent “industry” and clearly names what consists of one or two suppliers. The plural “these” and “they” don’t agree in number, and “this” leaves the reference ambiguous."
+}

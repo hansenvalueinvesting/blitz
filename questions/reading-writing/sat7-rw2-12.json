@@ -1,0 +1,17 @@
+{
+  "id": "sat7-rw2-12",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat7",
+  "stem": "A student is researching a bus system in a large county where surface temperatures vary by area and are hot in the summer. The student claims that all areas of the county should have more bus stops with shaded shelter, noting that the highest percentage of bus stops with shaded shelter for any area is only _______\n\nWhich choice most effectively uses data from the table to complete the student’s claim?",
+  "choices": [
+    "50%.",
+    "15%.",
+    "90%.",
+    "29%."
+  ],
+  "answer": "29%.",
+  "explanation": "The claim needs the single largest percentage of shaded shelters in the table, which is 29% (at 125.6°). Choosing 29% supports the argument that even the best-shaded area falls short. 15% is the lowest value, and 50% and 90% don’t appear in the table.",
+  "image": "sat7-rw2-12.png"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-08",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Text structure and purpose",
+  "source": "sat7",
+  "stem": "The Bayeux Tapestry, from eleventh-century France, depicts 75 scenes over 250 feet of fabric. It was likely produced by workers embroidering in sections and then joining the resulting panels together. It’s plausible that the workshop that produced the tapestry had never produced one so large, and some researchers claim that a close examination of the joins—the places where the panels are stitched together—suggests that the workers developed and refined their joining process over the course of production. For example, the first join the workers completed exhibits a clear misalignment of the borders of the two panels, whereas the later joins are virtually invisible.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+    "It identifies the people and events depicted in the Bayeux Tapestry.",
+    "It supports an argument about the workers who produced the Bayeux Tapestry.",
+    "It compares the Bayeux Tapestry with other tapestries from eleventh-century France.",
+    "It describes how researchers determined where the Bayeux Tapestry was produced."
+  ],
+  "answer": "It supports an argument about the workers who produced the Bayeux Tapestry.",
+  "explanation": "The underlined sentence gives an example—sloppy early joins versus invisible later ones—that backs the claim that the workers refined their technique as they went. It isn’t about what the tapestry depicts, how it compares to other tapestries, or where it was made."
+}

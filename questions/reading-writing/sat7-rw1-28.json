@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-28",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat7",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Angana Chaudhuri is a scientist.\n• Chaudhuri studies sedimentary rocks.\n• A scientist who studies sedimentary rocks is called a sedimentologist.\n• Shale, chalk, and sandstone are examples of sedimentary rocks.\n\nThe student wants to identify what type of scientist Chaudhuri is. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Chalk is a type of sedimentary rock.",
+    "Some scientists study shale, chalk, and sandstone.",
+    "There are scientists who study sedimentary rocks.",
+    "Chaudhuri is a sedimentologist."
+  ],
+  "answer": "Chaudhuri is a sedimentologist.",
+  "explanation": "The notes say Chaudhuri studies sedimentary rocks and that such a scientist is a sedimentologist, so choice D directly names her type of scientist. The others describe a kind of rock or scientists in general without identifying Chaudhuri specifically."
+}

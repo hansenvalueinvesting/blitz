@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-03",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat7",
+  "stem": "At the turn of the twentieth century, Black residents of Richmond, Virginia, had few formal options for banking and other financial services. To _______ this situation, Maggie Lena Walker chartered the St. Luke Penny Savings Bank in 1903. The bank went on to provide home loans and savings opportunities to thousands of Black families over the following decades.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "prolong",
+    "rectify",
+    "retain",
+    "highlight"
+  ],
+  "answer": "rectify",
+  "explanation": "To “rectify” is to correct an undesirable situation. Walker responded to the lack of banking options by founding a bank that gave Black residents loans and savings services, so she acted to fix the problem. She didn’t “prolong” or “retain” (keep) the shortage, and she did more than merely “highlight,” or call attention to, it."
+}

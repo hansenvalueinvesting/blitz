@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-24",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat7",
+  "stem": "Digital artist Jung (Lulu) Chen primarily uses a suite of software tools to create illustrations for children’s books. To manifest the warm and welcoming atmospheres that are a signature of her _______ she occasionally relies on more traditional art techniques, such as painting with watercolors.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "work, though,",
+    "work, though",
+    "work; though,",
+    "work, though;"
+  ],
+  "answer": "work, though,",
+  "explanation": "The supplementary word “though” needs a comma on each side to set it off from the rest of the sentence. Only “work, though,” provides that matching pair; the other options drop the second comma or pair a comma with a semicolon."
+}

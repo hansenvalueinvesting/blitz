@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-31",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat7",
+  "stem": "Mountain climbing routes that incorporate metal rungs and cables are known as via ferratas, from the Italian phrase for “iron path.” As climbing these routes has shifted from a mode of travel to a sporting activity, modern via ferratas are rarely designed to simply reach a summit. _______ new routes favor recreation over utility, aiming to provide a challenging climb or showcase dramatic scenery.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Additionally,",
+    "On the other hand,",
+    "More often,",
+    "Nonetheless,"
+  ],
+  "answer": "More often,",
+  "explanation": "The new sentence reinforces the prior point that modern routes aren’t built merely to reach a summit, explaining that they now favor recreation. “More often” fits that elaboration, whereas “Additionally,” “On the other hand,” and “Nonetheless” would add a separate point, a contrast, or a concession."
+}

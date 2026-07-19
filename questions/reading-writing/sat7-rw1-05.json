@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-05",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat7",
+  "stem": "Diadromous fish migrate between freshwater and marine biomes during their life cycle. The migration’s obligate nature is why diadromous fish can be _______ those that are merely euryhaline (able to tolerate high salinity): the euryhaline blackchin tilapia can survive high salinity, but its life cycle does not involve relocation to a different biome, as does that of the diadromous wild salmon.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "demarcated from",
+    "reconstituted as",
+    "conflated with",
+    "derived from"
+  ],
+  "answer": "demarcated from",
+  "explanation": "To be “demarcated from” something is to be set apart or distinguished from it. The passage stresses a difference — diadromous fish must migrate between biomes, whereas euryhaline fish merely tolerate salinity — so the two groups can be told apart. They aren’t “reconstituted as,” “conflated with” (merged with), or “derived from” one another."
+}

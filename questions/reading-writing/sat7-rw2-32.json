@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw2-32",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat7",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Samuel Delany is a US writer known for his science fiction.\n• Delany’s science fiction novel Babel-17 was published in 1966.\n• The novel won a Nebula Award in 1967.\n• The Nebula Awards are given each year to the best works of science fiction published in the US.\n\nThe student wants to indicate the title of a novel that won a Nebula Award. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Babel-17, by Samuel Delany, won a Nebula Award in 1967.",
+    "Samuel Delany published a science fiction novel in 1966.",
+    "Samuel Delany is an award-winning US writer known for his science fiction.",
+    "One of Samuel Delany’s novels was among the best works of science fiction published in the US."
+  ],
+  "answer": "Babel-17, by Samuel Delany, won a Nebula Award in 1967.",
+  "explanation": "The goal is to name a Nebula-winning novel, and choice A gives the title, Babel-17, and states that it won the award. The other options mention a publication year, describe Delany generally, or refer to a novel without naming it or confirming a win."
+}

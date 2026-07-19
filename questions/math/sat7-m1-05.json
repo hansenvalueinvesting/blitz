@@ -1,0 +1,12 @@
+{
+  "id": "sat7-m1-05",
+  "section": "math",
+  "module": 1,
+  "topic": "Data analysis",
+  "source": "sat7",
+  "stem": "The bar graph summarizes the charge, in kilowatt-hours (kWh), a battery received each day for 15 days.\n\nFor how many of these 15 days did the battery receive a charge of 0 kWh?",
+  "choices": ["0", "1", "4", "6"],
+  "answer": "6",
+  "explanation": "Each bar's height is the number of days the battery received the charge labeled beneath it. The bar above 0 kWh reaches a height of 6, so the battery got a 0 kWh charge on 6 of the days.",
+  "image": "sat7-m1-05.png"
+}

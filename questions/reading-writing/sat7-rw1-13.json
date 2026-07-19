@@ -1,0 +1,16 @@
+{
+  "id": "sat7-rw1-13",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat7",
+  "stem": "A student in a political science course is writing a paper on Aristotle’s The Politics, in which Aristotle offers his opinion on political instability and gives advice on how constitutions can be preserved. Aristotle observes that different forms of government can fall in different ways—for example, oligarchies might grant power to military leaders during wartime who refuse to relinquish that power during peacetime—but some methods of preserving order apply across all forms of government. The student claims that in particular Aristotle asserts that in a healthy state obedience to law must be as close to absolute as possible and that even minor infractions should not be ignored.\n\nWhich quotation from a philosopher’s analysis of The Politics would best support the student’s claim?",
+  "choices": [
+    "“When constructing his argument regarding the characteristics of a well-functioning government, Aristotle asserts that ‘Transgression creeps in unperceived and at last ruins the state,’ illustrating this idea with a comparison to frequent small expenditures slowly and almost imperceptibly chipping away at a fortune until it is ultimately depleted.”",
+    "“When Aristotle writes on the necessity of avoiding corruption in government, he proposes that ‘every state should be so administered and so regulated by law that its magistrates cannot possibly make money.’ In particular, he thinks oligarchies are particularly susceptible to corruption through bribery.”",
+    "“When Aristotle considers the health of constitutions, he states that ‘Constitutions are preserved when their destroyers are at a distance, and sometimes also because they are near, for the fear of them makes the government keep in hand the constitution.’ He holds that rulers who wish to see constitutions preserved must continually remind the populace of the dangers that would result from a constitutional collapse.”",
+    "“When contrasting different forms of government, Aristotle holds that ‘oligarchies may last, not from any inherent stability in such forms of government, but because the rulers are on good terms both with the unenfranchised and with the governing classes.’ That is, oligarchic leaders who wish to hold on to power will introduce members of disenfranchised classes into government in a participatory role.”"
+  ],
+  "answer": "“When constructing his argument regarding the characteristics of a well-functioning government, Aristotle asserts that ‘Transgression creeps in unperceived and at last ruins the state,’ illustrating this idea with a comparison to frequent small expenditures slowly and almost imperceptibly chipping away at a fortune until it is ultimately depleted.”",
+  "explanation": "The student’s claim is that in a healthy state even small legal violations must not be tolerated. Choice A supports this: Aristotle warns that unnoticed transgression eventually ruins the state, likened to small expenses draining a fortune. The other quotations concern bribery/corruption, keeping would-be destroyers in check, or how oligarchies retain power — none about strict obedience to law and ignoring minor infractions."
+}
