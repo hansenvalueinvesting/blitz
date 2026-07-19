@@ -24,6 +24,12 @@
     --math:#4b6cd6; --rw:#4b6cd6; --ok:#1f8a4c; --bad:#d23a48;
     --accent:#4b6cd6;
   }
+  :root[data-theme="dark"]{
+    --bg:#12141a; --panel:#1b1f29; --panel2:#161a22; --line:#2c313d;
+    --ink:#e7e9ee; --dim:#aeb6c4; --faint:#697083;
+    --math:#7aa2ff; --rw:#7aa2ff; --ok:#4ccb7a; --bad:#ff6b78;
+    --accent:#7aa2ff;
+  }
   *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
   html,body{height:100%;overflow:hidden}
   body{background:var(--bg);color:var(--ink);font-family:'Noto Serif',Georgia,serif}
@@ -168,6 +174,12 @@
         border-radius:11px;font-family:'Inter',system-ui,sans-serif;font-weight:700;font-size:14px;
         letter-spacing:.05em;cursor:pointer}
   .done:active{opacity:.85}
+  .seg{display:flex;gap:8px}
+  .seg button{flex:1;padding:11px 8px;border:1px solid var(--line);background:var(--panel);color:var(--dim);
+       border-radius:10px;font-family:'Inter',system-ui,sans-serif;font-size:13px;font-weight:500;
+       cursor:pointer;transition:background .15s,border-color .15s,color .15s}
+  .seg button.on{background:color-mix(in srgb,var(--accent) 14%,var(--panel));border-color:var(--accent);
+       color:var(--accent);font-weight:600}
   .data-section{margin-top:30px;padding-top:22px;border-top:1px solid var(--line)}
   .wipe{width:100%;padding:14px;background:none;border:1px solid color-mix(in srgb,var(--bad) 55%,var(--line));
         color:var(--bad);border-radius:11px;font-family:'Inter',system-ui,sans-serif;font-weight:700;
@@ -235,6 +247,19 @@
   .ref-note div{margin-bottom:6px}
   @media (min-width:560px){ .ref-grid{grid-template-columns:repeat(3,1fr)} }
 </style>
+<script>
+  /* Apply the saved theme before first paint so dark-mode users never see a white flash. */
+  (function(){
+    try{
+      var s=JSON.parse(localStorage.getItem('blitz.settings.v1'));
+      var t=(s&&s.theme)||'system';
+      var dark=t==='dark'||(t==='system'&&matchMedia('(prefers-color-scheme: dark)').matches);
+      document.documentElement.setAttribute('data-theme',dark?'dark':'light');
+      var m=document.querySelector('meta[name=theme-color]');
+      if(m) m.setAttribute('content',dark?'#12141a':'#ffffff');
+    }catch(e){}
+  })();
+</script>
 </head>
 <body>
 
@@ -404,6 +429,16 @@
   <button class="done" id="done">Apply &amp; shuffle</button>
 
   <div class="data-section">
+    <h2>Appearance</h2>
+    <div class="seg" id="themeSeg">
+      <button type="button" data-theme-choice="system">System</button>
+      <button type="button" data-theme-choice="light">Light</button>
+      <button type="button" data-theme-choice="dark">Dark</button>
+    </div>
+    <div class="pct">system follows your device's light/dark setting</div>
+  </div>
+
+  <div class="data-section">
     <h2>Data</h2>
     <button class="wipe" id="wipe">Delete all app data</button>
     <div class="pct">clears your progress, accuracy, and saved settings on this device</div>
@@ -458,7 +493,7 @@ let DIR=[], settings=null, attempted=0, correct=0;
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
 
-const DEFAULT={secMath:50, mod1:50, topicsOff:{}}; // topicsOff[topic]=true means excluded
+const DEFAULT={secMath:50, mod1:50, topicsOff:{}, theme:'system'}; // topicsOff[topic]=true means excluded; theme: 'system'|'light'|'dark'
 
 const $=id=>document.getElementById(id);
 const feed=$('feed');
@@ -478,6 +513,7 @@ async function init(){
     return;
   }
   settings=loadSettings();
+  applyTheme();
   const prog=loadProgress(); attempted=prog.attempted; correct=prog.correct;
   paintStreak();
   buildSettingsUI();
@@ -517,6 +553,21 @@ function loadSettings(){
   return structuredClone(DEFAULT);
 }
 function saveSettings(){localStorage.setItem(SETTINGS_KEY,JSON.stringify(settings));}
+
+// --- theme: light / dark / follow-the-OS -------------------------------------
+const themeMedia=matchMedia('(prefers-color-scheme: dark)');
+function resolveTheme(t){ return (t==='dark'||(t==='system'&&themeMedia.matches)) ? 'dark' : 'light'; }
+function applyTheme(){
+  const choice=(settings&&settings.theme)||'system';
+  const mode=resolveTheme(choice);
+  document.documentElement.setAttribute('data-theme',mode);
+  const meta=document.querySelector('meta[name=theme-color]');
+  if(meta) meta.setAttribute('content', mode==='dark'?'#12141a':'#ffffff');
+  document.querySelectorAll('#themeSeg button').forEach(b=>{
+    b.classList.toggle('on', b.dataset.themeChoice===choice);
+  });
+}
+themeMedia.addEventListener('change',()=>{ if(((settings&&settings.theme)||'system')==='system') applyTheme(); });
 
 function loadProgress(){
   try{const p=JSON.parse(localStorage.getItem(PROGRESS_KEY));
@@ -839,6 +890,9 @@ function wireSheet(){
   $('modSlider').oninput=e=>{settings.mod1=+e.target.value;paintSliders();};
   $('done').onclick=()=>{ saveSettings(); close(); refill(true); };
   $('wipe').onclick=()=>{ if(wipeData()) close(); };
+  document.querySelectorAll('#themeSeg button').forEach(b=>{
+    b.onclick=()=>{ settings.theme=b.dataset.themeChoice; saveSettings(); applyTheme(); };
+  });
 }
 
 function wipeData(){
@@ -847,6 +901,7 @@ function wipeData(){
   localStorage.removeItem(SETTINGS_KEY);
   settings=structuredClone(DEFAULT);
   attempted=0; correct=0;
+  applyTheme();
   paintStreak();
   buildSettingsUI();   // reset sliders + topic chips to defaults
   refill(true);        // reshuffle the feed under the fresh settings
