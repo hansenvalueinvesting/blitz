@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-30",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "A turtle shell appears external to the animal, protecting its body like armor. _______ the shell is often incorrectly assumed to be an exoskeleton, a rigid outer casing like that of a crustacean or an insect, when in fact it is an endoskeleton, a part of the turtle’s internal bone structure, more akin to a spine or a pair of ribs.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "That being said,",
+    "However,",
+    "For instance,",
+    "Hence,"
+  ],
+  "answer": "Hence,",
+  "explanation": "Because the shell looks external, people wrongly assume it’s an exoskeleton — the mistaken assumption is a consequence of its outward appearance, so “Hence” fits. “That being said” and “However” signal contrast, and “For instance” signals an example, none of which matches this cause-and-effect link."
+}

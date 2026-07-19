@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-22",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat5",
+  "stem": "(x + 4)² + (y − 19)² = 121\n\nThe graph of the given equation is a circle in the xy-plane. The point (a, b) lies on the circle. Which of the following is a possible value for a ?",
+  "choices": [
+    "−16",
+    "−14",
+    "11",
+    "19"
+  ],
+  "answer": "−14",
+  "explanation": "The circle has center (−4, 19) and radius √121 = 11, so x-coordinates on it range from −4 − 11 = −15 to −4 + 11 = 7. Of the choices, only −14 falls within −15 ≤ a ≤ 7."
+}

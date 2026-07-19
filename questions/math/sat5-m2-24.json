@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-24",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "Which quadratic equation has no real solutions?",
+  "choices": [
+    "x² + 14x − 49 = 0",
+    "x² − 14x + 49 = 0",
+    "5x² − 14x − 49 = 0",
+    "5x² − 14x + 49 = 0"
+  ],
+  "answer": "5x² − 14x + 49 = 0",
+  "explanation": "A quadratic has no real solutions when its discriminant b² − 4ac is negative. For choice D, (−14)² − 4(5)(49) = 196 − 980 = −784, which is negative. The other equations have discriminants of zero or greater, so they have real solutions.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

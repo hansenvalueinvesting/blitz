@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-17",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "Which expression is equivalent to (8x³ + 8) − (x³ − 2) ?",
+  "choices": [
+    "8x³ + 6",
+    "7x³ + 10",
+    "8x³ + 10",
+    "7x³ + 6"
+  ],
+  "answer": "7x³ + 10",
+  "explanation": "Distributing the subtraction gives 8x³ + 8 − x³ + 2. Combining like terms yields 7x³ + 10. The other choices mishandle a sign when removing the parentheses.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

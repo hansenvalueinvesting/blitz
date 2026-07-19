@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-10",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Central ideas and details",
+  "source": "sat5",
+  "stem": "Since its completion in 2014, Bosco Verticale (Vertical Forest)—a pair of residential towers in Milan, Italy, covered by vegetation—has become a striking symbol of environmental sustainability in architecture. Stefano Boeri intended his design, which features balconies that are home to hundreds of trees, to serve as a model for promoting urban biodiversity. However, the concept has faced skepticism: critics note that although the trees used in Bosco Verticale were specifically cultivated for the project, it’s too early to tell if they can thrive in this unusual setting.\n\nAccording to the text, why are some critics skeptical of the concept behind Bosco Verticale?",
+  "choices": [
+    "Some essential aspects of Bosco Verticale’s design are difficult to adapt to locations other than Milan.",
+    "The plant life on Bosco Verticale ended up being less varied than Boeri had envisioned it would be.",
+    "The construction of Bosco Verticale was no less environmentally damaging than the construction of more conventional buildings is.",
+    "It is unclear whether Bosco Verticale can support the plant life included in its design."
+  ],
+  "answer": "It is unclear whether Bosco Verticale can support the plant life included in its design.",
+  "explanation": "The text says critics doubt the concept because it’s too soon to know whether the specially cultivated trees can actually thrive in such an unusual setting—that is, whether the building can sustain its plant life. The passage never raises adapting the design elsewhere, reduced plant variety, or construction damage."
+}

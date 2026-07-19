@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-12",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Central ideas and details",
+  "source": "sat5",
+  "stem": "The ancient writing system used in the Maya kingdoms of southern Mexico and Central America had a symbol for the number zero. The earliest known example of the symbol dates to more than 2,000 years ago. At that time, almost none of the writing systems elsewhere in the world possessed a zero symbol. And the use of zero in Mexico and Central America may be even more ancient. Some historians suggest that Maya mathematicians inherited it from the Olmec civilization, which flourished in the region 2,400–3,600 years ago.\n\nAccording to the text, what do some historians suggest about Maya civilization?",
+  "choices": [
+    "Maya civilization acquired the use of zero from the Olmec civilization.",
+    "Maya civilization respected its historians more than it respected its mathematicians.",
+    "Maya civilization was highly secretive about its intellectual achievements.",
+    "Maya civilization tried to introduce its writing system to other civilizations."
+  ],
+  "answer": "Maya civilization acquired the use of zero from the Olmec civilization.",
+  "explanation": "The text says some historians think Maya mathematicians inherited the use of zero from the earlier Olmec civilization. It never claims the Maya valued historians over mathematicians, kept their achievements secret, or spread their writing system to others."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-03",
+  "topic": "Linear functions",
+  "stem": "The function f is defined by f(x) = 4x − 3. What is the value of f(10) ?",
+  "choices": [
+    "−30",
+    "37",
+    "40",
+    "43"
+  ],
+  "answer": "37",
+  "explanation": "Substituting 10 for x gives f(10) = 4(10) − 3 = 40 − 3 = 37. Choice C, 40, ignores the −3, and choice D, 43, adds 3 instead of subtracting.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-11",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat5",
+  "stem": "If 4x − 28 = −24, what is the value of x − 7 ?",
+  "choices": [
+    "−24",
+    "−22",
+    "−6",
+    "−1"
+  ],
+  "answer": "−6",
+  "explanation": "Dividing every term of 4x − 28 = −24 by 4 gives x − 7 = −6 directly. So the value of x − 7 is −6."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-28",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "To guarantee the validity of experimental results, scientists rely on precise, unchanging standards of measurement. _______ metrologists (scientists who study measurement) developed the SI, or International System of Units. The SI’s units of measurement are based on unchanging values in nature, such as the mass of an electron or the speed of light.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "In contrast,",
+    "Regardless,",
+    "In addition,",
+    "For this reason,"
+  ],
+  "answer": "For this reason,",
+  "explanation": "Because scientists need unchanging measurement standards, metrologists built the SI on constant natural values—a cause-and-effect link that “For this reason” captures. “In contrast,” “Regardless,” and “In addition” don’t convey that the second sentence is a consequence of the first."
+}

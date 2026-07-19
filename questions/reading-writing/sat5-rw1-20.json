@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-20",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "Lê Lương Minh became the thirteenth secretary-general of the Association of Southeast Asian Nations (ASEAN) in January 2013, making _______ the first time the organization would appoint a Vietnamese leader.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "these",
+    "those",
+    "this",
+    "some"
+  ],
+  "answer": "this",
+  "explanation": "The pronoun refers back to a single event — Minh becoming secretary-general — so the singular “this” agrees with that singular antecedent. The plural “these” and “those” don’t match a single event, and the indefinite “some” leaves the reference unclear."
+}

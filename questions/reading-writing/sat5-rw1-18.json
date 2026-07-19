@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-18",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat5",
+  "stem": "In 2016 biological anthropologist Heather F. Smith and her team investigated the evolution of the appendix, an intestinal organ that is present in some mammals, including humans, but is generally thought to have no function. Studying 533 mammal species, the team found that the appendix has emerged independently across multiple lineages in separate instances and, significantly, hasn’t disappeared after emerging in specific lineages. Moreover, the team determined that species with the organ tend to have higher concentrations of lymphoid tissue, which supports immune responses, in the cecum, the organ the appendix is attached to. Therefore, the team hypothesized that the appendix likely _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "was once present in many nonmammal species but has since disappeared from those lineages.",
+    "has been preserved in certain mammal species because it benefits their immune systems.",
+    "will emerge in a greater number of mammal species because it may serve a necessary function in the immune system.",
+    "produced higher concentrations of lymphoid tissue in mammals in the past than it does currently."
+  ],
+  "answer": "has been preserved in certain mammal species because it benefits their immune systems.",
+  "explanation": "The appendix persists once it appears and is linked to more immune-supporting lymphoid tissue, which together suggest it stays because it aids the immune system. The text says nothing about nonmammal species, makes no prediction that it will spread to more species, and doesn’t claim the appendix produced more lymphoid tissue in the past than now."
+}

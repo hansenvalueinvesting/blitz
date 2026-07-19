@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-31",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat5",
+  "stem": "While researching a topic, a student has taken the following notes:\n• In 1859, the novel Adam Bede was published in England.\n• According to the novel’s title page, the author’s name was George Eliot.\n• George Eliot was widely assumed to be a pseudonym.\n• A pseudonym is a fake name used to conceal an author’s identity.\n• A woman named Mary Ann Evans later revealed herself as the novel’s real author.\n\nThe student wants to identify the real author of Adam Bede. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "The real author of Adam Bede was Mary Ann Evans, who published the novel using the pseudonym George Eliot.",
+    "George Eliot, which Adam Bede’s title page indicated was the name of the novel’s author, was widely assumed to be a pseudonym.",
+    "The title page of the novel Adam Bede indicated that the author’s name was George Eliot.",
+    "A woman who had used a pseudonym to conceal her identity later revealed herself as the real author of Adam Bede."
+  ],
+  "answer": "The real author of Adam Bede was Mary Ann Evans, who published the novel using the pseudonym George Eliot.",
+  "explanation": "The goal is to name the real author, and this choice states plainly that Mary Ann Evans wrote the novel under the pen name George Eliot. The other options only note that “George Eliot” was assumed to be a pseudonym or that an unnamed woman revealed herself, without directly identifying Evans as the author."
+}

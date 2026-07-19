@@ -1,0 +1,17 @@
+{
+  "id": "sat5-rw1-14",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat5",
+  "stem": "The passage of time is among the many obstacles faced by scientists who are pursuing de-extinction efforts—that is, efforts to use breeding or a mixture of cloning and genetic engineering to bring back extinct species. Specifically, researchers are concerned that the longer a species has been extinct, the less likely it is that a suitable habitat still exists for that species. Among candidate species for de-extinction, this problem would be especially concerning for the _______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+    "passenger pigeon (Ectopistes migratorius), which became extinct only a few years after the huia (Heteralocha acutirostris).",
+    "saber-toothed cat (Smilodon), which became extinct 11,000 years ago.",
+    "woolly mammoth (Mammuthus primigenius), which became extinct several thousand years before the saber-toothed cat (Smilodon).",
+    "Caribbean monk seal (Monachus tropicalis), which became extinct in 1952."
+  ],
+  "answer": "saber-toothed cat (Smilodon), which became extinct 11,000 years ago.",
+  "explanation": "The concern grows the longer a species has been extinct, so the statement should name the species that vanished longest ago. The table shows the saber-toothed cat became extinct 11,000 years before present — the earliest of the listed extinctions — making it the most concerning case. The pigeon and monk seal became extinct recently, and the mammoth actually became extinct after (not before) the saber-toothed cat.",
+  "image": "sat5-rw1-14.png"
+}

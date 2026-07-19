@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m1-27",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat5",
+  "stem": "The function g is defined by g(x) = x(x − 2)(x + 6)². The value of g(7 − w) is 0, where w is a constant. What is the sum of all possible values of w ?",
+  "choices": [
+    "25"
+  ],
+  "answer": "25",
+  "explanation": "g equals 0 when its input is 0, 2, or −6. Setting 7 − w to each gives w = 7, w = 5, and w = 13. Their sum is 7 + 5 + 13 = 25."
+}

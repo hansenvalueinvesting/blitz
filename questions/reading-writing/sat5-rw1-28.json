@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-28",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "Historians agree that the jazz pianist Jelly Roll Morton was exaggerating when he claimed to have invented jazz music. No one can deny, _______ that Morton’s innovative compositions and remarkable improvisational skills helped shape jazz as a genre during its early years.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "therefore,",
+    "in the second place,",
+    "in other words,",
+    "though,"
+  ],
+  "answer": "though,",
+  "explanation": "The sentence concedes that, despite Morton’s exaggerated boast, his work genuinely shaped early jazz, so the contrasting “though” fits. “Therefore” implies a result, “in the second place” implies an added point, and “in other words” implies a restatement — none captures the contrast."
+}

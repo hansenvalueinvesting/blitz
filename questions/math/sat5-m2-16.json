@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-16",
+  "topic": "Geometry",
+  "stem": "In △RST, the measure of ∠R is 63°. Which of the following could be the measure, in degrees, of ∠S ?",
+  "choices": [
+    "116",
+    "118",
+    "126",
+    "180"
+  ],
+  "answer": "116",
+  "explanation": "The three angles of a triangle sum to 180°. With ∠R = 63°, the remaining two angles total 117°, so ∠S must be less than 117°. Only 116 satisfies that condition.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

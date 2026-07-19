@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-19",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat5",
+  "stem": "Some ethicists hold that the moral goodness of an individual’s actions depends solely on whether the actions themselves are good, irrespective of the context in which they are carried out. Philosopher L. Sebastian Purcell has shown that surviving works of Aztec (Nahua) philosophy express a very different view. Purcell reveals that these works posit an ethical system in which an individual’s actions are judged in light of how well they accord with the individual’s role in society and how well they contribute to the community. To the extent that these works are representative of Aztec thought, Purcell’s analysis suggests that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "the Aztecs would have disputed the idea that the morality of an individual’s actions can be assessed by appealing to standards of behavior that are independent of the individual’s social circumstances.",
+    "the Aztecs would not have accepted the notion that the morality of an individual’s actions can be fairly evaluated by people who do not live in the same society as that individual.",
+    "actions by members of Aztec society who contributed a great deal to their community could be judged as morally good even if those actions were inconsistent with behaviors the Aztecs regarded as good in all contexts.",
+    "similar actions performed by people in different social roles in Aztec society would have been regarded as morally equivalent unless those actions led to different outcomes for the community."
+  ],
+  "answer": "the Aztecs would have disputed the idea that the morality of an individual’s actions can be assessed by appealing to standards of behavior that are independent of the individual’s social circumstances.",
+  "explanation": "Aztec ethics judged actions by a person’s social role and effect on the community, so the Aztecs would reject any standard that ignores social context — the opposite of the context-free view the text contrasts them with. Choice B shifts to who is allowed to judge, and choices C and D introduce context-independent “good” behaviors or outcome-based equivalence that don’t follow from the passage."
+}

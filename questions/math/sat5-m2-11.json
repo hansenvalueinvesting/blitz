@@ -1,0 +1,17 @@
+{
+  "id": "sat5-m2-11",
+  "topic": "Statistics and probability",
+  "stem": "The scatterplot shows the relationship between two variables x and y. A line of best fit for the data is also shown.\n\nFor how many of the 10 data points is the actual y-value greater than the y-value predicted by the line of best fit?",
+  "choices": [
+    "3",
+    "4",
+    "6",
+    "7"
+  ],
+  "answer": "6",
+  "explanation": "A point whose actual y-value exceeds the predicted value lies above the line of best fit. Counting the points above the line gives 6. Choice B counts the points below the line instead.",
+  "image": "sat5-m2-11.png",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

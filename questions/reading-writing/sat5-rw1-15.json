@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-15",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat5",
+  "stem": "“The Yellow Wallpaper” is an 1892 short story by Charlotte Perkins Gilman. In the story, the narrator expresses mixed feelings about her surroundings: _______\n\nWhich quotation from “The Yellow Wallpaper” most effectively illustrates the claim?",
+  "choices": [
+    "“This wallpaper has a kind of sub-pattern in a different shade, a particularly irritating one, for you can only see it in certain lights, and not clearly then.”",
+    "“By moonlight—the moon shines in all night when there is a moon—I wouldn’t know it was the same paper.”",
+    "“I’m really getting quite fond of the big room, all but that horrid [wall]paper.”",
+    "“The color is repellant, almost revolting; a smouldering, unclean yellow, strangely faded by the slow-turning sunlight.”"
+  ],
+  "answer": "“I’m really getting quite fond of the big room, all but that horrid [wall]paper.”",
+  "explanation": "The claim is that the narrator’s feelings are mixed, and this quotation pairs a positive sentiment (growing “fond of the big room”) with a negative one (calling the wallpaper “horrid”). The other quotations express only negative reactions or simply describe how the paper looks at night, without showing both sides."
+}

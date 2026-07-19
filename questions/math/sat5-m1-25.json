@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-25",
+  "section": "math",
+  "module": 1,
+  "topic": "Percentages",
+  "source": "sat5",
+  "stem": "The result of increasing the quantity x by 400% is 60. What is the value of x ?",
+  "choices": [
+    "12",
+    "15",
+    "240",
+    "340"
+  ],
+  "answer": "12",
+  "explanation": "Increasing x by 400% gives x + 4x = 5x. Setting 5x = 60 yields x = 12."
+}

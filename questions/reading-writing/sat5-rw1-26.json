@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-26",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "In 1986, conceptual artist Sophie Calle asked twenty-three people, all of whom had been born without sight, to describe “their image of beauty” in rich detail. Calle paired excerpts of these conversations with photographs—both of interviewees and the items they _______ to powerful effect in her exhibition The Blind.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "described, from hair to grass to sculptures",
+    "described, from hair to grass to sculptures—",
+    "described—from hair to grass to sculptures,",
+    "described: from hair to grass to sculptures"
+  ],
+  "answer": "described, from hair to grass to sculptures—",
+  "explanation": "A dash already opens the supplementary material after “photographs,” so a matching dash is needed after “sculptures” to close it, and a comma after “described” separates the two nested supplements. The other options fail to pair the dash, so the added material isn’t punctuated consistently with the rest of the sentence."
+}

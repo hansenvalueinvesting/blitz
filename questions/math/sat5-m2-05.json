@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-05",
+  "topic": "Linear equations",
+  "stem": "A veterinarian recommends that each day a certain rabbit should eat 25 calories per pound of the rabbit's weight, plus an additional 11 calories. Which equation represents this situation, where c is the total number of calories the veterinarian recommends the rabbit should eat each day if the rabbit's weight is x pounds?",
+  "choices": [
+    "c = 25x",
+    "c = 36x",
+    "c = 11x + 25",
+    "c = 25x + 11"
+  ],
+  "answer": "c = 25x + 11",
+  "explanation": "Multiplying 25 calories per pound by the weight x gives 25x, and adding the extra 11 calories gives c = 25x + 11. Choice A omits the extra 11, and choices B and C combine or swap the numbers incorrectly.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

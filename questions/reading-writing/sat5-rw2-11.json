@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-11",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Central ideas and details",
+  "source": "sat5",
+  "stem": "Many literary theorists distinguish between fabula, a narrative’s content, and syuzhet, a narrative’s arrangement and presentation of events. In the film The Godfather Part II, the fabula is the story of the Corleone family, and the syuzhet is the presentation of the story as it alternates between two timelines in 1901 and 1958. But literary theorist Mikhail Bakhtin maintained that fabula and syuzhet are insufficient to completely describe a narrative—he held that systematic categorizations of artistic phenomena discount the subtle way in which meaning is created by interactions between the artist, the work, and the audience.\n\nWhich choice best states the main idea of the text?",
+  "choices": [
+    "Literary theorist Mikhail Bakhtin argued that there are important characteristics of narratives that are not fully encompassed by two concepts that other theorists have used to analyze narratives.",
+    "Literary theorist Mikhail Bakhtin claimed that meaning is not inherent in a narrative but is created when an audience encounters a narrative so that narratives are interpreted differently by different people.",
+    "The storytelling methods used in The Godfather Part II may seem unusually complicated, but they can be easily understood when two concepts from literary theory are utilized.",
+    "Narratives that are told out of chronological order are more difficult for audiences to understand than are narratives presented chronologically."
+  ],
+  "answer": "Literary theorist Mikhail Bakhtin argued that there are important characteristics of narratives that are not fully encompassed by two concepts that other theorists have used to analyze narratives.",
+  "explanation": "After introducing fabula and syuzhet, the text’s central point is Bakhtin’s claim that these two categories can’t fully capture a narrative because they miss how meaning arises among artist, work, and audience. Choice B overstates Bakhtin’s view (leaving out the artist and adding reader-by-reader variation), while C and D fixate on the film example rather than the main argument."
+}

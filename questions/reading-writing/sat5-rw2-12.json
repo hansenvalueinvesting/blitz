@@ -1,0 +1,17 @@
+{
+  "id": "sat5-rw2-12",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat5",
+  "stem": "A student is researching the trends in the topics submitted to a national science fair for high school students. The graph shows the number of submissions by topic that were made each year.\n\nBased on the data in the graph, the student claims that there were more medicine and health research topics submitted in 2019 than in any other year.\n\nWhich choice most effectively uses data from the graph to support the underlined claim?",
+  "choices": [
+    "In 2016, the number of cellular and molecular biology topic submissions was the same as the number of animal science topic submissions.",
+    "In 2019, there were more physics and space science topic submissions than there were medicine and health topic submissions.",
+    "The lowest number of animal science topic submissions in a year was approximately 95 in 2016.",
+    "The highest number of medicine and health topic submissions during the period shown is approximately 285 in 2019."
+  ],
+  "answer": "The highest number of medicine and health topic submissions during the period shown is approximately 285 in 2019.",
+  "image": "sat5-rw2-12.png",
+  "explanation": "To back the claim that medicine and health peaked in 2019, the evidence must show its highest value fell that year—about 285 submissions, more than in 2016–2018. The other options discuss the wrong categories or years, or misstate the graph’s values, so none support the claim."
+}

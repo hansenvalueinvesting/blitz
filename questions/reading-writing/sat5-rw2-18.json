@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-18",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "How did whales, once no bigger than seals, evolve to become the largest animals on Earth? Brazilian biologist Mariana Nery believes the answer might be found in whales’ DNA. In January 2023, Nery and her colleagues _______ a study showing changes over time in four whale genes associated with body size.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "published",
+    "publishing",
+    "having published",
+    "to publish"
+  ],
+  "answer": "published",
+  "explanation": "The main clause needs a finite verb for its subject “Nery and her colleagues,” and the past-tense “published” supplies it. The participles “publishing” and “having published” and the infinitive “to publish” are nonfinite and leave the sentence without a main verb."
+}

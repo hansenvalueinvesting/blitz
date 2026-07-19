@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-02",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "A team of paleontologists has found a rich fossil deposit near Gulgong, Australia. The fossils are so well preserved that the team has been able to _______ detailed information about the life forms that left them behind, such as color patterns and how they interacted with other species.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "occupy",
+    "hoard",
+    "reserve",
+    "obtain"
+  ],
+  "answer": "obtain",
+  "explanation": "Because the fossils are so well preserved, the team has been able to gain, or “obtain,” detailed information from them. “Occupy,” “hoard,” and “reserve” don’t fit—there’s no sense that the researchers inhabited, hid, or withheld the information they gathered."
+}

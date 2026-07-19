@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-11",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Central ideas and details",
+  "source": "sat5",
+  "stem": "Recently, scientists looked at data collected by NASA’s InSight lander to learn more about seismic activity on Mars, known as marsquakes. The data show that the marsquakes all started from the same location on the planet. This discovery was surprising to scientists, as they expected that the marsquakes would originate from all over the planet because of the cooling of the planet’s surface. Now, scientists believe that there could be areas of active magma flows deep beneath the planet’s surface that trigger the marsquakes.\n\nAccording to the text, what was surprising to scientists studying the seismic activity data from NASA’s InSight lander?",
+  "choices": [
+    "The surface temperature of Mars has been rising.",
+    "There were different types of seismic waves causing marsquakes.",
+    "NASA’s InSight lander collected less data than scientists had expected.",
+    "All the marsquakes started from the same location on the planet."
+  ],
+  "answer": "All the marsquakes started from the same location on the planet.",
+  "explanation": "The text says the marsquakes all began at a single location, which surprised scientists because they had expected quakes to originate all over the planet. The text doesn’t claim Mars is warming, mention different seismic-wave types, or discuss the amount of data collected."
+}

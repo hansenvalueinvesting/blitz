@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-10",
+  "section": "math",
+  "module": 1,
+  "topic": "Statistics and probability",
+  "source": "sat5",
+  "stem": "Scott selected 20 employees at random from all 400 employees at a company. He found that 16 of the employees in this sample are enrolled in exactly three professional development courses this year. Based on Scott’s findings, which of the following is the best estimate of the number of employees at the company who are enrolled in exactly three professional development courses this year?",
+  "choices": [
+    "4",
+    "320",
+    "380",
+    "384"
+  ],
+  "answer": "320",
+  "explanation": "In the sample, 16 of 20, or 80%, are enrolled in exactly three courses. Applying that proportion to all 400 employees gives 0.80 × 400 = 320."
+}

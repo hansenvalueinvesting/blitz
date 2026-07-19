@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-05",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "Claims about the original significance of Minoan bull-leaping rituals—depicted in paintings and sculptures from the second millennium BCE—are difficult to successfully _______. We know so little about the people archaeologists call the Minoans that assertions about what bull-leaping meant to them will almost inevitably rely on significant speculation and guesswork.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "imagine",
+    "summarize",
+    "defend",
+    "adjust"
+  ],
+  "answer": "defend",
+  "explanation": "Because so little is known about the Minoans, any claim about the rituals rests on guesswork and is therefore hard to “defend,” or support against challenge. Imagining, summarizing, or adjusting a claim doesn’t capture the idea that the scarcity of evidence makes such claims hard to justify."
+}

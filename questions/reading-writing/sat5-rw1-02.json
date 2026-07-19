@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-02",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "Many ancient sculptures of people’s heads are missing their noses. This is because the nose is the most _______ part of a sculpture of a person’s head. It is delicate and sticks out from the rest of the sculpture, making it especially easy to break.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "recognizable",
+    "fragile",
+    "common",
+    "sophisticated"
+  ],
+  "answer": "fragile",
+  "explanation": "The text says the nose is delicate and sticks out, making it easy to break, so the missing word should mean weak or delicate — “fragile.” “Recognizable” and “common” contradict the fact that noses are often missing, and “sophisticated” has nothing to do with being easy to break."
+}

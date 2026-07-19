@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-33",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat5",
+  "stem": "While researching a topic, a student has taken the following notes:\n• The US Fish and Wildlife Service (FWS) keeps a list of all at-risk species.\n• Species on the list are classified as either endangered or threatened.\n• A species that is in danger of extinction throughout most or all of its range is classified as endangered.\n• A species that is likely to soon become endangered is classified as threatened.\n• The California red-legged frog (Rana draytonii) is likely to soon become endangered, according to the FWS.\n\nThe student wants to indicate the California red-legged frog’s FWS classification category. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Species on the FWS list, which includes the California red-legged frog (Rana draytonii), are classified as either endangered or threatened.",
+    "The California red-legged frog (Rana draytonii) appears on the FWS list of at-risk species.",
+    "According to the FWS, the California red-legged frog is in the endangered category, in danger of extinction throughout most or all of its range.",
+    "Likely to soon become endangered, the California red-legged frog is classified as threatened by the FWS."
+  ],
+  "answer": "Likely to soon become endangered, the California red-legged frog is classified as threatened by the FWS.",
+  "explanation": "Because a species likely to soon become endangered is classified as threatened, and the frog fits that description, this choice correctly labels it threatened. The other options only list the general categories, note that the frog is on the list, or wrongly call it endangered."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-25",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "American abstract artist Richard _______ his installations to make passersby keenly aware of how one’s movements are affected by the physical features of one’s environment, assembles large-scale steel plates into sculptures that dominate the outdoor spaces they occupy.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "Serra is intending",
+    "Serra, intends",
+    "Serra, intending",
+    "Serra intends"
+  ],
+  "answer": "Serra, intending",
+  "explanation": "The sentence’s main verb is “assembles,” so the material about Serra’s intentions must be a supplementary phrase set off by commas, which “Serra, intending…” (paired with the comma after “environment”) accomplishes with a participle. The finite verbs “is intending” and “intends” would create a second main verb and an ungrammatical sentence."
+}

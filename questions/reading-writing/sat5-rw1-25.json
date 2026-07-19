@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-25",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "Long attributed to Jacques-Louis David, the preeminent Neoclassical painter of his day, the 1801 painting Marie Joséphine Charlotte du Val d’Ognes gained fresh attention in the 1990s when art historians discovered that the painting—which depicts a solitary young woman sketching—was actually the work of little-known French portrait _______ Marie-Denise Villers (1774–1821).\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "artist—",
+    "artist",
+    "artist:",
+    "artist,"
+  ],
+  "answer": "artist",
+  "explanation": "The title “little-known French portrait artist” flows directly into the name “Marie-Denise Villers,” so no punctuation should separate them. A dash, colon, or comma would wrongly break the connection between the descriptive title and the proper noun it introduces."
+}

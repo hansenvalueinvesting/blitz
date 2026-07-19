@@ -1,0 +1,17 @@
+{
+  "id": "sat5-rw1-01",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat5",
+  "passage": "The following text is from the 1913 story “The King’s Coin” by Emily Pauline Johnson, a Kanienkahagen (Mohawk) writer also known as Tekahionwake. Fox-Foot, a young Ojibwe man, is guiding a group of fur traders who are traveling by canoe and suspects that they are being followed.",
+  "stem": "At supper time, Fox-Foot would allow no fire to be built, no landing to be made, no trace of their passing to be left. They ate canned meat and marmalade, drank again of the stream and pushed on, until just at dusk they reached the edge of a long, still lake, with shores of granite and dense fir forest.\n\nAs used in the text, what does the word “trace” most nearly mean?",
+  "choices": [
+    "Evidence",
+    "Blemish",
+    "Amount",
+    "Sketch"
+  ],
+  "answer": "Evidence",
+  "explanation": "Fox-Foot is trying to keep the group from being detected by whoever might be following them, so he leaves no sign of their movement through the area. In that context, a “trace” of their passing is a piece of evidence. A blemish (a spoiling mark), an amount, or a sketch don’t fit the idea of avoiding any sign of the group."
+}

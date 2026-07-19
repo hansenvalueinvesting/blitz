@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-15",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat5",
+  "stem": "A right circular cylinder has a base diameter of 22 centimeters and a height of 6 centimeters. What is the volume, in cubic centimeters, of the cylinder?",
+  "choices": [
+    "132π",
+    "264π",
+    "726π",
+    "2,904π"
+  ],
+  "answer": "726π",
+  "explanation": "The radius is half the diameter, 11 cm. Using V = πr²h gives V = π(11²)(6) = π(121)(6) = 726π cubic centimeters."
+}

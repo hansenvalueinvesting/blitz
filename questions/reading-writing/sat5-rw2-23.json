@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-23",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "Fans of the film Moana (2016) may not know that the deep and humorous voice behind the _______ belongs to comedian, actor, and musician Jemaine Clement. The versatile performer has appeared in everything from television commercials to action movies, but voice acting, specifically, has become a notable part of his career.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "character Tamatoa the crab",
+    "character Tamatoa the crab,",
+    "character: Tamatoa the crab,",
+    "character, Tamatoa the crab"
+  ],
+  "answer": "character Tamatoa the crab",
+  "explanation": "“Tamatoa the crab” is a restrictive appositive that identifies which character is meant, so it takes no punctuation, and no punctuation should split the long subject from its verb “belongs.” The other options insert unnecessary commas or a colon."
+}

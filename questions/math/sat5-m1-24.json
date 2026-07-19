@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-24",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat5",
+  "stem": "Which of the following functions has(have) a minimum value at −3 ?\n\nI. f(x) = −6(3)ˣ − 3\nII. g(x) = −3(6)ˣ",
+  "choices": [
+    "I only",
+    "II only",
+    "I and II",
+    "Neither I nor II"
+  ],
+  "answer": "Neither I nor II",
+  "explanation": "Both functions have a negative coefficient in front of a base greater than 1, so each is a decreasing exponential. A decreasing exponential keeps dropping without ever reaching a lowest value, so neither function has a minimum."
+}

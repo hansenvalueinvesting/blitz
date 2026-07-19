@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-21",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "In 1929, Edwin Herbert Land invented a polarizing filter that was featured in a number of products, from sunglasses to 3D movies. A decade later, Land _______ his technology to invent the world’s first instant camera, the Polaroid Land camera.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "used",
+    "to have used",
+    "to use",
+    "using"
+  ],
+  "answer": "used",
+  "explanation": "The main clause needs a finite verb for its subject, Land, and the past-tense “used” supplies it. The infinitive forms “to have used” and “to use” and the participle “using” are non-finite and would leave the sentence without a complete main verb."
+}

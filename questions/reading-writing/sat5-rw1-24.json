@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-24",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "In the music video for the song “We Didn’t Start the Fire” by Billy Joel, the singer lists 118 political and cultural references. Such iconic references, cited in rapid and frenetic procession by the musician, who is seated impassively at a dinner table, _______ key moments and personalities of the twentieth century.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "represents",
+    "has represented",
+    "was representing",
+    "represent"
+  ],
+  "answer": "represent",
+  "explanation": "The subject of the verb is the plural “references,” so the plural verb “represent” agrees with it. The singular “represents” and “has represented” and the singular past-progressive “was representing” don’t agree with the plural subject."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sat5-m1-20",
+  "section": "math",
+  "module": 1,
+  "topic": "Trigonometry",
+  "source": "sat5",
+  "stem": "In the triangle shown, what is the value of cos x° ?\n\nNote: Figure not drawn to scale.",
+  "choices": [
+    "11/28"
+  ],
+  "answer": "11/28",
+  "explanation": "Cosine of an acute angle is the adjacent leg over the hypotenuse. The leg next to the x° angle is 11 and the hypotenuse is 28, so cos x° = 11/28.",
+  "image": "sat5-m1-20.png"
+}

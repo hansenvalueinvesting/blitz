@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-29",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "According to Duverger’s law, countries with single-ballot majoritarian elections for single-member districts tend to polarize into two-party systems, wherein dueling political parties consistently dominate the political system. _______ countries with proportional-representation electoral systems tend to support multi-partyism, under which power gets distributed among many political parties.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Subsequently,",
+    "Conversely,",
+    "For instance,",
+    "In other words,"
+  ],
+  "answer": "Conversely,",
+  "explanation": "The second sentence contrasts proportional-representation systems (many parties) with majoritarian systems (two parties), so the opposing “Conversely” fits. “Subsequently” signals time order, “For instance” signals an example, and “In other words” signals a restatement — none conveys the contrast between the two electoral systems."
+}

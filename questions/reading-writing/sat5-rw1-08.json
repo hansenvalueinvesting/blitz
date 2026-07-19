@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw1-08",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Text structure and purpose",
+  "source": "sat5",
+  "stem": "Chile’s Atacama Desert is one of the driest places on Earth. Mary Beth Wilhelm and other astrobiologists search for life, or its remains, in this harsh place because the desert closely mirrors the extreme environment on Mars. The algae and bacteria found in Atacama’s driest regions may offer clues about Martian life. By studying how these and other microorganisms survive such extreme conditions on Earth, Wilhelm’s team hopes to determine whether similar life might have existed on Mars and to develop the best tools to look for evidence of it.\n\nWhich choice best describes the function of the underlined sentence in the text as a whole?",
+  "choices": [
+    "To contrast the conditions in the Atacama Desert with those on Mars",
+    "To explain why many life-forms cannot survive in the Atacama Desert",
+    "To indicate why astrobiologists choose to conduct research in the Atacama Desert",
+    "To describe certain limitations to conducting scientific study in the Atacama Desert"
+  ],
+  "answer": "To indicate why astrobiologists choose to conduct research in the Atacama Desert",
+  "explanation": "The underlined sentence states that scientists search the Atacama because it closely mirrors the extreme environment on Mars — that is, it gives the reason for their research there. The word “mirrors” signals similarity, not contrast, and the sentence isn’t about which life-forms die there or about limitations of the research."
+}

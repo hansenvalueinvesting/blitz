@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-09",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat5",
+  "stem": "The equation x + y = 1,440 represents the number of minutes of daylight (between sunrise and sunset), x, and the number of minutes of non-daylight, y, on a particular day in Oak Park, Illinois. If this day has 670 minutes of daylight, how many minutes of non-daylight does it have?",
+  "choices": [
+    "670",
+    "770",
+    "1,373",
+    "1,440"
+  ],
+  "answer": "770",
+  "explanation": "Substitute x = 670 into x + y = 1,440 to get 670 + y = 1,440. Subtracting 670 from both sides gives y = 770 minutes of non-daylight."
+}

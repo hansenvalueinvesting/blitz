@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-26",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat5",
+  "stem": "In 1949, Frank Zamboni developed an ice rink resurfacing machine. As Zamboni’s machine moved along the rink’s surface, it first scraped off the top layer of ice. _______ it sprayed water into the deep grooves left behind by customers’ skates. Lastly, it smoothed over the newly formed ice.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "For example,",
+    "Next,",
+    "Similarly,",
+    "In contrast,"
+  ],
+  "answer": "Next,",
+  "explanation": "The passage lays out a sequence—first scraping, then spraying, and lastly smoothing—so “Next” correctly marks the second step. “For example,” “Similarly,” and “In contrast” don’t fit, since the spraying isn’t an illustration of, comparison to, or contrast with the scraping."
+}

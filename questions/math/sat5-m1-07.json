@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m1-07",
+  "section": "math",
+  "module": 1,
+  "topic": "Statistics and probability",
+  "source": "sat5",
+  "stem": "23, 27, 27, 32, 35, 36, 52\n\nWhat is the range of the 7 scores shown?",
+  "choices": [
+    "29"
+  ],
+  "answer": "29",
+  "explanation": "The range is the maximum minus the minimum. The largest score is 52 and the smallest is 23, so the range is 52 − 23 = 29."
+}

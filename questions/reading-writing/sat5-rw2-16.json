@@ -1,0 +1,17 @@
+{
+  "id": "sat5-rw2-16",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat5",
+  "stem": "Some climate models for the western United States predict that while total annual precipitation may remain unchanged from the present level, precipitation will become concentrated into fewer but more intense rain and snow events. University of Texas climate scientist Geeta Persad and her colleagues simulated how the amount of water entering aquifers and the amount being used for irrigation purposes would change if this were to occur. Persad and her colleagues concluded that concentration of precipitation into fewer events would result in a higher number of dry days, triggering more irrigation, but that this change in irrigation output is highly sensitive to the baseline concentration of precipitation that currently exists in an area.\n\nWhich choice best describes data from the table that support Persad and her colleagues’ conclusion?",
+  "choices": [
+    "If baseline precipitation is somewhat concentrated, the amount of water being used for irrigation will increase 0.4% for surface water and 0.9% for groundwater, whereas the amount of water entering aquifers will increase 11.0% if baseline precipitation is evenly distributed.",
+    "If baseline precipitation is somewhat concentrated, water use for irrigation will increase only slightly, whereas it will increase 9.0% for surface water and 7.9% for groundwater if baseline precipitation is evenly distributed.",
+    "If baseline precipitation is somewhat concentrated, the amount of water entering aquifers will increase 4.9%, while the amount being used for irrigation will increase 0.4% for surface water and 0.9% for groundwater.",
+    "If baseline precipitation is somewhat concentrated, water use for irrigation will decline by a small amount, whereas it will increase 11.0% for surface water and 9.0% for groundwater if baseline precipitation is evenly distributed."
+  ],
+  "answer": "If baseline precipitation is somewhat concentrated, water use for irrigation will increase only slightly, whereas it will increase 9.0% for surface water and 7.9% for groundwater if baseline precipitation is evenly distributed.",
+  "image": "sat5-rw2-16.png",
+  "explanation": "The conclusion is that irrigation rises but by an amount that depends heavily on baseline precipitation, so the support must contrast a tiny irrigation increase where precipitation is already concentrated with a much larger one (9.0% surface, 7.9% ground) where it is evenly distributed—choice B. The others bring in aquifer figures, cite only one scenario, or wrongly claim irrigation declines."
+}

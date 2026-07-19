@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-22",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat5",
+  "stem": "On March 23, 2021, a gust of wind wreaked havoc on global trade. Ever Given, an international shipping container vessel, became lodged in Egypt’s Suez Canal, a major shipping route between Europe and Asia. The vessel took six days to _______ it’s as heavy as two thousand blue whales when fully loaded.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "dislodge in part due to its sheer size,",
+    "dislodge, in part due to its sheer size:",
+    "dislodge, in part due to its sheer size,",
+    "dislodge, in part, due to its sheer size"
+  ],
+  "answer": "dislodge, in part due to its sheer size:",
+  "explanation": "A comma sets off the supplementary phrase “in part due to its sheer size,” and a colon then introduces the second main clause explaining the vessel’s weight. The other options create comma splices or a run-on by failing to separate the two independent clauses correctly."
+}

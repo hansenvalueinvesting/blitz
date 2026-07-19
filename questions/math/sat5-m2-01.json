@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-01",
+  "topic": "Percentages",
+  "stem": "What is 20% of 440?",
+  "choices": [
+    "44",
+    "88",
+    "880",
+    "1,760"
+  ],
+  "answer": "88",
+  "explanation": "To find 20% of 440, multiply 440 by 0.20, which gives 88. Choice A is 10% of 440, choice C is 200%, and choice D is 400%.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

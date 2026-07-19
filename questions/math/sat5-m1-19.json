@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-19",
+  "section": "math",
+  "module": 1,
+  "topic": "Trigonometry",
+  "source": "sat5",
+  "stem": "What is the value of tan (92π/3) ?",
+  "choices": [
+    "−√3",
+    "−√3/3",
+    "√3/3",
+    "√3"
+  ],
+  "answer": "−√3",
+  "explanation": "Since 92π/3 differs from 2π/3 by a whole number of full turns (15 revolutions), tan(92π/3) = tan(2π/3). The angle 2π/3 (120°) lies in quadrant II with a reference angle of 60°, so its tangent is −tan(60°) = −√3."
+}

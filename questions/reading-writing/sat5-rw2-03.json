@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-03",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat5",
+  "stem": "According to a team of neuroeconomists from the University of Zurich, ease of decision making may be linked to communication between two brain regions, the prefrontal cortex and the parietal cortex. Individuals tend to be more decisive if the information flow between the regions is intensified, whereas they make choices more slowly when information flow is _______.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "reduced",
+    "evaluated",
+    "determined",
+    "acquired"
+  ],
+  "answer": "reduced",
+  "explanation": "The sentence sets up a contrast: people decide faster when information flow is intensified, so they decide more slowly when that flow is decreased, or “reduced.” The alternatives—evaluated, determined, acquired—describe assessing or obtaining the information, not lessening the rate at which it travels."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sat5-m2-15",
+  "topic": "Statistics and probability",
+  "passage": "Five Eretmochelys imbricata, a type of sea turtle, each have a nest. The table shows an original data set of the number of eggs that each turtle laid in its nest.\n\n[Table — Nest: Number of eggs. A: 149; B: 144; C: 148; D: 136; E: 139]",
+  "stem": "A sixth nest with 121 eggs is added to create a new data set. Which of the following correctly compares the means of the two data sets?",
+  "choices": [
+    "The mean of the original data set is greater than the mean of the new data set.",
+    "The mean of the original data set is less than the mean of the new data set.",
+    "The means of both data sets are equal.",
+    "There is not enough information to compare the means."
+  ],
+  "answer": "The mean of the original data set is greater than the mean of the new data set.",
+  "explanation": "The added value, 121, is smaller than every value in the original set, so including it pulls the average down. Therefore the original data set has the greater mean.",
+  "image": "sat5-m2-15.png",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

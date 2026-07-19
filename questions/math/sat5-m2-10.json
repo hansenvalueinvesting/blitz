@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m2-10",
+  "topic": "Nonlinear functions / quadratics",
+  "stem": "The kinetic energy, in joules, of an object with mass 9 kilograms traveling at a speed of v meters per second is given by the function K, where K(v) = (9/2)v². Which of the following is the best interpretation of K(34) = 5,202 in this context?",
+  "choices": [
+    "The object traveling at 34 meters per second has a kinetic energy of 5,202 joules.",
+    "The object traveling at 340 meters per second has a kinetic energy of 5,202 joules.",
+    "The object traveling at 5,202 meters per second has a kinetic energy of 34 joules.",
+    "The object traveling at 23,409 meters per second has a kinetic energy of 34 joules."
+  ],
+  "answer": "The object traveling at 34 meters per second has a kinetic energy of 5,202 joules.",
+  "explanation": "In K(v), the input v is the speed and the output is the kinetic energy. So K(34) = 5,202 means a speed of 34 meters per second produces a kinetic energy of 5,202 joules. The other choices swap or misread the input and output values.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m2-06",
+  "topic": "Linear equations",
+  "stem": "If 6n = 12, what is the value of n + 4 ?",
+  "choices": [
+    "6"
+  ],
+  "answer": "6",
+  "explanation": "Dividing both sides of 6n = 12 by 6 gives n = 2. Then n + 4 = 2 + 4 = 6.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

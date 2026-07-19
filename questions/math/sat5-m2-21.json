@@ -1,0 +1,13 @@
+{
+  "id": "sat5-m2-21",
+  "topic": "Geometry",
+  "stem": "A rectangle is inscribed in a circle, such that each vertex of the rectangle lies on the circumference of the circle. The diagonal of the rectangle is twice the length of the shortest side of the rectangle. The area of the rectangle is 1,089√3 square units. What is the length, in units, of the diameter of the circle?",
+  "choices": [
+    "66"
+  ],
+  "answer": "66",
+  "explanation": "Let the short side be s; the diagonal is 2s. By the Pythagorean theorem the long side is √((2s)² − s²) = s√3, so the area is s(s√3) = s²√3 = 1,089√3, giving s² = 1,089 and s = 33. The diameter equals the diagonal, 2s = 66.",
+  "section": "math",
+  "module": 2,
+  "source": "sat5"
+}

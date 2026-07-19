@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-02",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat5",
+  "stem": "On the first day of a semester, a film club has 90 members. Each day after the first day of the semester, 10 new members join the film club. If no members leave the film club, how many total members will the film club have 4 days after the first day of the semester?",
+  "choices": [
+    "400",
+    "130",
+    "94",
+    "90"
+  ],
+  "answer": "130",
+  "explanation": "Over the 4 days after the first day, 4 × 10 = 40 new members join. Adding those 40 to the starting 90 members gives 130 total members."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-04",
+  "section": "math",
+  "module": 1,
+  "topic": "Systems of equations",
+  "source": "sat5",
+  "stem": "s + 7r = 27\nr = 3\n\nWhat is the solution (r, s) to the given system of equations?",
+  "choices": [
+    "(6, 3)",
+    "(3, 6)",
+    "(3, 27)",
+    "(27, 3)"
+  ],
+  "answer": "(3, 6)",
+  "explanation": "The second equation gives r = 3. Substituting into s + 7r = 27 gives s + 21 = 27, so s = 6. Written as (r, s), the solution is (3, 6)."
+}

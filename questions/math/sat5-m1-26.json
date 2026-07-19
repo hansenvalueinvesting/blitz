@@ -1,0 +1,16 @@
+{
+  "id": "sat5-m1-26",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat5",
+  "stem": "The function f is defined by f(x) = ax² + bx + c, where a, b, and c are constants. The graph of y = f(x) in the xy-plane passes through the points (7, 0) and (−3, 0). If a is an integer greater than 1, which of the following could be the value of a + b ?",
+  "choices": [
+    "−6",
+    "−3",
+    "4",
+    "5"
+  ],
+  "answer": "−6",
+  "explanation": "The x-intercepts 7 and −3 mean f(x) = a(x − 7)(x + 3) = ax² − 4ax − 21a, so b = −4a and a + b = −3a. With a an integer greater than 1, −3a is a multiple of 3 that is at most −6; only −6 fits."
+}

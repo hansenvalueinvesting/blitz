@@ -1,0 +1,16 @@
+{
+  "id": "sat5-rw2-30",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat5",
+  "stem": "While researching a topic, a student has taken the following notes:\n• Iranian scholar Abu Rayhan al-Biruni studied Earth’s physical features.\n• He theorized that a large landmass existed west of Europe and east of Asia.\n• Al-Biruni published his landmass theory in 1037 CE.\n\nThe student wants to specify when al-Biruni published his landmass theory. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "In 1037 CE, al-Biruni published his theory that a large landmass existed west of Europe and east of Asia.",
+    "Al-Biruni, who studied Earth’s physical features, published a theory about a large landmass.",
+    "Al-Biruni was an Iranian scholar who studied Earth’s physical features.",
+    "An Iranian scholar who studied Earth’s physical features, al-Biruni theorized that a large landmass existed west of Europe and east of Asia."
+  ],
+  "answer": "In 1037 CE, al-Biruni published his theory that a large landmass existed west of Europe and east of Asia.",
+  "explanation": "The goal is to state when the theory was published, and only choice A gives the date, “In 1037 CE.” The other options describe al-Biruni or his theory but omit the year, so they don’t meet the goal."
+}
