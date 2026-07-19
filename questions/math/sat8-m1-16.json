@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-16",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "The area A, in square centimeters, of a rectangular cutting board can be represented by the expression w(w + 9), where w is the width, in centimeters, of the cutting board. Which expression represents the length, in centimeters, of the cutting board?",
+  "choices": [
+    "w(w + 9)",
+    "w",
+    "9",
+    "(w + 9)"
+  ],
+  "answer": "(w + 9)",
+  "explanation": "Area of a rectangle is length times width. Since the area is written as w(w + 9) with w being the width, the remaining factor (w + 9) must be the length."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-03",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "The process of mechanically recycling plastics is often considered ______ because of the environmental impact and the loss of material quality that often occurs. But chemist Takunda Chazovachii has helped develop a cleaner process of chemical recycling that converts superabsorbent polymers from diapers into a desirable reusable adhesive.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "resilient",
+    "inadequate",
+    "dynamic",
+    "satisfactory"
+  ],
+  "answer": "inadequate",
+  "explanation": "The text stresses the environmental harm and loss of material quality in mechanical recycling and contrasts it with a cleaner chemical process, signaling that the mechanical method falls short—“inadequate.” “Resilient,” “dynamic,” and “satisfactory” all clash with the passage’s negative framing."
+}

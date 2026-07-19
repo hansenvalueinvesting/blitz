@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-12",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat8",
+  "stem": "Poetry in Classical Nahuatl, the language of the Aztec Empire, relies on difrasismo, or a parallel noun construction that conventionally operates as a single metaphor. For example, the common difrasismo in cuauhtli in ocelotl (literally, “the eagle, the jaguar”) signifies “warrior.” The device’s function is both formal—providing structure to lines of verse—and ritual: semantic relations among the two nouns and the concept they signify can be tenuous, as in the previous example, such that difrasismos are often only intelligible according to the conceptual associations observed in Aztec ceremonial culture.\n\nWhich statement about the difrasismo in cuauhtli in ocelotl is most strongly supported by the text?",
+  "choices": [
+    "Its metaphorical significance derives from the semantic equivalence of the two nouns constituting the difrasismo.",
+    "Its unintelligibility may cause its formal function within a line of verse to go unnoticed by present-day readers.",
+    "Its apparent obscurity can be resolved when considered in the proper cultural context.",
+    "Its frequency in Classical Nahuatl poetry confirms its intelligibility to the Aztec audience."
+  ],
+  "answer": "Its apparent obscurity can be resolved when considered in the proper cultural context.",
+  "explanation": "The text says the link between the two nouns and their meaning can seem tenuous but becomes intelligible through the conceptual associations of Aztec ceremonial culture. So the “eagle, the jaguar” metaphor’s seeming obscurity clears up in that cultural context. The passage never claims the nouns are semantically equivalent, ties intelligibility to frequency, or says the formal function goes unnoticed."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-18",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "Which expression is equivalent to a^(11/12), where a > 0 ?",
+  "choices": [
+    "¹²√(a¹³²)",
+    "¹⁴⁴√(a¹³²)",
+    "¹²¹√(a¹³²)",
+    "¹¹√(a¹³²)"
+  ],
+  "answer": "¹⁴⁴√(a¹³²)",
+  "explanation": "Write the exponent 11/12 as 132/144, so a^(11/12) = a^(132/144). A power of the form a^(m/k) equals the k-th root of a^m, giving the 144th root of a¹³²."
+}

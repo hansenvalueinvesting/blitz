@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-18",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat8",
+  "stem": "The morphological novelty of echinoderms—marine invertebrates with radial symmetry, usually starlike, around a central point—impedes comparisons with most other animals, in which bilateral symmetry on an anterior-posterior (head to tail) axis through a trunk is typical. Particularly puzzling are sea stars, thought to have evolved a headless layout from a known bilateral origin. Applying genomic knowledge of Saccoglossus kowalevskii acorn worms (close relatives of sea stars, and thus expected to have similar markers for corresponding anatomical regions) to the body patterning genes of Patiria miniata sea stars, Laurent Formery et al. observed activity only in anterior genes across P. miniata’s entire body and some posterior genes limited to the edges, suggesting that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "despite the greater prevalence of anterior genes in sea stars’ genetic makeup, posterior genes active at the body’s perimeter are primarily responsible for the starlike layout that distinguishes sea stars’ radial symmetry from that of other echinoderms.",
+    "contrary to the belief that they evolved from early ancestors with the bilateral form typical of many other animals, sea stars instead originated with an atypical body layout that was neither bilaterally nor radially symmetrical.",
+    "although the two species are closely related, there is only minimal correspondence in the genetic markers for head, tail, and trunk region development in P. miniata sea stars and S. kowalevskii acorn worms.",
+    "rather than undergoing changes resulting in the eventual elimination of a head region in their radial body plan, as previously assumed, sea stars’ morphology evolved to completely lack a trunk and consist primarily of a head region."
+  ],
+  "answer": "rather than undergoing changes resulting in the eventual elimination of a head region in their radial body plan, as previously assumed, sea stars’ morphology evolved to completely lack a trunk and consist primarily of a head region.",
+  "explanation": "Researchers found anterior (head) genes active across the whole body and only some posterior genes at the edges, implying the sea star is mostly “head” rather than headless. This overturns the old assumption that sea stars lost their head region, suggesting instead they lost the trunk and became almost all head. Choice A wrongly credits posterior genes, B denies the known bilateral origin, and C contradicts the study’s reliance on strong marker correspondence between the two species."
+}

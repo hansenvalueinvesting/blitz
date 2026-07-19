@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-01",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "A bus is traveling at a constant speed along a straight portion of road. The equation d = 30t gives the distance d, in feet from a road marker, that the bus will be t seconds after passing the marker. How many feet from the marker will the bus be 2 seconds after passing the marker?",
+  "choices": [
+    "30",
+    "32",
+    "60",
+    "90"
+  ],
+  "answer": "60",
+  "explanation": "Substitute t = 2 into d = 30t to get d = 30(2) = 60. So the bus is 60 feet past the marker after 2 seconds. Choice 30 is the distance after only 1 second."
+}

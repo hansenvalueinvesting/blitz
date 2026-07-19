@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw1-13",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat8",
+  "stem": "When construction of a single-family house begins, it is called a housing start. In the first four months of 2022, the highest number of housing starts in the United States was in _____\n\nWhich choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+    "April.",
+    "March.",
+    "January.",
+    "February."
+  ],
+  "answer": "April.",
+  "explanation": "The table shows April with 1,803 thousand housing starts, the largest of the four months listed. March (1,713), January (1,669), and February (1,771) all fall below April’s total.",
+  "image": "sat8-rw1-13.png"
+}

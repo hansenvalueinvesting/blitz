@@ -1,0 +1,17 @@
+{
+  "id": "sat8-m2-01",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear functions",
+  "source": "sat8",
+  "stem": "What is the y-intercept of the line graphed?",
+  "choices": [
+    "(−5, 0)",
+    "(0, 0)",
+    "(0, 5)",
+    "(0, 9)"
+  ],
+  "answer": "(0, 5)",
+  "explanation": "The y-intercept is where the line crosses the y-axis, meaning x = 0. The graphed line passes through the y-axis at a height of 5, so its y-intercept is (0, 5).",
+  "image": "sat8-m2-01.png"
+}

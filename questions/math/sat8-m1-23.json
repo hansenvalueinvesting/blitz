@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-23",
+  "section": "math",
+  "module": 1,
+  "topic": "Statistics and probability",
+  "source": "sat8",
+  "stem": "Weight (pounds) | Frequency\n13 | 12\n14 | 8\n15 | 5\n16 | 7\n17 | 9\n18 | 10\n19 | 13\n20 | 7\n\nThe frequency table summarizes a data set of the weights, rounded to the nearest pound, of 71 tortoises. A weight of 39 pounds is added to the original data set, creating a new data set of the weights, rounded to the nearest pound, of 72 tortoises. Which statement best compares the mean and median of the new data set to the mean and median of the original data set?",
+  "choices": [
+    "The mean of the new data set is greater than the mean of the original data set, and the median of the new data set is greater than the median of the original data set.",
+    "The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal.",
+    "The mean of the new data set is less than the mean of the original data set, and the median of the new data set is less than the median of the original data set.",
+    "The mean of the new data set is less than the mean of the original data set, and the medians of the two data sets are equal."
+  ],
+  "answer": "The mean of the new data set is greater than the mean of the original data set, and the medians of the two data sets are equal.",
+  "explanation": "The added weight of 39 is larger than every original value, so it pulls the mean upward. The original median (36th of 71 values) is 17, and for the 72-value set the median is the average of the 36th and 37th values, both still 17, so the median is unchanged."
+}

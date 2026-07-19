@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-23",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "Increased gender diversity is revitalizing the field of economics, according to Harvard’s Claudia Goldin. The trailblazing accomplishments of Goldin, winner of the 2023 Nobel Prize in Economics for her work on women in the labor force, _______ to the value of scholars of diverse backgrounds in spurring research into previously unexplored, but vitally important, topics.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "attests",
+    "has attested",
+    "is attesting",
+    "attest"
+  ],
+  "answer": "attest",
+  "explanation": "The subject is the plural “accomplishments” (not “Goldin”), so it takes the plural verb “attest.” The singular forms “attests,” “has attested,” and “is attesting” don’t agree with that plural subject."
+}

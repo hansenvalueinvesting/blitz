@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-26",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "Jetties—long, narrow structures that extend from a landmass into the water—are often constructed to protect coastlines from erosion. Jetties can sometimes have the opposite _______ obstructing the natural flow of sand along the shore can lead to increased erosion in some areas.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "effect, though;",
+    "effect, though",
+    "effect; though",
+    "effect, though,"
+  ],
+  "answer": "effect, though;",
+  "explanation": "A comma sets off the supplementary adverb “though” after the first main clause, and the semicolon then joins the second main clause (“obstructing…areas”). The other options either fail to mark the clause boundary or misgroup “though” with the following clause, distorting the logic."
+}

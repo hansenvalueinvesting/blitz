@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m1-06",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "2.6 + x = 2.8\n\nWhat value of x is the solution to the given equation?",
+  "choices": [
+    "0.2"
+  ],
+  "answer": "0.2",
+  "explanation": "Subtract 2.6 from both sides: x = 2.8 − 2.6 = 0.2."
+}

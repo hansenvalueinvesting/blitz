@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m2-13",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "What is the area, in square centimeters, of a rectangle with a length of 34 centimeters (cm) and a width of 29 cm?",
+  "choices": [
+    "986"
+  ],
+  "answer": "986",
+  "explanation": "The area of a rectangle is length times width. Multiplying 34 by 29 gives 986 square centimeters."
+}

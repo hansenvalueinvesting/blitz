@@ -1,0 +1,17 @@
+{
+  "id": "sat8-m2-05",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "For the right triangle shown, a = 4 and b = 5. Which expression represents the value of c ?",
+  "choices": [
+    "4 + 5",
+    "√((4)(5))",
+    "√(4 + 5)",
+    "√(4² + 5²)"
+  ],
+  "answer": "√(4² + 5²)",
+  "explanation": "In the right triangle, a and b are the legs and c is the hypotenuse, so by the Pythagorean theorem c² = a² + b². Substituting a = 4 and b = 5 and taking the positive square root gives c = √(4² + 5²).",
+  "image": "sat8-m2-05.png"
+}

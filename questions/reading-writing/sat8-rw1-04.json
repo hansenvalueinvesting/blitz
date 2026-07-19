@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-04",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "The Mule Bone, a 1930 play written by Zora Neale Hurston and Langston Hughes, is perhaps the best-known of the few examples of _______ in literature. Most writers prefer working alone, and given that working together cost Hurston and Hughes their friendship, it is not hard to see why.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "characterization",
+    "interpretation",
+    "collaboration",
+    "commercialization"
+  ],
+  "answer": "collaboration",
+  "explanation": "The passage stresses that the play was written by two authors “working together,” so “collaboration”—joint authorship—fits. The other options refer to portraying characters, explaining a work’s meaning, or making a work commercially appealing, none of which the text is about."
+}

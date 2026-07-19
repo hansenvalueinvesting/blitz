@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-22",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "In 1943, in the midst of World War II, mathematics professor Grace Hopper was recruited by the US military to help the war effort by solving complex equations. Hopper’s subsequent career would involve more than just _______ as a pioneering computer programmer, Hopper would help usher in the digital age.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "equations, though:",
+    "equations, though,",
+    "equations. Though,",
+    "equations though"
+  ],
+  "answer": "equations, though:",
+  "explanation": "A comma sets off the interrupting “though,” and the colon after it introduces the explanation of what more her career involved. The comma-only and no-punctuation options fuse two independent clauses, and starting a new sentence with “Though,” illogically frames the second clause as a contrast rather than an explanation."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-03",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat8",
+  "stem": "What is the y-intercept of the graph shown?",
+  "choices": [
+    "(−8, 0)",
+    "(−6, 0)",
+    "(0, 6)",
+    "(0, 8)"
+  ],
+  "answer": "(0, 8)",
+  "explanation": "The y-intercept is where the curve crosses the y-axis, which happens at x = 0. The graph crosses the y-axis at a height of 8, so the y-intercept is (0, 8)."
+}

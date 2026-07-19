@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-23",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "The forty-seven geothermal springs of Arkansas’ Hot Springs National Park are sourced via a process known as natural groundwater recharge, in which rainwater percolates downward through the earth—in this case, the porous rocks of the hills around Hot ______ collect in a subterranean basin.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "Springs to",
+    "Springs: to",
+    "Springs—to",
+    "Springs, to"
+  ],
+  "answer": "Springs—to",
+  "explanation": "A dash after “Springs” pairs with the earlier dash after “earth” to set off the supplementary phrase “in this case, the porous rocks of the hills around Hot Springs.” A colon or comma can’t be paired with a dash this way, and no punctuation leaves the element unmarked."
+}

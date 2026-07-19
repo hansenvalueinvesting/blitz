@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-30",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat8",
+  "stem": "Upon first approaching artist Kurt Wenner’s Dies Irae, a colorful scene painted on the surface of a cobblestone street in Mantua, Italy, one might assume a deep hole filled with life-sized, classically styled sculptures had opened up in the street. _______ by expertly applying the principles of perspective, Wenner created merely the illusion of depth.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Additionally,",
+    "On the contrary,",
+    "As a result,",
+    "Next,"
+  ],
+  "answer": "On the contrary,",
+  "explanation": "A viewer might assume a real hole opened in the street, but the sentence reveals it is only an illusion of depth—an opposition, so “On the contrary” fits. “Additionally,” “As a result,” and “Next” signal addition, consequence, or sequence, none of which matches the contrast."
+}

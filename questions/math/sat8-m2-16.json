@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-16",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "If 9(4 − 3x) + 2 = 8(4 − 3x) + 18, what is the value of 4 − 3x ?",
+  "choices": [
+    "−16",
+    "−4",
+    "4",
+    "16"
+  ],
+  "answer": "16",
+  "explanation": "Treat 4 − 3x as a single quantity. Subtracting 8(4 − 3x) and 2 from both sides gives (4 − 3x) = 18 − 2 = 16."
+}

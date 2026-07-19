@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-06",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Text structure and purpose",
+  "source": "sat8",
+  "stem": "In 2007, computer scientist Luis von Ahn was working on converting printed books into a digital format. He found that some words were distorted enough that digital scanners couldn’t recognize them, but most humans could easily read them. Based on that finding, von Ahn invented a simple security test to keep automated “bots” out of websites. The first version of the reCAPTCHA test asked users to type one known word and one of the many words scanners couldn’t recognize. Correct answers proved the users were humans and added data to the book-digitizing project.\n\nWhich choice best states the main purpose of the text?",
+  "choices": [
+    "To discuss von Ahn’s invention of reCAPTCHA",
+    "To explain how digital scanners work",
+    "To call attention to von Ahn’s book-digitizing project",
+    "To indicate how popular reCAPTCHA is"
+  ],
+  "answer": "To discuss von Ahn’s invention of reCAPTCHA",
+  "explanation": "After briefly introducing von Ahn, the text focuses on how his book-digitizing work led him to create the reCAPTCHA security test. The scanners and the digitizing project are supporting details, not the main focus, and the text says nothing about reCAPTCHA’s popularity."
+}

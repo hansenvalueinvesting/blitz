@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-23",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat8",
+  "stem": "y = 6x + 18\n\nOne of the equations in a system of two linear equations is given. The system has no solution. Which equation could be the second equation in the system?",
+  "choices": [
+    "−6x + y = 18",
+    "−6x + y = 22",
+    "−12x + y = 36",
+    "−12x + y = 18"
+  ],
+  "answer": "−6x + y = 22",
+  "explanation": "A system has no solution when the two lines are parallel but distinct, meaning the same slope with a different intercept. Rewriting the given line as −6x + y = 18 shows slope 6; the choice −6x + y = 22 has the same left side but a different constant, so it is parallel and distinct."
+}

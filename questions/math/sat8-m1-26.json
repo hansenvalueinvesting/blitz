@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-26",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat8",
+  "stem": "The functions f and g are defined by the given equations, where x ≥ 0. Which of the following equations displays, as a constant or coefficient, the maximum value of the function it defines, where x ≥ 0 ?\n\nI. f(x) = 18(1.25)^x + 41\nII. g(x) = 9(0.73)^x",
+  "choices": [
+    "I only",
+    "II only",
+    "I and II",
+    "Neither I nor II"
+  ],
+  "answer": "II only",
+  "explanation": "In f, the base 1.25 is greater than 1, so f increases without bound and has no maximum. In g, the base 0.73 is less than 1, so g decreases and reaches its maximum at x = 0, where g(0) = 9 — the coefficient shown. So only II displays its maximum value."
+}

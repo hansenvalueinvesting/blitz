@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m1-27",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "The perimeter of an equilateral triangle is 852 centimeters. The three vertices of the triangle lie on a circle. The radius of the circle is w√3 centimeters. What is the value of w ?",
+  "choices": [
+    "284/3"
+  ],
+  "answer": "284/3",
+  "explanation": "Each side is 852/3 = 284 cm. For an equilateral triangle inscribed in a circle, the circumradius is R = side/√3 = 284/√3. Setting w√3 = 284/√3 gives w·3 = 284, so w = 284/3."
+}

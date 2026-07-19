@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-31",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat8",
+  "stem": "Economist Elinor Ostrom’s studies of communities around the world have empirically demonstrated that common pool resources, such as grazing lands, can be sustainably managed by the people who use them (rather than through private entities or centralized governments). _______ Ostrom’s work is a repudiation of the “tragedy of the commons,” the view that individuals will inevitably overexploit a finite shared resource if given unfettered access to it.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "By contrast,",
+    "For example,",
+    "That said,",
+    "As such,"
+  ],
+  "answer": "As such,",
+  "explanation": "Because Ostrom’s studies show shared resources can be sustainably self-managed, it follows that her work rejects the “tragedy of the commons”—so “As such” signals that conclusion. “By contrast,” “For example,” and “That said” wrongly imply opposition, illustration, or a caveat."
+}

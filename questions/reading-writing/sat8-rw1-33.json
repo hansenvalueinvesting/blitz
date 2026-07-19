@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-33",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Rhetorical synthesis",
+  "source": "sat8",
+  "stem": "While researching a topic, a student has taken the following notes:\n• British musicians John Lennon and Paul McCartney shared writing credit for numerous Beatles songs.\n• Many Lennon-McCartney songs were actually written by either Lennon or McCartney, not by both.\n• The exact authorship of specific parts of many Beatles songs, such as the verse for “In My Life,” is disputed.\n• Mark Glickman, Jason Brown, and Ryan Song used statistical methods to analyze the musical content of Beatles songs.\n• They concluded that there is 18.9% probability that McCartney wrote the verse for “In My Life,” stating that the verse is “consistent with Lennon’s songwriting style.”\n\nThe student wants to make a generalization about the kind of study conducted by Glickman, Brown, and Song. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "Based on statistical analysis, Glickman, Brown, and Song claim that John Lennon wrote the verse of “In My Life.”",
+    "There is only an 18.9% probability that Paul McCartney wrote the verse for “In My Life”; John Lennon is the more likely author.",
+    "It is likely that John Lennon, not Paul McCartney, wrote the verse for “In My Life.”",
+    "Researchers have used statistical methods to address questions of authorship within the field of music."
+  ],
+  "answer": "Researchers have used statistical methods to address questions of authorship within the field of music.",
+  "explanation": "Choice D generalizes about the type of study—using statistical methods to settle musical authorship questions—rather than reporting one specific result. The other options zero in on the single “In My Life” finding, so they don’t make the broad generalization the student wants."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-21",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "After the United Kingdom began rolling out taxes equivalent to a few cents on single-use plastic grocery bags in 2011, plastic-bag consumption decreased by up to ninety _______ taxes are subject to what economists call the “rebound effect”: as the change became normalized, plastic-bag use started to creep back up.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "percent, such",
+    "percent and such",
+    "percent. Such",
+    "percent such"
+  ],
+  "answer": "percent. Such",
+  "explanation": "A period is needed to separate the two independent clauses (“After…percent” and “Such…up”). A comma alone makes a splice, “and” without a comma can’t join them, and no punctuation at all creates a run-on."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw1-12",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat8",
+  "stem": "Some oceanic fish species live very deep underwater. Researchers collected data about the depths at which various species live.\n\nBased on the information in the table, at what depth does the southern stoplight loosejaw live?",
+  "choices": [
+    "More than 2,000 meters below the surface",
+    "150 to 400 meters below the surface",
+    "500 to 2,000 meters below the surface",
+    "250 to 500 meters below the surface"
+  ],
+  "answer": "500 to 2,000 meters below the surface",
+  "explanation": "The table lists the southern stoplight loosejaw’s depth range as 500–2,000 meters below the surface, matching choice C. The other options misstate that range as deeper than 2,000 meters or as narrower bands the table doesn’t give for this species.",
+  "image": "sat8-rw1-12.png"
+}

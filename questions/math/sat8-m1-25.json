@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-25",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "In the xy-plane, the graph of the equation y = −x² + 9x − 100 intersects the line y = c at exactly one point. What is the value of c?",
+  "choices": [
+    "−481/4",
+    "−100",
+    "−319/4",
+    "−9/2"
+  ],
+  "answer": "−319/4",
+  "explanation": "A horizontal line y = c meets a parabola at exactly one point only at the vertex, so c equals the vertex's y-value. The vertex is at x = −9/(2·−1) = 9/2, and y = −(9/2)² + 9(9/2) − 100 = −81/4 + 81/2 − 100 = −319/4."
+}

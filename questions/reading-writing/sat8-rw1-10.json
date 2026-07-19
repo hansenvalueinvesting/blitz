@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-10",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Central ideas and details",
+  "source": "sat8",
+  "stem": "For many years, the only existing fossil evidence of mixopterid eurypterids—an extinct family of large aquatic arthropods known as sea scorpions and related to modern arachnids and horseshoe crabs—came from four species living on the paleocontinent of Laurussia. In a discovery that expands our understanding of the geographical distribution of mixopterids, paleontologist Bo Wang and others have identified fossilized remains of a new mixopterid species, Terropterus xiushanensis, that lived over 400 million years ago on the paleocontinent of Gondwana.\n\nAccording to the text, why was Wang and his team’s discovery of the Terropterus xiushanensis fossil significant?",
+  "choices": [
+    "The fossil constitutes the first evidence found by scientists that mixopterids lived more than 400 million years ago.",
+    "The fossil helps establish that mixopterids are more closely related to modern arachnids and horseshoe crabs than previously thought.",
+    "The fossil helps establish a more accurate timeline of the evolution of mixopterids on the paleocontinents of Laurussia and Gondwana.",
+    "The fossil constitutes the first evidence found by scientists that mixopterids existed outside the paleocontinent of Laurussia."
+  ],
+  "answer": "The fossil constitutes the first evidence found by scientists that mixopterids existed outside the paleocontinent of Laurussia.",
+  "explanation": "The text says mixopterid fossils had only ever been found on Laurussia, and this new species was found on Gondwana—expanding their known geographical range. That makes the discovery significant as the first evidence of mixopterids beyond Laurussia. The passage says nothing about revising their age, their relatedness to modern relatives, or their evolutionary timeline."
+}

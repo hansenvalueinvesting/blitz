@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-24",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "Triangles PQR and LMN are graphed in the xy-plane. Triangle PQR has vertices P, Q, and R at (4, 5), (4, 7), and (6, 5), respectively. Triangle LMN has vertices L, M, and N at (4, 5), (4, 7 + k), and (6 + k, 5), respectively, where k is a positive constant. If the measure of ∠Q is t°, what is the measure of ∠N ?",
+  "choices": [
+    "(90 − (t − k))°",
+    "(90 − (t + k))°",
+    "(90 − t)°",
+    "(90 + k)°"
+  ],
+  "answer": "(90 − t)°",
+  "explanation": "Triangle PQR is a right isosceles triangle with the right angle at P, so ∠Q = ∠R = 45°, meaning t = 45. Triangle LMN is also a right isosceles triangle with the right angle at L, so ∠N = 45° as well; only (90 − t)° equals 45°."
+}

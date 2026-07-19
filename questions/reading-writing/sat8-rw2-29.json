@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-29",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat8",
+  "stem": "At two weeks old, the time their critical socialization period begins, wolves can smell but cannot yet see or hear. Domesticated dogs, _______ can see, hear, and smell by the end of two weeks. This relative lack of sensory input may help explain why wolves behave so differently around humans than dogs do: from a very young age, wolves are more wary and less exploratory.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "in other words,",
+    "for instance,",
+    "by contrast,",
+    "accordingly,"
+  ],
+  "answer": "by contrast,",
+  "explanation": "Dogs can see, hear, and smell by two weeks, unlike wolves, which can only smell—an opposition, so “by contrast” fits. “In other words,” “for instance,” and “accordingly” wrongly signal restatement, example, or consequence."
+}

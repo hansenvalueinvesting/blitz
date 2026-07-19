@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-02",
+  "section": "math",
+  "module": 1,
+  "topic": "Statistics and probability",
+  "source": "sat8",
+  "stem": "For a particular machine that produces beads, 29 out of every 100 beads it produces have a defect. A bead produced by the machine will be selected at random. What is the probability of selecting a bead that has a defect?",
+  "choices": [
+    "1/2,900",
+    "1/29",
+    "29/100",
+    "29/10"
+  ],
+  "answer": "29/100",
+  "explanation": "The probability equals the number of defective beads divided by the total number of beads. Since 29 of every 100 beads are defective, the probability is 29/100."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-05",
+  "section": "math",
+  "module": 1,
+  "topic": "Statistics and probability",
+  "source": "sat8",
+  "stem": "An analyst collected data on the price of a carton of grape tomatoes at 30 locations selected at random in Utah. The mean price of a carton of grape tomatoes in Utah was estimated to be $4.23, with an associated margin of error of $0.08. Which of the following is a plausible statement about the mean price of a carton of grape tomatoes for all locations that sell this product in Utah?",
+  "choices": [
+    "It is between $4.15 and $4.31.",
+    "It is either less than $4.15 or greater than $4.31.",
+    "It is less than $4.15.",
+    "It is greater than $4.31."
+  ],
+  "answer": "It is between $4.15 and $4.31.",
+  "explanation": "Plausible values lie within the margin of error of the estimate: $4.23 − $0.08 = $4.15 up to $4.23 + $0.08 = $4.31. So the mean price is plausibly between $4.15 and $4.31."
+}

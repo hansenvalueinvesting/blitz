@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-22",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "In 1966, Emmett Ashford became the first African American to umpire a Major League Baseball game. His energetic gestures announcing when a player had struck out and his habit of barreling after a hit ball to see if it would land out of _______ transform the traditionally solemn umpire role into a dynamic one.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "bounds helped",
+    "bounds, helping",
+    "bounds that helped",
+    "bounds to help"
+  ],
+  "answer": "bounds helped",
+  "explanation": "The subject (“gestures” and “habit”) needs a finite main verb, and “helped” provides it. The participle “helping,” the relative clause “that helped,” and the infinitive “to help” all leave the sentence without a finite main verb."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-17",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat8",
+  "stem": "A certain township consists of a 5-hectare industrial park and a 24-hectare neighborhood. The total number of trees in the township is 4,529. The equation 5x + 24y = 4,529 represents this situation. Which of the following is the best interpretation of x in this context?",
+  "choices": [
+    "The average number of trees per hectare in the industrial park",
+    "The average number of trees per hectare in the neighborhood",
+    "The total number of trees in the industrial park",
+    "The total number of trees in the neighborhood"
+  ],
+  "answer": "The average number of trees per hectare in the industrial park",
+  "explanation": "The term 5x multiplies the industrial park's 5 hectares by x to give its total trees, so x must be trees per hectare there. Thus x is the average number of trees per hectare in the industrial park."
+}

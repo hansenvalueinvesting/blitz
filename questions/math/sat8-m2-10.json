@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-10",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "The function f is defined by f(x) = 7x³. In the xy-plane, the graph of y = g(x) is the result of shifting the graph of y = f(x) down 2 units. Which equation defines function g ?",
+  "choices": [
+    "g(x) = (7/2)x³",
+    "g(x) = 7x^(3/2)",
+    "g(x) = 7x³ + 2",
+    "g(x) = 7x³ − 2"
+  ],
+  "answer": "g(x) = 7x³ − 2",
+  "explanation": "Shifting a graph down 2 units subtracts 2 from the output, so g(x) = f(x) − 2. With f(x) = 7x³, this gives g(x) = 7x³ − 2."
+}

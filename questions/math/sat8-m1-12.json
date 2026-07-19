@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-12",
+  "section": "math",
+  "module": 1,
+  "topic": "Exponential functions",
+  "source": "sat8",
+  "stem": "A model predicts that the population of Bergen was 15,000 in 2005. The model also predicts that each year for the next 5 years, the population p increased by 4% of the previous year's population. Which equation best represents this model, where x is the number of years after 2005, for x ≤ 5 ?",
+  "choices": [
+    "p = 0.96(15,000)^x",
+    "p = 1.04(15,000)^x",
+    "p = 15,000(0.96)^x",
+    "p = 15,000(1.04)^x"
+  ],
+  "answer": "p = 15,000(1.04)^x",
+  "explanation": "A 4% yearly increase multiplies the previous population by 1.04 each year. Starting from 15,000, after x years the population is 15,000(1.04)^x."
+}

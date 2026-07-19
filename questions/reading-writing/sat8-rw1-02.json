@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-02",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "Mônica Lopes-Ferreira and others at Brazil’s Butantan Institute are studying the freshwater stingray species Potamotrygon rex to determine whether biological characteristics such as the rays’ age and sex have _______ effect on the toxicity of their venom—that is, to see if differences in these traits are associated with considerable variations in venom potency.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "a disconcerting",
+    "an acceptable",
+    "an imperceptible",
+    "a substantial"
+  ],
+  "answer": "a substantial",
+  "explanation": "The phrase “considerable variations in venom potency” signals that the researchers are checking for a sizable, noteworthy effect, which is what “a substantial” means. “Disconcerting” and “acceptable” introduce judgments the text never makes, and “imperceptible” would mean an effect too small to notice—the opposite of what “considerable variations” implies."
+}

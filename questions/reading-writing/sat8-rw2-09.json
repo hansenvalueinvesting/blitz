@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-09",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Cross-text connections",
+  "source": "sat8",
+  "stem": "Text 1\nEcologists have long wondered how thousands of microscopic phytoplankton species can live together near ocean surfaces competing for the same resources. According to conventional wisdom, one species should emerge after outcompeting the rest. So why do so many species remain? Ecologists’ many efforts to explain this phenomenon still haven’t uncovered a satisfactory explanation.\n\nText 2\nEcologist Michael Behrenfeld and colleagues have connected phytoplankton’s diversity to their microscopic size. Because these organisms are so tiny, they are spaced relatively far apart from each other in ocean water and, moreover, experience that water as a relatively dense substance. This in turn makes it hard for them to move around and interact with one another. Therefore, says Behrenfeld’s team, direct competition among phytoplankton probably happens much less than previously thought.\n\nBased on the texts, how would Behrenfeld and colleagues (Text 2) most likely respond to the “conventional wisdom” discussed in Text 1?",
+  "choices": [
+    "By arguing that it is based on a misconception about phytoplankton species competing with one another",
+    "By asserting that it fails to recognize that routine replenishment of ocean nutrients prevents competition between phytoplankton species",
+    "By suggesting that their own findings help clarify how phytoplankton species are able to compete with larger organisms",
+    "By recommending that more ecologists focus their research on how competition among phytoplankton species is increased with water density"
+  ],
+  "answer": "By arguing that it is based on a misconception about phytoplankton species competing with one another",
+  "explanation": "Text 1’s conventional wisdom assumes intense competition should leave a single winning species. Behrenfeld’s team argues in Text 2 that the tiny, widely spaced organisms actually compete far less than assumed, so they would say the conventional wisdom rests on a mistaken premise about competition. The other options misstate Text 2, which never mentions nutrient replenishment, competition with larger organisms, or competition rising with density."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m2-26",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "x²/√(x² − c²) = c²/√(x² − c²) + 39\n\nIn the given equation, c is a positive constant. Which of the following is one of the solutions to the given equation?",
+  "choices": [
+    "−c",
+    "−c² − 39²",
+    "−√(39² − c²)",
+    "−√(c² + 39²)"
+  ],
+  "answer": "−√(c² + 39²)",
+  "explanation": "Subtracting c²/√(x² − c²) from both sides gives (x² − c²)/√(x² − c²) = 39, which simplifies to √(x² − c²) = 39. Squaring gives x² − c² = 39², so x² = c² + 39² and x = ±√(c² + 39²); one solution is −√(c² + 39²)."
+}

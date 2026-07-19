@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-03",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "Kelp forests grow underwater along the eastern Pacific Coast. These underwater forests are important to fish and other marine animals. Ocean currents can be powerful and rough, making it difficult for animals to find safe places to hide from predators. The underwater forests slow down the currents. This creates a more _______ environment with calmer waters where animals can take shelter.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "tranquil",
+    "dangerous",
+    "imaginative",
+    "surprising"
+  ],
+  "answer": "tranquil",
+  "explanation": "“Tranquil” means calm and undisturbed, matching the “calmer waters where animals can take shelter” that the kelp forests create by slowing currents. “Dangerous” contradicts the safe, sheltering environment described, while “imaginative” and “surprising” don’t fit a description of calm water."
+}

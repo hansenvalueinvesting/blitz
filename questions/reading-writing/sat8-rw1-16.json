@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-16",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat8",
+  "stem": "In the mountains of Brazil, Barbacenia tomentosa and Barbacenia macrantha—two plants in the Velloziaceae family—establish themselves on soilless, nutrient-poor patches of quartzite rock. Plant ecologists Anna Abrahão and Patricia de Britto Costa used microscopic analysis to determine that the roots of B. tomentosa and B. macrantha, which grow directly into the quartzite, have clusters of fine hairs near the root tip; further analysis indicated that these hairs secrete both malic and citric acids. The researchers hypothesize that the plants depend on dissolving underlying rock with these acids, as the process not only creates channels for continued growth but also releases phosphates that provide the vital nutrient phosphorus.\n\nWhich finding, if true, would most directly support the researchers’ hypothesis?",
+  "choices": [
+    "Other species in the Velloziaceae family are found in terrains with more soil but have root structures similar to those of B. tomentosa and B. macrantha.",
+    "Though B. tomentosa and B. macrantha both secrete citric and malic acids, each species produces the acids in different proportions.",
+    "The roots of B. tomentosa and B. macrantha carve new entry points into rocks even when cracks in the surface are readily available.",
+    "B. tomentosa and B. macrantha thrive even when transferred to the surfaces of rocks that do not contain phosphates."
+  ],
+  "answer": "The roots of B. tomentosa and B. macrantha carve new entry points into rocks even when cracks in the surface are readily available.",
+  "explanation": "If the plants dissolve rock to make new openings even when existing cracks would let the roots in for free, they must be getting some benefit from the dissolving itself—just as the hypothesis claims. Different acid proportions and similar roots in soil-dwelling relatives are irrelevant, and thriving on phosphate-free rock would actually weaken the idea that they depend on dissolving rock for phosphorus."
+}

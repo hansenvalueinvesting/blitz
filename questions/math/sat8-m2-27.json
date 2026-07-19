@@ -1,0 +1,13 @@
+{
+  "id": "sat8-m2-27",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat8",
+  "stem": "The quadratic function g models the depth, in meters, below the surface of the water of a seal t minutes after the seal entered the water during a dive. The function estimates that the seal reached its maximum depth of 302.4 meters 6 minutes after it entered the water and then reached the surface of the water 12 minutes after it entered the water. Based on the function, what was the estimated depth, to the nearest meter, of the seal 10 minutes after it entered the water?",
+  "choices": [
+    "168"
+  ],
+  "answer": "168",
+  "explanation": "In vertex form g(t) = a(t − 6)² + 302.4. Using g(12) = 0 gives 36a + 302.4 = 0, so a = −8.4. Then g(10) = −8.4(10 − 6)² + 302.4 = −8.4(16) + 302.4 = 168 meters."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-04",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "In the Indigenous intercropping system known as the Three Sisters, maize, squash, and beans form an _______ web of relations: maize provides the structure on which the bean vines grow; the squash vines cover the soil, discouraging competition from weeds; and the beans aid their two “sisters” by enriching the soil with essential nitrogen.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "indecipherable",
+    "ornamental",
+    "obscure",
+    "intricate"
+  ],
+  "answer": "intricate",
+  "explanation": "The passage describes several interlocking relationships among maize, squash, and beans, so the web is complexly interconnected—“intricate.” The relationships are clearly explained (not indecipherable or obscure) and serve practical, not decorative (“ornamental”), purposes."
+}

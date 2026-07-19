@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-05",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "Ofelia Zepeda’s contributions to the field of linguistics are _______: her many accomplishments include working as a linguistics professor and bilingual poet, authoring the first Tohono O’odham grammar book, and co-founding the American Indian Language Development Institute.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "pragmatic",
+    "controversial",
+    "extensive",
+    "universal"
+  ],
+  "answer": "extensive",
+  "explanation": "The long, varied list of Zepeda’s accomplishments supports “extensive,” meaning wide-ranging or considerable. “Pragmatic” and “controversial” aren’t suggested by these positive achievements, and “universal” (covering everything) is too sweeping for the specific contributions listed."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-26",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "Compared to that of alumina glass, _______ silica glass atoms are so far apart that they are unable to re-form bonds after being separated.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "silica glass is at a significant disadvantage due to its more dispersed atomic arrangement:",
+    "silica glass has a more dispersed atomic arrangement, resulting in a significant disadvantage:",
+    "a significant disadvantage of silica glass is that its atomic arrangement is more dispersed:",
+    "silica glass’s atomic arrangement is more dispersed, resulting in a significant disadvantage:"
+  ],
+  "answer": "silica glass’s atomic arrangement is more dispersed, resulting in a significant disadvantage:",
+  "explanation": "The opening modifier “Compared to that of alumina glass” refers to an atomic arrangement, so the noun it modifies must be “silica glass’s atomic arrangement.” The other options place “silica glass” or “a significant disadvantage” right after the modifier, illogically comparing those things to alumina glass’s arrangement."
+}

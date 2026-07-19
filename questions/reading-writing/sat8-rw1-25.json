@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-25",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "English poet and Shakespeare contemporary John Donne’s _______ much admired during his lifetime (1572–1631) and in the decades that followed, had, at the time of their enthusiastic rediscovery by the early twentieth-century modernists, been essentially gathering dust for the intervening 250 years.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "works were",
+    "works, were",
+    "works,",
+    "works had been"
+  ],
+  "answer": "works,",
+  "explanation": "A comma after “works” opens a supplementary phrase (“much admired…followed”) that is later closed by another comma, leaving the main clause “works…had…been essentially gathering dust.” Adding a finite verb like “were” or “had been” creates two competing verbs and an ungrammatical sentence."
+}

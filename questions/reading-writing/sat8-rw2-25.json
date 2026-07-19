@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-25",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "Nigerian author Buchi Emecheta’s celebrated literary oeuvre includes The Joys of Motherhood, a novel about the changing roles of women in 1950s ______ a television play about the private struggles of a newlywed couple in Nigeria; and Head Above Water, her autobiography.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "Lagos, A Kind of Marriage,",
+    "Lagos; A Kind of Marriage,",
+    "Lagos, A Kind of Marriage:",
+    "Lagos; A Kind of Marriage"
+  ],
+  "answer": "Lagos; A Kind of Marriage,",
+  "explanation": "This is a complex series whose items contain internal commas, so semicolons separate the items: the semicolon after “Lagos” divides the first work from the second. The comma after “Marriage” then sets off the description of A Kind of Marriage. The other options misuse a comma between items or fail to punctuate the descriptive phrase."
+}

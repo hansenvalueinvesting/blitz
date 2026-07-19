@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-27",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Transitions",
+  "source": "sat8",
+  "stem": "The Alaska Native Language Archive (ANLA) is known for its impressive audio collection. _______ the ANLA has more than 5,000 audio recordings of Native Alaskan languages dating as far back as 1943.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "In fact,",
+    "After,",
+    "Regardless,",
+    "Instead,"
+  ],
+  "answer": "In fact,",
+  "explanation": "The second sentence backs up the first by giving the impressive figure of 5,000-plus recordings, so “In fact” fits as an emphasis marker. “After,” “Regardless,” and “Instead” wrongly signal sequence, concession, or contrast."
+}

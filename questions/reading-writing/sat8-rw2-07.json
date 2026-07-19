@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw2-07",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Text structure and purpose",
+  "source": "sat8",
+  "passage": "The following text is adapted from Gwendolyn Bennett’s 1926 poem “Street Lamps in Early Spring.”",
+  "stem": "Night wears a garment / All velvet soft, all violet blue... / And over her face she draws a veil / As shimmering fine as floating dew... / And here and there / In the black of her hair / The subtle hands of Night / Move slowly with their gem-starred light.\n\nWhich choice best describes the overall structure of the text?",
+  "choices": [
+    "It presents alternating descriptions of night in a rural area and in a city.",
+    "It sketches an image of nightfall, then an image of sunrise.",
+    "It makes an extended comparison of night to a human being.",
+    "It portrays how night changes from one season of the year to the next."
+  ],
+  "answer": "It makes an extended comparison of night to a human being.",
+  "explanation": "The poem personifies night throughout, giving it a garment, a veil over “her” face, and hands that move through “her” hair—an extended comparison of night to a person. It never contrasts rural and urban settings, depicts a sunrise, or trace seasonal change."
+}

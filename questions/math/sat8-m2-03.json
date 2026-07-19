@@ -1,0 +1,17 @@
+{
+  "id": "sat8-m2-03",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "In the figure, line m is parallel to line n, and line t intersects both lines. What is the value of x ?",
+  "choices": [
+    "33",
+    "57",
+    "123",
+    "147"
+  ],
+  "answer": "147",
+  "explanation": "Because m and n are parallel and t is a transversal, the x° angle and the 33° angle are exterior angles on the same side of the transversal, which are supplementary. So x + 33 = 180, giving x = 147.",
+  "image": "sat8-m2-03.png"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sat8-rw1-11",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (quantitative)",
+  "source": "sat8",
+  "stem": "In a recent study, researchers found that relatively few video games released over the decades remain available today. For example, only 14.22 percent of games are still available that were initially released in _______\n\nWhich choice most effectively uses data from the table to complete the statement?",
+  "choices": [
+    "2000–2004.",
+    "1995–1999.",
+    "1970–1974.",
+    "1985–1989."
+  ],
+  "answer": "1995–1999.",
+  "explanation": "The table pairs 14.22 percent availability with the release span 1995–1999, so that is the range that completes the statement. The 2000–2004 and 1970–1974 ranges don’t appear in the table, and 1985–1989 corresponds to 15.38 percent, not 14.22 percent.",
+  "image": "sat8-rw1-11.png"
+}

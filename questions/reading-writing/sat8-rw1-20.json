@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-20",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Form, structure, and sense",
+  "source": "sat8",
+  "stem": "In order to prevent nonnative fish species from moving freely between the Mediterranean and Red Seas, marine biologist Bella Galil has proposed that a saline lock system be installed along the Suez Canal in Egypt’s Great Bitter Lakes. The lock would increase the salinity of the lakes and _______ a natural barrier of water most marine creatures would be unable to cross.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "creates",
+    "create",
+    "creating",
+    "created"
+  ],
+  "answer": "create",
+  "explanation": "The modal “would” pairs with the plain-form verb “create,” matching “increase” in describing what the lock would do (“would increase…and create”). The tensed forms “creates” and “created” and the participle “creating” can’t follow “would” here."
+}

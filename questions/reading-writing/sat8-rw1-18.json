@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-18",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Inferences",
+  "source": "sat8",
+  "stem": "Birds of many species ingest foods containing carotenoids, pigmented molecules that are converted into feather coloration. Coloration tends to be especially saturated in male birds’ feathers, and because carotenoids also confer health benefits, the deeply saturated colors generally serve to communicate what is known as an honest signal of a bird’s overall fitness to potential mates. However, ornithologist Allison J. Shultz and others have found that males in several species of the tanager genus Ramphocelus use microstructures in their feathers to manipulate light, creating the appearance of deeper saturation without the birds necessarily having to maintain a carotenoid-rich diet. These findings suggest that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "individual male tanagers can engage in honest signaling without relying on carotenoid consumption.",
+    "feather microstructures may be less effective than deeply saturated feathers for signaling overall fitness.",
+    "scientists have yet to determine why tanagers have a preference for mates with colorful appearances.",
+    "a male tanager’s appearance may function as a dishonest signal of the individual’s overall fitness."
+  ],
+  "answer": "a male tanager’s appearance may function as a dishonest signal of the individual’s overall fitness.",
+  "explanation": "Deep saturation is normally an “honest” signal because it reflects a carotenoid-rich, healthy diet. Since these tanagers fake that saturation with light-bending microstructures rather than diet, their showy appearance can misrepresent their fitness—a dishonest signal. The passage doesn’t support calling that signaling honest, comparing effectiveness, or claiming scientists can’t explain mate preferences."
+}

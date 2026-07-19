@@ -1,0 +1,16 @@
+{
+  "id": "sat8-m1-09",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat8",
+  "stem": "Right triangles LMN and PQR are similar, where L and M correspond to P and Q, respectively. Angle M has a measure of 53°. What is the measure of angle Q ?",
+  "choices": [
+    "37°",
+    "53°",
+    "127°",
+    "143°"
+  ],
+  "answer": "53°",
+  "explanation": "Corresponding angles of similar triangles are congruent. Since angle M corresponds to angle Q, angle Q has the same measure as angle M, which is 53°."
+}

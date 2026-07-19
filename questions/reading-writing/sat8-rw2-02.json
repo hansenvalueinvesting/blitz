@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw2-02",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat8",
+  "stem": "Researchers and conservationists stress that biodiversity loss due to invasive species is _______. For example, people can take simple steps such as washing their footwear after travel to avoid introducing potentially invasive organisms into new environments.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "preventable",
+    "undeniable",
+    "common",
+    "concerning"
+  ],
+  "answer": "preventable",
+  "explanation": "The second sentence gives simple steps people can take to avoid spreading invasive species, so the first sentence must assert that this biodiversity loss can be stopped—“preventable.” The example illustrates prevention, not something undeniable, common, or merely concerning."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-27",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Transitions",
+  "source": "sat8",
+  "stem": "In November 1934, Amrita Sher-Gil was living in what must have seemed like the ideal city for a young artist: Paris. She was studying firsthand the color-saturated style of France’s modernist masters and beginning to make a name for herself as a painter. _______ Sher-Gil longed to return to her childhood home of India; only there, she believed, could her art truly flourish.\n\nWhich choice completes the text with the most logical transition?",
+  "choices": [
+    "Still,",
+    "Therefore,",
+    "Indeed,",
+    "Furthermore,"
+  ],
+  "answer": "Still,",
+  "explanation": "Despite Paris seeming ideal, Sher-Gil wanted to leave for India—a contrast that “Still” signals. “Therefore” implies a consequence, and “Indeed” and “Furthermore” imply added support, none of which fits this reversal of expectations."
+}

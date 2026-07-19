@@ -1,0 +1,16 @@
+{
+  "id": "sat8-rw1-15",
+  "section": "reading-writing",
+  "module": 1,
+  "topic": "Command of evidence (textual)",
+  "source": "sat8",
+  "stem": "Researchers hypothesized that a decline in the population of dusky sharks near the mid-Atlantic coast of North America led to a decline in the population of eastern oysters in the region. Dusky sharks do not typically consume eastern oysters but do consume cownose rays, which are the main predators of the oysters.\n\nWhich finding, if true, would most directly support the researchers’ hypothesis?",
+  "choices": [
+    "Declines in the regional abundance of dusky sharks’ prey other than cownose rays are associated with regional declines in dusky shark abundance.",
+    "Eastern oyster abundance tends to be greater in areas with both dusky sharks and cownose rays than in areas with only dusky sharks.",
+    "Consumption of eastern oysters by cownose rays in the region substantially increased before the regional decline in dusky shark abundance began.",
+    "Cownose rays have increased in regional abundance as dusky sharks have decreased in regional abundance."
+  ],
+  "answer": "Cownose rays have increased in regional abundance as dusky sharks have decreased in regional abundance.",
+  "explanation": "The hypothesis works through a chain: fewer sharks means more cownose rays, which eat more oysters, reducing the oyster population. Finding that ray numbers rose as shark numbers fell supplies the missing middle link. The other options concern other prey, describe patterns that would undercut the ray-oyster link, or place the oyster decline before the shark decline."
+}
