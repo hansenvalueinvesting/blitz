@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-07",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "In addition to being an accomplished psychologist himself, Francis Cecil Sumner was a _______ increasing the opportunity for Black students to study psychology, helping to found the psychology department at Howard University, a historically Black university, in 1930.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "proponent of",
+    "supplement to",
+    "beneficiary of",
+    "distraction for"
+  ],
+  "answer": "proponent of",
+  "explanation": "A “proponent of” something is a supporter of it. Helping to found a psychology department at a historically Black university is evidence that Sumner actively supported expanding these opportunities, not that he was a supplement to, beneficiary of, or distraction for them."
+}

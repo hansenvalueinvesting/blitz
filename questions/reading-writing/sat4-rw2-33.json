@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-33",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat4",
+  "stem": "While researching a topic, a student has taken the following notes:\n• The magnificent frigatebird (fregata magnificens) is a species of seabird that feeds mainly on fish, tuna, squid, and other small sea animals.\n• It is unusual among seabirds in that it doesn’t dive into the water for prey.\n• One way it acquires food is by using its hook-tipped bill to snatch prey from the surface of the water.\n• Another way it acquires food is by taking it from weaker birds by force.\n• This behavior is known as kleptoparasitism.\n\nThe student wants to emphasize a similarity between the two ways a magnificent frigatebird acquires food. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "A magnificent frigatebird never dives into the water, instead using its hook-tipped bill to snatch prey from the surface.",
+    "Neither of a magnificent frigatebird’s two ways of acquiring food requires the bird to dive into the water.",
+    "Of the magnificent frigatebird’s two ways of acquiring food, only one is known as kleptoparasitism.",
+    "In addition to snatching prey from the water with its hook-tipped bill, a magnificent frigatebird takes food from other birds by force."
+  ],
+  "answer": "Neither of a magnificent frigatebird’s two ways of acquiring food requires the bird to dive into the water.",
+  "explanation": "The goal is a similarity between the two feeding methods. Choice B highlights what both share—neither requires diving. The others describe only one method, contrast the two, or simply list them without emphasizing a shared trait."
+}

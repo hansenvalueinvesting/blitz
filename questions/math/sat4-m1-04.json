@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-04",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat4",
+  "stem": "3 more than 8 times a number x is equal to 83. Which equation represents this situation?",
+  "choices": [
+    "(3)(8)x = 83",
+    "8x = 83 + 3",
+    "3x + 8 = 83",
+    "8x + 3 = 83"
+  ],
+  "answer": "8x + 3 = 83",
+  "explanation": "“8 times a number x” is 8x, and “3 more than” that is 8x + 3. Setting this equal to 83 gives 8x + 3 = 83."
+}

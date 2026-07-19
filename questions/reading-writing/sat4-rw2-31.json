@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-31",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Rhetorical synthesis",
+  "source": "sat4",
+  "stem": "While researching a topic, a student has taken the following notes:\n• In 1999, astronomer Todd Henry studied the differences in surface temperature between the Sun and nearby stars.\n• His team mapped all stars within 10 parsecs (approximately 200 trillion miles) of the Sun.\n• The surface temperature of the Sun is around 9,800°F, which classifies it as a G star.\n• 327 of the 357 stars in the study were classified as K or M stars, with surface temperatures under 8,900°F (cooler than the Sun).\n• 11 of the 357 stars in the study were classified as A or F stars, with surface temperatures greater than 10,300°F (hotter than the Sun).\n\nThe student wants to emphasize how hot the Sun is relative to nearby stars. Which choice most effectively uses relevant information from the notes to accomplish this goal?",
+  "choices": [
+    "At around 9,800°F, which classifies it as a G star, the Sun is hotter than most but not all of the stars within 10 parsecs of it.",
+    "Astronomer Todd Henry determined that the Sun, at around 9,800°F, is a G star, and several other stars within a 10-parsec range are A or F stars.",
+    "Of the 357 stars within ten parsecs of the Sun, 327 are classified as K or M stars, with surface temperatures under 8,900°F.",
+    "While most of the stars within 10 parsecs of the Sun are classified as K, M, A, or F stars, the Sun is classified as a G star due to its surface temperature of 9,800°F."
+  ],
+  "answer": "At around 9,800°F, which classifies it as a G star, the Sun is hotter than most but not all of the stars within 10 parsecs of it.",
+  "explanation": "To emphasize the Sun’s relative heat, choice A directly states that the Sun is hotter than most (but not all) nearby stars. The other choices list classifications or facts without making the comparison of how hot the Sun is relative to its neighbors."
+}

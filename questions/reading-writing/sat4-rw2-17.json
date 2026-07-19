@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-17",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat4",
+  "stem": "Ancestral Puebloans, the civilization from which present-day Pueblo tribes descended, emerged as early as 1500 B.C.E. in an area of what is now the southwestern United States and dispersed suddenly in the late 1200s C.E., abandoning established villages with systems for farming crops and turkeys. Recent analysis comparing turkey remains at Mesa Verde, one such village in southern Colorado, to samples from modern turkey populations in the Rio Grande Valley of north central New Mexico determined that the latter birds descended in part from turkeys cultivated at Mesa Verde, with shared genetic markers appearing only after 1280. Thus, researchers concluded that _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "conditions of the terrains in the Rio Grande Valley and Mesa Verde had greater similarities in the past than they do today.",
+    "some Ancestral Puebloans migrated to the Rio Grande Valley in the late 1200s and carried farming practices with them.",
+    "Indigenous peoples living in the Rio Grande Valley primarily planted crops and did not cultivate turkeys before 1280.",
+    "the Ancestral Puebloans of Mesa Verde likely adopted the farming practices of Indigenous peoples living in other regions."
+  ],
+  "answer": "some Ancestral Puebloans migrated to the Rio Grande Valley in the late 1200s and carried farming practices with them.",
+  "explanation": "Mesa Verde was abandoned in the late 1200s, and Rio Grande turkeys share genetic markers with Mesa Verde turkeys only after 1280. The most logical conclusion is that people moved from Mesa Verde to the Rio Grande Valley then, bringing their turkey-raising with them. The other options aren’t supported by the genetic timing."
+}

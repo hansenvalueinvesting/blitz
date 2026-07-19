@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-15",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat4",
+  "stem": "A proposal for a new library was included on an election ballot. A radio show stated that 3 times as many people voted in favor of the proposal as people who voted against it. A social media post reported that 15,000 more people voted in favor of the proposal than voted against it. Based on these data, how many people voted against the proposal?",
+  "choices": [
+    "7,500",
+    "15,000",
+    "22,500",
+    "45,000"
+  ],
+  "answer": "7,500",
+  "explanation": "Let x be the number who voted against. Then 3x voted in favor, and the difference 3x − x = 2x equals 15,000. Solving 2x = 15,000 gives x = 7,500 people against."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-17",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat4",
+  "stem": "−3x + 21px = 84\n\nIn the given equation, p is a constant. The equation has no solution. What is the value of p?",
+  "choices": [
+    "0",
+    "1/7",
+    "4/3",
+    "4"
+  ],
+  "answer": "1/7",
+  "explanation": "Factoring the left side gives (−3 + 21p)x = 84. The equation has no solution only when the coefficient of x is 0 while the right side is nonzero, so −3 + 21p = 0, giving p = 3/21 = 1/7."
+}

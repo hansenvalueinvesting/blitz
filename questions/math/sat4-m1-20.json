@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m1-20",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat4",
+  "stem": "Point O is the center of a circle. The measure of arc RS on this circle is 100°. What is the measure, in degrees, of its associated angle ROS?",
+  "choices": [
+    "100"
+  ],
+  "answer": "100",
+  "explanation": "OR and OS are radii, so angle ROS is a central angle. A central angle has the same measure as its intercepted arc, so angle ROS = 100°."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-10",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Central ideas and details",
+  "source": "sat4",
+  "stem": "Cats can judge unseen people’s positions in space by the sound of their voices and thus react with surprise when the same person calls to them from two different locations in a short span of time. Saho Takagi and colleagues reached this conclusion by measuring cats’ levels of surprise based on their ear and head movements while the cats heard recordings of their owners’ voices from two speakers spaced far apart. Cats exhibited a low level of surprise when owners’ voices were played twice from the same speaker, but they showed a high level of surprise when the voice was played once each from the two different speakers.\n\nAccording to the text, how did the researchers determine the level of surprise displayed by the cats in the study?",
+  "choices": [
+    "They watched how each cat moved its ears and head.",
+    "They examined how each cat reacted to the voice of a stranger.",
+    "They studied how each cat physically interacted with its owner.",
+    "They tracked how each cat moved around the room."
+  ],
+  "answer": "They watched how each cat moved its ears and head.",
+  "explanation": "The text states that the researchers measured surprise “based on their ear and head movements.” The recordings were of the owners’ (not strangers’) voices, and the cats didn’t interact with the owners or move around a room in the described measurement."
+}

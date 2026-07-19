@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-22",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "A study led by scientist Rebecca Kirby at the University of Wisconsin–Madison found that black bears that eat human food before hibernation have increased levels of a rare carbon isotope, _______ due to the higher ¹³C levels in corn and cane sugar. Bears with these elevated levels were also found to have much shorter hibernation periods on average.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "carbon-13, (¹³C)",
+    "carbon-13 (¹³C)",
+    "carbon-13, (¹³C),",
+    "carbon-13 (¹³C),"
+  ],
+  "answer": "carbon-13 (¹³C),",
+  "explanation": "“carbon-13 (¹³C)” is a supplementary element naming the rare isotope; it needs a comma after “isotope” (already there) and a comma after the closing parenthesis to close off the element. No comma belongs between “carbon-13” and its parenthetical abbreviation."
+}

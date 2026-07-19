@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-26",
+  "section": "math",
+  "module": 2,
+  "topic": "Geometry",
+  "source": "sat4",
+  "stem": "Two identical rectangular prisms each have a height of 90 centimeters (cm). The base of each prism is a square, and the surface area of each prism is K cm². If the prisms are glued together along a square base, the resulting prism has a surface area of (92/47)K cm². What is the side length, in cm, of each square base?",
+  "choices": [
+    "4",
+    "8",
+    "9",
+    "16"
+  ],
+  "answer": "8",
+  "explanation": "Gluing along a square base gives surface area equal to 2K minus the two hidden square faces (2x²): 2K − 2x² = (92/47)K. This leads to 2x² = 2K − (92/47)K = (2/47)K, so x² = K/47. With one prism K = 2x² + 4(90)x = 2x² + 360x, substituting gives 47x² = 2x² + 360x, so 45x² = 360x and x = 8."
+}

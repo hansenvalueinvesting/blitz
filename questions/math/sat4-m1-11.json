@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-11",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat4",
+  "stem": "2.5b + 5r = 80\n\nThe given equation describes the relationship between the number of birds, b, and the number of reptiles, r, that can be cared for at a pet care business on a given day. If the business cares for 16 reptiles on a given day, how many birds can it care for on this day?",
+  "choices": [
+    "0",
+    "5",
+    "40",
+    "80"
+  ],
+  "answer": "0",
+  "explanation": "Substituting r = 16 gives 2.5b + 5(16) = 80, or 2.5b + 80 = 80. Subtracting 80 gives 2.5b = 0, so b = 0 birds."
+}

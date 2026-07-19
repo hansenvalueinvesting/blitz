@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-25",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "In 2016, engineer Vanessa Galvez oversaw the installation of 164 bioswales, vegetated channels designed to absorb and divert stormwater, along the streets of Queens, New York. By reducing the runoff flowing into city sewers, _______\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "the mitigation of both street flooding and the resulting pollution of nearby waterways has been achieved by bioswales.",
+    "the bioswales have mitigated both street flooding and the resulting pollution of nearby waterways.",
+    "the bioswales’ mitigation of both street flooding and the resulting pollution of nearby waterways has been achieved.",
+    "both street flooding and the resulting pollution of nearby waterways have been mitigated by bioswales."
+  ],
+  "answer": "the bioswales have mitigated both street flooding and the resulting pollution of nearby waterways.",
+  "explanation": "The opening modifier “By reducing the runoff...” must be followed by the thing doing the reducing—the bioswales. Choice B places “the bioswales” right after the modifier as the subject. The other choices make “mitigation” or “flooding/pollution” the subject, creating a dangling modifier."
+}

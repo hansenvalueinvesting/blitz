@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-09",
+  "section": "math",
+  "module": 2,
+  "topic": "Exponential functions",
+  "source": "sat4",
+  "stem": "The function f is defined by f(x) = 270(0.1)^x. What is the value of f(0)?",
+  "choices": [
+    "0",
+    "1",
+    "27",
+    "270"
+  ],
+  "answer": "270",
+  "explanation": "Any nonzero base raised to the 0 power is 1, so f(0) = 270(0.1)⁰ = 270(1) = 270."
+}

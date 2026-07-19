@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-26",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "In the xy-plane, a parabola has vertex (9, −14) and intersects the x-axis at two points. If the equation of the parabola is written in the form y = ax² + bx + c, where a, b, and c are constants, which of the following could be the value of a + b + c?",
+  "choices": [
+    "−23",
+    "−19",
+    "−14",
+    "−12"
+  ],
+  "answer": "−12",
+  "explanation": "In vertex form y = a(x − 9)² − 14, we have a + b + c = f(1) = a(1 − 9)² − 14 = 64a − 14. Since the parabola opens upward (it crosses the x-axis with vertex below it), a > 0, so 64a − 14 > −14. Only −12 exceeds −14 (with a = 1/32)."
+}

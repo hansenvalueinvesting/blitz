@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m1-21",
+  "section": "math",
+  "module": 1,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "The expression 6·⁵√(3⁵·x⁴⁵) · ⁸√(2⁸·x) is equivalent to ax^b, where a and b are positive constants and x > 1. What is the value of a + b?",
+  "choices": [
+    "361/8"
+  ],
+  "answer": "361/8",
+  "explanation": "The fifth root gives ⁵√(3⁵x⁴⁵) = 3x⁹, and the eighth root gives ⁸√(2⁸x) = 2x^(1/8). Multiplying: 6 · 3x⁹ · 2x^(1/8) = 36·x^(9 + 1/8) = 36x^(73/8). So a = 36 and b = 73/8, and a + b = 288/8 + 73/8 = 361/8."
+}

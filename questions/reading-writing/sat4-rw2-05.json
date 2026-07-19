@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-05",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "Rydra Wong, the protagonist of Samuel R. Delany’s 1966 novel Babel-17, is a poet, an occupation which, in Delany’s work, is not _______: nearly a dozen of the characters that populate his novels are poets or writers.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "infallible",
+    "atypical",
+    "lucrative",
+    "tedious"
+  ],
+  "answer": "atypical",
+  "explanation": "“Atypical” means uncommon. Because nearly a dozen of Delany’s characters are poets or writers, being a poet is clearly not an unusual occupation in his fiction. Whether the occupation is faultless, profitable, or boring is not what the many-poet-characters detail supports."
+}

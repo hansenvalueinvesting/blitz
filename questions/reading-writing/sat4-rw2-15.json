@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-15",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Command of evidence (textual)",
+  "source": "sat4",
+  "stem": "King Lear is a circa 1606 play by William Shakespeare. In the play, the character of King Lear attempts to test his three daughters’ devotion to him. He later expresses regret for his actions, as is evident when he _______\n\nWhich choice most effectively uses a quotation from King Lear to illustrate the claim?",
+  "choices": [
+    "says of himself, “I am a man / more sinned against than sinning.”",
+    "says during a growing storm, “This tempest will not give me leave to ponder / On things would hurt me more.”",
+    "says to himself while striking his head, “Beat at this gate that let thy folly in / And thy dear judgement out!”",
+    "says of himself, “I will do such things— / What they are yet, I know not; but they shall be / The terrors of the earth!”"
+  ],
+  "answer": "says to himself while striking his head, “Beat at this gate that let thy folly in / And thy dear judgement out!”",
+  "explanation": "The claim is that Lear regrets his actions. In choice C he strikes his own head and blames his mind for letting “folly” in and “judgement” out, directly expressing regret. The others show him feeling wronged, distracted by the storm, or making threats—not remorse."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m2-21",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "−x² + bx − 676 = 0\n\nIn the given equation, b is a positive integer. The equation has no real solution. What is the greatest possible value of b?",
+  "choices": [
+    "51"
+  ],
+  "answer": "51",
+  "explanation": "A quadratic has no real solution when its discriminant b² − 4ac is negative. With a = −1 and c = −676, the discriminant is b² − 4(−1)(−676) = b² − 2704 < 0, so b² < 2704 and b < 52. The greatest positive integer less than 52 is 51."
+}

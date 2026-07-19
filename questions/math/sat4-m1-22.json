@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-22",
+  "section": "math",
+  "module": 1,
+  "topic": "Geometry",
+  "source": "sat4",
+  "stem": "A right triangle has sides of length 2√2, 6√2, and √80 units. What is the area of the triangle, in square units?",
+  "choices": [
+    "8√2 + √80",
+    "12",
+    "24√80",
+    "24"
+  ],
+  "answer": "12",
+  "explanation": "The longest side, √80, is the hypotenuse, so the legs are 2√2 and 6√2. The area is ½ · (2√2)(6√2) = ½ · 12 · 2 = 12 square units."
+}

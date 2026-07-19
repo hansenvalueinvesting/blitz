@@ -1,0 +1,18 @@
+{
+  "id": "sat4-m1-01",
+  "section": "math",
+  "module": 1,
+  "topic": "Data analysis",
+  "source": "sat4",
+  "passage": "[Bar graph — number of students voting for each activity: activity 1 ≈ 29, activity 2 ≈ 31, activity 3 ≈ 39, activity 4 ≈ 43, activity 5 ≈ 48.]",
+  "stem": "A group of students voted on five after-school activities. The bar graph shows the number of students who voted for each of the five activities.\n\nHow many students chose activity 3?",
+  "choices": [
+    "25",
+    "39",
+    "48",
+    "50"
+  ],
+  "answer": "39",
+  "explanation": "The bar for activity 3 rises to a height between 35 and 40. Of the choices, only 39 falls in that range, so 39 students chose activity 3.",
+  "image": "sat4-m1-01.png"
+}

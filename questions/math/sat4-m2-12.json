@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-12",
+  "section": "math",
+  "module": 2,
+  "topic": "Nonlinear functions / quadratics",
+  "source": "sat4",
+  "stem": "−4x² − 7x = −36\n\nWhat is the positive solution to the given equation?",
+  "choices": [
+    "7/4",
+    "9/4",
+    "4",
+    "7"
+  ],
+  "answer": "9/4",
+  "explanation": "Rewriting as 4x² + 7x − 36 = 0 and factoring gives (4x − 9)(x + 4) = 0, so x = 9/4 or x = −4. The positive solution is 9/4."
+}

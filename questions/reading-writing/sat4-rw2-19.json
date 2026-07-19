@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-19",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "In his groundbreaking book Bengali Harlem and the Lost Histories of South Asian America, Vivek Bald uses newspaper articles, census records, ships’ logs, and memoirs to tell the _______ who made New York City their home in the early twentieth century.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "story’s of the South Asian immigrants",
+    "story’s of the South Asian immigrants’",
+    "stories of the South Asian immigrants",
+    "stories’ of the South Asian immigrant’s"
+  ],
+  "answer": "stories of the South Asian immigrants",
+  "explanation": "The book tells the multiple stories of multiple immigrants, so both nouns should be plain plurals: “stories” and “immigrants.” The possessive apostrophes in the other choices are incorrect here because no possession is expressed."
+}

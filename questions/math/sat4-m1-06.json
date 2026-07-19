@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m1-06",
+  "section": "math",
+  "module": 1,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat4",
+  "stem": "A customer spent $27 to purchase oranges at $3 per pound. How many pounds of oranges did the customer purchase?",
+  "choices": [
+    "9"
+  ],
+  "answer": "9",
+  "explanation": "Dividing the total spent by the price per pound gives 27 ÷ 3 = 9 pounds of oranges."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m1-07",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear equations",
+  "source": "sat4",
+  "stem": "Nasir bought 9 storage bins that were each the same price. He used a coupon for $63 off the entire purchase. The cost for the entire purchase after using the coupon was $27. What was the original price, in dollars, for 1 storage bin?",
+  "choices": [
+    "10"
+  ],
+  "answer": "10",
+  "explanation": "Adding the $63 coupon back to the $27 paid gives an original total of $90 for 9 bins. Dividing $90 by 9 gives $10 per bin."
+}

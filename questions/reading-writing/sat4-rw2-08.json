@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-08",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "Whether the reign of a French monarch such as Hugh Capet or Henry I was historically consequential or relatively uneventful, its trajectory was shaped by questions of legitimacy and therefore cannot be understood without a corollary understanding of the factors that allowed the monarch to _______ his right to hold the throne.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "reciprocate",
+    "annotate",
+    "buttress",
+    "disengage"
+  ],
+  "answer": "buttress",
+  "explanation": "“Buttress” means to strengthen or support. The text says each monarch’s reign was shaped by questions of legitimacy, so understanding a reign requires knowing what let the monarch strengthen his claim to the throne. Reciprocate, annotate, and disengage don’t fit that idea of shoring up a right."
+}

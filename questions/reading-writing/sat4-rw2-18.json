@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-18",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Inferences",
+  "source": "sat4",
+  "stem": "One challenge when researching whether holding elected office changes a person’s behavior is the problem of ensuring that the experiment has an appropriate control group. To reveal the effect of holding office, researchers must compare people who hold elected office with people who do not hold office but who are otherwise similar to the office-holders. Since researchers are unable to control which politicians win elections, they therefore _______\n\nWhich choice most logically completes the text?",
+  "choices": [
+    "struggle to find valid data about the behavior of politicians who do not currently hold office.",
+    "can only conduct valid studies with people who have previously held office rather than people who presently hold office.",
+    "should select a control group of people who differ from office holders in several significant ways.",
+    "will find it difficult to identify a group of people who can function as an appropriate control group for their studies."
+  ],
+  "answer": "will find it difficult to identify a group of people who can function as an appropriate control group for their studies.",
+  "explanation": "A good control group must closely resemble the office-holders except for holding office, but researchers can’t decide who wins elections. It follows that assembling such a comparable control group is difficult. The other choices overstate limits or contradict the requirement that the control group be similar, not different."
+}

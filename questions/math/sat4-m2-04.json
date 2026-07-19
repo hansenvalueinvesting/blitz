@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-04",
+  "section": "math",
+  "module": 2,
+  "topic": "Systems of equations",
+  "source": "sat4",
+  "stem": "x + y = 18\n5y = x\n\nWhat is the solution (x, y) to the given system of equations?",
+  "choices": [
+    "(15, 3)",
+    "(16, 2)",
+    "(17, 1)",
+    "(18, 0)"
+  ],
+  "answer": "(15, 3)",
+  "explanation": "The second equation gives x = 5y. Substituting into x + y = 18 gives 5y + y = 18, so 6y = 18 and y = 3. Then x = 5(3) = 15, giving (15, 3)."
+}

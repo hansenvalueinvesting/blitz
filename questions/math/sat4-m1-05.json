@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-05",
+  "section": "math",
+  "module": 1,
+  "topic": "Linear functions",
+  "source": "sat4",
+  "stem": "Hana deposited a fixed amount into her bank account each month. The function f(t) = 100 + 25t gives the amount, in dollars, in Hana’s bank account after t monthly deposits. What is the best interpretation of 25 in this context?",
+  "choices": [
+    "With each monthly deposit, the amount in Hana’s bank account increased by $25.",
+    "Before Hana made any monthly deposits, the amount in her bank account was $25.",
+    "After 1 monthly deposit, the amount in Hana’s bank account was $25.",
+    "Hana made a total of 25 monthly deposits."
+  ],
+  "answer": "With each monthly deposit, the amount in Hana’s bank account increased by $25.",
+  "explanation": "In f(t) = 100 + 25t, the coefficient 25 multiplies t (the number of deposits), so each additional deposit adds $25 to the balance. The 100 is the starting amount, not 25."
+}

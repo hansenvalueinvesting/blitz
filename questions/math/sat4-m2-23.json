@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-23",
+  "section": "math",
+  "module": 2,
+  "topic": "Exponential functions",
+  "source": "sat4",
+  "stem": "f(x) = 5,470(0.64)^(x/12)\n\nThe function f gives the value, in dollars, of a certain piece of equipment after x months of use. If the value of the equipment decreases each year by p% of its value the preceding year, what is the value of p?",
+  "choices": [
+    "4",
+    "5",
+    "36",
+    "64"
+  ],
+  "answer": "36",
+  "explanation": "Because x is in months and the exponent is x/12, each increase of 12 months (one year) multiplies the value by 0.64. That is a decrease of 1 − 0.64 = 0.36, or 36%, each year, so p = 36."
+}

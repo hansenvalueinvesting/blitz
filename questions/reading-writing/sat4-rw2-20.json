@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-20",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "In her two major series “Memory Test” and “Autobiography,” painter Howardena Pindell explored themes _______ healing, self-discovery, and memory by cutting and sewing back together pieces of canvas and inserting personal artifacts, such as postcards, into some of the paintings.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "of",
+    "of,",
+    "of—",
+    "of:"
+  ],
+  "answer": "of",
+  "explanation": "No punctuation belongs between the preposition “of” and its complement, the list “healing, self-discovery, and memory.” Adding a comma, dash, or colon after “of” would wrongly separate the preposition from what it introduces."
+}

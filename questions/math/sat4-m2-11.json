@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m2-11",
+  "section": "math",
+  "module": 2,
+  "topic": "Linear equations",
+  "source": "sat4",
+  "stem": "A moving truck can tow a trailer if the combined weight of the trailer and the boxes it contains is no more than 4,600 pounds. What is the maximum number of boxes this truck can tow in a trailer with a weight of 500 pounds if each box weighs 120 pounds?",
+  "choices": [
+    "34",
+    "35",
+    "38",
+    "39"
+  ],
+  "answer": "34",
+  "explanation": "The combined weight is 500 + 120b, which must be ≤ 4,600. Subtracting 500 gives 120b ≤ 4,100, so b ≤ 34.16…. The largest whole number of boxes is 34."
+}

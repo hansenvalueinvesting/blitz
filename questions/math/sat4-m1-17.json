@@ -1,0 +1,16 @@
+{
+  "id": "sat4-m1-17",
+  "section": "math",
+  "module": 1,
+  "topic": "Ratios, rates, proportions",
+  "source": "sat4",
+  "stem": "For a certain rectangular region, the ratio of its length to its width is 35 to 10. If the width of the rectangular region increases by 7 units, how must the length change to maintain this ratio?",
+  "choices": [
+    "It must decrease by 24.5 units.",
+    "It must increase by 24.5 units.",
+    "It must decrease by 7 units.",
+    "It must increase by 7 units."
+  ],
+  "answer": "It must increase by 24.5 units.",
+  "explanation": "The ratio 35 to 10 means length = 3.5 × width. Increasing the width by 7 requires the length to increase by 3.5 × 7 = 24.5 units to keep the same ratio."
+}

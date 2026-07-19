@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-21",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "Both Sona Charaipotra, an Indian American, and Dhonielle Clayton, an African American, grew up frustrated by the lack of diverse characters in books for young people. In 2011, these two writers joined forces to found CAKE Literary, a book packaging _______ specializes in the creation and promotion of stories told from diverse perspectives for children and young adults.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "company,",
+    "company that",
+    "company",
+    "company, that"
+  ],
+  "answer": "company that",
+  "explanation": "The relative clause “specializes in...” gives essential information about the company, so it should be introduced by “that” with no comma. A comma alone or “company” with nothing would create a run-on, and “, that” wrongly punctuates an integrated relative clause."
+}

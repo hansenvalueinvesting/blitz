@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-04",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "Anthropologist Kristian J. Carlson and colleagues examined the fossilized clavicle and shoulder bones of a 3.6-million-year-old early hominin known as “Little Foot.” They found that these bones were _______ the clavicle and shoulder bones of modern apes that are frequent climbers, such as gorillas and chimpanzees, suggesting that Little Foot had adapted to life in the trees.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "surpassed by",
+    "comparable to",
+    "independent of",
+    "obtained from"
+  ],
+  "answer": "comparable to",
+  "explanation": "“Comparable to” means similar to. The similarity between Little Foot’s bones and those of climbing apes is what suggests Little Foot was adapted to living in trees. Being “surpassed by,” “independent of,” or “obtained from” modern apes would not support that conclusion."
+}

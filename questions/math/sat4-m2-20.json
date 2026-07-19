@@ -1,0 +1,13 @@
+{
+  "id": "sat4-m2-20",
+  "section": "math",
+  "module": 2,
+  "topic": "Trigonometry",
+  "source": "sat4",
+  "stem": "In triangle JKL, cos(K) = 24/51 and angle J is a right angle. What is the value of cos(L)?",
+  "choices": [
+    "15/17"
+  ],
+  "answer": "15/17",
+  "explanation": "With the right angle at J, angles K and L are complementary, so cos(L) = sin(K). Since cos(K) = 24/51 = 8/17, the triangle is an 8-15-17 right triangle, so sin(K) = 15/17. Thus cos(L) = 15/17."
+}

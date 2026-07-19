@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-26",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Form, structure, and sense",
+  "source": "sat4",
+  "stem": "A study published by Rice University geoscientist Ming Tang in 2019 offers a new explanation for the origin of Earth’s _______ structures called arcs, towering ridges that form when a dense oceanic plate subducts under a less dense continental plate, melts in the mantle below, and then rises and bursts through the continental crust above.\n\nWhich choice completes the text so that it conforms to the conventions of Standard English?",
+  "choices": [
+    "continents geological",
+    "continents: geological",
+    "continents; geological",
+    "continents. Geological"
+  ],
+  "answer": "continents: geological",
+  "explanation": "A colon after “continents” correctly links the main clause to the explanatory phrase “geological structures called arcs...” that follows. A semicolon or period would require a complete sentence after it, and no punctuation creates a run-on."
+}

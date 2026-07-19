@@ -1,0 +1,16 @@
+{
+  "id": "sat4-rw2-01",
+  "section": "reading-writing",
+  "module": 2,
+  "topic": "Words in context",
+  "source": "sat4",
+  "stem": "The fashion resale market, in which consumers purchase secondhand clothing from stores and online sellers, generated nearly $30 billion globally in 2019. Expecting to see continued growth, some analysts _______ that revenues will more than double by 2028.\n\nWhich choice completes the text with the most logical and precise word or phrase?",
+  "choices": [
+    "produced",
+    "denied",
+    "worried",
+    "predicted"
+  ],
+  "answer": "predicted",
+  "explanation": "“Predicted” means forecast that something will happen. The analysts expected the market to keep growing, so they forecast that revenues would more than double by 2028. They didn’t “produce” (cause) the growth, “deny” it, or “worry” about what the text frames as a favorable outcome."
+}
