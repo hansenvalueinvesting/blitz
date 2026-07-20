@@ -145,7 +145,13 @@
   @keyframes xppop{0%{opacity:0;transform:translateY(-4px)}
                    18%{opacity:1;transform:translateY(0)}
                    100%{opacity:0;transform:translateY(11px)}}
-  @media (prefers-reduced-motion:reduce){ .xp-fill{transition:none} .xp-pop-item{animation-duration:.6s} }
+  /* level-up: a brief glow + pulse on the whole XP bar when the level ticks over */
+  .xp.levelup{animation:xpLevelUp .9s ease-out}
+  @keyframes xpLevelUp{
+    0%{transform:scale(1);filter:none}
+    30%{transform:scale(1.03);filter:drop-shadow(0 0 10px color-mix(in srgb,var(--accent) 70%,transparent))}
+    100%{transform:scale(1);filter:none}}
+  @media (prefers-reduced-motion:reduce){ .xp-fill{transition:none} .xp-pop-item{animation-duration:.6s} .xp.levelup{animation:none} }
   /* stats popup rows */
   .stat-list{display:flex;flex-direction:column;margin-bottom:4px}
   .stat-row{display:flex;justify-content:space-between;align-items:baseline;
@@ -651,8 +657,17 @@ function paintXP(){
 }
 // Add points, keep XP >= 0, repaint, and float a "+N / −N XP" chip under the bar.
 function addXP(delta){
+  const before=levelInfo().level;
   xp=Math.max(0, xp+delta);
   saveProgress(); paintXP(); popXP(delta);
+  if(levelInfo().level>before) celebrateLevelUp();
+}
+// Level-up: glow + pulse the XP bar once. Retrigger-safe (drop the class, reflow, re-add).
+function celebrateLevelUp(){
+  const el=$('xp'); if(!el) return;
+  el.classList.remove('levelup'); void el.offsetWidth; el.classList.add('levelup');
+  el.addEventListener('animationend',()=>el.classList.remove('levelup'),{once:true});
+  try{navigator.vibrate&&navigator.vibrate(15);}catch(e){}
 }
 // Each call floats an independent chip so a skip (−10) and the next question's
 // seen (+1) can both show instead of one clobbering the other.
