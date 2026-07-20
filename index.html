@@ -171,7 +171,7 @@
               overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .brk-row .m{font-family:var(--sans);font-size:12px;color:var(--dim);
               font-variant-numeric:tabular-nums;flex:none;display:flex;gap:8px;align-items:baseline}
-  .brk-row .m .acc{font-size:13px;font-weight:700;color:var(--ink);min-width:34px;text-align:right}
+  .brk-row .m .acc{font-size:13px;font-weight:700;color:var(--ink);min-width:56px;text-align:right}
   .brk-empty{font-family:var(--sans);font-size:13px;color:var(--dim);padding:4px 3px}
   .gear{background:none;border:1px solid var(--line);color:var(--dim);width:36px;height:36px;border-radius:8px;
         font-size:16px;cursor:pointer;display:grid;place-items:center}
@@ -438,7 +438,7 @@
   <div class="grip"></div>
 
   <h2>Section mix</h2>
-  <div class="slabel"><span class="l" id="secML">Math 50%</span><span class="r" id="secRL">R&amp;W 50%</span></div>
+  <div class="slabel"><span class="l" id="secRL">R&amp;W 50%</span><span class="r" id="secML">Math 50%</span></div>
   <input type="range" id="secSlider" min="0" max="100" value="50">
   <div class="pct">slide toward the section you want more of</div>
 
@@ -449,12 +449,12 @@
 
   <h2>Topics in the pool</h2>
   <div class="topicgroup">
-    <div class="gh math">● Math</div>
-    <div class="chips" id="topicsMath"></div>
-  </div>
-  <div class="topicgroup">
     <div class="gh rw">● Reading &amp; Writing</div>
     <div class="chips" id="topicsRW"></div>
+  </div>
+  <div class="topicgroup">
+    <div class="gh math">● Math</div>
+    <div class="chips" id="topicsMath"></div>
   </div>
 
   <button class="done" id="done">Apply &amp; shuffle</button>
@@ -1028,7 +1028,7 @@ function wireSheet(){
 }
 
 function paintStats(){
-  const acc = attempted ? Math.round(correct/attempted*100) : 0;
+  const acc = attempted ? (correct/attempted*100).toFixed(2) : 0;
   const {level,xp}=levelInfo();
   $('statLevel').textContent=`Level ${level}`;
   $('statXP').textContent=`${xp} XP total`;
@@ -1046,7 +1046,7 @@ function paintBreakdown(){
   const box=$('statBreakdown'); if(!box) return;
   const secOf={};
   DIR.forEach(q=>{ if(!(q.topic in secOf)) secOf[q.topic]=q.section; });
-  const SECS=[['math','Math','math'],['reading-writing','R&W','rw']];
+  const SECS=[['reading-writing','R&W','rw'],['math','Math','math']];
   let html='';
   for(const [sec,name,cls] of SECS){
     const rows=Object.entries(byTopic)
@@ -1055,7 +1055,7 @@ function paintBreakdown(){
     if(!rows.length) continue;
     html+=`<div class="brk-group"><div class="brk-gh ${cls}">${esc(name)}</div>`;
     for(const [t,v] of rows){
-      const acc=Math.round(v.c/v.a*100);
+      const acc=(v.c/v.a*100).toFixed(2);
       html+=`<div class="brk-row"><span class="t">${esc(t)}</span>`
           + `<span class="m"><span class="ct">${v.c}/${v.a}</span>`
           + `<span class="acc">${acc}%</span></span></div>`;
