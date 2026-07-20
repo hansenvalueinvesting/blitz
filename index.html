@@ -149,14 +149,30 @@
   /* stats popup rows */
   .stat-list{display:flex;flex-direction:column;margin-bottom:4px}
   .stat-row{display:flex;justify-content:space-between;align-items:baseline;
-            padding:15px 4px;border-bottom:1px solid var(--line)}
+            padding:7px 3px;border-bottom:1px solid var(--line)}
   .stat-row:last-child{border-bottom:none}
-  .stat-row .k{font-family:var(--sans);font-size:14px;color:var(--dim)}
-  .stat-row .v{font-family:var(--sans);font-size:22px;font-weight:700;color:var(--ink);
+  .stat-row .k{font-family:var(--sans);font-size:13px;color:var(--dim)}
+  .stat-row .v{font-family:var(--sans);font-size:16px;font-weight:700;color:var(--ink);
                font-variant-numeric:tabular-nums}
-  .stat-hero{display:flex;align-items:baseline;gap:10px;margin-bottom:6px}
-  .stat-hero .lv{font-family:var(--sans);font-size:26px;font-weight:700;color:var(--accent)}
-  .stat-hero .xp{font-family:var(--sans);font-size:13px;color:var(--dim)}
+  .stat-hero{display:flex;align-items:baseline;gap:8px;margin-bottom:4px}
+  .stat-hero .lv{font-family:var(--sans);font-size:20px;font-weight:700;color:var(--accent)}
+  .stat-hero .xp{font-family:var(--sans);font-size:12px;color:var(--dim)}
+  /* stats popup breakdown-by-type */
+  .stat-sub{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.03em;
+            text-transform:uppercase;color:var(--dim);margin:14px 0 5px}
+  .brk-group{margin-bottom:10px}
+  .brk-gh{font-family:var(--sans);font-size:12px;font-weight:600;margin-bottom:3px;
+          display:flex;align-items:center;gap:6px}
+  .brk-gh.math{color:var(--math)}.brk-gh.rw{color:var(--rw)}
+  .brk-row{display:flex;justify-content:space-between;align-items:baseline;gap:8px;
+           padding:4px 3px;border-bottom:1px solid var(--line)}
+  .brk-row:last-child{border-bottom:none}
+  .brk-row .t{font-family:var(--sans);font-size:13px;color:var(--ink);
+              overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .brk-row .m{font-family:var(--sans);font-size:12px;color:var(--dim);
+              font-variant-numeric:tabular-nums;flex:none;display:flex;gap:8px;align-items:baseline}
+  .brk-row .m .acc{font-size:13px;font-weight:700;color:var(--ink);min-width:34px;text-align:right}
+  .brk-empty{font-family:var(--sans);font-size:13px;color:var(--dim);padding:4px 3px}
   .gear{background:none;border:1px solid var(--line);color:var(--dim);width:36px;height:36px;border-radius:8px;
         font-size:16px;cursor:pointer;display:grid;place-items:center}
   .gear:active{background:var(--panel)}
@@ -507,6 +523,9 @@
     <div class="stat-row"><span class="k">Total mistakes</span><span class="v" id="statMistakes">0</span></div>
   </div>
 
+  <div class="stat-sub">Breakdown by type</div>
+  <div id="statBreakdown"></div>
+
   <button class="done" id="statsDone">Close</button>
 </div>
 
@@ -514,6 +533,7 @@
 const SETTINGS_KEY='blitz.settings.v1';
 const PROGRESS_KEY='blitz.progress.v1';
 let DIR=[], settings=null, seen=0, attempted=0, correct=0, xp=0;
+let byTopic={};             // per-topic tallies: {topic: {a:attempted, c:correct}}
 let recent=[];              // last N answers (true=correct) for the rolling-accuracy multiplier
 let lastSeenCard=null;      // the card currently in view, for detecting skips
 const RECENT_WINDOW=10;     // how many recent answers the accuracy multiplier looks at
@@ -541,7 +561,7 @@ async function init(){
   }
   settings=loadSettings();
   const prog=loadProgress();
-  seen=prog.seen; attempted=prog.attempted; correct=prog.correct; xp=prog.xp; recent=prog.recent;
+  seen=prog.seen; attempted=prog.attempted; correct=prog.correct; xp=prog.xp; recent=prog.recent; byTopic=prog.byTopic;
   paintXP();
   buildSettingsUI();
   wireSheet();
@@ -597,11 +617,24 @@ function loadProgress(){
         // re-derived from totals). Seed it from the old flat formula for returning users.
         const xp=(typeof p.xp==='number')?Math.max(0,p.xp):Math.max(0,seen+5*correct+2*(attempted-correct));
         const recent=Array.isArray(p.recent)?p.recent.slice(-RECENT_WINDOW).map(Boolean):[];
-        return {seen, attempted, correct, xp, recent};
+        // Per-topic tallies were added later; older saves won't have them.
+        const byTopic={};
+        if(p.byTopic&&typeof p.byTopic==='object'){
+          for(const [t,v] of Object.entries(p.byTopic)){
+            if(v&&typeof v.a==='number'&&typeof v.c==='number') byTopic[t]={a:Math.max(0,v.a),c:Math.max(0,v.c)};
+          }
+        }
+        return {seen, attempted, correct, xp, recent, byTopic};
       }}catch(e){}
-  return {seen:0, attempted:0, correct:0, xp:0, recent:[]};
+  return {seen:0, attempted:0, correct:0, xp:0, recent:[], byTopic:{}};
 }
-function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({seen,attempted,correct,xp,recent}));}
+function saveProgress(){localStorage.setItem(PROGRESS_KEY,JSON.stringify({seen,attempted,correct,xp,recent,byTopic}));}
+// Tally an answered question against its topic label for the breakdown-by-type view.
+function recordTopic(topic,right){
+  if(!topic) return;
+  const t=byTopic[topic]||(byTopic[topic]={a:0,c:0});
+  t.a++; if(right) t.c++;
+}
 
 // XP is now accumulated per event and stored (never below 0). 100 XP per level.
 function levelInfo(){
@@ -765,6 +798,7 @@ function appendCard(){
 }
 
 function renderQuestion(card,q){
+  card.dataset.topic=q.topic||'';   // remembered so answering can tally the breakdown-by-type
   const secClass=q.section==='math'?'sec-math':'sec-rw';
   const secName=q.section==='math'?'Math':'R&W';
   // Build a "which test" tag from the source slug + question number in the id.
@@ -902,6 +936,7 @@ function answer(card,btn,chosen,correctAns){
   const pts=scoreAnswer(right, +card.dataset.module||1);   // score off recent accuracy first
   recordResult(right);
   attempted++; if(right) correct++;
+  recordTopic(card.dataset.topic,right);
   addXP(pts);
   if(right) celebrate(card.querySelector('.choice.correct'), card.dataset.section);
   card.querySelector('.explain').classList.add('show');
@@ -936,6 +971,7 @@ function answerSPR(card,inp,btn,correctAns){
   const pts=scoreAnswer(right, +card.dataset.module||1);
   recordResult(right);
   attempted++; if(right) correct++;
+  recordTopic(card.dataset.topic,right);
   addXP(pts);
   if(right) celebrate(inp, card.dataset.section);
   card.querySelector('.explain').classList.add('show');
@@ -1001,6 +1037,32 @@ function paintStats(){
   $('statAccuracy').textContent=attempted?acc+'%':'—';
   $('statCorrect').textContent=correct;
   $('statMistakes').textContent=attempted-correct;
+  paintBreakdown();
+}
+
+// Breakdown by type: for each section, list the topics you've attempted with an
+// attempted count and accuracy. Topic->section comes from the directory tags.
+function paintBreakdown(){
+  const box=$('statBreakdown'); if(!box) return;
+  const secOf={};
+  DIR.forEach(q=>{ if(!(q.topic in secOf)) secOf[q.topic]=q.section; });
+  const SECS=[['math','Math','math'],['reading-writing','R&W','rw']];
+  let html='';
+  for(const [sec,name,cls] of SECS){
+    const rows=Object.entries(byTopic)
+      .filter(([t,v])=>v.a>0 && secOf[t]===sec)
+      .sort((a,b)=>b[1].a-a[1].a);
+    if(!rows.length) continue;
+    html+=`<div class="brk-group"><div class="brk-gh ${cls}">${esc(name)}</div>`;
+    for(const [t,v] of rows){
+      const acc=Math.round(v.c/v.a*100);
+      html+=`<div class="brk-row"><span class="t">${esc(t)}</span>`
+          + `<span class="m"><span class="ct">${v.c}/${v.a}</span>`
+          + `<span class="acc">${acc}%</span></span></div>`;
+    }
+    html+='</div>';
+  }
+  box.innerHTML = html || '<div class="brk-empty">Answer some questions to see your breakdown by type.</div>';
 }
 
 function wipeData(){
@@ -1008,7 +1070,7 @@ function wipeData(){
   localStorage.removeItem(PROGRESS_KEY);
   localStorage.removeItem(SETTINGS_KEY);
   settings=structuredClone(DEFAULT);
-  seen=0; attempted=0; correct=0; xp=0; recent=[]; lastSeenCard=null;
+  seen=0; attempted=0; correct=0; xp=0; recent=[]; byTopic={}; lastSeenCard=null;
   paintXP();
   buildSettingsUI();   // reset sliders + topic chips to defaults
   refill(true);        // reshuffle the feed under the fresh settings
