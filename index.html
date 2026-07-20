@@ -543,8 +543,10 @@ const PROGRESS_KEY='blitz.progress.v1';
 let DIR=[], settings=null, seen=0, attempted=0, correct=0, xp=0;
 let byTopic={};             // per-topic tallies: {topic: {a:attempted, c:correct}}
 let recent=[];              // last N answers (true=correct) for the rolling-accuracy multiplier
+let recentIds=[];           // ids of questions shown recently, so the sampler doesn't repeat them
 let lastSeenCard=null;      // the card currently in view, for detecting skips
 const RECENT_WINDOW=10;     // how many recent answers the accuracy multiplier looks at
+const RECENT_IDS_WINDOW=75; // don't re-pick a question within this many picks (pool permitting)
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
 
@@ -773,7 +775,17 @@ function pickEntry(){
   if(has1&&has2) module = Math.random()*100 < settings.mod1 ? 1 : 2;
   else module = has1?1:2;
   const cands=DIR.filter(q=>inPool(q)&&q.module===module);
-  return cands[Math.floor(Math.random()*cands.length)];
+  if(!cands.length) return null;
+  // Sample WITHOUT quick repeats: drop anything shown in the last RECENT_IDS_WINDOW
+  // picks, but fall back to the full pool once a narrowed pool is exhausted so we
+  // never get stuck. This is what stops "the same questions keep coming up".
+  const recentSet=new Set(recentIds);
+  const fresh=cands.filter(q=>!recentSet.has(q.id));
+  const pool=fresh.length?fresh:cands;
+  const entry=pool[Math.floor(Math.random()*pool.length)];
+  recentIds.push(entry.id);
+  if(recentIds.length>RECENT_IDS_WINDOW) recentIds.shift();
+  return entry;
 }
 
 function pathFor(entry){return `questions/${entry.section}/${entry.id}.json`;}
@@ -1087,7 +1099,7 @@ function wipeData(){
   localStorage.removeItem(PROGRESS_KEY);
   localStorage.removeItem(SETTINGS_KEY);
   settings=structuredClone(DEFAULT);
-  seen=0; attempted=0; correct=0; xp=0; recent=[]; byTopic={}; lastSeenCard=null;
+  seen=0; attempted=0; correct=0; xp=0; recent=[]; recentIds=[]; byTopic={}; lastSeenCard=null;
   paintXP();
   buildSettingsUI();   // reset sliders + topic chips to defaults
   refill(true);        // reshuffle the feed under the fresh settings
