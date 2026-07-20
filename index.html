@@ -146,10 +146,12 @@
                    18%{opacity:1;transform:translateY(0)}
                    100%{opacity:0;transform:translateY(11px)}}
   /* level-up: a brief glow + pulse on the whole XP bar when the level ticks over */
-  .xp.levelup{animation:xpLevelUp .9s ease-out}
+  .xp.levelup{animation:xpLevelUp 1.6s ease-out}
   @keyframes xpLevelUp{
     0%{transform:scale(1);filter:none}
-    30%{transform:scale(1.03);filter:drop-shadow(0 0 10px color-mix(in srgb,var(--accent) 70%,transparent))}
+    22%{transform:scale(1.045);filter:drop-shadow(0 0 18px color-mix(in srgb,var(--accent) 95%,transparent))}
+    45%{transform:scale(1.01);filter:drop-shadow(0 0 6px color-mix(in srgb,var(--accent) 45%,transparent))}
+    64%{transform:scale(1.035);filter:drop-shadow(0 0 15px color-mix(in srgb,var(--accent) 85%,transparent))}
     100%{transform:scale(1);filter:none}}
   @media (prefers-reduced-motion:reduce){ .xp-fill{transition:none} .xp-pop-item{animation-duration:.6s} .xp.levelup{animation:none} }
   /* stats popup rows */
