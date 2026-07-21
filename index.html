@@ -26,6 +26,15 @@
     --serif:'Minion Pro',Georgia,'Times New Roman',serif;
     --sans:'Myriad Pro','Segoe UI',system-ui,-apple-system,sans-serif;
   }
+  /* Light mode: opt-in via data-theme="light" on <html>. Dark stays the default
+     (the :root palette above), so the app looks unchanged until you switch.
+     Section accents are darkened a touch so teal/amber stay legible on white. */
+  :root[data-theme="light"]{
+    --bg:#f4f6f9; --panel:#ffffff; --panel2:#eceff4; --line:#dce1e9;
+    --ink:#161b24; --dim:#5b6b80; --faint:#9aa7b8;
+    --math:#0e9488; --rw:#c2711c; --ok:#1f9d3f; --bad:#d62f3b;
+    --accent:#0e9488;
+  }
   *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
   html,body{height:100%;overflow:hidden}
   body{background:var(--bg);color:var(--ink);font-family:var(--sans)}
@@ -208,9 +217,20 @@
   .install-steps{margin:0;padding-left:20px;font-size:14px;line-height:1.55;color:var(--ink)}
   .install-steps li{margin-bottom:6px}
   .install-steps b{color:var(--accent);font-weight:600}
+  /* group headers that split the settings sheet into Feed vs App settings */
+  .group-title{font-family:var(--sans);font-size:12px;font-weight:700;letter-spacing:.16em;
+               text-transform:uppercase;color:var(--accent);margin:2px 0 2px}
+  .group-title.app{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
   .sheet h2{font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;
             color:var(--dim);margin:24px 0 12px}
-  .sheet h2:first-of-type{margin-top:0}
+  .group-title + h2{margin-top:14px}
+  /* segmented dark/light control */
+  .seg{display:flex;gap:6px;background:var(--panel2);border:1px solid var(--line);
+       border-radius:11px;padding:4px}
+  .seg-btn{flex:1;padding:11px;border:none;background:none;border-radius:8px;
+           font-family:var(--sans);font-size:13px;font-weight:600;color:var(--dim);cursor:pointer;
+           transition:background .15s,color .15s;display:flex;align-items:center;justify-content:center;gap:7px}
+  .seg-btn.on{background:var(--accent);color:var(--bg)}
   .slabel{display:flex;justify-content:space-between;font-size:14px;margin-bottom:9px}
   .slabel .l{color:var(--rw);font-weight:500}.slabel .r{color:var(--math);font-weight:500}
   .slabel.mod .l,.slabel.mod .r{color:var(--ink)}
@@ -452,6 +472,8 @@
 <div class="sheet" id="sheet">
   <div class="grip"></div>
 
+  <div class="group-title">Feed</div>
+
   <h2>Section mix</h2>
   <div class="slabel"><span class="l" id="secRL">R&amp;W 50%</span><span class="r" id="secML">Math 50%</span></div>
   <input type="range" id="secSlider" min="0" max="100" value="50">
@@ -474,11 +496,17 @@
 
   <button class="done" id="done">Apply &amp; shuffle</button>
 
-  <div class="data-section">
-    <h2>Data</h2>
-    <button class="wipe" id="wipe">Delete all app data</button>
-    <div class="pct">clears your progress, accuracy, and saved settings on this device</div>
+  <div class="group-title app">App settings</div>
+
+  <h2>Appearance</h2>
+  <div class="seg" id="themeSeg">
+    <button class="seg-btn" data-theme="dark">Dark</button>
+    <button class="seg-btn" data-theme="light">Light</button>
   </div>
+
+  <h2>Data</h2>
+  <button class="wipe" id="wipe">Delete all app data</button>
+  <div class="pct">clears your progress, accuracy, and saved settings on this device</div>
 </div>
 
 <div class="sheet" id="installSheet">
@@ -557,10 +585,15 @@ const RECENT_IDS_WINDOW=75; // don't re-pick a question within this many picks (
 const cache=new Map();          // id -> question content
 const inflight=new Map();       // id -> Promise (dedupe concurrent fetches)
 
-const DEFAULT={secMath:50, mod1:50, topicsOff:{}}; // topicsOff[topic]=true means excluded
+const DEFAULT={secMath:50, mod1:50, topicsOff:{}, theme:'dark'}; // topicsOff[topic]=true means excluded
 
 const $=id=>document.getElementById(id);
 const feed=$('feed');
+
+// Load settings and apply the theme up front (before init's async work) so a
+// light-mode user never sees a flash of the default dark palette.
+settings=loadSettings();
+applyTheme();
 
 init();
 async function init(){
@@ -617,6 +650,24 @@ function loadSettings(){
   return structuredClone(DEFAULT);
 }
 function saveSettings(){localStorage.setItem(SETTINGS_KEY,JSON.stringify(settings));}
+
+// Theme: 'dark' (default) or 'light'. Applied by stamping data-theme on <html>,
+// which flips the CSS palette. Also keep the browser chrome color (status bar /
+// address bar) in sync so the app frame matches.
+function currentTheme(){ return settings && settings.theme==='light' ? 'light' : 'dark'; }
+function applyTheme(){
+  const t=currentTheme();
+  document.documentElement.dataset.theme=t;
+  const m=document.querySelector('meta[name="theme-color"]');
+  if(m) m.setAttribute('content', t==='light' ? '#f4f6f9' : '#0a0e14');
+}
+// Highlight the active button in the dark/light segmented control.
+function paintThemeSeg(){
+  const t=currentTheme();
+  document.querySelectorAll('#themeSeg .seg-btn').forEach(b=>{
+    b.classList.toggle('on', b.dataset.theme===t);
+  });
+}
 
 function loadProgress(){
   try{const p=JSON.parse(localStorage.getItem(PROGRESS_KEY));
@@ -1017,6 +1068,7 @@ function buildSettingsUI(){
   $('secSlider').value=settings.secMath;
   $('modSlider').value=settings.mod1;
   paintSliders();
+  paintThemeSeg();
   renderChips('math', $('topicsMath'), 'math');
   renderChips('reading-writing', $('topicsRW'), 'rw');
 }
@@ -1060,6 +1112,10 @@ function wireSheet(){
   $('secSlider').oninput=e=>{settings.secMath=+e.target.value;paintSliders();};
   $('modSlider').oninput=e=>{settings.mod1=+e.target.value;paintSliders();};
   $('done').onclick=()=>{ saveSettings(); close(); refill(true); };
+  // Theme applies instantly (no reshuffle needed) and persists right away.
+  document.querySelectorAll('#themeSeg .seg-btn').forEach(b=>{
+    b.onclick=()=>{ settings.theme=b.dataset.theme; saveSettings(); applyTheme(); paintThemeSeg(); };
+  });
   $('wipe').onclick=()=>{ if(wipeData()) close(); };
 }
 
@@ -1107,8 +1163,9 @@ function wipeData(){
   localStorage.removeItem(SETTINGS_KEY);
   settings=structuredClone(DEFAULT);
   seen=0; attempted=0; correct=0; xp=0; recent=[]; recentIds=[]; byTopic={}; lastSeenCard=null;
+  applyTheme();        // settings reset to defaults -> back to dark
   paintXP();
-  buildSettingsUI();   // reset sliders + topic chips to defaults
+  buildSettingsUI();   // reset sliders + topic chips + theme toggle to defaults
   refill(true);        // reshuffle the feed under the fresh settings
   return true;
 }
